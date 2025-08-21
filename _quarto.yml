@@ -1,0 +1,168 @@
+project:
+  title: "BIODAS website"
+  type: posit-docs
+  render:
+    - "*.qmd"
+
+execute:
+  freeze: auto
+
+website:
+  title: "BIODAS website"
+  description: "BIODAS website"
+  open-graph:
+    image: "images/Health Data Science background.jpg"
+    image-alt: "Health Data Science background"
+  twitter-card:
+    image: "images/Health Data Science background.jpg"
+    image-alt: "Health Data Science background"
+    card-style: summary_large_image
+  favicon: "images/BIODAS_nobackground_150x150.png"
+  site-url: https://biodas.vn
+  repo-url: https://github.com/thanhnguyentrung-ph/BIODAS-website
+  # issue-url: 
+  # repo-actions: [edit, source, issue]
+  page-footer:
+    left: |
+      <img src="images/BIODAS_nobackground_150x150.png" alt="BIODAS Logo" height="40"><br>
+      <strong>Công ty Cổ phần Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)</strong><br>
+      📍 12/29/455 Đường Trường Chinh, Phường Nam Định, Tỉnh Ninh Bình, Việt Nam<br>
+      ☎️ 096 261 3695<br>
+      ✉️ <a href="mailto:contact@biodas.net"> contact@biodas.net</a><br>
+      <small>Số đăng ký: abc.</small>
+      "Bản quyền © 2025 thuộc về Công ty Cổ phần Viện Nghiên cứu Khoa học và Dữ liệu Y sinh"
+    center: |
+      <strong>Về BIODAS</strong><br>
+      <a href="about.qmd">Giới thiệu</a><br>
+      <a href="privacy.qmd">Chính sách bảo mật</a><br>
+      <a href="terms.qmd">Điều khoản sử dụng</a><br>
+      <a href="disclaimer.qmd">Miễn trừ trách nhiệm</a><br>
+      <a href="editorial.qmd">Chính sách biên tập</a>
+    right: |
+      <strong>Kết nối với BIODAS</strong><br>
+      <a href="https://youtube.com/..." target="_blank">FaceBook</a><br><br>
+      <a href="https://youtube.com/..." target="_blank">YouTube</a><br><br>
+      <a href="https://youtube.com/..." target="_blank">LinkedIn</a><br><br>
+      <a href="https://youtube.com/..." target="_blank">X</a><br><br>
+
+
+
+  navbar:
+    background: ""
+    foreground: ""
+    title: ""
+    search: true
+    center:
+      - text: "Về chúng tôi"
+        menu:
+        - text: "Giới thiệu"
+          href: 1_1_gioithieu.qmd
+        - text: "Quy chế"
+          href: 1_2_quyche.qmd
+        - text: "Bộ quy tắc ứng xử"
+          href: 1_3_boquytacungxu.qmd
+      - text: "Nhân sự"
+        menu:
+        - text: "Lãnh đạo"
+          href: 2_1_lanhdao.qmd
+        - text: "Nhà nghiên cứu"
+          href: 2_2_nhanghiencuu.qmd
+      - text: "Chuyên môn"
+        menu:
+        - text: "Nghiên cứu khoa học"
+          href: 3_1_nckh.qmd
+        - text: "Khảo sát thị trường"
+          href: 3_2_khaosatthitruong.qmd
+        - text: "Khoa học dữ liệu"
+          href: 3_3_khoahocdulieu.qmd
+        - text: "Đào tạo/Tập huấn"
+          href: 3_4_daotao.qmd          
+      - text: "Nghiên cứu/Dự án"
+        href: nghiencuu.qmd
+      - text: "Truyền thông"
+        menu:
+        - text: "Sự kiện"
+          href: 5_1_sukien.qmd
+        - text: "Khóa đào tạo"
+          href: 5_2_khoadaotao.qmd
+        - text: "Tin tức"
+          href: 5_3_tintuc.qmd
+        - text: "Tuyển dụng"
+          href: 5_4_tuyendung.qmd     
+    right:
+      - icon: github
+        aria-label: 'Link to BIODAS website Github Repository'
+        href: https://github.com/thanhnguyentrung-ph/BIODAS-website
+
+  # sidebar:
+  #   - title: "Get Started"
+  #     style: "docked"
+  #     contents:
+  #       - start.qmd
+  #       - download.qmd
+  #       - extensions.qmd
+  #       - updating.qmd
+  #       - about.qmd
+  #       - privacy.qmd
+
+  #   - title: "Guides"
+  #     style: "docked"
+  #     contents:
+  #       - add-to-path.qmd
+  #       - section: "User Interface"
+  #         contents:
+  #           - layout.qmd
+  #           - command-palette.qmd
+  #           - action-bars.qmd
+  #       - section: "Interpreters"
+  #         contents:
+  #           - managing-interpreters.qmd
+  #           - interpreter-startup.qmd
+  #           - python-installations.qmd
+  #           - r-installations.qmd
+  #           - reticulate.qmd
+  #       - section: "Dynamic Documents and Apps"
+  #         contents:
+  #           - quarto.qmd
+  #           - jupyter-notebooks.qmd
+  #           - develop-data-apps.qmd
+  #       - section: "Database Connections"
+  #         contents:
+  #           - connections-pane.qmd
+  #           - extending-connections.qmd
+  #       - keyboard-shortcuts.qmd
+  #       - data-explorer.qmd
+  #       - assistant.qmd
+  #       - variables-pane.qmd
+  #       - help-pane.qmd
+  #       - remote-ssh.qmd
+  #       - extension-development.qmd
+  #       - folder-templates.qmd
+  #       - text: "Migrating from VS Code"
+  #         href: migrate-vscode.qmd
+  #       - section: "Migrating from RStudio"
+  #         contents:
+  #         - migrate-rstudio.qmd
+  #         - migrate-rstudio-keybindings.qmd
+  #         - migrate-rstudio-settings-and-extensions.qmd
+  #         - migrate-rstudio-code.qmd
+  #         - migrate-rstudio-rproj.qmd
+  #         - migrate-rstudio-compare.qmd
+  #       - git.qmd
+  #   - title: "Help"
+  #     style: "docked"
+  #     contents:
+  #       - troubleshooting.qmd
+  #       - feedback.qmd
+  #       - faqs.qmd
+
+format:
+  html:
+    css: styles.css
+    mermaid: 
+      theme: neutral
+    toc: true
+    code-overflow: scroll
+    linkcolor: "#313D5D"
+
+
