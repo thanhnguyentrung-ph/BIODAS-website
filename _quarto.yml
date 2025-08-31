@@ -1,0 +1,156 @@
+# Project setup
+project:
+  type: website
+  render:
+    - "*.qmd"
+
+
+
+# Execute setup
+execute:
+  freeze: auto
+
+
+
+# Website setup
+website:
+  title: "BIODAS"
+  description: "BIODAS website"
+  favicon: "images/BIODAS-favicon.svg"
+  back-to-top-navigation: true
+  # Website setup >> URL
+  site-url: https://biodas.net
+  repo-url: https://github.com/thanhnguyentrung-ph/BIODAS-website
+  repo-actions: [edit, source, issue]
+  # Website setup >> Navigation Bar setup
+  navbar: 
+    # Website setup >> Logo
+    # logo: "images/BIODAS_background.png"
+    logo-href: index.qmd
+    background: "#313D5D"
+    foreground: "#FFFFFF"
+    title: ""
+    search: true
+    right:
+      # 1. About BIODAS
+      - text: "Giới thiệu"
+        menu:
+        - text: "Tổng quan"
+          href: "about/overview.qmd"
+        - text: "BIODAS"
+          href: "about/introduce.qmd"
+        - text: "Đội ngũ chuyên gia"
+          href: "about/team.qmd"
+      # 2. Field of Expertise
+      - text: "Chuyên môn"
+        menu:
+        - text: "Nghiên cứu"
+          href: "expertise/research.qmd"
+        - text: "Dự án"
+          href: "expertise/project.qmd"
+        - text: "Đào tạo/Tập huấn"
+          href: "expertise/training.qmd"
+        - text: "Dữ liệu"
+          href: "expertise/data.qmd"
+        - text: "Biobank"
+          href: "expertise/biobank.qmd"
+      # 3. BIODAS activities
+      - text: "Hoạt động"
+        menu:
+        - text: "Thực hiện nghiên cứu y sinh"
+          href: "expertise/research.qmd"
+        - text: "Khảo sát thị trường"
+          href: "expertise/market-research.qmd"
+        - text: "Khoa học dữ liệu"
+          href: "expertise/data.qmd"
+        - text: "Đào tạo/Tập huấn"
+          href: "expertise/training.qmd"
+      # 4. BIODAS resources
+      - text: "Tài nguyên"
+        href: "resource/resource.qmd"
+      # 5. Media and Communication
+      - text: "Truyền thông"
+        menu:
+        - text: "Tin tức & Sự kiện"
+          href: "media/new.qmd"
+        - text: "Hợp tác quốc tế"
+          href: "media/international-cooperation.qmd"
+        - text: "Giá trị cộng đồng"
+          href: "media/community.qmd"
+        - text: "Hội nghị khoa học"
+          href: "media/conference.qmd"
+        - text: "Xuất bản khoa học"
+          href: "media/publication.qmd"
+      # 6. Link to other BIODAS platforms
+      - icon: envelope
+        aria-label: BIODAS mail
+        href: mailto:contact@biodas.net
+      - icon: github
+        aria-label: BIODAS GitHub
+        href: https://github.com/thanhnguyentrung-ph/BIODAS-website
+      - icon: linkedin
+        aria-label: BIODAS LinkedIn
+        href: abc
+      - icon: twitter-x
+        aria-label: BIODAS Twitter/X
+        href: abc
+      - icon: facebook
+        aria-label: BIODAS Facebook
+        href: abc
+      - icon: youtube
+        aria-label: BIODAS Youtube
+        href: abc 
+      - icon: instagram
+        aria-label: BIODAS Instagram
+        href: abc 
+  
+  # Website setup >> Page-footer setup
+  page-footer:
+    background: "#313D5D"
+    left: |
+      [Bản quyền &copy; 2025 thuộc về Công ty Cổ phần Viện Nghiên cứu Khoa học và Dữ liệu Y sinh](other/lience.qmd)
+    center: 
+      - icon: envelope
+        aria-label: BIODAS mail
+        href: mailto:contact@biodas.net
+      - icon: github
+        aria-label: BIODAS GitHub
+        href: https://github.com/thanhnguyentrung-ph/BIODAS-website
+      - icon: linkedin
+        aria-label: BIODAS LinkedIn
+        href: abc
+      - icon: twitter-x
+        aria-label: BIODAS Twitter/X
+        href: abc
+      - icon: facebook
+        aria-label: BIODAS Facebook
+        href: abc
+      - icon: youtube
+        aria-label: BIODAS Youtube
+        href: abc
+      - icon: instagram
+        aria-label: BIODAS Instagram
+        href: abc
+      - icon: rss
+        aria-label: BIODAS RSS
+        href: other/feeds.html
+    right: |
+      [Terms & Conditions](other/ts-and-cs.qmd)
+
+   
+
+
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    code-overflow: scroll
+    linkcolor: "#313D5D"
+    
+
+    
+
+
+

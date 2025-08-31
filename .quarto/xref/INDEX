@@ -1,0 +1,191 @@
+{
+  "about.qmd": {
+    "about.html": "e4cb06d1"
+  },
+  "index nhap.qmd": {
+    "index nhap.html": "4efa4ef8"
+  },
+  "index.qmd": {
+    "index.html": "d21d9f76"
+  },
+  "1_gioithieu/1_1_tongquan.qmd": {
+    "1_1_tongquan.html": "a9609e67"
+  },
+  "1_gioithieu/1_2_biodas.qmd": {
+    "1_2_biodas.html": "5b1841e8"
+  },
+  "1_gioithieu/1_3_doinguchuyengia.qmd": {
+    "1_3_doinguchuyengia.html": "3b7c3dfc"
+  },
+  "2_chuyenmon/2_1_nghiencuu.qmd": {
+    "2_1_nghiencuu.html": "000649d9"
+  },
+  "2_chuyenmon/2_2_duan.qmd": {
+    "2_2_duan.html": "07103df2"
+  },
+  "2_chuyenmon/2_3_daotao.qmd": {
+    "2_3_daotao.html": "13d5efd1"
+  },
+  "2_chuyenmon/2_4_dulieu.qmd": {
+    "2_4_dulieu.html": "e6fa8bf1"
+  },
+  "2_chuyenmon/2_5_biobank.qmd": {
+    "2_5_biobank.html": "c9ca1d56"
+  },
+  "1_about/1_1_overview.qmd": {
+    "1_1_overview.html": "1f3c5dbb"
+  },
+  "1_about/1_2_introduce.qmd": {
+    "1_2_introduce.html": "306ac545"
+  },
+  "1_about/1_3_team.qmd": {
+    "1_3_team.html": "fdd07a0c"
+  },
+  "2_fieldofexpertise/2_1_research.qmd": {
+    "2_1_research.html": "2dbd84ad"
+  },
+  "2_fieldofexpertise/2_2_project.qmd": {
+    "2_2_project.html": "f9a8ff05"
+  },
+  "2_fieldofexpertise/2_3_training.qmd": {
+    "2_3_training.html": "86efdde3"
+  },
+  "2_fieldofexpertise/2_4_data.qmd": {
+    "2_4_data.html": "369fa420"
+  },
+  "2_fieldofexpertise/2_5_biobank.qmd": {
+    "2_5_biobank.html": "f3845bd2"
+  },
+  "3_activity/3_1_scientificresearch.qmd": {
+    "3_1_scientificresearch.html": "a9ba5baf"
+  },
+  "3_activity/3_2_marketresearch.qmd": {
+    "3_2_marketresearch.html": "8105bf9e"
+  },
+  "3_activity/3_3_datascience.qmd": {
+    "3_3_datascience.html": "ce45fccd"
+  },
+  "3_activity/3_4_training.qmd": {
+    "3_4_training.html": "7291427d"
+  },
+  "4_resource/4_resource.qmd": {
+    "4_resource.html": "72ced6cf"
+  },
+  "5_media/5_1_new.qmd": {
+    "5_1_new.html": "f20513fc"
+  },
+  "5_media/5_2_internationalcooperation.qmd": {
+    "5_2_internationalcooperation.html": "38799c82"
+  },
+  "5_media/5_3_community.qmd": {
+    "5_3_community.html": "7e0436f4"
+  },
+  "5_media/5_4_conference.qmd": {
+    "5_4_conference.html": "e4b7efa2"
+  },
+  "5_media/5_5_publication.qmd": {
+    "5_5_publication.html": "9be114b7"
+  },
+  "6_other/ts-and-cs.qmd": {
+    "ts-and-cs.html": "b7e08dfc"
+  },
+  "6_other/lience.qmd": {
+    "lience.html": "dc5fa2d7"
+  },
+  "6_other/404.qmd": {
+    "404.html": "ccfc196e"
+  },
+  "box.qmd": {
+    "box.html": "1874967f"
+  },
+  "nhap.qmd": {
+    "nhap.html": "9e867bb5"
+  },
+  "2_expertise/2_1_research.qmd": {
+    "2_1_research.html": "c636f5a2"
+  },
+  "2_expertise/2_2_project.qmd": {
+    "2_2_project.html": "910c7e2b"
+  },
+  "2_expertise/2_3_training.qmd": {
+    "2_3_training.html": "2e47fd5b"
+  },
+  "2_expertise/2_4_data.qmd": {
+    "2_4_data.html": "465b1fda"
+  },
+  "2_expertise/2_5_biobank.qmd": {
+    "2_5_biobank.html": "c88a712a"
+  },
+  "about/introduce.qmd": {
+    "introduce.html": "ea80addc"
+  },
+  "about/overview.qmd": {
+    "overview.html": "1f811806"
+  },
+  "about/team.qmd": {
+    "team.html": "2d586d08"
+  },
+  "activity/data.qmd": {
+    "data.html": "f54266c8"
+  },
+  "activity/marketresearch.qmd": {
+    "marketresearch.html": "40cd0cb6"
+  },
+  "activity/research.qmd": {
+    "research.html": "432b00d2"
+  },
+  "activity/training.qmd": {
+    "training.html": "b6d41cc3"
+  },
+  "expertise/biobank.qmd": {
+    "biobank.html": "00f78451"
+  },
+  "expertise/data.qmd": {
+    "data.html": "32718ccc"
+  },
+  "expertise/project.qmd": {
+    "project.html": "1f0c24db"
+  },
+  "expertise/research.qmd": {
+    "research.html": "2fdc418d"
+  },
+  "expertise/training.qmd": {
+    "training.html": "7a034858"
+  },
+  "media/community.qmd": {
+    "community.html": "73e068bb"
+  },
+  "media/conference.qmd": {
+    "conference.html": "bfc503a8"
+  },
+  "media/internationalcooperation.qmd": {
+    "internationalcooperation.html": "4b10a8cf"
+  },
+  "media/new.qmd": {
+    "new.html": "fff43ece"
+  },
+  "media/publication.qmd": {
+    "publication.html": "f446705f"
+  },
+  "other/404.qmd": {
+    "404.html": "86eb53f7"
+  },
+  "other/lience.qmd": {
+    "lience.html": "2d1c76fe"
+  },
+  "other/ts-and-cs.qmd": {
+    "ts-and-cs.html": "8ab981a7"
+  },
+  "resource/4_resource.qmd": {
+    "4_resource.html": "332e244e"
+  },
+  "resource/resource.qmd": {
+    "resource.html": "27906d3f"
+  },
+  "activity/market-research.qmd": {
+    "market-research.html": "341449bf"
+  },
+  "media/international-cooperation.qmd": {
+    "international-cooperation.html": "782bcf8e"
+  }
+}
