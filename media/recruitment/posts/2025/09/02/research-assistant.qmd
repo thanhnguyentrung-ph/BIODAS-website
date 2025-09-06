@@ -1,0 +1,114 @@
+---
+title: "TRỢ LÝ NGHIÊN CỨU <br> (FULL-TIME)"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: "Deadline: 30/09/2025"
+categories:
+  - Research Assistant
+  - Full-time
+author: BIODAS Team
+date: 09/02/2025 # mm/dd/yyyy
+toc: true
+image: images/poster1.jpg
+aliases: 
+  - /media/recruitment/posts/2025/09/02/research-assistant.html
+---
+
+![](images/poster2.jpg){fig-align="center"}
+
+
+
+# 📢 TUYỂN DỤNG – TRỢ LÝ NGHIÊN CỨU (Full-time)
+
+
+**Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)** tuyển dụng vị trí **Trợ lý Nghiên cứu** dành cho ứng viên có đam mê nghiên cứu khoa học, khả năng học hỏi và thích nghi nhanh với các công cụ, quy trình nghiên cứu để gia nhập đội ngũ của chúng tôi.  
+
+Trợ lý Nghiên cứu sẽ tham gia các **dự án nghiên cứu và xuất bản trong nước cũng như quốc tế**, bao gồm:
+- Xây dựng và triển khai nghiên cứu khoa học.  
+- Biên soạn bản thảo khoa học (bài báo, sách chuyên khảo, sách tham khảo…).  
+- Dịch thuật tài liệu chuyên ngành.  
+
+Vị trí này phù hợp với những ứng viên **đam mê nghiên cứu, cẩn thận, tỉ mỉ, tuân thủ deadline, định hướng gắn bó lâu dài với sự nghiệp khoa học, đặc biệt trong lĩnh vực viết và công bố quốc tế**.  
+
+
+
+## 📌 Nhiệm vụ cụ thể
+
+::: callout-note
+### Nhiệm vụ cụ thể
+- Tham gia xây dựng đề cương nghiên cứu, thiết kế công cụ, bảng kiểm, biểu mẫu khảo sát.  
+- Soạn thảo bản thảo công bố khoa học và các ấn phẩm của BIODAS (sách, poster, tài liệu hội thảo…).  
+- Dịch thuật tài liệu khoa học (Anh–Việt và ngược lại).  
+- Tổng quan tài liệu, tìm kiếm, trích dẫn và quản lý tài liệu tham khảo (EndNote, Zotero…).  
+- Phối hợp với chuyên gia trong nước và quốc tế để xây dựng các chương trình nâng cao năng lực.  
+- Trợ giảng, hỗ trợ chuẩn bị tài liệu cho lớp đào tạo, tập huấn của BIODAS.  
+- Thực hiện các nhiệm vụ khác theo phân công.  
+:::
+
+
+
+## 🎯 Yêu cầu ứng viên
+
+::: callout-note
+### Yêu cầu ứng viên
+- Tốt nghiệp khối ngành **Y, Dược, khoa học sức khỏe, khoa học y sinh** hoặc liên quan.  
+- Thành thạo **tiếng Anh 4 kỹ năng**.  
+- Có **kinh nghiệm và xuất bản khoa học quốc tế**.  
+- Có kinh nghiệm **dịch thuật và biên tập tài liệu khoa học**.  
+- Thành thạo tìm kiếm và quản lý tài liệu (EndNote, Zotero...).  
+- Sử dụng hiệu quả các phần mềm phân tích dữ liệu (**Excel, SPSS, Stata, R**).  
+:::
+
+
+
+## 🌟 Quyền lợi
+
+::: callout-note
+### Quyền lợi
+- **Thu nhập**: Lương cứng theo thỏa thuận + thưởng theo sản phẩm ấn phẩm xuất bản + thưởng tiến độ.  
+- **Được hướng dẫn trực tiếp** bởi các nhà nghiên cứu có kinh nghiệm công bố quốc tế.  
+- **Cơ hội đào tạo chuyên sâu** về viết và xuất bản khoa học quốc tế.  
+- Có thể **tham gia đồng tác giả** trong các bài báo khoa học.  
+- **Được sử dụng dữ liệu BIODAS** cho khóa luận, luận văn, nghiên cứu hoặc hội thảo khoa học.  
+- **Môi trường làm việc linh hoạt**, chuyên nghiệp, định hướng xuất bản quốc tế.  
+:::
+
+
+
+## 📝 Cách thức ứng tuyển
+
+::: callout-tip
+### Cách thức ứng tuyển
+- Gửi **CV và Cover Letter** (giới thiệu bản thân, nêu rõ lý do ứng tuyển) qua link:  
+  👉 [https://forms.gle/v3XedpdkkP69ZjAv7](https://forms.gle/v3XedpdkkP69ZjAv7)  
+
+### 📱 Scan QR Code để ứng tuyển nhanh
+![](images/qrcode.jpeg){fig-align="center" width="200px"}
+:::
+
+
+
+## ⏰ Hạn nộp hồ sơ  
+::: callout-important
+Đến hết ngày **30/09/2025**
+:::
+
+
+
+## 🧬 Giới thiệu về BIODAS
+**Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)** là đơn vị kết nối và thúc đẩy nghiên cứu ứng dụng trong y tế và sinh học tại Việt Nam.  
+
+::: callout-note
+### Giới thiệu về BIODAS
+Chúng tôi cung cấp giải pháp và dịch vụ hỗ trợ:
+- Thu thập, quản lý, phân tích dữ liệu y sinh theo chuẩn quốc tế.  
+- Nghiên cứu dịch tễ, lâm sàng, y sinh học, hệ thống thông tin y tế.  
+- Xây dựng nền tảng dữ liệu nghiên cứu lâm sàng và khảo sát cộng đồng.  
+- Phát triển hệ thống quản lý dữ liệu hiện đại.  
+- Tổ chức các khóa đào tạo, tập huấn về ứng dụng dữ liệu và phân tích y sinh.  
+:::
+
+Mọi thắc mắc vui lòng liên hệ: [contact@biodas.net](mailto:contact@biodas.net)
+
+**Trân trọng,**  
+*BIODAS Team*  

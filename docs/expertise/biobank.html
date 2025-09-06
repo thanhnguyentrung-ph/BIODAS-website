@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Updating">
 
-<title>Updating – BIODAS</title>
+<title>Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../images/BIODAS-favicon.svg" rel="icon" type="image/svg+xml">
+<link href="../images/BIODAS-logo/BIODAS-logo-webtab.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -70,6 +69,26 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #ffffff;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #ffffff;
+background: #313d5d;
+      }
+</style>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -78,14 +97,13 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="index.qmd" class="navbar-brand navbar-brand-logo">
-    </a>
-    <a class="navbar-brand" href="index.qmd">
-    <span class="navbar-title">BIODAS</span>
+    <a href="https://biodas.net" class="navbar-brand navbar-brand-logo">
+    <img src="../images/BIODAS-logo/BIODAS-logo-horizontal-radius.png" alt="" class="navbar-logo light-content">
+    <img src="../images/BIODAS-logo/BIODAS-logo-horizontal-radius.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -100,12 +118,12 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-giới-thiệu">    
         <li>
-    <a class="dropdown-item" href="../about/overview.html">
- <span class="dropdown-text">Tổng quan</span></a>
+    <a class="dropdown-item" href="../about/introduce.html">
+ <span class="dropdown-text">Giới thiệu BIODAS</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about/introduce.html">
- <span class="dropdown-text">BIODAS</span></a>
+    <a class="dropdown-item" href="../about/mission-and-vision.html">
+ <span class="dropdown-text">Sứ mệnh, tầm nhìn và giá trị cốt lõi</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../about/team.html">
@@ -173,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-truyền-thông">    
         <li>
-    <a class="dropdown-item" href="../media/new.html">
+    <a class="dropdown-item" href="../media/new.qmd">
  <span class="dropdown-text">Tin tức &amp; Sự kiện</span></a>
   </li>  
         <li>
@@ -191,6 +209,10 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../media/publication.html">
  <span class="dropdown-text">Xuất bản khoa học</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../media/recruitment/index.html">
+ <span class="dropdown-text">Tuyển dụng</span></a>
   </li>  
     </ul>
   </li>
@@ -237,7 +259,24 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam</h1>
+            <p class="subtitle lead">Vietnam biobanking feasibility study</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -245,46 +284,329 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#updating" id="toc-updating" class="nav-link active" data-scroll-target="#updating">Updating</a></li>
+  <li><a href="#cơ-sở-lý-luận" id="toc-cơ-sở-lý-luận" class="nav-link active" data-scroll-target="#cơ-sở-lý-luận">📖 Cơ sở lý luận</a></li>
+  <li><a href="#đánh-giá-hạ-tầng-và-nguồn-lực-địa-phương" id="toc-đánh-giá-hạ-tầng-và-nguồn-lực-địa-phương" class="nav-link" data-scroll-target="#đánh-giá-hạ-tầng-và-nguồn-lực-địa-phương">🔍 Đánh giá hạ tầng và nguồn lực địa phương</a></li>
+  <li><a href="#khung-pháp-lý-và-đạo-đức" id="toc-khung-pháp-lý-và-đạo-đức" class="nav-link" data-scroll-target="#khung-pháp-lý-và-đạo-đức">⚖️ Khung pháp lý và đạo đức</a></li>
+  <li><a href="#tính-bền-vững-và-khả-năng-duy-trì" id="toc-tính-bền-vững-và-khả-năng-duy-trì" class="nav-link" data-scroll-target="#tính-bền-vững-và-khả-năng-duy-trì">♻️ Tính bền vững và khả năng duy trì</a></li>
+  <li><a href="#nhu-cầu-y-tế-công-cộng-lâm-sàng-nghiên-cứu" id="toc-nhu-cầu-y-tế-công-cộng-lâm-sàng-nghiên-cứu" class="nav-link" data-scroll-target="#nhu-cầu-y-tế-công-cộng-lâm-sàng-nghiên-cứu">🧪 Nhu cầu y tế công cộng, lâm sàng &amp; nghiên cứu</a></li>
+  <li><a href="#quan-hệ-đối-tác-và-hợp-tác" id="toc-quan-hệ-đối-tác-và-hợp-tác" class="nav-link" data-scroll-target="#quan-hệ-đối-tác-và-hợp-tác">🤝 Quan hệ đối tác và hợp tác</a></li>
+  <li><a href="#tác-động-kinh-tế---xã-hội" id="toc-tác-động-kinh-tế---xã-hội" class="nav-link" data-scroll-target="#tác-động-kinh-tế---xã-hội">🌍 Tác động kinh tế - xã hội</a></li>
+  <li><a href="#yếu-tố-văn-hóa-và-xã-hội" id="toc-yếu-tố-văn-hóa-và-xã-hội" class="nav-link" data-scroll-target="#yếu-tố-văn-hóa-và-xã-hội">🧭 Yếu tố văn hóa và xã hội</a></li>
+  <li><a href="#bảng-tóm-tắt" id="toc-bảng-tóm-tắt" class="nav-link" data-scroll-target="#bảng-tóm-tắt">📊 Bảng tóm tắt</a></li>
+  <li><a href="#kết-quả-kỳ-vọng" id="toc-kết-quả-kỳ-vọng" class="nav-link" data-scroll-target="#kết-quả-kỳ-vọng">🎯 Kết quả kỳ vọng</a></li>
+  <li><a href="#sơ-đồ-workflow-biobank-việt-nam" id="toc-sơ-đồ-workflow-biobank-việt-nam" class="nav-link" data-scroll-target="#sơ-đồ-workflow-biobank-việt-nam">🔗 Sơ đồ workflow Biobank Việt Nam</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/edit/main/expertise/biobank.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/blob/main/expertise/biobank.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Updating</h1>
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/BIODAS-index-biobank.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="border-radius: 12px;"></p>
+</figure>
 </div>
+<section id="cơ-sở-lý-luận" class="level1">
+<h1>📖 Cơ sở lý luận</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Cơ sở lý luận
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Biobank</strong>: không chỉ là bộ sưu tập mẫu sinh học mà còn là <em>hạ tầng quan trọng cho giám sát y tế công cộng</em>.<br>
+</li>
+<li><strong>Hiện trạng toàn cầu</strong>:
+<ul>
+<li>Chủ yếu tập trung ở các nước phát triển.<br>
+</li>
+<li>80% nghiên cứu y tế toàn cầu thực hiện tại các nước giàu, nhiều nghiên cứu liên quan đến bệnh phổ biến ở LMIC.<br>
+</li>
+</ul></li>
+<li><strong>WHO/IARC BCnet</strong>: hỗ trợ xây dựng biobank tại LMIC.<br>
+</li>
+<li><strong>ASEAN</strong>: tăng trưởng kinh tế, mở rộng bảo hiểm y tế, COVID-19 thúc đẩy nhu cầu biobank.<br>
+</li>
+<li><strong>Kinh nghiệm</strong>: Philippines (2021) → công cụ đánh giá có thể nhân rộng.<br>
+</li>
+<li><strong>Việt Nam</strong>: tăng trưởng nhanh, nhu cầu hạ tầng nghiên cứu cao → cần nghiên cứu khả thi riêng.<br>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="đánh-giá-hạ-tầng-và-nguồn-lực-địa-phương" class="level1">
+<h1>🔍 Đánh giá hạ tầng và nguồn lực địa phương</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Đánh giá hạ tầng và nguồn lực địa phương
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Hạ tầng</strong>: thách thức về điện, kho lạnh, Internet → nghiên cứu khả thi giúp xác định khoảng trống.<br>
+</li>
+<li><strong>Nhân lực</strong>: cần kỹ năng về thu thập mẫu, lưu trữ, quản lý dữ liệu, đạo đức nghiên cứu.<br>
+</li>
+<li><strong>Tài chính</strong>: yêu cầu đầu tư lớn, cần huy động cả trong nước và quốc tế.<br>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="khung-pháp-lý-và-đạo-đức" class="level1">
+<h1>⚖️ Khung pháp lý và đạo đức</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Khung pháp lý và đạo đức
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Đánh giá hệ thống pháp luật hiện tại, chỉ ra khoảng trống.<br>
+</li>
+<li>Quy trình <strong>informed consent</strong> và bảo mật dữ liệu phù hợp với bối cảnh văn hóa – pháp lý.<br>
+</li>
+<li>Huy động và tham vấn các bên liên quan.<br>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="tính-bền-vững-và-khả-năng-duy-trì" class="level1">
+<h1>♻️ Tính bền vững và khả năng duy trì</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Tính bền vững và khả năng duy trì
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Biobank đòi hỏi kinh phí lớn, trong khi quỹ hiện tại thường ngắn hạn.<br>
+</li>
+<li>Cần kế hoạch kinh doanh:
+<ul>
+<li>Phân tích chi phí chi tiết.<br>
+</li>
+<li>Xác định nguồn quỹ nội địa &amp; quốc tế.<br>
+</li>
+<li>Đề xuất chiến lược duy trì lâu dài.<br>
+</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="nhu-cầu-y-tế-công-cộng-lâm-sàng-nghiên-cứu" class="level1">
+<h1>🧪 Nhu cầu y tế công cộng, lâm sàng &amp; nghiên cứu</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Nhu cầu y tế công cộng, lâm sàng &amp; nghiên cứu
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Gánh nặng bệnh tật Việt Nam</strong>: lao, viêm gan, ung thư, tiểu đường…<br>
+</li>
+<li>Biobank hỗ trợ nghiên cứu gắn với ưu tiên quốc gia.<br>
+</li>
+<li>Đánh giá năng lực nghiên cứu hiện tại (tiền lâm sàng → dịch chuyển → lâm sàng).<br>
+</li>
+<li>Xác định nhu cầu đào tạo &amp; nâng cao năng lực.<br>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="quan-hệ-đối-tác-và-hợp-tác" class="level1">
+<h1>🤝 Quan hệ đối tác và hợp tác</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Quan hệ đối tác và hợp tác
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Tăng cường hợp tác giữa viện/trường trong nước &amp; quốc tế.<br>
+</li>
+<li>Đánh giá sự ủng hộ của chính phủ, Bộ Y tế, tổ chức chủ chốt.<br>
+</li>
+<li>Xem xét lập <strong>Văn phòng điều phối mạng lưới Biobank Việt Nam</strong>.<br>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="tác-động-kinh-tế---xã-hội" class="level1">
+<h1>🌍 Tác động kinh tế - xã hội</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Tác động kinh tế - xã hội
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Thực hiện <strong>Cost–Benefit Analysis</strong>.<br>
+</li>
+<li>Biobank góp phần:
+<ul>
+<li>Cải thiện sức khỏe cộng đồng.<br>
+</li>
+<li>Thúc đẩy khoa học.<br>
+</li>
+<li>Thu hút hợp tác quốc tế.<br>
+</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="yếu-tố-văn-hóa-và-xã-hội" class="level1">
+<h1>🧭 Yếu tố văn hóa và xã hội</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Yếu tố văn hóa và xã hội
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Lưu ý nhận thức cộng đồng về việc thu thập &amp; sử dụng mẫu sinh học.<br>
+</li>
+<li>Đưa ra chiến lược gắn kết: cộng đồng – cán bộ y tế – nhà hoạch định chính sách.<br>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="bảng-tóm-tắt" class="level1">
+<h1>📊 Bảng tóm tắt</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 42%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Thách thức</th>
+<th>Cơ hội</th>
+<th>Giải pháp đề xuất</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hạ tầng &amp; điện/kho lạnh</td>
+<td>Kinh nghiệm ASEAN, WHO hỗ trợ</td>
+<td>Đầu tư pilot site</td>
+</tr>
+<tr class="even">
+<td>Thiếu nhân lực chuyên môn</td>
+<td>Nhu cầu đào tạo cao</td>
+<td>Xây dựng chương trình đào tạo</td>
+</tr>
+<tr class="odd">
+<td>Quỹ ngắn hạn, thiếu bền vững</td>
+<td>Hợp tác quốc tế, quỹ nghiên cứu</td>
+<td>Kế hoạch tài chính dài hạn</td>
+</tr>
+<tr class="even">
+<td>Nhận thức cộng đồng thấp</td>
+<td>COVID-19 tăng quan tâm</td>
+<td>Chiến lược truyền thông</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="kết-quả-kỳ-vọng" class="level1">
+<h1>🎯 Kết quả kỳ vọng</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Kết quả kỳ vọng
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Manuscript</strong>: tổng hợp dữ liệu nghiên cứu khả thi → mô tả hiện trạng hạ tầng Biobank tại Việt Nam.<br>
+</li>
+<li>Đảm bảo hướng đi:
+<ul>
+<li>Phù hợp văn hóa – xã hội.<br>
+</li>
+<li>Đúng chuẩn mực đạo đức.<br>
+</li>
+<li>Bền vững về tài chính.<br>
+</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sơ-đồ-workflow-biobank-việt-nam" class="level1">
+<h1>🔗 Sơ đồ workflow Biobank Việt Nam</h1>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A([📦 Nhu cầu Biobank tại Việt Nam]) --&gt; B([🏭 Hạ tầng: điện, kho lạnh, Internet])
+    A --&gt; C([👩‍🔬 Nhân lực: đào tạo, kỹ năng, đạo đức])
+    A --&gt; D([⚖️ Pháp lý &amp; đạo đức: consent, bảo mật])
 
+    B --&gt; E([💰 Tài chính &amp; bền vững: CBA, kế hoạch dài hạn])
+    C --&gt; E
+    D --&gt; E
 
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Updating </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="updating" class="level1">
-<h1>Updating</h1>
+    E --&gt; F([🤝 Hợp tác: viện/trường, Bộ Y tế, quốc tế])
+    F --&gt; G([🌍 Tác động: sức khỏe, khoa học, hợp tác])
+    G --&gt; H([🎯 Kết quả kỳ vọng: Manuscript + chính sách])
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -746,7 +1068,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/edit/main/expertise/biobank.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/blob/main/expertise/biobank.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    </div>
     <div class="nav-footer-right">
 <p><a href="other/ts-and-cs.qmd">Terms &amp; Conditions</a></p>
 </div>

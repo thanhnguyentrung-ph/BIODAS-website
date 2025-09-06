@@ -1,8 +1,143 @@
 ---
-title: "Updating"
-author: "Updating"
-date: "Updating"
-format: html
+title: "Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam"
+subtitle: "Vietnam biobanking feasibility study"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+search: true
+toc: true
+repo-actions: false
+# aliases: 
+#   - /expertise/
 ---
 
-# Updating
+![](images/BIODAS-index-biobank.png){fig-align="center" style="border-radius: 12px;"}
+
+
+
+# 📖 Cơ sở lý luận
+::: callout-note
+### Cơ sở lý luận
+- **Biobank**: không chỉ là bộ sưu tập mẫu sinh học mà còn là *hạ tầng quan trọng cho giám sát y tế công cộng*.  
+- **Hiện trạng toàn cầu**:  
+  - Chủ yếu tập trung ở các nước phát triển.  
+  - 80% nghiên cứu y tế toàn cầu thực hiện tại các nước giàu, nhiều nghiên cứu liên quan đến bệnh phổ biến ở LMIC.  
+- **WHO/IARC BCnet**: hỗ trợ xây dựng biobank tại LMIC.  
+- **ASEAN**: tăng trưởng kinh tế, mở rộng bảo hiểm y tế, COVID-19 thúc đẩy nhu cầu biobank.  
+- **Kinh nghiệm**: Philippines (2021) → công cụ đánh giá có thể nhân rộng.  
+- **Việt Nam**: tăng trưởng nhanh, nhu cầu hạ tầng nghiên cứu cao → cần nghiên cứu khả thi riêng.  
+:::
+
+
+
+# 🔍 Đánh giá hạ tầng và nguồn lực địa phương
+::: callout-note
+### Đánh giá hạ tầng và nguồn lực địa phương
+- **Hạ tầng**: thách thức về điện, kho lạnh, Internet → nghiên cứu khả thi giúp xác định khoảng trống.  
+- **Nhân lực**: cần kỹ năng về thu thập mẫu, lưu trữ, quản lý dữ liệu, đạo đức nghiên cứu.  
+- **Tài chính**: yêu cầu đầu tư lớn, cần huy động cả trong nước và quốc tế.  
+:::
+
+
+
+# ⚖️ Khung pháp lý và đạo đức
+::: callout-note
+### Khung pháp lý và đạo đức
+- Đánh giá hệ thống pháp luật hiện tại, chỉ ra khoảng trống.  
+- Quy trình **informed consent** và bảo mật dữ liệu phù hợp với bối cảnh văn hóa – pháp lý.  
+- Huy động và tham vấn các bên liên quan.  
+:::
+
+
+
+# ♻️ Tính bền vững và khả năng duy trì
+::: callout-note
+### Tính bền vững và khả năng duy trì
+- Biobank đòi hỏi kinh phí lớn, trong khi quỹ hiện tại thường ngắn hạn.  
+- Cần kế hoạch kinh doanh:  
+  - Phân tích chi phí chi tiết.  
+  - Xác định nguồn quỹ nội địa & quốc tế.  
+  - Đề xuất chiến lược duy trì lâu dài.  
+:::
+
+
+
+# 🧪 Nhu cầu y tế công cộng, lâm sàng & nghiên cứu
+::: callout-note
+### Nhu cầu y tế công cộng, lâm sàng & nghiên cứu
+- **Gánh nặng bệnh tật Việt Nam**: lao, viêm gan, ung thư, tiểu đường…  
+- Biobank hỗ trợ nghiên cứu gắn với ưu tiên quốc gia.  
+- Đánh giá năng lực nghiên cứu hiện tại (tiền lâm sàng → dịch chuyển → lâm sàng).  
+- Xác định nhu cầu đào tạo & nâng cao năng lực.  
+:::
+
+
+
+# 🤝 Quan hệ đối tác và hợp tác
+::: callout-note
+### Quan hệ đối tác và hợp tác
+- Tăng cường hợp tác giữa viện/trường trong nước & quốc tế.  
+- Đánh giá sự ủng hộ của chính phủ, Bộ Y tế, tổ chức chủ chốt.  
+- Xem xét lập **Văn phòng điều phối mạng lưới Biobank Việt Nam**.  
+:::
+
+
+
+# 🌍 Tác động kinh tế - xã hội
+::: callout-note
+### Tác động kinh tế - xã hội
+- Thực hiện **Cost–Benefit Analysis**.  
+- Biobank góp phần:  
+  - Cải thiện sức khỏe cộng đồng.  
+  - Thúc đẩy khoa học.  
+  - Thu hút hợp tác quốc tế.  
+:::
+
+
+
+# 🧭 Yếu tố văn hóa và xã hội
+::: callout-note
+### Yếu tố văn hóa và xã hội
+- Lưu ý nhận thức cộng đồng về việc thu thập & sử dụng mẫu sinh học.  
+- Đưa ra chiến lược gắn kết: cộng đồng – cán bộ y tế – nhà hoạch định chính sách.  
+:::
+
+
+
+# 📊 Bảng tóm tắt
+| Thách thức                  | Cơ hội                            | Giải pháp đề xuất |
+|------------------------------|-----------------------------------|------------------|
+| Hạ tầng & điện/kho lạnh     | Kinh nghiệm ASEAN, WHO hỗ trợ     | Đầu tư pilot site |
+| Thiếu nhân lực chuyên môn   | Nhu cầu đào tạo cao               | Xây dựng chương trình đào tạo |
+| Quỹ ngắn hạn, thiếu bền vững | Hợp tác quốc tế, quỹ nghiên cứu   | Kế hoạch tài chính dài hạn |
+| Nhận thức cộng đồng thấp    | COVID-19 tăng quan tâm            | Chiến lược truyền thông |
+
+
+
+# 🎯 Kết quả kỳ vọng
+::: callout-note
+### Kết quả kỳ vọng
+- **Manuscript**: tổng hợp dữ liệu nghiên cứu khả thi → mô tả hiện trạng hạ tầng Biobank tại Việt Nam.  
+- Đảm bảo hướng đi:  
+  - Phù hợp văn hóa – xã hội.  
+  - Đúng chuẩn mực đạo đức.  
+  - Bền vững về tài chính.  
+:::
+
+
+
+# 🔗 Sơ đồ workflow Biobank Việt Nam
+
+```{mermaid}
+flowchart TD
+    A([📦 Nhu cầu Biobank tại Việt Nam]) --> B([🏭 Hạ tầng: điện, kho lạnh, Internet])
+    A --> C([👩‍🔬 Nhân lực: đào tạo, kỹ năng, đạo đức])
+    A --> D([⚖️ Pháp lý & đạo đức: consent, bảo mật])
+
+    B --> E([💰 Tài chính & bền vững: CBA, kế hoạch dài hạn])
+    C --> E
+    D --> E
+
+    E --> F([🤝 Hợp tác: viện/trường, Bộ Y tế, quốc tế])
+    F --> G([🌍 Tác động: sức khỏe, khoa học, hợp tác])
+    G --> H([🎯 Kết quả kỳ vọng: Manuscript + chính sách])
+```

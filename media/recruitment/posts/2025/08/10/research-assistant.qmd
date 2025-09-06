@@ -1,0 +1,113 @@
+---
+title: "TRỢ LÝ NGHIÊN CỨU <br> (PART-TIME)"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: "Deadline: 31/08/2025"
+categories:
+  - Research Assistant
+  - Part-time
+author: BIODAS Team
+date: 08/10/2025 # mm/dd/yyyy
+toc: true
+image: images/poster1.jpg
+aliases: 
+  - /media/recruitment/posts/2025/08/10/research-assistant.html
+---
+
+![](images/poster2.jpg){fig-align="center"}
+
+
+
+# 📢 TUYỂN DỤNG – TRỢ LÝ NGHIÊN CỨU (Part-time)
+
+**Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)** đang tìm kiếm **ứng viên tiềm năng** có đam mê nghiên cứu khoa học, khả năng học hỏi và thích nghi nhanh với các công cụ, quy trình nghiên cứu để gia nhập đội ngũ của chúng tôi.  
+
+Vị trí **Trợ lý Nghiên cứu (part-time)** sẽ tham gia hỗ trợ các hoạt động **nghiên cứu y sinh và quản lý dữ liệu**, bao gồm:
+- Triển khai khảo sát thị trường và nghiên cứu y sinh.  
+- Thu thập, xử lý và báo cáo dữ liệu.  
+- Sử dụng công cụ Google Sheets, Kobotoolbox, REDCap hoặc phần mềm chuyên biệt như Stata, R (*sẽ được đào tạo*).  
+- Hỗ trợ trình bày dữ liệu (bảng, biểu đồ) và đóng góp nội dung báo cáo/slides.  
+- Nhập liệu, rà soát, làm sạch và xử lý sơ bộ dữ liệu dưới sự hướng dẫn của điều phối viên.  
+
+
+
+## 📌 Nhiệm vụ cụ thể
+
+::: callout-note
+### Nhiệm vụ cụ thể
+- Hỗ trợ triển khai các dự án khảo sát và nghiên cứu trong lĩnh vực y tế, y sinh.  
+- Tham gia thiết kế bảng hỏi, bảng kiểm, biểu mẫu khảo sát (phiếu hỏi, form online, bảng kiểm phỏng vấn…).  
+- Hỗ trợ thực hiện khảo sát trực tuyến hoặc thực địa, bao gồm điều phối, theo dõi tiến độ, kiểm tra chất lượng dữ liệu.  
+- Thực hiện nhập liệu, kiểm tra và làm sạch dữ liệu.  
+- Tham gia phân tích sơ bộ dữ liệu và hỗ trợ soạn thảo báo cáo chuyên môn.  
+- Trình bày dữ liệu dưới dạng bảng, biểu đồ và hỗ trợ chuẩn bị báo cáo kỹ thuật.  
+- Phối hợp chặt chẽ với các thành viên trong nhóm dự án.  
+- Trợ giảng, hỗ trợ chuẩn bị tài liệu cho các lớp thực hành dữ liệu của BIODAS.  
+- Thực hiện các nhiệm vụ khác khi được phân công.  
+:::
+
+
+
+## 🎯 Yêu cầu ứng viên
+
+::: callout-note
+### Yêu cầu ứng viên
+- Tốt nghiệp hoặc sinh viên năm cuối khối ngành **khoa học sức khỏe, khoa học y sinh, kinh tế, marketing** hoặc liên quan.  
+- Có kiến thức và kỹ năng cơ bản về nghiên cứu khoa học và xử lý dữ liệu.  
+- Tư duy logic, tỉ mỉ, ham học hỏi và có trách nhiệm trong công việc.  
+- Có định hướng phát triển lâu dài trong nghiên cứu khoa học và phân tích dữ liệu.  
+- Ưu tiên ứng viên đã từng tham gia dự án nghiên cứu định tính/định lượng hoặc đề tài khoa học.  
+:::
+
+
+
+## 🌟 Quyền lợi
+
+::: callout-note
+### Quyền lợi
+- **Thu nhập**: Lương cứng theo thỏa thuận + thưởng hiệu quả công việc + thưởng tiến độ (với mức làm việc tối thiểu 20 giờ/tuần).  
+- **Được đào tạo bài bản** về quy trình nghiên cứu khoa học, thiết kế khảo sát, quản lý và phân tích dữ liệu (REDCap, R, Stata, Power BI, Excel).  
+- Có thể **sử dụng dữ liệu BIODAS** để viết khóa luận, báo cáo nghiên cứu hoặc tham gia hội thảo khoa học.  
+- Hỗ trợ xây dựng đề tài nghiên cứu cá nhân (từ viết đề cương, xử lý dữ liệu đến chuẩn bị công bố).  
+- **Môi trường làm việc linh hoạt**, kết nối chuyên gia nghiên cứu và dữ liệu y sinh trong nước & quốc tế.  
+- **Thư xác nhận thực tập** (nếu cần) và cơ hội xét chuyển lên vị trí chính thức nếu hoàn thành tốt công việc.  
+:::
+
+
+
+## 📝 Cách thức ứng tuyển
+
+::: callout-tip
+### Cách thức ứng tuyển
+- Gửi **CV và đoạn giới thiệu ngắn** (3–5 dòng nêu rõ lý do ứng tuyển) đến email:  
+  [contact@biodas.net](mailto:contact@biodas.net)  
+
+- **Tiêu đề email**: `[Ứng tuyển Trợ lý Nghiên cứu – Họ tên]`  
+:::
+
+
+
+## ⏰ Hạn nộp hồ sơ
+::: callout-important
+Đến hết ngày **31/08/2025**
+:::
+
+
+
+## 🧬 Giới thiệu về BIODAS
+**Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)** là đơn vị kết nối và thúc đẩy nghiên cứu ứng dụng trong y tế và sinh học tại Việt Nam.  
+
+::: callout-note
+### Giới thiệu về BIODAS
+Chúng tôi cung cấp giải pháp và dịch vụ hỗ trợ:
+- Thu thập, quản lý, phân tích dữ liệu y sinh theo chuẩn quốc tế.  
+- Nghiên cứu dịch tễ, lâm sàng, y sinh học, hệ thống thông tin y tế.  
+- Xây dựng nền tảng dữ liệu nghiên cứu lâm sàng, khảo sát cộng đồng, nghiên cứu thị trường y tế.  
+- Phát triển hệ thống quản lý dữ liệu chuẩn hóa.  
+- Tổ chức chuỗi tập huấn về ứng dụng dữ liệu trong nghiên cứu y sinh và đào tạo phân tích dữ liệu.  
+:::
+
+Mọi thắc mắc vui lòng liên hệ: [contact@biodas.net](mailto:contact@biodas.net)
+
+**Trân trọng,**  
+*BIODAS Team*

@@ -9,9 +9,6 @@ repo-actions: false
 description: "Trang chủ website của BIODAS"
 hide-description: true
 toc: false
-
-
-
 listing:
     - id: latest-content
       contents:
@@ -24,90 +21,30 @@ listing:
       categories: false
       sort-ui: false
       filter-ui: false
-      max-items: 6
+      max-items: 3
       feed: false
 ---
 
 :::{.column-screen}
 
-![](images/BIODAS index background.png){fig-align="center"}
+![](images/BIODAS-index-banner.svg)
 
 :::
 
 
+
 # Chào mừng đến với BIODAS
 
-- Trong kỷ nguyên vươn mình mạnh mẽ của dân tộc, Việt Nam không chỉ khẳng định vị thế phát triển kinh tế – xã hội, mà còn tiên phong trong đổi mới khoa học và y sinh.
-
-- BIODAS (Biomedical Data and Science Research Institute) ra đời với sứ mệnh kết nối bệnh viện, viện nghiên cứu và doanh nghiệp, xây dựng nền tảng dữ liệu y sinh chuẩn hóa, ngân hàng mẫu sinh học, và các chỉ số tham chiếu đặc thù cho người Việt.
-
-- BIODAS đồng hành cùng hành trình vươn mình của đất nước, góp phần nâng cao năng lực nghiên cứu y sinh và hiện thực hóa khát vọng chăm sóc sức khỏe toàn dân.
+![](images/BIODAS-index-welcome.png){fig-align="center" style="border-radius: 12px;"}
 
 
 
 ***
 
 
-# Giá trị của BIODAS
+# Sứ mệnh, tầm nhìn và giá trị cốt lõi của BIODAS
 
-```{=html}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-<div class="container-wrapper">
-
-  <div class="content-box">
-    <div class="icon">
-      <i class="fas fa-bullseye"></i>
-    </div>
-    <div class="content">
-          <div class="box-title-value">Tầm nhìn</div>
-      <ul>
-        <li>Trở thành đơn vị tiên phong của Việt Nam trong nghiên cứu khoa học và dữ liệu y sinh</li>
-        <li>Đồng hành cùng kỷ nguyên vươn mình của dân tộc, khẳng định vị thế đất nước trên bản đồ khoa học thế giới</li>
-        <li>Góp phần nâng cao sức khỏe và chất lượng sống cho cộng đồng</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="content-box">
-      <div class="icon">
-          <i class="fas fa-eye"></i>
-      </div>
-      <div class="content">
-          <div class="box-title-value">Sứ mệnh</div>
-          <ul>
-              <li>Kết nối trí tuệ Việt Nam với xu thế khoa học toàn cầu</li>
-              <li>Cung cấp giải pháp toàn diện: thu thập, quản lý, phân tích dữ liệu và chuyển giao công nghệ</li>
-              <li>Đồng hành cùng bệnh viện, viện nghiên cứu, đơn vị y tế công-tư trong nước và quốc tế</li>
-              <li>Thúc đẩy nghiên cứu y sinh, đổi mới sáng tạo, vì một tương lai phồn vinh và nhân văn</li>
-          </ul>
-      </div>
-  </div>
-
-
-</div>
-```
-
-
-```{=html}
-<div class="container-wrapper">
-  <div class="content-box">
-      <div class="icon">
-          <i class="fas fa-star"></i>
-      </div>
-      <div class="content">
-          <div class="box-title-value">Giá trị cốt lõi</div>
-          <ul>
-              <li><strong>Khoa học:</strong> Minh bạch, chuẩn mực, khách quan trong nghiên cứu và phân tích dữ liệu</li>
-              <li><strong>Đổi mới:</strong> Ứng dụng công nghệ tiên tiến, E-Health và trí tuệ nhân tạo trong y sinh</li>
-              <li><strong>Kết nối:</strong> Cầu nối hợp tác giữa bệnh viện, viện nghiên cứu, doanh nghiệp và quốc tế</li>
-              <li><strong>Đạo đức:</strong> Tuân thủ nghiêm ngặt chuẩn mực đạo đức, bảo mật và đồng thuận trong nghiên cứu</li>
-              <li><strong>Vì cộng đồng:</strong> Tạo dữ liệu tham chiếu đặc thù, nâng cao chất lượng điều trị, đóng góp cho sức khỏe cộng đồng</li>
-          </ul>
-      </div>
-  </div>
-</div>
-```
+![](images/BIODAS-index-mission-vision.png){fig-align="center" style="border-radius: 12px;"}
 
 
 
@@ -117,63 +54,22 @@ listing:
 
 # Hoạt động nổi bật của BIODAS
 
-![](images/biobank background.png){fig-align="center"}
+![](images/BIODAS-index-biobank.png){fig-align="center" style="border-radius: 12px;"}
 
-### 🔹 Cơ sở lý luận
-- **Biobank**: không chỉ là bộ sưu tập mẫu sinh học mà còn là *hạ tầng quan trọng cho giám sát y tế công cộng*.  
-- **Hiện trạng toàn cầu**:  
-  - Chủ yếu tập trung ở các nước phát triển.  
-  - 80% nghiên cứu y tế toàn cầu thực hiện tại các nước giàu, nhiều nghiên cứu liên quan đến bệnh phổ biến ở LMIC.  
-- **WHO/IARC BCnet**: hỗ trợ xây dựng biobank tại LMIC.  
-- **ASEAN**: tăng trưởng kinh tế, mở rộng bảo hiểm y tế, COVID-19 thúc đẩy nhu cầu biobank.  
-- **Kinh nghiệm**: Philippines (2021) → công cụ đánh giá có thể nhân rộng.  
-- **Việt Nam**: tăng trưởng nhanh, nhu cầu hạ tầng nghiên cứu cao → cần nghiên cứu khả thi riêng.  
+Biobank không chỉ là nơi lưu trữ mẫu sinh học mà còn là hạ tầng chiến lược phục vụ giám sát y tế công cộng và nghiên cứu khoa học. Trên thế giới, biobank chủ yếu tập trung ở các nước phát triển, trong khi LMIC (các quốc gia thu nhập trung bình và thấp) – bao gồm Việt Nam – còn thiếu hụt. WHO/IARC với mạng lưới BCnet đã khởi xướng hỗ trợ xây dựng biobank tại LMIC. Trong bối cảnh ASEAN tăng trưởng nhanh, mở rộng bảo hiểm y tế và chịu tác động của đại dịch COVID-19, nhu cầu xây dựng biobank tại Việt Nam trở nên cấp thiết.
 
-### 🔹 Đánh giá hạ tầng và nguồn lực địa phương
-- **Hạ tầng**: thách thức về điện, kho lạnh, Internet → nghiên cứu khả thi giúp xác định khoảng trống.  
-- **Nhân lực**: cần kỹ năng về thu thập mẫu, lưu trữ, quản lý dữ liệu, đạo đức nghiên cứu.  
-- **Tài chính**: yêu cầu đầu tư lớn, cần huy động cả trong nước và quốc tế.  
+Đánh giá tính khả thi tập trung vào nhiều khía cạnh:
+- Hạ tầng và nguồn lực
+- Khung pháp lý & đạo đức
+- Tính bền vững
+- Nhu cầu nghiên cứu & y tế công cộng
+- Quan hệ đối tác & hợp tác
+- Tác động kinh tế - xã hội
 
-### 🔹 Khung pháp lý và đạo đức
-- Đánh giá hệ thống pháp luật hiện tại, chỉ ra khoảng trống.  
-- Quy trình **informed consent** và bảo mật dữ liệu phù hợp với bối cảnh văn hóa – pháp lý.  
-- Huy động và tham vấn các bên liên quan.  
 
-### 🔹 Tính bền vững và khả năng duy trì
-- Biobank đòi hỏi kinh phí lớn, trong khi quỹ hiện tại thường ngắn hạn.  
-- Cần kế hoạch kinh doanh:  
-  - Phân tích chi phí chi tiết.  
-  - Xác định nguồn quỹ nội địa & quốc tế.  
-  - Đề xuất chiến lược duy trì lâu dài.  
+Kết quả kỳ vọng là một báo cáo (manuscript) mô tả hiện trạng và đưa ra khuyến nghị xây dựng Biobank tại Việt Nam theo hướng: phù hợp văn hóa – xã hội, tuân thủ chuẩn mực đạo đức, và bền vững về tài chính.
 
-### 🔹 Nhu cầu y tế công cộng, lâm sàng & nghiên cứu
-- **Gánh nặng bệnh tật Việt Nam**: lao, viêm gan, ung thư, tiểu đường…  
-- Biobank hỗ trợ nghiên cứu gắn với ưu tiên quốc gia.  
-- Đánh giá năng lực nghiên cứu hiện tại (tiền lâm sàng → dịch chuyển → lâm sàng).  
-- Xác định nhu cầu đào tạo & nâng cao năng lực.  
-
-### 🔹 Quan hệ đối tác và hợp tác
-- Tăng cường hợp tác giữa viện/trường trong nước & quốc tế.  
-- Đánh giá sự ủng hộ của chính phủ, Bộ Y tế, tổ chức chủ chốt.  
-- Xem xét lập **Văn phòng điều phối mạng lưới Biobank Việt Nam**.  
-
-### 🔹 Tác động kinh tế - xã hội
-- Thực hiện **Cost–Benefit Analysis**.  
-- Biobank góp phần:  
-  - Cải thiện sức khỏe cộng đồng.  
-  - Thúc đẩy khoa học.  
-  - Thu hút hợp tác quốc tế.  
-
-### 🔹 Yếu tố văn hóa và xã hội
-- Lưu ý nhận thức cộng đồng về việc thu thập & sử dụng mẫu sinh học.  
-- Đưa ra chiến lược gắn kết: cộng đồng – cán bộ y tế – nhà hoạch định chính sách.  
-
-### 🔹 Kết quả kỳ vọng
-- **Manuscript**: tổng hợp dữ liệu nghiên cứu khả thi → mô tả hiện trạng hạ tầng Biobank tại Việt Nam.  
-- Đảm bảo hướng đi:  
-  - Phù hợp văn hóa – xã hội.  
-  - Đúng chuẩn mực đạo đức.  
-  - Bền vững về tài chính.  
+[🔎 Xem chi tiết Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam](expertise/biobank.qmd)
 
 
 
@@ -207,7 +103,7 @@ listing:
 
   <a href="expertise\biobank.qmd" class="specialty-box">
       <img src="images\expertise\biobank.png" alt="Biobank">
-      <div class="box-title">Ngân hàng mô (Biobank)</div>
+      <div class="box-title">Ngân hàng sinh học (Biobank)</div>
   </a>
 </div>
 

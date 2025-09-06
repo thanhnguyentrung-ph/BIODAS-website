@@ -1,6 +1,7 @@
 # Project setup
 project:
   type: website
+  output-dir: docs
   render:
     - "*.qmd"
 
@@ -14,9 +15,9 @@ execute:
 
 # Website setup
 website:
-  title: "BIODAS"
+  # title: "BIODAS"
   description: "BIODAS website"
-  favicon: "images/BIODAS-favicon.svg"
+  favicon: "images/BIODAS-logo/BIODAS-logo-webtab.png"
   back-to-top-navigation: true
   # Website setup >> URL
   site-url: https://biodas.net
@@ -25,8 +26,8 @@ website:
   # Website setup >> Navigation Bar setup
   navbar: 
     # Website setup >> Logo
-    # logo: "images/BIODAS_background.png"
-    logo-href: index.qmd
+    logo: "images/BIODAS-logo/BIODAS-logo-horizontal-radius.png"
+    logo-href: https://biodas.net
     background: "#313D5D"
     foreground: "#FFFFFF"
     title: ""
@@ -35,10 +36,10 @@ website:
       # 1. About BIODAS
       - text: "Giới thiệu"
         menu:
-        - text: "Tổng quan"
-          href: "about/overview.qmd"
-        - text: "BIODAS"
+        - text: "Giới thiệu BIODAS"
           href: "about/introduce.qmd"
+        - text: "Sứ mệnh, tầm nhìn và giá trị cốt lõi"
+          href: "about/mission-and-vision.qmd"
         - text: "Đội ngũ chuyên gia"
           href: "about/team.qmd"
       # 2. Field of Expertise
@@ -81,6 +82,8 @@ website:
           href: "media/conference.qmd"
         - text: "Xuất bản khoa học"
           href: "media/publication.qmd"
+        - text: "Tuyển dụng"
+          href: "media/recruitment/index.qmd"
       # 6. Link to other BIODAS platforms
       - icon: envelope
         aria-label: BIODAS mail

@@ -1,8 +1,75 @@
 ---
-title: "Updating"
-author: "Updating"
-date: "Updating"
-format: html
+title: Giới thiệu BIODAS </br> Viện Nghiên cứu Khoa học và Dữ liệu Y sinh
+subtitle: "Institute of Biomedical Data and Science Research"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+search: true
+toc: true
+repo-actions: false
+aliases: 
+  - /about/
 ---
 
-# Updating
+![](images/BIODAS-introduce.jpg){fig-align="center" style="border-radius: 12px;"}
+
+
+
+# 🧬 BIODAS — Institute of Biomedical Data and Science Research
+
+**BIODAS** là đơn vị nghiên cứu chuyên sâu trong lĩnh vực **y sinh học** và **khoa học dữ liệu** tại Việt Nam.  
+Sứ mệnh của chúng tôi là **kết nối** bệnh viện, viện nghiên cứu, **các đơn vị y tế công–tư trong và ngoài nước** để thúc đẩy nghiên cứu y học, phát triển công nghệ và nâng cao chất lượng điều trị cho cộng đồng.
+
+
+
+## 🎓 Đào tạo & Nâng cao năng lực
+
+::: callout-tip
+### Đào tạo & Nâng cao năng lực
+- **Thu thập & phân tích dữ liệu y sinh**: Excel, SPSS, R, **trực quan hóa dữ liệu** (data visualization).  
+- **Phương pháp nghiên cứu lâm sàng**: thiết kế nghiên cứu, quy trình nghiên cứu, **viết bản thảo khoa học**.  
+- **Hội thảo/Webinar miễn phí** về nghiên cứu y sinh & phân tích dữ liệu.  
+- **Mentoring trực tiếp** từ các chuyên gia trong nước và quốc tế.
+:::
+
+
+
+## 🔬 Nghiên cứu khoa học
+
+::: callout-note
+### Nghiên cứu khoa học
+- Hợp tác với **bệnh viện, viện nghiên cứu, trường đại học** trong các mảng: **nghiên cứu lâm sàng**, **y tế công cộng**, **khảo sát cộng đồng**.  
+- Thực hiện **báo cáo nghiên cứu**, **công bố khoa học**, và **báo cáo nghiên cứu thị trường y tế**.  
+- Đồng hành **thu thập & xử lý dữ liệu thực địa**, hỗ trợ **tuyển chọn bệnh nhân** theo kế hoạch nghiên cứu.
+:::
+
+
+
+## 🧊 Biobank & Dữ liệu y sinh
+
+::: callout-tip
+### Biobank & Dữ liệu y sinh
+- Xây dựng **ngân hàng mẫu sinh học (biobank)** gắn **dữ liệu lâm sàng, bệnh học, thông tin lối sống** và dữ liệu liên kết.  
+- Quy trình **được phê duyệt bởi hội đồng đạo đức**, tuân thủ **tiêu chuẩn trong nước và quốc tế**.
+:::
+
+
+
+## 🚀 Định hướng phát triển
+
+::: callout-note
+### Định hướng phát triển
+- **Khoa học • Kết nối • Vì cộng đồng**
+- **Mở rộng hệ sinh thái học thuật – thực hành**: kết hợp đào tạo, nghiên cứu và dữ liệu.  
+- **Tăng cường hợp tác** với các đơn vị công–tư **trong và ngoài nước**.  
+- **Nâng cao năng lực nghiên cứu** tại Việt Nam, góp phần **khẳng định vị thế quốc gia** trên bản đồ khoa học toàn cầu.
+:::
+
+
+
+## 📩 Liên hệ
+Email: **[contact@biodas.net](mailto:contact@biodas.net)**  
+
+
+
+**BIODAS — Khoa học • Kết nối • Vì cộng đồng**
+
