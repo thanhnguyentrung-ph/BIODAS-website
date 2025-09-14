@@ -93,19 +93,20 @@ website:
         href: https://github.com/thanhnguyentrung-ph/BIODAS-website
       - icon: linkedin
         aria-label: BIODAS LinkedIn
-        href: abc
+        href: https://www.linkedin.com/company/biodas-team/about/
       - icon: twitter-x
         aria-label: BIODAS Twitter/X
         href: abc
       - icon: facebook
         aria-label: BIODAS Facebook
-        href: abc
+        href: https://www.facebook.com/profile.php?id=61580207438020
       - icon: youtube
         aria-label: BIODAS Youtube
-        href: abc 
-      - icon: instagram
-        aria-label: BIODAS Instagram
-        href: abc 
+        href: https://www.youtube.com/@BIODAS-TEAM
+      - icon: tiktok
+        aria-label: BIODAS TikTok
+        href: tiktok
+
   
   # Website setup >> Page-footer setup
   page-footer:
@@ -121,19 +122,19 @@ website:
         href: https://github.com/thanhnguyentrung-ph/BIODAS-website
       - icon: linkedin
         aria-label: BIODAS LinkedIn
-        href: abc
+        href: https://www.linkedin.com/company/biodas-team/about/
       - icon: twitter-x
         aria-label: BIODAS Twitter/X
         href: abc
       - icon: facebook
         aria-label: BIODAS Facebook
-        href: abc
+        href: https://www.facebook.com/profile.php?id=61580207438020
       - icon: youtube
         aria-label: BIODAS Youtube
-        href: abc
-      - icon: instagram
-        aria-label: BIODAS Instagram
-        href: abc
+        href: https://www.youtube.com/@BIODAS-TEAM
+      - icon: tiktok
+        aria-label: BIODAS TikTok
+        href: tiktok
       - icon: rss
         aria-label: BIODAS RSS
         href: other/feeds.html
@@ -151,6 +152,10 @@ format:
     toc: true
     code-overflow: scroll
     linkcolor: "#313D5D"
+    grid:
+      sidebar-width: 200px
+      body-width: 1200px
+      margin-width: 200px
     
 
     

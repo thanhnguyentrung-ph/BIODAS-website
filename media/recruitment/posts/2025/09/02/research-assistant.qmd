@@ -14,7 +14,7 @@ aliases:
   - /media/recruitment/posts/2025/09/02/research-assistant.html
 ---
 
-![](images/poster2.jpg){fig-align="center"}
+![](images/poster1.jpg){fig-align="center"}
 
 
 
@@ -35,7 +35,7 @@ Vị trí này phù hợp với những ứng viên **đam mê nghiên cứu, c�
 ## 📌 Nhiệm vụ cụ thể
 
 ::: callout-note
-### Nhiệm vụ cụ thể
+### >>>
 - Tham gia xây dựng đề cương nghiên cứu, thiết kế công cụ, bảng kiểm, biểu mẫu khảo sát.  
 - Soạn thảo bản thảo công bố khoa học và các ấn phẩm của BIODAS (sách, poster, tài liệu hội thảo…).  
 - Dịch thuật tài liệu khoa học (Anh–Việt và ngược lại).  
@@ -50,7 +50,7 @@ Vị trí này phù hợp với những ứng viên **đam mê nghiên cứu, c�
 ## 🎯 Yêu cầu ứng viên
 
 ::: callout-note
-### Yêu cầu ứng viên
+### >>>
 - Tốt nghiệp khối ngành **Y, Dược, khoa học sức khỏe, khoa học y sinh** hoặc liên quan.  
 - Thành thạo **tiếng Anh 4 kỹ năng**.  
 - Có **kinh nghiệm và xuất bản khoa học quốc tế**.  
@@ -64,7 +64,7 @@ Vị trí này phù hợp với những ứng viên **đam mê nghiên cứu, c�
 ## 🌟 Quyền lợi
 
 ::: callout-note
-### Quyền lợi
+### >>>
 - **Thu nhập**: Lương cứng theo thỏa thuận + thưởng theo sản phẩm ấn phẩm xuất bản + thưởng tiến độ.  
 - **Được hướng dẫn trực tiếp** bởi các nhà nghiên cứu có kinh nghiệm công bố quốc tế.  
 - **Cơ hội đào tạo chuyên sâu** về viết và xuất bản khoa học quốc tế.  
@@ -78,7 +78,7 @@ Vị trí này phù hợp với những ứng viên **đam mê nghiên cứu, c�
 ## 📝 Cách thức ứng tuyển
 
 ::: callout-tip
-### Cách thức ứng tuyển
+### >>>
 - Gửi **CV và Cover Letter** (giới thiệu bản thân, nêu rõ lý do ứng tuyển) qua link:  
   👉 [https://forms.gle/v3XedpdkkP69ZjAv7](https://forms.gle/v3XedpdkkP69ZjAv7)  
 
@@ -99,7 +99,7 @@ Vị trí này phù hợp với những ứng viên **đam mê nghiên cứu, c�
 **Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)** là đơn vị kết nối và thúc đẩy nghiên cứu ứng dụng trong y tế và sinh học tại Việt Nam.  
 
 ::: callout-note
-### Giới thiệu về BIODAS
+### >>>
 Chúng tôi cung cấp giải pháp và dịch vụ hỗ trợ:
 - Thu thập, quản lý, phân tích dữ liệu y sinh theo chuẩn quốc tế.  
 - Nghiên cứu dịch tễ, lâm sàng, y sinh học, hệ thống thông tin y tế.  

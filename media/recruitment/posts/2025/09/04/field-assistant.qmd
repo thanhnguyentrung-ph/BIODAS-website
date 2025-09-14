@@ -14,7 +14,7 @@ aliases:
   - /media/recruitment/posts/2025/09/04/field-assistant.html
 ---
 
-![](images/poster2.jpg){fig-align="center"}
+![](images/poster1.jpg){fig-align="center"}
 
 # 📢 TUYỂN DỤNG – TRỢ LÝ THỰC ĐỊA
 
@@ -25,7 +25,7 @@ aliases:
 ## 🧭 Tóm tắt dự án nghiên cứu
 
 ::: callout-note
-### Tóm tắt dự án nghiên cứu
+### >>>
 Dự án xem xét tác động của chuyển đổi số đến hiệu quả bền vững trong sản xuất cà phê, tập trung vào hộ nông dân nhỏ lẻ và các công ty cà phê đang áp dụng công nghệ số cho cả tại nông trại và ngoài nông trại.
 
 Ứng dụng công nghệ trải từ smartphone (truy cập thông tin, giao tiếp) đến cảm biến (giám sát, tối ưu đầu vào), kỳ vọng mang lại lợi ích kinh tế–xã hội–môi trường, cải thiện ngành và chuỗi giá trị cà phê.
@@ -36,7 +36,7 @@ Dự án xem xét tác động của chuyển đổi số đến hiệu quả b�
 ## 🗓️📍 Thời gian & địa điểm
 
 ::: callout-note
-### Thời gian & địa điểm
+### >>>
 - **Thời gian**: Tháng **9–10/2025**  
   - Khảo sát **thực địa**: tháng **09/2025**  
   - Thu thập dữ liệu (phỏng vấn): tháng **10/2025** *(có thể kéo dài sang tháng 11/2025)*  
@@ -48,7 +48,7 @@ Dự án xem xét tác động của chuyển đổi số đến hiệu quả b�
 ## 👥 Tuyển dụng cán bộ thực địa – Phạm vi công việc
 
 ::: callout-note
-### Tuyển dụng cán bộ thực địa – Phạm vi công việc
+### >>>
 - Thực hiện **các chuyến khảo sát thực địa**.  
 - Giao tiếp với **hộ nông dân nhỏ lẻ, hợp tác xã, doanh nghiệp, cơ quan quản lý**.  
 - **Gắn kết cộng đồng** địa phương.  
@@ -61,7 +61,7 @@ Dự án xem xét tác động của chuyển đổi số đến hiệu quả b�
 ## 📌 Nhiệm vụ & trách nhiệm
 
 ::: callout-note
-### Nhiệm vụ & trách nhiệm
+### >>>
 - **Điều phối tại thực địa**: sắp xếp chuyến thăm, cuộc họp, phỏng vấn với các bên liên quan.  
 - **Hậu cần**: hỗ trợ di chuyển, ăn ở, chỗ nghỉ (khi cần).  
 - **Thực hiện khảo sát**: cùng nhóm nghiên cứu thăm nông trại/công ty cà phê để **thu thập dữ liệu**.  
@@ -76,7 +76,7 @@ Dự án xem xét tác động của chuyển đổi số đến hiệu quả b�
 ## 🎯 Yêu cầu ứng viên
 
 ::: callout-note
-### Yêu cầu ứng viên
+### >>>
 - **Giao tiếp**: kỹ năng nói/viết tốt để làm việc với các bên liên quan & người dân.  
 - **Kỹ năng quan hệ**: kết nối, xây dựng **lòng tin** với cộng đồng địa phương.  
 - **Thích ứng**: sẵn sàng **công tác** tại Đắk Lắk, Gia Lai, Lâm Đồng; làm việc tại **nông trại cà phê**.  
@@ -88,7 +88,7 @@ Dự án xem xét tác động của chuyển đổi số đến hiệu quả b�
 ## ✅ Ưu tiên ứng viên
 
 ::: callout-note
-### Ưu tiên ứng viên
+### >>>
 - Hiểu biết về **chính quyền địa phương**.  
 - Kiến thức về **ngành cà phê** tại địa phương.
 :::
@@ -98,7 +98,7 @@ Dự án xem xét tác động của chuyển đổi số đến hiệu quả b�
 ## 🌟 Quyền lợi
 
 ::: callout-note
-### Quyền lợi
+### >>>
 - **Thu nhập**: lương cứng theo thỏa thuận **+ hỗ trợ chi phí công tác** (di chuyển, ăn ở, hậu cần).  
 - **Đào tạo & hướng dẫn trực tiếp** bởi nhóm nghiên cứu có kinh nghiệm về phát triển bền vững, nông nghiệp, chuyển đổi số.  
 - **Mở rộng mạng lưới** với nông dân, hợp tác xã, doanh nghiệp, cơ quan quản lý, tổ chức quốc tế.  
@@ -113,7 +113,7 @@ Dự án xem xét tác động của chuyển đổi số đến hiệu quả b�
 ## 📝 Cách thức ứng tuyển
 
 ::: callout-tip
-### Cách thức ứng tuyển
+### >>>
 - Gửi **CV** và **Cover Letter** (giới thiệu bản thân, nêu rõ **lý do ứng tuyển**) theo link:  
   👉 [https://forms.gle/r75nD5dwd6hsCmsp9](https://forms.gle/r75nD5dwd6hsCmsp9)
 
@@ -135,7 +135,7 @@ Dự án xem xét tác động của chuyển đổi số đến hiệu quả b�
 **Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)** là đơn vị **kết nối và thúc đẩy nghiên cứu ứng dụng** trong y tế & sinh học tại Việt Nam.
 
 ::: callout-note
-### Giới thiệu về BIODAS
+### >>>
 Chúng tôi cung cấp giải pháp/dịch vụ:
 - **Triển khai, thu thập, quản lý, phân tích** dữ liệu nghiên cứu y sinh theo **chuẩn quốc tế**.  
 - Lĩnh vực trọng tâm: **dịch tễ, lâm sàng, y sinh học, hệ thống thông tin y tế**.  

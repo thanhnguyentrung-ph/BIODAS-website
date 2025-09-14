@@ -187,5 +187,23 @@
   },
   "media/international-cooperation.qmd": {
     "international-cooperation.html": "782bcf8e"
+  },
+  "media/recruitment/posts/2025/08/10/research-assistant.qmd": {
+    "research-assistant.html": "fd92a1c2"
+  },
+  "media/recruitment/posts/2025/09/02/research-assistant.qmd": {
+    "research-assistant.html": "04c77bff"
+  },
+  "media/recruitment/posts/2025/09/04/field-assistant.qmd": {
+    "field-assistant.html": "ec793f90"
+  },
+  "about/mission-and-vision.qmd": {
+    "mission-and-vision.html": "47824f0c"
+  },
+  "media/news.qmd": {
+    "news.html": "84a6f851"
+  },
+  "media/recruitment/index.qmd": {
+    "index.html": "f91edc88"
   }
 }

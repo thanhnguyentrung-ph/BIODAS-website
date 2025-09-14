@@ -1,13 +1,14 @@
 {
   "listingMap": {
     "index.qmd": [
-      "/3_activity",
-      "/4_resource",
-      "/5_media",
-      "!index.qmd",
       "/activity",
       "/resource",
-      "/media"
+      "/media",
+      "!index.qmd"
+    ],
+    "media\\recruitment\\index.qmd": [
+      "posts",
+      "!index.qmd"
     ]
   }
 }

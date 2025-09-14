@@ -1,6 +1,5 @@
 ---
 pagetitle: "Trang chủ"
-page-layout: article
 section-divs: false
 editor: source
 sidebar: false
@@ -9,6 +8,7 @@ repo-actions: false
 description: "Trang chủ website của BIODAS"
 hide-description: true
 toc: false
+
 listing:
     - id: latest-content
       contents:
@@ -24,7 +24,6 @@ listing:
       max-items: 3
       feed: false
 ---
-
 :::{.column-screen}
 
 ![](images/BIODAS-index-banner.svg)
@@ -33,32 +32,235 @@ listing:
 
 
 
-# Chào mừng đến với BIODAS
+# BIODAS — Institute of Biomedical Data and Science Research
 
-![](images/BIODAS-index-welcome.png){fig-align="center" style="border-radius: 12px;"}
+```{=html}
+<style>
+.section-intro {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Ảnh nền */
+.section-intro img.bg {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+/* Text box */
+.section-intro .text-box {
+    position: absolute;
+    top: 20%;
+    right: 9%;
+    width: 40%;
+    padding: 20px;
+    background-color: rgba(49, 61, 93, 0.8);
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: justify;
+    line-height: 1.6;
+    transition: background-color 0.3s ease;
+
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+/* Hover: nền đậm hơn */
+.section-intro .text-box:hover {
+    background-color: rgba(49, 61, 93, 0.95);
+}
+
+.section-intro .text-box h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Logo */
+.section-intro .logo {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 30%;
+    height: auto;
+
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.8s;
+}
+
+/* Animation cho text box và logo */
+@keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInLeft {
+    to { opacity: 1; transform: translateX(0); }
+}
+</style>
+
+
+<div class="section-intro">
+    <img src="images/BIODAS-index-background/BIODAS-index-background1.jpg" alt="Ảnh nền" class="bg">
+
+    <div class="text-box">
+        <h2>
+        Chào mừng đến với BIODAS<br>
+        Viện Nghiên cứu Khoa học và<br>Dữ liệu Y sinh
+        </h2>
+        <p>
+        BIODAS là đơn vị nghiên cứu chuyên sâu trong lĩnh vực y sinh học và khoa học dữ liệu tại Việt Nam.
+        </br></br>
+        Chúng tôi mang trong mình sứ mệnh kết nối bệnh viện, viện nghiên cứu, các đơn vị y tế công - tư trong và ngoài nước, nhằm thúc đẩy nghiên cứu y học, phát triển công nghệ và nâng cao chất lượng điều trị y tế cho cộng đồng.
+        </p>
+    </div>
+
+    <img src="images/BIODAS-logo/BIODAS-logo-horizontal.png" alt="Logo" class="logo">
+</div>
+```
+</br>
 
 
 
-***
+---
+
 
 
 # Sứ mệnh, tầm nhìn và giá trị cốt lõi của BIODAS
+```{=html}
+<style>
+.section-mission {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
 
-![](images/BIODAS-index-mission-vision.png){fig-align="center" style="border-radius: 12px;"}
+.section-mission img.bg {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+/* Container chứa 3 box */
+.section-mission .container {
+    position: absolute;
+    top: 50%;                
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    z-index: 2;
+}
+
+.section-mission .box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 30%;
+    opacity: 0; /* để animation xuất hiện */
+    animation: fadeUp 0.8s ease forwards;
+}
+
+/* Hiệu ứng xuất hiện lần lượt */
+.section-mission .box:nth-child(1) { animation-delay: 0.3s; }
+.section-mission .box:nth-child(2) { animation-delay: 0.6s; }
+.section-mission .box:nth-child(3) { animation-delay: 0.9s; }
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Title gradient + glow khi hover */
+.section-mission .box-title {
+    background: linear-gradient(135deg, rgba(49,61,93,0.9), rgba(80,100,140,0.9));
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 12px 12px 0 0;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: box-shadow 0.3s ease;
+}
+
+.section-mission .box-title:hover {
+    background-color: rgba(49, 61, 93, 0.95);
+    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+}
+
+/* Nội dung đổi màu khi hover */
+.section-mission .box-content {
+    background-color: rgba(49, 61, 93, 0.7);
+    color: #fff;
+    border-radius: 0 0 12px 12px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    flex: 1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.section-mission .box-content:hover {
+    background-color: rgba(49, 61, 93, 0.8);
+    color: #ffffff;
+}
+</style>
 
 
+<div class="section-mission">
+    <img src="images/BIODAS-index-background/BIODAS-index-background2.jpg" alt="Ảnh nền" class="bg">
 
-***
+    <div class="container">
+        <div class="box">
+        <div class="box-title">Sứ mệnh</div>
+        <div class="box-content">
+            BIODAS kết nối trí tuệ Việt Nam với khoa học toàn cầu, cung cấp giải pháp dữ liệu toàn diện, đồng hành cùng các đơn vị y tế trong và ngoài nước, thúc đẩy nghiên cứu y sinh và đổi mới sáng tạo vì một tương lai phồn vinh, nhân văn.
+        </div>
+        </div>
+
+        <div class="box">
+        <div class="box-title">Tầm nhìn</div>
+        <div class="box-content">
+            BIODAS tiên phong nghiên cứu khoa học & dữ liệu y sinh, đồng hành cùng kỷ nguyên vươn mình của dân tộc, vì sức khỏe và chất lượng sống cộng đồng.
+        </div>
+        </div>
+
+        <div class="box">
+        <div class="box-title">Giá trị cốt lõi</div>
+        <div class="box-content">
+            BIODAS đề cao Khoa học minh bạch, Đổi mới công nghệ, Kết nối hợp tác, Đạo đức nghiên cứu và Vì cộng đồng.
+        </div>
+        </div>
+    </div>
+</div>
+```
+</br>
 
 
+---
 
 # Hoạt động nổi bật của BIODAS
 
-![](images/BIODAS-index-biobank.png){fig-align="center" style="border-radius: 12px;"}
+<!-- ![](images/BIODAS-index-biobank.png){fig-align="center" style="border-radius: 12px;"}
 
 Biobank không chỉ là nơi lưu trữ mẫu sinh học mà còn là hạ tầng chiến lược phục vụ giám sát y tế công cộng và nghiên cứu khoa học. Trên thế giới, biobank chủ yếu tập trung ở các nước phát triển, trong khi LMIC (các quốc gia thu nhập trung bình và thấp) – bao gồm Việt Nam – còn thiếu hụt. WHO/IARC với mạng lưới BCnet đã khởi xướng hỗ trợ xây dựng biobank tại LMIC. Trong bối cảnh ASEAN tăng trưởng nhanh, mở rộng bảo hiểm y tế và chịu tác động của đại dịch COVID-19, nhu cầu xây dựng biobank tại Việt Nam trở nên cấp thiết.
 
-Đánh giá tính khả thi tập trung vào nhiều khía cạnh:
+### Đánh giá tính khả thi tập trung vào nhiều khía cạnh:
 - Hạ tầng và nguồn lực
 - Khung pháp lý & đạo đức
 - Tính bền vững
@@ -69,49 +271,337 @@ Biobank không chỉ là nơi lưu trữ mẫu sinh học mà còn là hạ tầ
 
 Kết quả kỳ vọng là một báo cáo (manuscript) mô tả hiện trạng và đưa ra khuyến nghị xây dựng Biobank tại Việt Nam theo hướng: phù hợp văn hóa – xã hội, tuân thủ chuẩn mực đạo đức, và bền vững về tài chính.
 
-[🔎 Xem chi tiết Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam](expertise/biobank.qmd)
+
+::: {.link-box}
+[🔎 Xem chi tiết: Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam](expertise/biobank.qmd)
+::: -->
+
+
+```{=html}
+<style>
+.section-highlight {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.section-highlight .highlight-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.section-highlight .highlight-slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.section-highlight .text-box {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  width: 75%;
+  background: rgba(49, 61, 93, 0.75);
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  line-height: 1.6;
+  text-align: justify;
+
+  /* Hiệu ứng glass effect */
+  backdrop-filter: blur(6px);
+
+  /* Hiệu ứng xuất hiện */
+  opacity: 0;
+  transform: translate(-50%, 30px);
+  animation: fadeUpBox 1s ease forwards;
+  animation-delay: 0.5s;
+
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.section-highlight .text-box:hover {
+  background: rgba(49, 61, 93, 0.9);
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+/* Animation cho text box */
+@keyframes fadeUpBox {
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.section-highlight .text-box h2 {
+  margin-bottom: 5px;
+}
+
+/* Nút điều hướng */
+.section-highlight .nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.section-highlight .nav-btn:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.section-highlight .nav-left {
+  left: 20px;
+}
+
+.section-highlight .nav-right {
+  right: 20px;
+}
+
+/* Dot indicators */
+.section-highlight .dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.section-highlight .dot {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.section-highlight .dot.active {
+  background: #fff;
+}
+</style>
+
+<div class="section-highlight">
+  <!-- Slide 1 -->
+  <div class="highlight-slide active" style="background-image: url('images/highlight/biobank.png');">
+    <div class="text-box">
+      <center><h2>Vietnam Biobanking Feasibility Study</h2></center>
+      <h4>Đánh giá tính khả thi tập trung vào nhiều khía cạnh:</h4>
+      <ul>
+        <li>Hạ tầng và nguồn lực</li>
+        <li>Khung pháp lý & đạo đức</li>
+        <li>Tính bền vững</li>
+        <li>Nhu cầu nghiên cứu & y tế công cộng</li>
+        <li>Quan hệ đối tác & hợp tác</li>
+        <li>Tác động kinh tế - xã hội</li>         
+      </ul>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="highlight-slide" style="background-image: url('images/highlight/data-tranining.jpg');">
+    <div class="text-box">
+      <center><h2>Project for Strengthening Data Processing and Analysis Capacity</h2></center>
+      <p>BIODAS Team triển khai Dự án Nâng cao năng lực xử lý và phân tích dữ liệu – chương trình hoàn toàn miễn phí, vì cộng đồng, nhằm lan tỏa tri thức và thúc đẩy nghiên cứu khoa học dữ liệu y sinh tại Việt Nam.</p>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="highlight-slide" style="background-image: url('images/highlight/data-handbook.jpg');">
+    <div class="text-box">
+      <center><h2>Project on Writing a Practical Guidebook for</br>Data Processing and Analysis</h2></center>
+      <p>BIODAS Team khởi động Dự án viết sách Hướng dẫn thực hành xử lý và phân tích dữ liệu – tài liệu nhằm cung cấp kiến thức nền tảng, kỹ năng ứng dụng, hỗ trợ học tập và nghiên cứu, đóng góp miễn phí cho cộng đồng khoa học dữ liệu y sinh tại Việt Nam.</p>
+    </div>
+  </div>
+
+  <!-- Slide 4 -->
+  <div class="highlight-slide" style="background-image: url('images/highlight/data-kap.jpg');">
+    <div class="text-box">
+      <center><h2>Survey on Knowledge, Attitudes, and Practices Regarding Data Use, e-Health, and Artificial Intelligence among Healthcare Workers</h2></center>
+      <p>BIODAS Team triển khai khảo sát về kiến thức, thái độ và thực hành của cán bộ y tế đối với dữ liệu, e-health và trí tuệ nhân tạo – nhằm nhận diện thực trạng, nhu cầu và cơ hội ứng dụng công nghệ số trong chăm sóc sức khỏe cộng đồng.</p>
+    </div>
+  </div>
+
+  <!-- Nút điều hướng -->
+  <button class="nav-btn nav-left">&#10094;</button>
+  <button class="nav-btn nav-right">&#10095;</button>
+
+  <!-- Dot indicators -->
+  <div class="dots">
+    <div class="dot active" data-index="0"></div>
+    <div class="dot" data-index="1"></div>
+    <div class="dot" data-index="2"></div>
+    <div class="dot" data-index="3"></div>
+  </div>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.highlight-slide');
+  const prevBtn = document.querySelector('.nav-left');
+  const nextBtn = document.querySelector('.nav-right');
+  const dots = document.querySelectorAll('.dot');
+  let currentIndex = 0;
+  let autoSlide;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+    });
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[index].classList.add('active');
+    currentIndex = index;
+  }
+
+  function nextSlide() {
+    let nextIndex = (currentIndex + 1) % slides.length;
+    showSlide(nextIndex);
+  }
+
+  function prevSlide() {
+    let prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(prevIndex);
+  }
+
+  nextBtn.addEventListener('click', () => {
+    nextSlide();
+    resetAutoSlide();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    prevSlide();
+    resetAutoSlide();
+  });
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      let index = parseInt(dot.getAttribute('data-index'));
+      showSlide(index);
+      resetAutoSlide();
+    });
+  });
+
+  function startAutoSlide() {
+    autoSlide = setInterval(nextSlide, 5000); // 5s move next slide
+  }
+
+  function resetAutoSlide() {
+    clearInterval(autoSlide);
+    startAutoSlide();
+  }
+
+  startAutoSlide();
+</script>
+```
+</br>
 
 
 
-***
+---
 
 
 
 # Chuyên môn của BIODAS
 
 ```{=html}
-<div class="container">
-  <a href="expertise\research.qmd" class="specialty-box">
-      <img src="images\expertise\research.jpg" alt="Nghiên cứu">
-      <div class="box-title">Nghiên cứu</div>
-  </a>
+<style>
+.section-expertise {
+    padding: 60px 40px;
+}
 
-  <a href="expertise\project.qmd" class="specialty-box">
-      <img src="images\expertise\project.jpg" alt="Dự án">
-      <div class="box-title">Dự án</div>
-  </a>
-  
-  <a href="expertise\training.qmd" class="specialty-box">
-      <img src="images\expertise\training.png" alt="Đào tạo/ Tập huấn">
-      <div class="box-title">Đạo tạo/ Tập huấn</div>
-  </a>
+.section-expertise .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
 
-  <a href="expertise\data.qmd" class="specialty-box">
-      <img src="images\expertise\data.png" alt="Dữ liệu">
-      <div class="box-title">Dữ liệu</div>
-  </a>
+.section-expertise .specialty-box {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 330px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none; /* Bỏ gạch chân link */
+    color: inherit; /* Giữ màu chữ */
+}
 
-  <a href="expertise\biobank.qmd" class="specialty-box">
-      <img src="images\expertise\biobank.png" alt="Biobank">
-      <div class="box-title">Ngân hàng sinh học (Biobank)</div>
-  </a>
+.section-expertise .specialty-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section-expertise .specialty-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section-expertise .box-title {
+    background-color: #e9ecef;
+    padding: 15px 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #313d5d;
+}
+</style>
+
+<div class="section-expertise">
+    <div class="container">
+        <a href="expertise/research.qmd" class="specialty-box">
+        <img src="images/expertise/research.jpg" alt="Nghiên cứu">
+        <div class="box-title">Nghiên cứu</div>
+        </a>
+
+        <a href="expertise/project.qmd" class="specialty-box">
+        <img src="images/expertise/project.jpg" alt="Dự án">
+        <div class="box-title">Dự án</div>
+        </a>
+        
+        <a href="expertise/training.qmd" class="specialty-box">
+        <img src="images/expertise/training.png" alt="Đào tạo/ Tập huấn">
+        <div class="box-title">Đào tạo/ Tập huấn</div>
+        </a>
+
+        <a href="expertise/data.qmd" class="specialty-box">
+        <img src="images/expertise/data.png" alt="Dữ liệu">
+        <div class="box-title">Dữ liệu</div>
+        </a>
+
+        <a href="expertise/biobank.qmd" class="specialty-box">
+        <img src="images/expertise/biobank.jpg" alt="Biobank">
+        <div class="box-title">Ngân hàng sinh học (Biobank)</div>
+        </a>
+    </div>
 </div>
-
-</p>
 ```
 
 
-***
+---
 
 
 # Tin tức gần nhất
@@ -124,4 +614,3 @@ Kết quả kỳ vọng là một báo cáo (manuscript) mô tả hiện trạng
 :::
 
 
-***
