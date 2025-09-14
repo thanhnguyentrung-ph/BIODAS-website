@@ -405,7 +405,7 @@ Kết quả kỳ vọng là một báo cáo (manuscript) mô tả hiện trạng
 
 <div class="section-highlight">
   <!-- Slide 1 -->
-  <div class="highlight-slide active" style="background-image: url('images/highlight/biobank.png');">
+  <div class="highlight-slide active" style="background-image: url('images/expertise/biobank.jpg');">
     <div class="text-box">
       <center><h2>Vietnam Biobanking Feasibility Study</h2></center>
       <h4>Đánh giá tính khả thi tập trung vào nhiều khía cạnh:</h4>
@@ -421,7 +421,7 @@ Kết quả kỳ vọng là một báo cáo (manuscript) mô tả hiện trạng
   </div>
 
   <!-- Slide 2 -->
-  <div class="highlight-slide" style="background-image: url('images/highlight/data-tranining.jpg');">
+  <div class="highlight-slide" style="background-image: url('images/expertise/data.png');">
     <div class="text-box">
       <center><h2>Project for Strengthening Data Processing and Analysis Capacity</h2></center>
       <p>BIODAS Team triển khai Dự án Nâng cao năng lực xử lý và phân tích dữ liệu – chương trình hoàn toàn miễn phí, vì cộng đồng, nhằm lan tỏa tri thức và thúc đẩy nghiên cứu khoa học dữ liệu y sinh tại Việt Nam.</p>
@@ -429,7 +429,7 @@ Kết quả kỳ vọng là một báo cáo (manuscript) mô tả hiện trạng
   </div>
 
   <!-- Slide 3 -->
-  <div class="highlight-slide" style="background-image: url('images/highlight/data-handbook.jpg');">
+  <div class="highlight-slide" style="background-image: url('images/expertise/research.jpg');">
     <div class="text-box">
       <center><h2>Project on Writing a Practical Guidebook for</br>Data Processing and Analysis</h2></center>
       <p>BIODAS Team khởi động Dự án viết sách Hướng dẫn thực hành xử lý và phân tích dữ liệu – tài liệu nhằm cung cấp kiến thức nền tảng, kỹ năng ứng dụng, hỗ trợ học tập và nghiên cứu, đóng góp miễn phí cho cộng đồng khoa học dữ liệu y sinh tại Việt Nam.</p>
@@ -437,7 +437,7 @@ Kết quả kỳ vọng là một báo cáo (manuscript) mô tả hiện trạng
   </div>
 
   <!-- Slide 4 -->
-  <div class="highlight-slide" style="background-image: url('images/highlight/data-kap.jpg');">
+  <div class="highlight-slide" style="background-image: url('images/expertise/project.jpg');">
     <div class="text-box">
       <center><h2>Survey on Knowledge, Attitudes, and Practices Regarding Data Use, e-Health, and Artificial Intelligence among Healthcare Workers</h2></center>
       <p>BIODAS Team triển khai khảo sát về kiến thức, thái độ và thực hành của cán bộ y tế đối với dữ liệu, e-health và trí tuệ nhân tạo – nhằm nhận diện thực trạng, nhu cầu và cơ hội ứng dụng công nghệ số trong chăm sóc sức khỏe cộng đồng.</p>
