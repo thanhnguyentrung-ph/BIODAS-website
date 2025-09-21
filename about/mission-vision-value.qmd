@@ -1,0 +1,195 @@
+---
+title: Sứ mệnh - Tầm nhìn - Giá trị cốt lõi
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+search: true
+toc: true
+repo-actions: false
+aliases: 
+  - /about/
+---
+
+![](images/mission-vision-value.jpg){fig-align="center" class="img-cover"}
+
+
+```{=html}
+
+<style>
+.section-mission-vision-value {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.section-mission-vision-value .core-box {
+  flex: 1 1 calc(33.333% - 20px);
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: scale(0.9);
+  transition: transform 0.8s ease, opacity 0.8s ease, box-shadow 0.3s ease;
+}
+
+/* Hover */
+.section-mission-vision-value .core-box:hover {
+  transform: scale(1.03) translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Ảnh cùng kích thước */
+.section-mission-vision-value img {
+  width: 100%;
+  height: 300px;         /* cố định chiều cao */
+  object-fit: cover;     /* cắt ảnh đều, không méo */
+  border-radius: 12px 12px 0 0;
+}
+
+/* Title */
+.section-mission-vision-value .title {
+  padding: 14px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #313d5d, #4a5d9d);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: box-shadow 0.3s ease;
+}
+
+.section-mission-vision-value .title:hover {
+  box-shadow: 0 0 12px rgba(74,93,157,0.8);
+}
+
+/* Content */
+.section-mission-vision-value .content {
+  padding: 16px 20px;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #333;
+}
+
+.section-mission-vision-value .content ul {
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.section-mission-vision-value .content li {
+  margin-bottom: 8px;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .section-mission-vision-value .core-box {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .section-mission-vision-value .core-box {
+    flex: 1 1 100%;
+  }
+}
+
+/* Hiệu ứng xuất hiện xen kẽ */
+.section-mission-vision-value .mission { transform: translateX(-60px) scale(0.9); }
+.section-mission-vision-value .vision  { transform: translateX(60px) scale(0.9); }
+.section-mission-vision-value .values  { transform: translateY(60px) scale(0.9); }
+
+.section-mission-vision-value .core-box.visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0) scale(1);
+}
+
+/* Delay lần lượt cho box */
+.section-mission-vision-value .mission.visible { transition-delay: 0.2s; }
+.section-mission-vision-value .vision.visible  { transition-delay: 0.4s; }
+.section-mission-vision-value .values.visible  { transition-delay: 0.6s; }
+
+/* Keyframes cho li */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<div class="section-mission-vision-value">
+  <!-- Mission -->
+  <div class="core-box mission">
+    <img src="images/mission.jpg" alt="Mission">
+    <div class="title">Sứ mệnh</div>
+    <div class="content">
+      <ul>
+        <li>Kết nối trí tuệ Việt Nam với xu thế khoa học toàn cầu</li>
+        <li>Cung cấp giải pháp toàn diện: thu thập, quản lý, phân tích dữ liệu và chuyển giao công nghệ</li>
+        <li>Đồng hành cùng bệnh viện, viện nghiên cứu, đơn vị y tế công-tư trong nước và quốc tế</li>
+        <li>Thúc đẩy nghiên cứu y sinh, đổi mới sáng tạo, vì một tương lai phồn vinh và nhân văn</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Vision -->
+  <div class="core-box vision">
+    <img src="images/vision.jpg" alt="Vision">
+    <div class="title">Tầm nhìn</div>
+    <div class="content">
+      <ul>
+        <li>Trở thành đơn vị tiên phong của Việt Nam trong nghiên cứu khoa học và dữ liệu y sinh</li>
+        <li>Đồng hành cùng kỷ nguyên vươn mình của dân tộc, khẳng định vị thế đất nước trên bản đồ khoa học thế giới</li>
+        <li>Góp phần nâng cao sức khỏe và chất lượng sống cho cộng đồng</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Values -->
+  <div class="core-box values">
+    <img src="images/value.jpg" alt="Value">
+    <div class="title">Giá trị cốt lõi</div>
+    <div class="content">
+      <ul>
+        <li><strong>Khoa học:</strong> Minh bạch, chuẩn mực, khách quan trong nghiên cứu và phân tích dữ liệu</li>
+        <li><strong>Đổi mới:</strong> Ứng dụng công nghệ tiên tiến, E-Health và trí tuệ nhân tạo trong y sinh</li>
+        <li><strong>Kết nối:</strong> Cầu nối hợp tác giữa bệnh viện, viện nghiên cứu, doanh nghiệp và quốc tế</li>
+        <li><strong>Đạo đức:</strong> Tuân thủ nghiêm ngặt chuẩn mực đạo đức, bảo mật và đồng thuận trong nghiên cứu</li>
+        <li><strong>Vì cộng đồng:</strong> Tạo dữ liệu tham chiếu đặc thù, nâng cao chất lượng điều trị, đóng góp cho sức khỏe cộng đồng</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+/* Fade-in + zoom + staggered list */
+document.addEventListener("DOMContentLoaded", function() {
+  const boxes = document.querySelectorAll(".section-mission-vision-value .core-box");
+
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.9;
+
+    boxes.forEach(box => {
+      const boxTop = box.getBoundingClientRect().top;
+      if (boxTop < triggerBottom) {
+        if (!box.classList.contains("visible")) {
+          box.classList.add("visible");
+
+          // Hiệu ứng staggered cho list item
+          const items = box.querySelectorAll("li");
+          items.forEach((item, index) => {
+            item.style.animation = `fadeUp 0.6s ease forwards`;
+            item.style.animationDelay = `${0.2 + index * 0.15}s`;
+          });
+        }
+      }
+    });
+  };
+
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll();
+});
+</script>
+```

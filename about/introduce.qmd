@@ -1,8 +1,9 @@
 ---
 title: Giới thiệu BIODAS </br> Viện Nghiên cứu Khoa học và Dữ liệu Y sinh
-subtitle: "Institute of Biomedical Data and Science Research"
+subtitle: Institute of Biomedical Data and Science Research
 title-block-banner: "#313d5d"
 title-block-banner-color: "#ffffff"
+sidebar: true
 search: true
 toc: true
 repo-actions: false
@@ -10,66 +11,207 @@ aliases:
   - /about/
 ---
 
-![](images/BIODAS-introduce.jpg){fig-align="center" style="border-radius: 12px;"}
+![](images/introduce.jpg){fig-align="center" class="img-cover"}
 
 
 
-# 🧬 BIODAS — Institute of Biomedical Data and Science Research
+# BIODAS — Institute of Biomedical Data and Science Research
 
-**BIODAS** là đơn vị nghiên cứu chuyên sâu trong lĩnh vực **y sinh học** và **khoa học dữ liệu** tại Việt Nam.  
-Sứ mệnh của chúng tôi là **kết nối** bệnh viện, viện nghiên cứu, **các đơn vị y tế công–tư trong và ngoài nước** để thúc đẩy nghiên cứu y học, phát triển công nghệ và nâng cao chất lượng điều trị cho cộng đồng.
-
-
-
-## 🎓 Đào tạo & Nâng cao năng lực
-
-::: callout-tip
-### Đào tạo & Nâng cao năng lực
-- **Thu thập & phân tích dữ liệu y sinh**: Excel, SPSS, R, **trực quan hóa dữ liệu** (data visualization).  
-- **Phương pháp nghiên cứu lâm sàng**: thiết kế nghiên cứu, quy trình nghiên cứu, **viết bản thảo khoa học**.  
-- **Hội thảo/Webinar miễn phí** về nghiên cứu y sinh & phân tích dữ liệu.  
-- **Mentoring trực tiếp** từ các chuyên gia trong nước và quốc tế.
-:::
+**BIODAS** là đơn vị nghiên cứu chuyên sâu trong lĩnh vực y sinh học và khoa học dữ liệu tại Việt Nam.  
+Sứ mệnh của chúng tôi là kết nối bệnh viện, viện nghiên cứu, các đơn vị y tế công–tư trong và ngoài nước để thúc đẩy nghiên cứu y học, phát triển công nghệ và nâng cao chất lượng điều trị cho cộng đồng.
 
 
+```{=html}
+<style>
+.section-introduce {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
 
-## 🔬 Nghiên cứu khoa học
+/* Box mặc định: PC/Laptop (5 box / 1 hàng) */
+.section-introduce .service-box {
+  flex: 1 1 calc(20% - 20px); /* 5 box chia đều */
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.8s ease, box-shadow 0.3s ease, opacity 0.8s ease;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;                  
+  transform: scale(0.9);
+}
 
-::: callout-note
-### Nghiên cứu khoa học
-- Hợp tác với **bệnh viện, viện nghiên cứu, trường đại học** trong các mảng: **nghiên cứu lâm sàng**, **y tế công cộng**, **khảo sát cộng đồng**.  
-- Thực hiện **báo cáo nghiên cứu**, **công bố khoa học**, và **báo cáo nghiên cứu thị trường y tế**.  
-- Đồng hành **thu thập & xử lý dữ liệu thực địa**, hỗ trợ **tuyển chọn bệnh nhân** theo kế hoạch nghiên cứu.
-:::
+/* Tablet: 2 box / 1 hàng */
+@media (max-width: 991px) {
+  .section-introduce .service-box {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+/* Mobile: 1 box / 1 hàng */
+@media (max-width: 768px) {
+  .section-introduce .service-box {
+    flex: 1 1 100%;
+  }
+}
+
+/* Hiệu ứng fade-in xen kẽ */
+.section-introduce .service-box.left {
+  transform: translateX(-50px) scale(0.9);
+}
+.section-introduce .service-box.right {
+  transform: translateX(50px) scale(0.9);
+}
+
+/* Khi hiện ra màn hình */
+.section-introduce .service-box.visible {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+/* Thêm delay cho từng box */
+.section-introduce .service-box.visible:nth-child(1) { transition-delay: 0.2s; }
+.section-introduce .service-box.visible:nth-child(2) { transition-delay: 0.4s; }
+.section-introduce .service-box.visible:nth-child(3) { transition-delay: 0.6s; }
+.section-introduce .service-box.visible:nth-child(4) { transition-delay: 0.8s; }
+.section-introduce .service-box.visible:nth-child(5) { transition-delay: 1s; }
+
+/* Hover */
+.section-introduce .service-box:hover {
+  transform: scale(1.03) translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2), 0 0 12px rgba(49,61,93,0.3);
+}
+
+/* Title */
+.section-introduce .service-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  background: linear-gradient(90deg, #313d5d, #4a5d9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Nội dung */
+.section-introduce .service-box ul {
+  list-style: disc;
+  margin-left: 8px;
+  line-height: 1.6;
+}
+
+.section-introduce .service-box li {
+  margin-bottom: 8px;
+  font-weight: normal;   
+  opacity: 0;
+  transform: translateY(5px);
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.section-introduce .service-box li:nth-child(1) { animation-delay: 0.2s; }
+.section-introduce .service-box li:nth-child(2) { animation-delay: 0.4s; }
+.section-introduce .service-box li:nth-child(3) { animation-delay: 0.6s; }
+.section-introduce .service-box li:nth-child(4) { animation-delay: 0.8s; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Highlight màu khác nhau cho từng box */
+.section-introduce .service-box.tip { border-top: 6px solid #2a9d8f; }
+.section-introduce .service-box.note { border-top: 6px solid #e76f51; }
+.section-introduce .service-box.data { border-top: 6px solid #457b9d; }
+.section-introduce .service-box.future { border-top: 6px solid #f4a261; }
+.section-introduce .service-box.market { border-top: 6px solid #8e44ad; } /* tím */
+</style>
+
+<div class="section-introduce">
+  <!-- Block 1 -->
+  <div class="service-box tip left">
+    <h2>Đào tạo & Nâng cao năng lực</h2>
+    <ul>
+      <li>Thu thập & phân tích dữ liệu y sinh: Excel, SPSS, R, trực quan hóa dữ liệu (data visualization).</li>
+      <li>Phương pháp nghiên cứu lâm sàng: thiết kế nghiên cứu, quy trình nghiên cứu, viết bản thảo khoa học.</li>
+      <li>Hội thảo/Webinar miễn phí về nghiên cứu y sinh & phân tích dữ liệu.</li>
+      <li>Mentoring trực tiếp từ các chuyên gia trong nước và quốc tế.</li>
+    </ul>
+  </div>
+
+  <!-- Block 2 -->
+  <div class="service-box note right">
+    <h2>Nghiên cứu khoa học</h2>
+    <ul>
+      <li>Hợp tác với bệnh viện, viện nghiên cứu, trường đại học trong các mảng: nghiên cứu lâm sàng, y tế công cộng, khảo sát cộng đồng.</li>
+      <li>Thực hiện báo cáo nghiên cứu, công bố khoa học, và báo cáo nghiên cứu thị trường y tế.</li>
+      <li>Đồng hành thu thập & xử lý dữ liệu thực địa, hỗ trợ tuyển chọn bệnh nhân theo kế hoạch nghiên cứu.</li>
+    </ul>
+  </div>
+
+  <!-- Block 3 -->
+  <div class="service-box data left">
+    <h2>Ngân hàng y sinh & Dữ liệu y sinh</h2>
+    <ul>
+      <li>Xây dựng ngân hàng mẫu sinh học (biobank) gắn dữ liệu lâm sàng, bệnh học, thông tin lối sống và dữ liệu liên kết.</li>
+      <li>Quy trình được phê duyệt bởi hội đồng đạo đức, tuân thủ tiêu chuẩn trong nước và quốc tế.</li>
+    </ul>
+  </div>
+
+  <!-- Block 4 -->
+  <div class="service-box future right">
+    <h2>Định hướng phát triển</h2>
+    <ul>
+      <li>Khoa học • Kết nối • Vì cộng đồng</li>
+      <li>Mở rộng hệ sinh thái học thuật – thực hành: kết hợp đào tạo, nghiên cứu và dữ liệu.</li>
+      <li>Tăng cường hợp tác với các đơn vị công–tư trong và ngoài nước.</li>
+      <li>Nâng cao năng lực nghiên cứu tại Việt Nam, góp phần khẳng định vị thế quốc gia trên bản đồ khoa học toàn cầu.</li>
+    </ul>
+  </div>
+
+  <!-- Block 5 -->
+  <div class="service-box market left">
+    <h2>Nghiên cứu thị trường</h2>
+    <ul>
+      <li>Doanh nghiệp y tế và dược phẩm: đánh giá tiềm năng thị trường, xác định điểm mạnh, điểm yếu, khoảng trống, thách thức và cơ hội đầu tư.</li>
+      <li>Bệnh viện và viện nghiên cứu: xây dựng kế hoạch phát triển dịch vụ và hợp tác nghiên cứu phù hợp với nhu cầu cộng đồng.</li>
+      <li>Cơ quan quản lý: cung cấp bằng chứng khoa học phục vụ xây dựng chính sách và chiến lược y tế bền vững.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+/* Script để add class "visible" khi scroll xuống */
+document.addEventListener("DOMContentLoaded", function() {
+  const boxes = document.querySelectorAll(".section-introduce .service-box");
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.9;
+    boxes.forEach(box => {
+      const boxTop = box.getBoundingClientRect().top;
+      if (boxTop < triggerBottom) {
+        box.classList.add("visible");
+      }
+    });
+  };
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll(); // chạy ngay khi load
+});
+</script>
+
+```
+</br>
 
 
 
-## 🧊 Biobank & Dữ liệu y sinh
-
-::: callout-tip
-### Biobank & Dữ liệu y sinh
-- Xây dựng **ngân hàng mẫu sinh học (biobank)** gắn **dữ liệu lâm sàng, bệnh học, thông tin lối sống** và dữ liệu liên kết.  
-- Quy trình **được phê duyệt bởi hội đồng đạo đức**, tuân thủ **tiêu chuẩn trong nước và quốc tế**.
-:::
-
-
-
-## 🚀 Định hướng phát triển
-
-::: callout-note
-### Định hướng phát triển
-- **Khoa học • Kết nối • Vì cộng đồng**
-- **Mở rộng hệ sinh thái học thuật – thực hành**: kết hợp đào tạo, nghiên cứu và dữ liệu.  
-- **Tăng cường hợp tác** với các đơn vị công–tư **trong và ngoài nước**.  
-- **Nâng cao năng lực nghiên cứu** tại Việt Nam, góp phần **khẳng định vị thế quốc gia** trên bản đồ khoa học toàn cầu.
-:::
-
-
-
-## 📩 Liên hệ
+## Liên hệ
 Email: **[contact@biodas.net](mailto:contact@biodas.net)**  
 
 
 
-**BIODAS — Khoa học • Kết nối • Vì cộng đồng**
-
+<span style="color:#313d5d; font-weight:bold;">
+BIODAS — Khoa học • Kết nối • Vì cộng đồng
+</span>

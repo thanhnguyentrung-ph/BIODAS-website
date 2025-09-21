@@ -1,28 +1,39 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/recruitment/index.html",
     "items": [
-      "/media/recruitment/posts/2025/09/04/field-assistant.html",
-      "/media/recruitment/posts/2025/09/02/research-assistant.html",
-      "/media/recruitment/posts/2025/08/10/research-assistant.html",
-      "/activity/data.html",
-      "/activity/market-research.html",
-      "/activity/research.html",
-      "/activity/training.html",
-      "/resource/resource.html",
-      "/media/community.html",
-      "/media/conference.html",
-      "/media/international-cooperation.html",
-      "/media/news.html",
-      "/media/publication.html"
+      "/recruitment/posts/2025/09/04/field-assistant.html",
+      "/recruitment/posts/2025/09/02/research-assistant.html",
+      "/recruitment/posts/2025/08/10/research-assistant.html"
     ]
   },
   {
-    "listing": "/media/recruitment/index.html",
+    "listing": "/index.html",
     "items": [
-      "/media/recruitment/posts/2025/09/04/field-assistant.html",
-      "/media/recruitment/posts/2025/09/02/research-assistant.html",
-      "/media/recruitment/posts/2025/08/10/research-assistant.html"
+      "/recruitment/posts/2025/09/04/field-assistant.html",
+      "/recruitment/posts/2025/09/02/research-assistant.html",
+      "/project/posts/2025/08/20/vn-medical-tourism.html",
+      "/project/posts/2025/08/24/data-training.html",
+      "/project/posts/2025/08/28/data-handbook.html",
+      "/project/posts/2025/09/02/data-kap.html",
+      "/project/posts/2025/08/16/vn-biobank-data.html",
+      "/project/posts/2025/08/12/vn-biobank-risk-manage.html",
+      "/recruitment/posts/2025/08/10/research-assistant.html",
+      "/project/posts/2025/08/08/vn-biobank-feasibility.html",
+      "/project/posts/2025/08/04/vn-biobank-nsclc.html"
+    ]
+  },
+  {
+    "listing": "/project/index.html",
+    "items": [
+      "/project/posts/2025/08/20/vn-medical-tourism.html",
+      "/project/posts/2025/08/24/data-training.html",
+      "/project/posts/2025/08/28/data-handbook.html",
+      "/project/posts/2025/09/02/data-kap.html",
+      "/project/posts/2025/08/16/vn-biobank-data.html",
+      "/project/posts/2025/08/12/vn-biobank-risk-manage.html",
+      "/project/posts/2025/08/08/vn-biobank-feasibility.html",
+      "/project/posts/2025/08/04/vn-biobank-nsclc.html"
     ]
   }
 ]

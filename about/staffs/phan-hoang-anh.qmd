@@ -1,0 +1,215 @@
+---
+title: "DS. Phan Hoàng Anh"
+subtitle: "Trợ lý nghiên cứu"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+sidebar: false
+toc: false
+repo-actions: false
+aliases: 
+  - /about/staffs/
+---
+
+```{=html}
+<style>
+/* Container 2 cột */
+.section-team-member {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+/* Cột ảnh */
+.section-team-member .profile-pic-wrapper {
+  flex: 0 0 280px;
+  position: sticky;
+  top: 100px;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideInLeft 1s ease forwards;
+}
+@keyframes slideInLeft {
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Ảnh */
+.section-team-member .profile-pic {
+  width: 100%;
+  border-radius: 16px; /* bo góc nhẹ giống Bevel Rectangle */
+  padding: 6px; /* tạo khoảng viền */
+  background: linear-gradient(145deg, #ffffff, #c9c9c9); /* gradient sáng - tối mô phỏng bevel */
+  
+  box-shadow: inset 3px 3px 6px rgba(0,0,0,0.2),   /* bóng trong tối */
+              inset -3px -3px 6px rgba(255,255,255,0.7), /* bóng trong sáng */
+              4px 4px 10px rgba(0,0,0,0.3); /* bóng ngoài nhẹ */
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-team-member .profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.25),
+              inset -2px -2px 5px rgba(255,255,255,0.8),
+              6px 6px 14px rgba(0,0,0,0.4);
+}
+
+/* Cột nội dung */
+.section-team-member .profile-content {
+  flex: 1;
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  padding: 25px;
+  line-height: 1.7;
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideInRight 1s ease forwards;
+  animation-delay: 0.3s;
+}
+@keyframes slideInRight {
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Tên chuyên gia: highlight + căn giữa */
+.section-team-member .profile-content h2 {
+  margin-top: 0;
+  color: #313d5d;
+  font-size: 1.8em;
+  font-weight: bold;
+  border-bottom: 2px solid #1265c9;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Văn bản: căn đều, không có background chữ */
+.section-team-member .profile-content p {
+  color: #444;
+  font-size: 1em;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  text-align: justify;
+}
+.section-team-member .profile-content p.glow {
+  opacity: 1;
+  transform: translateY(0);
+}
+.section-team-member .profile-content p:nth-of-type(1).glow { transition-delay: 0.2s; }
+.section-team-member .profile-content p:nth-of-type(2).glow { transition-delay: 0.5s; }
+.section-team-member .profile-content p:nth-of-type(3).glow { transition-delay: 0.8s; }
+
+/* Icons: căn giữa */
+.section-team-member .contact-icons {
+  margin-top: 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.section-team-member .contact-icons.glow {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1.2s;
+}
+.section-team-member .contact-icons a {
+  margin: 0 10px;
+  font-size: 1.6em;
+  color: #313d5d;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.section-team-member .contact-icons a:hover {
+  color: #1265c9;
+  transform: scale(1.2);
+}
+
+/* Nút quay lại: căn giữa */
+.section-team-member .back-btn {
+  display: block;
+  margin: 25px auto 0; /* căn giữa */
+  padding: 12px 22px;
+  background: #313d5d;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  width: fit-content;
+}
+.section-team-member .back-btn:hover {
+  background: #1265c9;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(18, 101, 201, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .section-team-member {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-team-member .profile-pic-wrapper {
+    position: relative;
+    top: auto;
+    margin-bottom: 20px;
+    width: 60%;
+  }
+  .section-team-member .profile-content {
+    width: 100%;
+  }
+}
+</style>
+
+<section class="section-team-member">
+
+  <!-- Cột ảnh -->
+  <div class="profile-pic-wrapper">
+    <img src="images/phan-hoang-anh.jpg" alt="Phan Hoàng Anh" class="profile-pic" id="expert-pic">
+  </div>
+
+  <!-- Cột nội dung -->
+  <div class="profile-content">
+    <h2>DS. Phan Hoàng Anh</h2>
+    <p>DS. Phan Hoàng Anh (sinh năm 2003), quốc tịch Việt Nam, hiện là sinh viên năm thứ 5 chuyên ngành Dược lâm sàng tại Trường Đại học Dược Hà Nội. Trong quá trình học tập và rèn luyện, tôi đặc biệt quan tâm đến các lĩnh vực dược lâm sàng và dịch tễ dược, nơi dữ liệu y sinh và phân tích thống kê đóng vai trò then chốt trong việc nâng cao hiệu quả chăm sóc sức khỏe.</p>
+    <p>Tôi đã có cơ hội cộng tác cùng Trung tâm DI & ADR Quốc gia, qua đó tiếp cận thực tiễn công tác cảnh giác dược, đánh giá an toàn thuốc và quản lý dữ liệu báo cáo phản ứng có hại. Trải nghiệm này giúp tôi củng cố kỹ năng về thống kê, phân tích dữ liệu y sinh, đồng thời mở rộng góc nhìn về ứng dụng khoa học dữ liệu trong nghiên cứu lâm sàng.</p>
+    <p>Định hướng nghề nghiệp của tôi là trở thành một Điều phối viên Thử nghiệm Lâm sàng (Clinical Trial Associate), đồng thời phát triển nghiên cứu trong lĩnh vực dược lâm sàng. Tôi tin rằng sự kết hợp giữa chuyên môn y dược, tư duy dữ liệu sẽ tạo ra những giải pháp đột phá, góp phần nâng cao chất lượng thử nghiệm lâm sàng và chăm sóc sức khỏe cộng đồng.</p>
+
+    <div class="contact-icons">
+      <a href="mailto:phacbq@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/phan-hoang-anh-0822a3229/" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+    </div>
+
+    <a href="https://biodas.net/about/team.html" class="back-btn">← Quay lại danh sách Chuyên gia và Nhân sự</a>
+  </div>
+
+</section>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+// Parallax effect
+window.addEventListener("scroll", function() {
+  const pic = document.getElementById("expert-pic");
+  const offset = window.scrollY * 0.0015; 
+  pic.style.transform = `scale(${1 + offset})`;
+});
+
+// Glow on scroll
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("glow");
+    }
+  });
+}, { threshold: 0.2 });
+
+document.querySelectorAll(".profile-content p, .contact-icons, #expert-pic")
+  .forEach(el => observer.observe(el));
+</script>
+```

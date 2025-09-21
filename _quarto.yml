@@ -17,7 +17,7 @@ execute:
 website:
   # title: "BIODAS"
   description: "BIODAS website"
-  favicon: "images/BIODAS-logo/BIODAS-logo-webtab.png"
+  favicon: "images/logo/BIODAS-logo-webtab.png"
   back-to-top-navigation: true
   # Website setup >> URL
   site-url: https://biodas.net
@@ -26,7 +26,7 @@ website:
   # Website setup >> Navigation Bar setup
   navbar: 
     # Website setup >> Logo
-    logo: "images/BIODAS-logo/BIODAS-logo-horizontal-radius.png"
+    logo: "images/logo/BIODAS-logo-horizontal-radius.png"
     logo-href: https://biodas.net
     background: "#313D5D"
     foreground: "#FFFFFF"
@@ -38,53 +38,37 @@ website:
         menu:
         - text: "Giới thiệu BIODAS"
           href: "about/introduce.qmd"
-        - text: "Sứ mệnh, tầm nhìn và giá trị cốt lõi"
-          href: "about/mission-and-vision.qmd"
-        - text: "Đội ngũ chuyên gia"
+        - text: "Sứ mệnh-Tầm nhìn-Giá trị cốt lõi"
+          href: "about/mission-vision-value.qmd"
+        - text: "Nhân sự"
           href: "about/team.qmd"
-      # 2. Field of Expertise
-      - text: "Chuyên môn"
-        menu:
-        - text: "Nghiên cứu"
-          href: "expertise/research.qmd"
-        - text: "Dự án"
-          href: "expertise/project.qmd"
-        - text: "Đào tạo/Tập huấn"
-          href: "expertise/training.qmd"
-        - text: "Dữ liệu"
-          href: "expertise/data.qmd"
-        - text: "Biobank"
-          href: "expertise/biobank.qmd"
-      # 3. BIODAS activities
-      - text: "Hoạt động"
-        menu:
-        - text: "Thực hiện nghiên cứu y sinh"
-          href: "expertise/research.qmd"
-        - text: "Khảo sát thị trường"
-          href: "expertise/market-research.qmd"
-        - text: "Khoa học dữ liệu"
-          href: "expertise/data.qmd"
-        - text: "Đào tạo/Tập huấn"
-          href: "expertise/training.qmd"
-      # 4. BIODAS resources
+      # 2. BIODAS projects
+      - text: "Hoạt động chuyên môn"
+        href: "project/index.qmd"
+
+      # 3. BIODAS resources
       - text: "Tài nguyên"
-        href: "resource/resource.qmd"
-      # 5. Media and Communication
-      - text: "Truyền thông"
-        menu:
-        - text: "Tin tức & Sự kiện"
-          href: "media/new.qmd"
-        - text: "Hợp tác quốc tế"
-          href: "media/international-cooperation.qmd"
-        - text: "Giá trị cộng đồng"
-          href: "media/community.qmd"
-        - text: "Hội nghị khoa học"
-          href: "media/conference.qmd"
-        - text: "Xuất bản khoa học"
-          href: "media/publication.qmd"
-        - text: "Tuyển dụng"
-          href: "media/recruitment/index.qmd"
-      # 6. Link to other BIODAS platforms
+        href: "resource/index.qmd"
+
+      # 4. Media and Communication
+      # - text: "Tin tức & Sự kiện"
+      #   menu:
+      - text: "Tin tức & Sự kiện"
+        href: "news/index.qmd"
+        # - text: "Hợp tác quốc tế"
+        #   href: "media/international-cooperation.qmd"
+        # - text: "Giá trị cộng đồng"
+        #   href: "media/community.qmd"
+        # - text: "Hội nghị khoa học"
+        #   href: "media/conference.qmd"
+        # - text: "Xuất bản khoa học"
+        #   href: "media/publication.qmd"
+
+      # 5. Recruitment
+      - text: "Tuyển dụng"
+        href: "recruitment/index.qmd"
+
+      # 9. Link to other BIODAS platforms
       - icon: envelope
         aria-label: BIODAS mail
         href: mailto:contact@biodas.net
@@ -107,7 +91,6 @@ website:
         aria-label: BIODAS TikTok
         href: tiktok
 
-  
   # Website setup >> Page-footer setup
   page-footer:
     background: "#313D5D"
@@ -140,8 +123,13 @@ website:
         href: other/feeds.html
     right: |
       [Terms & Conditions](other/ts-and-cs.qmd)
+  
+  # Website setup >> Side Bar setup
+  sidebar:
+    style: "docked"
+    search: true
 
-   
+
 
 
 
@@ -156,9 +144,22 @@ format:
       sidebar-width: 200px
       body-width: 1200px
       margin-width: 200px
-    
 
-    
+
+
+babelquarto:
+  languagelinks: navbar
+  languagecodes:
+  - name: vi
+    text: "Tiếng Việt"
+  - name: en
+    text: "English"
+  mainlanguage: 'vi'
+  languages: ["en"]
+title-en: "BIODAS - Institute of Biomedical Data and Science Research"
+description-en: "BIODAS official website in English"
+author-en: author in en
+lang: vn
 
 
 

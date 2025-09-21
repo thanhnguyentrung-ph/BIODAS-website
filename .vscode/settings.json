@@ -1,0 +1,5 @@
+{
+    "[python]": {
+        "interpreters.startupBehavior": "manual"
+    }
+}

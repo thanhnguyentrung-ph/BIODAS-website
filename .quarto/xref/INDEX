@@ -205,5 +205,98 @@
   },
   "media/recruitment/index.qmd": {
     "index.html": "f91edc88"
+  },
+  "recruitment/index.qmd": {
+    "index.html": "c822a0c6"
+  },
+  "recruitment/posts/2025/08/10/research-assistant.qmd": {
+    "research-assistant.html": "3072bce1"
+  },
+  "recruitment/posts/2025/09/02/research-assistant.qmd": {
+    "research-assistant.html": "2a51d416"
+  },
+  "recruitment/posts/2025/09/04/field-assistant.qmd": {
+    "field-assistant.html": "683b215a"
+  },
+  "news/index.qmd": {
+    "index.html": "d4d10710"
+  },
+  "resource/index.qmd": {
+    "index.html": "a1419c35"
+  },
+  "about/mission-vision-value.qmd": {
+    "mission-vision-value.html": "8a72f1d5"
+  },
+  "about/team-member/dang-thi-b.qmd": {
+    "dang-thi-b.html": "75e5aa1a"
+  },
+  "about/team-member/nguyen-van-a.qmd": {
+    "nguyen-van-a.html": "b61446d7"
+  },
+  "about/experts/dang-thi-b.qmd": {
+    "dang-thi-b.html": "1661651a"
+  },
+  "about/experts/nguyen-van-a.qmd": {
+    "nguyen-van-a.html": "52f6e230"
+  },
+  "about/experts/nguyen-thanh-luong.qmd": {
+    "nguyen-thanh-luong.html": "42705436"
+  },
+  "project/biobank.qmd": {
+    "biobank.html": "1ea19135"
+  },
+  "project/data.qmd": {
+    "data.html": "89f5c701"
+  },
+  "project/market-research.qmd": {
+    "market-research.html": "aea7a0f0"
+  },
+  "project/research.qmd": {
+    "research.html": "50e0d6c5"
+  },
+  "project/training.qmd": {
+    "training.html": "3ed8dc6c"
+  },
+  "project/index.qmd": {
+    "index.html": "d863854e"
+  },
+  "project/post/2025/08/08/vietnam-biobanking-feasibility-study.qmd": {
+    "vietnam-biobanking-feasibility-study.html": "c7d5e65b"
+  },
+  "project/posts/2025/08/08/vietnam-biobanking-feasibility-study.qmd": {
+    "vietnam-biobanking-feasibility-study.html": "c828fed3"
+  },
+  "project/posts/2025/08/08/vn-biobank-feasibility.qmd": {
+    "vn-biobank-feasibility.html": "dfd72970"
+  },
+  "project/posts/2025/08/12/vn-biobank-risk-manage.qmd": {
+    "vn-biobank-risk-manage.html": "14a9b993"
+  },
+  "project/posts/2025/08/16/vn-biobank-data.qmd": {
+    "vn-biobank-data.html": "2cb54f6d"
+  },
+  "about/staffs/nguyen-cat-tuong.qmd": {
+    "nguyen-cat-tuong.html": "8a3eed8e"
+  },
+  "project/posts/2025/08/04/vn-biobank-nsclc.qmd": {
+    "vn-biobank-nsclc.html": "202b30ef"
+  },
+  "about/staffs/phan-hoang-anh.qmd": {
+    "phan-hoang-anh.html": "0f664a5e"
+  },
+  "project/posts/2025/08/20/vn-medical-tourism.qmd": {
+    "vn-medical-tourism.html": "496719aa"
+  },
+  "project/posts/2025/08/24/data-training.qmd": {
+    "data-training.html": "a3bab4a9"
+  },
+  "project/posts/2025/08/28/data-handbook.qmd": {
+    "data-handbook.html": "80dbac5b"
+  },
+  "project/posts/2025/09/02/data-kap.qmd": {
+    "data-kap.html": "9bdd5804"
+  },
+  "draft.qmd": {
+    "draft.html": "f75ad3aa"
   }
 }

@@ -1,12 +1,17 @@
 {
   "listingMap": {
     "index.qmd": [
-      "/activity",
+      "/project",
       "/resource",
-      "/media",
+      "/news",
+      "/recruitment",
       "!index.qmd"
     ],
-    "media\\recruitment\\index.qmd": [
+    "project\\index.qmd": [
+      "posts",
+      "!index.qmd"
+    ],
+    "recruitment\\index.qmd": [
       "posts",
       "!index.qmd"
     ]

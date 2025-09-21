@@ -1,111 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://biodas.net/resource/resource.html</loc>
+    <loc>https://biodas.net/resource/index.html</loc>
     <lastmod>2025-09-05T19:15:51.630Z</lastmod>
   </url>
   <url>
-    <loc>https://biodas.net/other/lience.html</loc>
-    <lastmod>2025-08-24T05:23:08.565Z</lastmod>
+    <loc>https://biodas.net/recruitment/posts/2025/09/02/research-assistant.html</loc>
+    <lastmod>2025-09-14T17:28:57.577Z</lastmod>
   </url>
   <url>
-    <loc>https://biodas.net/media/recruitment/posts/2025/09/04/field-assistant.html</loc>
-    <lastmod>2025-09-13T07:13:34.758Z</lastmod>
+    <loc>https://biodas.net/recruitment/index.html</loc>
+    <lastmod>2025-09-18T18:05:54.359Z</lastmod>
   </url>
   <url>
-    <loc>https://biodas.net/media/recruitment/posts/2025/08/10/research-assistant.html</loc>
-    <lastmod>2025-09-11T16:35:50.572Z</lastmod>
+    <loc>https://biodas.net/project/posts/2025/08/28/data-handbook.html</loc>
+    <lastmod>2025-09-21T18:36:03.991Z</lastmod>
   </url>
   <url>
-    <loc>https://biodas.net/media/publication.html</loc>
-    <lastmod>2025-09-05T19:16:27.565Z</lastmod>
+    <loc>https://biodas.net/project/posts/2025/08/20/vn-medical-tourism.html</loc>
+    <lastmod>2025-09-21T04:56:16.643Z</lastmod>
   </url>
   <url>
-    <loc>https://biodas.net/media/international-cooperation.html</loc>
-    <lastmod>2025-09-05T19:16:13.596Z</lastmod>
+    <loc>https://biodas.net/project/posts/2025/08/12/vn-biobank-risk-manage.html</loc>
+    <lastmod>2025-09-19T11:24:05.000Z</lastmod>
   </url>
   <url>
-    <loc>https://biodas.net/media/community.html</loc>
-    <lastmod>2025-09-05T19:16:06.919Z</lastmod>
+    <loc>https://biodas.net/project/posts/2025/08/04/vn-biobank-nsclc.html</loc>
+    <lastmod>2025-09-20T10:30:59.000Z</lastmod>
   </url>
   <url>
-    <loc>https://biodas.net/expertise/training.html</loc>
-    <lastmod>2025-08-31T09:09:48.106Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/expertise/project.html</loc>
-    <lastmod>2025-08-31T09:09:40.304Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/expertise/biobank.html</loc>
-    <lastmod>2025-09-06T21:10:34.657Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/activity/research.html</loc>
-    <lastmod>2025-09-05T19:15:29.985Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/activity/data.html</loc>
-    <lastmod>2025-09-05T19:15:23.626Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/about/overview.html</loc>
-    <lastmod>2025-08-31T09:08:08.726Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/about/introduce.html</loc>
-    <lastmod>2025-09-06T19:07:56.466Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/about/mission-and-vision.html</loc>
-    <lastmod>2025-09-06T19:09:04.210Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/about/team.html</loc>
-    <lastmod>2025-08-31T09:08:35.306Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/activity/market-research.html</loc>
-    <lastmod>2025-09-05T19:15:18.634Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/activity/training.html</loc>
-    <lastmod>2025-09-05T19:15:35.580Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/expertise/data.html</loc>
-    <lastmod>2025-08-31T09:09:32.752Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/expertise/research.html</loc>
-    <lastmod>2025-08-31T09:09:44.799Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/index.html</loc>
-    <lastmod>2025-09-14T06:09:14.310Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/media/conference.html</loc>
-    <lastmod>2025-09-05T19:16:10.106Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/media/news.html</loc>
-    <lastmod>2025-09-05T19:16:17.795Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/media/recruitment/index.html</loc>
-    <lastmod>2025-09-05T10:31:42.689Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biodas.net/media/recruitment/posts/2025/09/02/research-assistant.html</loc>
-    <lastmod>2025-09-13T07:12:06.484Z</lastmod>
+    <loc>https://biodas.net/other/ts-and-cs.html</loc>
+    <lastmod>2025-08-24T05:21:46.309Z</lastmod>
   </url>
   <url>
     <loc>https://biodas.net/other/404.html</loc>
     <lastmod>2025-08-24T08:07:36.042Z</lastmod>
   </url>
   <url>
-    <loc>https://biodas.net/other/ts-and-cs.html</loc>
-    <lastmod>2025-08-24T05:21:46.309Z</lastmod>
+    <loc>https://biodas.net/index.html</loc>
+    <lastmod>2025-09-21T18:31:30.068Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/about/staffs/phan-hoang-anh.html</loc>
+    <lastmod>2025-09-20T10:39:41.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/about/mission-vision-value.html</loc>
+    <lastmod>2025-09-18T09:12:07.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/about/experts/nguyen-thanh-luong.html</loc>
+    <lastmod>2025-09-18T17:18:37.792Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/about/introduce.html</loc>
+    <lastmod>2025-09-21T18:42:01.014Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/about/staffs/nguyen-cat-tuong.html</loc>
+    <lastmod>2025-09-19T09:43:39.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/about/team.html</loc>
+    <lastmod>2025-09-20T10:35:21.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/news/index.html</loc>
+    <lastmod>2025-09-05T19:16:17.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/other/lience.html</loc>
+    <lastmod>2025-08-24T05:23:08.565Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/project/index.html</loc>
+    <lastmod>2025-09-19T03:39:56.721Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/project/posts/2025/08/08/vn-biobank-feasibility.html</loc>
+    <lastmod>2025-09-21T18:17:50.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/project/posts/2025/08/16/vn-biobank-data.html</loc>
+    <lastmod>2025-09-20T08:43:20.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/project/posts/2025/08/24/data-training.html</loc>
+    <lastmod>2025-09-21T18:35:23.878Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/project/posts/2025/09/02/data-kap.html</loc>
+    <lastmod>2025-09-21T18:36:47.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/recruitment/posts/2025/08/10/research-assistant.html</loc>
+    <lastmod>2025-09-14T17:28:10.603Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biodas.net/recruitment/posts/2025/09/04/field-assistant.html</loc>
+    <lastmod>2025-09-14T17:29:38.492Z</lastmod>
   </url>
 </urlset>

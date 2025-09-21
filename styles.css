@@ -14,6 +14,27 @@ h1 {
 }
 
 
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* 
+.author {
+  text-align: left;
+}
+
+.date {
+  text-align: right;
+}
+
+.date::before {
+  content: "Published:";
+  text-align: right;
+} 
+*/
+
 
 
 
@@ -38,6 +59,41 @@ h1 {
 
 
 
+
+/* Image cover page */
+.img-cover {
+    border-radius: 12px;
+    max-width: 75%;
+    height: auto;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    opacity: 0;
+    transform: scale(0.95);
+    animation: fadeInZoom 0.8s ease forwards;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.img-cover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+@keyframes fadeInZoom {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+    .img-cover {
+        max-width: 100%;
+    }
+}
 
 
 
