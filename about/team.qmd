@@ -159,7 +159,7 @@ aliases:
     <a href="experts/nguyen-trung-thanh.qmd" class="member-card">
       <img src="images/experts/nguyen-trung-thanh.jpg" alt="nguyen-trung-thanh">
       <h3>CN. Nguyễn Trung Thành</h3>
-      <div class="role">Chuyên gia Khoa học dữ liệu</div>
+      <div class="role">Tư vấn Khoa học dữ liệu</div>
     </a>
 
   </div>

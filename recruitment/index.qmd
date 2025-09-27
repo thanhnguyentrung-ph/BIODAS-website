@@ -1,6 +1,6 @@
 ---
 title: Thông tin tuyển dụng
-subtitle: "Tại BIODAS, con người là trung tâm của mọi đổi mới. Đồng hành cùng chúng tôi, bạn sẽ không chỉ nâng cao chuyên môn và mở rộng hợp tác quốc tế, mà còn góp phần tạo nên những nghiên cứu và dự án mang giá trị thiết thực cho sức khỏe cộng đồng."
+subtitle: Tại BIODAS, con người là trung tâm của mọi đổi mới. Đồng hành cùng chúng tôi, bạn sẽ không chỉ<br>nâng cao chuyên môn và mở rộng hợp tác quốc tế, mà còn góp phần tạo nên những<br>nghiên cứu và dự án mang giá trị thiết thực cho sức khỏe cộng đồng
 title-block-banner: "#313d5d"
 title-block-banner-color: "#ffffff"
 search: true

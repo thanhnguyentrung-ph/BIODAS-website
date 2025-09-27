@@ -9,12 +9,12 @@ categories:
 author: BIODAS Team
 date: 08/10/2025 # mm/dd/yyyy
 toc: true
-image: images/poster1.jpg
+image: images/poster.jpg
 aliases: 
   - /media/recruitment/posts/2025/08/10/research-assistant.html
 ---
 
-![](images/poster1.jpg){fig-align="center"}
+![](images/poster.jpg){fig-align="center" class="img-cover"}
 
 
 

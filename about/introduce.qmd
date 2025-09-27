@@ -207,11 +207,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-## Liên hệ
-Email: **[contact@biodas.net](mailto:contact@biodas.net)**  
+<div style="text-align:center;">
+  <h2>Liên hệ</h2>
 
+  <p>
+    Email:
+    <strong>
+      <a href="mailto:contact@biodas.net">contact@biodas.net</a>
+    </strong>
+  </p>
 
-
-<span style="color:#313d5d; font-weight:bold;">
-BIODAS — Khoa học • Kết nối • Vì cộng đồng
-</span>
+  <p>
+    <span style="color:#313d5d; font-weight:700;">
+      BIODAS — Khoa học • Kết nối • Vì cộng đồng
+    </span>
+  </p>
+</div>
