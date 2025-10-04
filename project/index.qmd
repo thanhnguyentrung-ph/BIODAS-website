@@ -1,5 +1,5 @@
 ---
-title: Dự án - Nghiên cứu - Hoạt động thực hiện bởi BIODAS
+title: Dự án - Nghiên cứu - Hoạt động
 title-block-banner: "#313d5d"
 title-block-banner-color: "#ffffff"
 search: true

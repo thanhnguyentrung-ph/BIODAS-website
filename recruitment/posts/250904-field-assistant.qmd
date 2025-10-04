@@ -1,0 +1,186 @@
+---
+title: "TRỢ LÝ THỰC ĐỊA <br> (PART-TIME)"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: "Deadline: 15/10/2025"
+categories:
+  - Filed Assistant
+  - Part-time
+author: BIODAS Team
+date: 09/04/2025 # mm/dd/yyyy
+image: images/250904-poster.jpg
+aliases: 
+  - /media/recruitment/posts/2025/09/04/field-assistant.html
+---
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-recruitment-template.css">
+
+<body class="section-recruitment-template">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>TUYỂN DỤNG – TRỢ LÝ THỰC ĐỊA PART-TIME</h1>
+    <p>Tham gia cùng BIODAS triển khai dự án chuyển đổi số trong sản xuất cà phê tại Việt Nam</p>
+    <a href="#apply" class="btn-action glow">Apply Now</a>
+  </div>
+
+  <!-- MAIN -->
+  <div class="layout">
+
+    <!-- Giới thiệu -->
+    <section class="slide-left">
+      <p><strong>Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)</strong> tuyển dụng <strong>Trợ lý Thực địa</strong> phối hợp cùng nhóm nghiên cứu triển khai dự án về chuyển đổi số trong sản xuất cà phê tại Việt Nam (Đắk Lắk, Gia Lai, Lâm Đồng). Ứng viên sẽ hỗ trợ điều phối thực địa, kết nối các bên liên quan, đảm bảo tuân thủ quy định, và tham gia thu thập dữ liệu phỏng vấn.</p>
+    </section>
+
+    <!-- Tóm tắt dự án -->
+    <section class="slide-right">
+      <h2>Tóm tắt dự án nghiên cứu</h2>
+      <div class="callout callout-note">
+        <p>Dự án xem xét tác động của chuyển đổi số đến hiệu quả bền vững trong sản xuất cà phê, tập trung vào hộ nông dân nhỏ lẻ và các công ty cà phê đang áp dụng công nghệ số cho cả tại nông trại và ngoài nông trại.</p>
+        <p>Ứng dụng công nghệ trải từ smartphone (truy cập thông tin, giao tiếp) đến cảm biến (giám sát, tối ưu đầu vào), kỳ vọng mang lại lợi ích kinh tế–xã hội–môi trường, cải thiện ngành và chuỗi giá trị cà phê.</p>
+      </div>
+    </section>
+
+    <!-- Thời gian & địa điểm -->
+    <section class="slide-left">
+      <h2>Thời gian & Địa điểm</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li><strong>Thời gian</strong>: Tháng 9–10/2025
+            <ul>
+              <li>Khảo sát thực địa: tháng 09/2025</li>
+              <li>Thu thập dữ liệu (phỏng vấn): tháng 10/2025 <em>(có thể kéo dài sang tháng 11/2025)</em></li>
+            </ul>
+          </li>
+          <li><strong>Địa điểm</strong>: Đắk Lắk, Gia Lai, Lâm Đồng</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Phạm vi công việc -->
+    <section class="slide-right">
+      <h2>Phạm vi công việc</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Thực hiện các chuyến khảo sát thực địa.</li>
+          <li>Giao tiếp với hộ nông dân, hợp tác xã, doanh nghiệp, cơ quan quản lý.</li>
+          <li>Gắn kết cộng đồng địa phương.</li>
+          <li>Đảm bảo tuân thủ quy định/giấy phép của chính quyền.</li>
+          <li>Hỗ trợ thu thập dữ liệu (phỏng vấn).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Nhiệm vụ -->
+    <section class="slide-left">
+      <h2>Nhiệm vụ & trách nhiệm</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li><strong>Điều phối tại thực địa</strong>: sắp xếp chuyến thăm, cuộc họp, phỏng vấn với các bên liên quan.</li>
+          <li><strong>Hậu cần</strong>: hỗ trợ di chuyển, ăn ở, chỗ nghỉ (khi cần).</li>
+          <li><strong>Thực hiện khảo sát</strong>: cùng nhóm nghiên cứu thăm nông trại/công ty cà phê để thu thập dữ liệu.</li>
+          <li><strong>Giao tiếp – kết nối</strong>: xây dựng quan hệ giữa nhóm nghiên cứu và địa phương.</li>
+          <li><strong>Đảm bảo tuân thủ</strong>: thực hiện theo giấy phép/hướng dẫn của địa phương.</li>
+          <li><strong>Giải quyết vấn đề</strong>: xử lý tình huống phát sinh trong quá trình thực địa.</li>
+          <li><strong>Thu thập dữ liệu</strong>: hỗ trợ phỏng vấn theo kế hoạch nghiên cứu.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Yêu cầu -->
+    <section class="slide-right">
+      <h2>Yêu cầu ứng viên</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li><strong>Giao tiếp</strong>: kỹ năng nói/viết tốt để làm việc với các bên liên quan & người dân.</li>
+          <li><strong>Kỹ năng quan hệ</strong>: kết nối, xây dựng lòng tin với cộng đồng địa phương.</li>
+          <li><strong>Thích ứng</strong>: sẵn sàng công tác tại Đắk Lắk, Gia Lai, Lâm Đồng; làm việc tại nông trại cà phê.</li>
+          <li><strong>Ngôn ngữ</strong>: có khả năng giao tiếp tiếng Anh (nói & viết) với nhóm nghiên cứu.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Ưu tiên -->
+    <section class="slide-left">
+      <h2>Ưu tiên ứng viên</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Hiểu biết về <strong>chính quyền địa phương</strong>.</li>
+          <li>Kiến thức về <strong>ngành cà phê</strong> tại địa phương.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Quyền lợi -->
+    <section class="slide-right">
+      <h2>Quyền lợi</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Thu nhập: lương cứng theo thỏa thuận + hỗ trợ chi phí công tác (di chuyển, ăn ở, hậu cần).</li>
+          <li>Đào tạo & hướng dẫn trực tiếp bởi nhóm nghiên cứu có kinh nghiệm về phát triển bền vững, nông nghiệp, chuyển đổi số.</li>
+          <li>Mở rộng mạng lưới với nông dân, hợp tác xã, doanh nghiệp, cơ quan quản lý, tổ chức quốc tế.</li>
+          <li>Phát triển kỹ năng thực địa: điều phối nghiên cứu, giao tiếp cộng đồng, logistics, tuân thủ pháp lý.</li>
+          <li>Cơ hội đồng tác giả báo cáo nghiên cứu, hội thảo, ấn phẩm khoa học liên quan dự án.</li>
+          <li>Môi trường linh hoạt – đa văn hóa, kết nối chuyên gia địa phương, trong nước & quốc tế.</li>
+          <li>Học tập thực tiễn về chuyển đổi số trong nông nghiệp & phát triển bền vững tại các tỉnh trọng điểm cà phê.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cách thức ứng tuyển -->
+    <section id="apply" class="slide-left">
+      <h2>Cách thức ứng tuyển</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Gửi <strong>CV</strong> và <strong>Cover Letter</strong> (giới thiệu bản thân, nêu rõ lý do ứng tuyển) theo link:  
+            <a href="https://forms.gle/r75nD5dwd6hsCmsp9" target="_blank">https://forms.gle/r75nD5dwd6hsCmsp9</a></li>
+        </ul>
+        <div style="text-align:center; margin-top:10px;">
+          <img src="images/250904-qrcode.jpeg" alt="QR Code Ứng tuyển BIODAS" width="180" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+        </div>
+        <div style="text-align:center; margin-top:20px;">
+          <a href="https://forms.gle/r75nD5dwd6hsCmsp9" class="btn-action glow">📩 NỘP HỒ SƠ ỨNG TUYỂN</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hạn nộp -->
+    <section class="slide-right">
+      <h2>Hạn nộp hồ sơ</h2>
+      <div class="callout callout-important">
+        Đến hết ngày <strong>15/10/2025</strong>
+      </div>
+    </section>
+
+    <!-- Giới thiệu BIODAS -->
+    <section class="slide-left">
+      <h2>Giới thiệu về BIODAS</h2>
+      <p><strong>Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)</strong> là đơn vị kết nối và thúc đẩy nghiên cứu ứng dụng trong y tế & sinh học tại Việt Nam.</p>
+      <div class="callout callout-note">
+        <ul>
+          <li>Triển khai, thu thập, quản lý, phân tích dữ liệu nghiên cứu y sinh theo chuẩn quốc tế.</li>
+          <li>Lĩnh vực trọng tâm: dịch tễ, lâm sàng, y sinh học, hệ thống thông tin y tế.</li>
+          <li>Xây dựng nền tảng dữ liệu nghiên cứu lâm sàng, khảo sát cộng đồng, nghiên cứu thị trường y tế.</li>
+          <li>Phát triển hệ thống quản lý dữ liệu chuẩn hóa.</li>
+          <li>Tổ chức chuỗi tập huấn về ứng dụng dữ liệu, phân tích & trình bày dữ liệu đa nền tảng.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-note">
+      Mọi thắc mắc vui lòng liên hệ: <a href="mailto:contact@biodas.net">contact@biodas.net</a><br><br>
+      <strong>Trân trọng,</strong><br>
+      <em>BIODAS Team</em>
+    </div>
+  </div>
+
+<!-- Gắn file JS -->
+<script src="section-recruitment-template.js"></script>
+</body>
+
+```

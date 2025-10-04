@@ -304,5 +304,41 @@
   },
   "about/staffs/nguyen-quoc-dat.qmd": {
     "nguyen-quoc-dat.html": "ea957360"
+  },
+  "project/posts/250804-vn-biobank-nsclc.qmd": {
+    "250804-vn-biobank-nsclc.html": "8e4a0efb"
+  },
+  "project/posts/250808-vn-biobank-feasibility.qmd": {
+    "250808-vn-biobank-feasibility.html": "1e3a1a1a"
+  },
+  "project/posts/250812-vn-biobank-risk-manage.qmd": {
+    "250812-vn-biobank-risk-manage.html": "0f7ea062"
+  },
+  "project/posts/250816-vn-biobank-data.qmd": {
+    "250816-vn-biobank-data.html": "e1ae82d2"
+  },
+  "project/posts/250820-vn-medical-tourism.qmd": {
+    "250820-vn-medical-tourism.html": "33be64c7"
+  },
+  "project/posts/250824-data-training.qmd": {
+    "250824-data-training.html": "ed92183a"
+  },
+  "project/posts/250828-data-handbook.qmd": {
+    "250828-data-handbook.html": "a15b8744"
+  },
+  "project/posts/250902-data-kap.qmd": {
+    "250902-data-kap.html": "c0cd282e"
+  },
+  "recruitment/posts/2025/09/02/250902-research-assistant.qmd": {
+    "250902-research-assistant.html": "f0ed125a"
+  },
+  "recruitment/posts/250810-research-assistant.qmd": {
+    "250810-research-assistant.html": "1e9321be"
+  },
+  "recruitment/posts/250902-research-assistant.qmd": {
+    "250902-research-assistant.html": "3a6c93f0"
+  },
+  "recruitment/posts/250904-field-assistant.qmd": {
+    "250904-field-assistant.html": "ba76c756"
   }
 }

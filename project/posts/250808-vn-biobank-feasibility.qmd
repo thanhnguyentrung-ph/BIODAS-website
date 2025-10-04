@@ -1,0 +1,248 @@
+---
+title: "Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam"
+subtitle: "Vietnam biobanking feasibility study"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Research
+  - Biobank
+author: BIODAS Team
+date: 08/08/2025 # mm/dd/yyyy
+toc: false
+image: images/250808-poster.png
+aliases: 
+  - /project/posts/
+
+---
+
+![](images/250808-poster.png){fig-align="center" class="img-cover"}
+
+
+
+
+```{=html}
+<style>
+.section-biobank-feasibility {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin: 40px 0;
+}
+
+.section-biobank-feasibility .section-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out, border-top-width 0.3s ease;
+}
+
+.section-biobank-feasibility .section-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-biobank-feasibility .section-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.2);
+  border-top-width: 8px;
+}
+
+.section-biobank-feasibility .section-card h3 {
+  font-size: 22px;         
+  font-weight: 700;        
+  margin-bottom: 20px;     
+  text-align: center;
+  color: #2c3e50;          
+  letter-spacing: 0.5px;   
+  text-transform: uppercase; 
+  position: relative;      
+  transition: transform 0.3s ease;
+}
+
+.section-biobank-feasibility .section-card h3::after {
+  content: "";
+  display: block;
+  width: 50px;              
+  height: 3px;              
+  background: currentColor; 
+  margin: 8px auto 0;       
+  border-radius: 2px;
+  opacity: 0.7;
+}
+
+.section-biobank-feasibility .section-card:hover h3 {
+  transform: scale(1.05);
+}
+
+.section-biobank-feasibility .section-card ul {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.6;
+}
+
+.section-biobank-feasibility .section-card li {
+  margin-bottom: 6px;
+}
+
+/* Màu border-top cho từng card */
+.card-theory { border-top: 6px solid #2a9d8f; }
+.card-infra { border-top: 6px solid #e76f51; }
+.card-legal { border-top: 6px solid #457b9d; }
+.card-finance { border-top: 6px solid #f4a261; }
+.card-public { border-top: 6px solid #8e44ad; }
+.card-partner { border-top: 6px solid #16a085; }
+.card-impact { border-top: 6px solid #c0392b; }
+.card-culture { border-top: 6px solid #2980b9; }
+.card-result { border-top: 6px solid #9b59b6; }
+</style>
+
+<div class="section-biobank-feasibility">
+
+  <div class="section-card card-theory">
+    <h3>Cơ sở lý luận</h3>
+    <ul>
+      <li>Biobank là hạ tầng quan trọng cho giám sát y tế công cộng.</li>
+      <li>80% nghiên cứu y tế toàn cầu tập trung ở các nước phát triển.</li>
+      <li>WHO/IARC BCnet hỗ trợ xây dựng biobank tại LMIC.</li>
+      <li>Kinh nghiệm ASEAN: tăng trưởng kinh tế, COVID-19 thúc đẩy nhu cầu.</li>
+      <li>Philippines (2021) có công cụ đánh giá có thể nhân rộng.</li>
+      <li>Việt Nam: tăng trưởng nhanh, nhu cầu nghiên cứu cao → cần nghiên cứu khả thi riêng.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-infra">
+    <h3>Đánh giá hạ tầng & nguồn lực</h3>
+    <ul>
+      <li>Hạ tầng: thách thức về điện, kho lạnh, Internet.</li>
+      <li>Nghiên cứu khả thi giúp xác định khoảng trống.</li>
+      <li>Nhân lực: cần kỹ năng thu thập mẫu, lưu trữ, quản lý dữ liệu, đạo đức nghiên cứu.</li>
+      <li>Tài chính: yêu cầu đầu tư lớn, cần huy động cả trong nước và quốc tế.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-legal">
+    <h3>Khung pháp lý & đạo đức</h3>
+    <ul>
+      <li>Đánh giá hệ thống pháp luật hiện tại, chỉ ra khoảng trống.</li>
+      <li>Quy trình consent và bảo mật dữ liệu phù hợp văn hóa – pháp lý.</li>
+      <li>Tham vấn và huy động các bên liên quan.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-finance">
+    <h3>Tính bền vững & duy trì</h3>
+    <ul>
+      <li>Biobank đòi hỏi kinh phí lớn, quỹ hiện tại thường ngắn hạn.</li>
+      <li>Cần kế hoạch kinh doanh chi tiết: phân tích chi phí, chiến lược dài hạn.</li>
+      <li>Xác định nguồn quỹ nội địa & quốc tế.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-public">
+    <h3>Nhu cầu y tế & nghiên cứu</h3>
+    <ul>
+      <li>Ưu tiên quốc gia: lao, viêm gan, ung thư, tiểu đường.</li>
+      <li>Biobank hỗ trợ nghiên cứu gắn với gánh nặng bệnh tật.</li>
+      <li>Đánh giá năng lực hiện tại: tiền lâm sàng → lâm sàng.</li>
+      <li>Xác định nhu cầu đào tạo & nâng cao năng lực.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-partner">
+    <h3>Quan hệ đối tác & hợp tác</h3>
+    <ul>
+      <li>Tăng cường hợp tác viện/trường trong nước & quốc tế.</li>
+      <li>Đánh giá sự ủng hộ từ chính phủ, Bộ Y tế.</li>
+      <li>Xem xét lập Văn phòng điều phối Biobank Việt Nam.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-impact">
+    <h3>Tác động kinh tế – xã hội</h3>
+    <ul>
+      <li>Thực hiện Cost–Benefit Analysis.</li>
+      <li>Cải thiện sức khỏe cộng đồng.</li>
+      <li>Thúc đẩy khoa học và thu hút hợp tác quốc tế.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-culture">
+    <h3>Yếu tố văn hóa & xã hội</h3>
+    <ul>
+      <li>Cần lưu ý nhận thức cộng đồng về thu thập & sử dụng mẫu sinh học.</li>
+      <li>Chiến lược gắn kết: cộng đồng – cán bộ y tế – nhà hoạch định chính sách.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-result">
+    <h3>Kết quả kỳ vọng</h3>
+    <ul>
+      <li><b>Manuscript</b>: tổng hợp dữ liệu nghiên cứu khả thi → mô tả hiện trạng hạ tầng Biobank tại Việt Nam.</li>
+      <li>Đảm bảo hướng đi:</li>
+      <ul>
+        <li>Phù hợp văn hóa – xã hội.</li>
+        <li>Đúng chuẩn mực đạo đức.</li>
+        <li>Bền vững về tài chính.</li>
+      </ul>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+// Script thêm class 'visible' khi card vào viewport
+document.addEventListener("DOMContentLoaded", function() {
+  const cards = document.querySelectorAll(".section-biobank-feasibility .section-card");
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.9;
+    cards.forEach((card, i) => {
+      const cardTop = card.getBoundingClientRect().top;
+      if (cardTop < triggerBottom) {
+        setTimeout(() => card.classList.add("visible"), i * 150); // delay xen kẽ
+      }
+    });
+  };
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll();
+});
+</script>
+
+```
+
+
+
+# Bảng tóm tắt
+| Thách thức                  | Cơ hội                            | Giải pháp đề xuất |
+|------------------------------|-----------------------------------|------------------|
+| Hạ tầng & điện/kho lạnh     | Kinh nghiệm ASEAN, WHO hỗ trợ     | Đầu tư pilot site |
+| Thiếu nhân lực chuyên môn   | Nhu cầu đào tạo cao               | Xây dựng chương trình đào tạo |
+| Quỹ ngắn hạn, thiếu bền vững | Hợp tác quốc tế, quỹ nghiên cứu   | Kế hoạch tài chính dài hạn |
+| Nhận thức cộng đồng thấp    | COVID-19 tăng quan tâm            | Chiến lược truyền thông |
+
+
+
+
+# Sơ đồ workflow về nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam
+
+<div style="text-align: center;">
+```{mermaid}
+flowchart TD
+    A([📦 Nhu cầu Biobank tại Việt Nam]) --> B([🏭 Hạ tầng: điện, kho lạnh, Internet])
+    A --> C([👩‍🔬 Nhân lực: đào tạo, kỹ năng, đạo đức])
+    A --> D([⚖️ Pháp lý & đạo đức: consent, bảo mật])
+
+    B --> E([💰 Tài chính & bền vững: CBA, kế hoạch dài hạn])
+    C --> E
+    D --> E
+
+    E --> F([🤝 Hợp tác: viện/trường, Bộ Y tế, quốc tế])
+    F --> G([🌍 Tác động: sức khỏe, khoa học, hợp tác])
+    G --> H([🎯 Kết quả kỳ vọng: Manuscript + chính sách])
+```
+</div>
+
+

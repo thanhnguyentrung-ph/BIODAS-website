@@ -26,7 +26,7 @@ website:
   # Website setup >> Navigation Bar setup
   navbar: 
     # Website setup >> Logo
-    logo: "images/logo/BIODAS-logo-horizontal-radius.png"
+    logo: "images/logo/BIODAS-logo-horizontal-radius2.png"
     logo-href: https://biodas.net
     background: "#313D5D"
     foreground: "#FFFFFF"
@@ -38,7 +38,7 @@ website:
         menu:
         - text: "Giới thiệu BIODAS"
           href: "about/introduce.qmd"
-        - text: "Sứ mệnh-Tầm nhìn-Giá trị cốt lõi"
+        - text: "Sứ mệnh - Tầm nhìn - Giá trị cốt lõi"
           href: "about/mission-vision-value.qmd"
         - text: "Nhân sự"
           href: "about/team.qmd"

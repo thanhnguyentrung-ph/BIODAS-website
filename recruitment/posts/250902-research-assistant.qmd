@@ -1,0 +1,144 @@
+---
+title: "TRỢ LÝ NGHIÊN CỨU <br> (FULL-TIME)"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: "Deadline: 15/10/2025"
+categories:
+  - Research Assistant
+  - Full-time
+author: BIODAS Team
+date: 09/02/2025 # mm/dd/yyyy
+image: images/250902-poster.jpg
+aliases: 
+  - /media/recruitment/posts/2025/09/02/research-assistant.html
+---
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-recruitment-template.css">
+
+<body class="section-recruitment-template">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>TUYỂN DỤNG – TRỢ LÝ NGHIÊN CỨU (FULL-TIME)</h1>
+    <p>Đồng hành cùng BIODAS trong nghiên cứu và xuất bản khoa học quốc tế</p>
+    <a href="#apply" class="btn-action glow">Apply Now</a>
+  </div>
+
+  <!-- MAIN -->
+  <div class="layout">
+
+    <!-- Giới thiệu -->
+    <section class="slide-left">
+      <p><strong>Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)</strong> tuyển dụng vị trí <strong>Trợ lý Nghiên cứu (Full-time)</strong> dành cho ứng viên có đam mê nghiên cứu khoa học, khả năng học hỏi và thích nghi nhanh với các công cụ, quy trình nghiên cứu để gia nhập đội ngũ của chúng tôi.</p>
+      <p>Vị trí này sẽ tham gia các dự án nghiên cứu và xuất bản trong nước cũng như quốc tế, bao gồm:</p>
+      <ul>
+        <li>Xây dựng và triển khai nghiên cứu khoa học.</li>
+        <li>Biên soạn bản thảo khoa học (bài báo, sách chuyên khảo, sách tham khảo…).</li>
+        <li>Dịch thuật tài liệu chuyên ngành.</li>
+      </ul>
+      <p><em>Phù hợp với ứng viên đam mê nghiên cứu, cẩn thận, tỉ mỉ, tuân thủ deadline, định hướng gắn bó lâu dài với sự nghiệp khoa học, đặc biệt trong lĩnh vực viết và công bố quốc tế.</em></p>
+    </section>
+
+    <!-- Nhiệm vụ -->
+    <section class="slide-right">
+      <h2>Nhiệm vụ cụ thể</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Tham gia xây dựng đề cương nghiên cứu, thiết kế công cụ, bảng kiểm, biểu mẫu khảo sát.</li>
+          <li>Soạn thảo bản thảo công bố khoa học và các ấn phẩm của BIODAS (sách, poster, tài liệu hội thảo…).</li>
+          <li>Dịch thuật tài liệu khoa học (Anh–Việt và ngược lại).</li>
+          <li>Tổng quan tài liệu, tìm kiếm, trích dẫn và quản lý tài liệu tham khảo (EndNote, Zotero…).</li>
+          <li>Phối hợp với chuyên gia trong nước và quốc tế để xây dựng chương trình nâng cao năng lực.</li>
+          <li>Trợ giảng, hỗ trợ chuẩn bị tài liệu cho lớp đào tạo, tập huấn của BIODAS.</li>
+          <li>Thực hiện các nhiệm vụ khác theo phân công.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Yêu cầu -->
+    <section class="slide-left">
+      <h2>Yêu cầu ứng viên</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Tốt nghiệp khối ngành Y, Dược, khoa học sức khỏe, khoa học y sinh hoặc liên quan.</li>
+          <li>Thành thạo tiếng Anh 4 kỹ năng.</li>
+          <li>Có kinh nghiệm và xuất bản khoa học quốc tế.</li>
+          <li>Có kinh nghiệm dịch thuật và biên tập tài liệu khoa học.</li>
+          <li>Thành thạo tìm kiếm và quản lý tài liệu (EndNote, Zotero...).</li>
+          <li>Sử dụng hiệu quả các phần mềm phân tích dữ liệu (Excel, SPSS, Stata, R).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Quyền lợi -->
+    <section class="slide-right">
+      <h2>Quyền lợi</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Thu nhập: Lương cứng theo thỏa thuận + thưởng theo sản phẩm ấn phẩm xuất bản + thưởng tiến độ.</li>
+          <li>Được hướng dẫn trực tiếp bởi các nhà nghiên cứu có kinh nghiệm công bố quốc tế.</li>
+          <li>Cơ hội đào tạo chuyên sâu về viết và xuất bản khoa học quốc tế.</li>
+          <li>Có thể tham gia đồng tác giả trong các bài báo khoa học.</li>
+          <li>Được sử dụng dữ liệu BIODAS cho khóa luận, luận văn, nghiên cứu hoặc hội thảo khoa học.</li>
+          <li>Môi trường làm việc linh hoạt, chuyên nghiệp, định hướng xuất bản quốc tế.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cách thức ứng tuyển -->
+    <section id="apply" class="slide-left">
+      <h2>Cách thức ứng tuyển</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Gửi <strong>CV và Cover Letter</strong> (giới thiệu bản thân, nêu rõ lý do ứng tuyển) qua link:  
+            <a href="https://forms.gle/v3XedpdkkP69ZjAv7" target="_blank">https://forms.gle/v3XedpdkkP69ZjAv7</a></li>
+          <li>Hoặc quét QR code bên dưới để ứng tuyển nhanh.</li>
+        </ul>
+        <div style="text-align:center; margin-top:10px;">
+          <img src="images/250902-qrcode.jpeg" alt="QR Code Ứng tuyển BIODAS" width="180" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+        </div>
+        <div style="text-align:center; margin-top:20px;">
+          <a href="https://forms.gle/v3XedpdkkP69ZjAv7" class="btn-action glow">📩 NỘP HỒ SƠ ỨNG TUYỂN</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hạn nộp -->
+    <section class="slide-right">
+      <h2>Hạn nộp hồ sơ</h2>
+      <div class="callout callout-important">
+        Đến hết ngày <strong>15/10/2025</strong>
+      </div>
+    </section>
+
+    <!-- Giới thiệu BIODAS -->
+    <section class="slide-left">
+      <h2>Giới thiệu về BIODAS</h2>
+      <p><strong>Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)</strong> là đơn vị kết nối và thúc đẩy nghiên cứu ứng dụng trong y tế và sinh học tại Việt Nam.</p>
+      <div class="callout callout-note">
+        <ul>
+          <li>Thu thập, quản lý, phân tích dữ liệu y sinh theo chuẩn quốc tế.</li>
+          <li>Nghiên cứu dịch tễ, lâm sàng, y sinh học, hệ thống thông tin y tế.</li>
+          <li>Xây dựng nền tảng dữ liệu nghiên cứu lâm sàng và khảo sát cộng đồng.</li>
+          <li>Phát triển hệ thống quản lý dữ liệu hiện đại.</li>
+          <li>Tổ chức các khóa đào tạo, tập huấn về ứng dụng dữ liệu và phân tích y sinh.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-note">
+      Mọi thắc mắc vui lòng liên hệ: <a href="mailto:contact@biodas.net">contact@biodas.net</a><br><br>
+      <strong>Trân trọng,</strong><br>
+      <em>BIODAS Team</em>
+    </div>
+  </div>
+
+<!-- Gắn file JS -->
+<script src="section-recruitment-template.js"></script>
+</body>
+
+```

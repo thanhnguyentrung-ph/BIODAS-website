@@ -22,7 +22,7 @@ listing:
       categories: false
       sort-ui: false
       filter-ui: false
-      max-items: 3
+      max-items: 9
       feed: false
 ---
 
@@ -33,7 +33,7 @@ listing:
 .section-highlight {
   position: relative;
   width: 100%;
-  height: 700px;
+  height: 650px;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -339,7 +339,7 @@ listing:
 /* Ảnh nền */
 .section-intro img.bg {
     width: 100%;
-    height: auto;
+    height: 650px;
     display: block;
     border-radius: 12px;
 }
@@ -364,7 +364,6 @@ listing:
     animation-delay: 0.5s;
 }
 
-/* Hover: nền đậm hơn */
 .section-intro .text-box:hover {
     background-color: rgba(49, 61, 93, 0.95);
 }
@@ -372,6 +371,31 @@ listing:
 .section-intro .text-box h2 {
     text-align: center;
     margin-bottom: 15px;
+}
+
+/* Button */
+.section-intro .btn-action {
+    display: block;
+    margin: 20px auto 0; /* căn giữa */
+    padding: 12px 24px;
+    background-color: #0284c7;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 1.2s; /* xuất hiện trễ hơn text */
+}
+
+.section-intro .btn-action:hover {
+    background-color: #0369a1;
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
 /* Logo */
@@ -388,7 +412,7 @@ listing:
     animation-delay: 0.8s;
 }
 
-/* Animation cho text box và logo */
+/* Animation */
 @keyframes fadeUp {
     to { opacity: 1; transform: translateY(0); }
 }
@@ -412,13 +436,17 @@ listing:
         </br></br>
         Chúng tôi mang trong mình sứ mệnh kết nối bệnh viện, viện nghiên cứu, các đơn vị y tế công - tư trong và ngoài nước, nhằm thúc đẩy nghiên cứu y học, phát triển công nghệ và nâng cao chất lượng điều trị y tế cho cộng đồng.
         </p>
+
+        <!-- Nút bấm căn giữa -->
+        <a href="about/introduce.qmd" class="btn-action">⮕ Tìm hiểu thêm về BIODAS</a>
     </div>
 
     <img src="images/logo/BIODAS-logo-horizontal.png" alt="Logo" class="logo">
 </div>
+
 ```
 </br>
-
+<br>
 
 
 ---
@@ -439,12 +467,14 @@ listing:
 /* Ảnh nền */
 .section-mission img.bg {
     width: 100%;
-    height: auto;
+    height: 650px;
     display: block;
     border-radius: 12px;
+    object-fit: cover;
+    object-position: center;
 }
 
-/* Overlay làm mờ + hiệu ứng fade-in sáng */
+/* Overlay */
 .section-mission::after {
     content: "";
     position: absolute;
@@ -452,57 +482,66 @@ listing:
     left: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(3px); /* blur nhẹ ban đầu */
-    background-color: rgba(255,255,255,0.15); /* overlay sáng nhẹ */
+    backdrop-filter: blur(3px);
+    background-color: rgba(255,255,255,0.15);
     z-index: 1;
-    opacity: 0; /* ẩn ban đầu */
+    opacity: 0;
     animation: fadeBlur 1.2s ease forwards;
 }
 
-/* Hiệu ứng từ trong -> sáng hơn + blur rõ */
 @keyframes fadeBlur {
-    0% {
-        opacity: 0;
-        backdrop-filter: blur(0px);
-        background-color: rgba(255,255,255,0.0);
-    }
-    50% {
-        opacity: 0.5;
-        backdrop-filter: blur(3px);
-        background-color: rgba(255,255,255,0.15);
-    }
-    100% {
-        opacity: 1;
-        backdrop-filter: blur(6px);
-        background-color: rgba(255,255,255,0.35); /* mờ sáng hơn */
-    }
+    0% { opacity: 0; backdrop-filter: blur(0px); background-color: rgba(255,255,255,0.0); }
+    50% { opacity: 0.5; backdrop-filter: blur(3px); background-color: rgba(255,255,255,0.15); }
+    100% { opacity: 1; backdrop-filter: blur(6px); background-color: rgba(255,255,255,0.35); }
 }
 
-/* Container chứa 3 box */
-.section-mission .container {
+/* Wrapper */
+.section-mission .content-wrapper {
     position: absolute;
-    top: 50%;                
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 20px;
-    z-index: 2; /* nổi trên overlay */
+    z-index: 2;
 }
 
-.section-mission .box {
-    flex: 1;
+/* Container */
+.section-mission .container {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    max-width: 30%;
-    opacity: 0; /* để animation xuất hiện */
-    animation: fadeUp 0.8s ease forwards;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
 }
 
-/* Hiệu ứng xuất hiện lần lượt */
+/* Hàng box */
+.section-mission .box-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Box */
+.section-mission .box {
+    flex: 1;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.section-mission .box:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
 .section-mission .box:nth-child(1) { animation-delay: 0.3s; }
 .section-mission .box:nth-child(2) { animation-delay: 0.6s; }
 .section-mission .box:nth-child(3) { animation-delay: 0.9s; }
@@ -512,27 +551,26 @@ listing:
     to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Title gradient + glow khi hover */
+/* Box title */
 .section-mission .box-title {
     background: linear-gradient(135deg, rgba(49,61,93,0.9), rgba(80,100,140,0.9));
     color: #fff;
     padding: 14px 20px;
     border-radius: 12px 12px 0 0;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
-    width: 100%;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: box-shadow 0.3s ease;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
-.section-mission .box-title:hover {
-    background-color: rgba(49, 61, 93, 0.95);
-    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+.section-mission .box:hover .box-title {
+    background: linear-gradient(135deg, rgba(49,61,93,1), rgba(80,100,140,1));
+    box-shadow: inset 0 -3px 6px rgba(255,255,255,0.2);
 }
 
-/* Nội dung đổi màu khi hover */
+/* Box content */
 .section-mission .box-content {
     background-color: rgba(49, 61, 93, 0.7);
     color: #fff;
@@ -541,46 +579,93 @@ listing:
     text-align: justify;
     line-height: 1.6;
     flex: 1;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
-.section-mission .box-content:hover {
-    background-color: rgba(49, 61, 93, 0.8);
-    color: #ffffff;
+.section-mission .box:hover .box-content {
+    background-color: rgba(49, 61, 93, 0.85);
+}
+
+/* Button */
+.section-mission .btn-action {
+    display: inline-block;
+    margin: 40px auto 0;
+    padding: 14px 28px;
+    /* background: linear-gradient(135deg, rgba(49,61,93,0.9), rgba(80,100,140,0.9)); */
+    background-color: #0284c7;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 1.8s;
+}
+
+.section-mission .btn-action:hover {
+    /* background: linear-gradient(135deg, rgba(49,61,93,1), rgba(80,100,140,1)); */
+    background-color: #0369a1;
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section-mission .box-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-mission .box {
+        max-width: 100%;
+    }
+    .section-mission .btn-action {
+        width: 100%;
+        text-align: center;
+    }
 }
 </style>
-
 
 <div class="section-mission">
     <img src="images/background/2.jpg" alt="Ảnh nền" class="bg">
 
-    <div class="container">
-        <div class="box">
-            <div class="box-title">Sứ mệnh</div>
-            <div class="box-content">
-                BIODAS kết nối trí tuệ Việt Nam với khoa học toàn cầu, cung cấp giải pháp dữ liệu toàn diện, đồng hành cùng các đơn vị y tế trong và ngoài nước, thúc đẩy nghiên cứu y sinh và đổi mới sáng tạo vì một tương lai phồn vinh, nhân văn.
-            </div>
-        </div>
+    <div class="content-wrapper">
+        <div class="container">
+            <!-- 3 box -->
+            <div class="box-row">
+                <div class="box">
+                    <div class="box-title">Sứ mệnh</div>
+                    <div class="box-content">
+                        BIODAS kết nối trí tuệ Việt Nam với khoa học toàn cầu, cung cấp giải pháp dữ liệu toàn diện, đồng hành cùng các đơn vị y tế trong và ngoài nước, thúc đẩy nghiên cứu y sinh và đổi mới sáng tạo vì một tương lai phồn vinh, nhân văn.
+                    </div>
+                </div>
 
-        <div class="box">
-            <div class="box-title">Tầm nhìn</div>
-            <div class="box-content">
-                BIODAS tiên phong nghiên cứu khoa học & dữ liệu y sinh, đồng hành cùng kỷ nguyên vươn mình của dân tộc, vì sức khỏe và chất lượng sống cộng đồng.
-            </div>
-        </div>
+                <div class="box">
+                    <div class="box-title">Tầm nhìn</div>
+                    <div class="box-content">
+                        BIODAS tiên phong nghiên cứu khoa học & dữ liệu y sinh, đồng hành cùng kỷ nguyên vươn mình của dân tộc, vì sức khỏe và chất lượng sống cộng đồng.
+                    </div>
+                </div>
 
-        <div class="box">
-            <div class="box-title">Giá trị cốt lõi</div>
-            <div class="box-content">
-                BIODAS đề cao Khoa học minh bạch, Đổi mới công nghệ, Kết nối hợp tác, Đạo đức nghiên cứu và Vì cộng đồng.
+                <div class="box">
+                    <div class="box-title">Giá trị cốt lõi</div>
+                    <div class="box-content">
+                        BIODAS đề cao Khoa học minh bạch, Đổi mới công nghệ, Kết nối hợp tác, Đạo đức nghiên cứu và Vì cộng đồng.
+                    </div>
+                </div>
             </div>
+
+            <!-- Nút cùng level, nằm dưới -->
+            <a href="about/mission-vision-value.qmd" class="btn-action">
+                ⮕ Tìm hiểu thêm về Sứ mệnh - Tầm nhìn - Giá trị cốt lõi của BIODAS
+            </a>
         </div>
     </div>
 </div>
+
 ```
-</br>
-
-
+<br>
 
 ---
 
@@ -591,7 +676,7 @@ listing:
 ```{=html}
 <style>
 .section-expertise {
-    padding: 60px 40px;
+    padding: 20px 20px;
 }
 
 .section-expertise .container {
@@ -620,7 +705,7 @@ listing:
 
 .section-expertise .specialty-box img {
     width: 100%;
-    height: auto;
+    height: 220px;
     object-fit: cover;
 }
 
@@ -635,29 +720,34 @@ listing:
 
 <div class="section-expertise">
     <div class="container">
-        <a href="expertise/research.qmd" class="specialty-box">
+        <a href="project/#category=Research" class="specialty-box">
         <img src="images/expertise/research.jpg" alt="Nghiên cứu">
         <div class="box-title">Nghiên cứu</div>
         </a>
 
-        <a href="expertise/project.qmd" class="specialty-box">
+        <a href="project/#category=Project" class="specialty-box">
         <img src="images/expertise/project.jpg" alt="Dự án">
         <div class="box-title">Dự án</div>
         </a>
         
-        <a href="expertise/training.qmd" class="specialty-box">
+        <a href="project/#category=Training" class="specialty-box">
         <img src="images/expertise/training.png" alt="Đào tạo/ Tập huấn">
         <div class="box-title">Đào tạo/ Tập huấn</div>
         </a>
 
-        <a href="expertise/data.qmd" class="specialty-box">
+        <a href="project/#category=Data" class="specialty-box">
         <img src="images/expertise/data.png" alt="Dữ liệu">
         <div class="box-title">Dữ liệu</div>
         </a>
 
-        <a href="expertise/biobank.qmd" class="specialty-box">
+        <a href="project/#category=Biobank" class="specialty-box">
         <img src="images/expertise/biobank.jpg" alt="Biobank">
         <div class="box-title">Ngân hàng sinh học (Biobank)</div>
+        </a>
+
+        <a href="project/#category=Healthcare%20market" class="specialty-box">
+        <img src="https://i.pinimg.com/736x/c8/0b/84/c80b8411cf222adf7fc325803a21c530.jpg" alt="Healthcare market">
+        <div class="box-title">Nghiên cứu thị trường y tế</div>
         </a>
     </div>
 </div>

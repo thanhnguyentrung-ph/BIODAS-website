@@ -1,0 +1,140 @@
+---
+title: "TRỢ LÝ NGHIÊN CỨU <br> (PART-TIME)"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: "Deadline: 31/08/2025"
+categories:
+  - Research Assistant
+  - Part-time
+author: BIODAS Team
+date: 08/10/2025 # mm/dd/yyyy
+image: images/250810-poster.jpg
+aliases: 
+  - /media/recruitment/posts/
+---
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-recruitment-template.css">
+
+<body class="section-recruitment-template">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>TUYỂN DỤNG – TRỢ LÝ NGHIÊN CỨU PART-TIME</h1>
+    <p>Cơ hội tham gia cùng BIODAS trong nghiên cứu và khoa học dữ liệu y sinh</p>
+    <a href="#apply" class="btn-action">Apply Now</a>
+  </div>
+
+  <!-- MAIN -->
+  <div class="layout">
+
+    <section class="slide-left">
+      <p><strong>Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)</strong> đang tìm kiếm ứng viên tiềm năng có đam mê nghiên cứu khoa học, khả năng học hỏi và thích nghi nhanh với các công cụ, quy trình nghiên cứu để gia nhập đội ngũ của chúng tôi.</p>
+      <p>Vị trí <strong>Trợ lý Nghiên cứu (part-time)</strong> sẽ tham gia hỗ trợ các hoạt động nghiên cứu y sinh và quản lý dữ liệu, bao gồm:</p>
+      <ul>
+        <li>Triển khai khảo sát thị trường và nghiên cứu y sinh.</li>
+        <li>Thu thập, xử lý và báo cáo dữ liệu.</li>
+        <li>Sử dụng công cụ Google Sheets, Kobotoolbox, REDCap hoặc phần mềm chuyên biệt như Stata, R (<em>sẽ được đào tạo</em>).</li>
+        <li>Hỗ trợ trình bày dữ liệu (bảng, biểu đồ) và đóng góp nội dung báo cáo/slides.</li>
+        <li>Nhập liệu, rà soát, làm sạch và xử lý sơ bộ dữ liệu dưới sự hướng dẫn của điều phối viên.</li>
+      </ul>
+    </section>
+
+    <section class="slide-right">
+      <h2>Nhiệm vụ cụ thể</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Hỗ trợ triển khai các dự án khảo sát và nghiên cứu trong lĩnh vực y tế, y sinh.</li>
+          <li>Tham gia thiết kế bảng hỏi, bảng kiểm, biểu mẫu khảo sát.</li>
+          <li>Hỗ trợ thực hiện khảo sát trực tuyến hoặc thực địa.</li>
+          <li>Thực hiện nhập liệu, kiểm tra và làm sạch dữ liệu.</li>
+          <li>Tham gia phân tích sơ bộ dữ liệu và hỗ trợ soạn thảo báo cáo chuyên môn.</li>
+          <li>Trình bày dữ liệu dưới dạng bảng, biểu đồ và hỗ trợ chuẩn bị báo cáo kỹ thuật.</li>
+          <li>Phối hợp chặt chẽ với các thành viên trong nhóm dự án.</li>
+          <li>Trợ giảng, hỗ trợ chuẩn bị tài liệu cho các lớp thực hành dữ liệu của BIODAS.</li>
+          <li>Thực hiện các nhiệm vụ khác khi được phân công.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide-left">
+      <h2>Yêu cầu ứng viên</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Tốt nghiệp hoặc sinh viên năm cuối khối ngành khoa học sức khỏe, khoa học y sinh, kinh tế, marketing hoặc liên quan.</li>
+          <li>Có kiến thức và kỹ năng cơ bản về nghiên cứu khoa học và xử lý dữ liệu.</li>
+          <li>Tư duy logic, tỉ mỉ, ham học hỏi và có trách nhiệm trong công việc.</li>
+          <li>Có định hướng phát triển lâu dài trong nghiên cứu khoa học và phân tích dữ liệu.</li>
+          <li>Ưu tiên ứng viên đã từng tham gia dự án nghiên cứu định tính/định lượng hoặc đề tài khoa học.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide-right">
+      <h2>Quyền lợi</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Thu nhập: Lương cứng theo thỏa thuận + thưởng hiệu quả công việc + thưởng tiến độ.</li>
+          <li>Được đào tạo bài bản về quy trình nghiên cứu khoa học, thiết kế khảo sát, quản lý và phân tích dữ liệu.</li>
+          <li>Có thể sử dụng dữ liệu BIODAS để viết khóa luận, báo cáo nghiên cứu hoặc tham gia hội thảo khoa học.</li>
+          <li>Hỗ trợ xây dựng đề tài nghiên cứu cá nhân.</li>
+          <li>Môi trường làm việc linh hoạt, kết nối chuyên gia nghiên cứu và dữ liệu y sinh trong nước & quốc tế.</li>
+          <li>Thư xác nhận thực tập (nếu cần) và cơ hội xét chuyển lên vị trí chính thức nếu hoàn thành tốt công việc.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="apply" class="slide-left">
+      <h2>Cách thức ứng tuyển</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Gửi <strong>CV và đoạn giới thiệu ngắn</strong> (3–5 dòng nêu rõ lý do ứng tuyển) đến email:  
+            <a href="mailto:contact@biodas.net">contact@biodas.net</a></li>
+          <li><strong>Tiêu đề email</strong>: <code>[Ứng tuyển Trợ lý Nghiên cứu – Họ tên]</code></li>
+        </ul>
+      </div>
+      <div style="text-align:center; margin-top:20px;">
+        <a 
+          href="mailto:contact@biodas.net?subject=Ứng tuyển Trợ lý Nghiên cứu – Họ tên&body=Kính gửi BIODAS,%0D%0A%0D%0ATôi xin gửi CV và thông tin ứng tuyển vị trí Trợ lý Nghiên cứu.%0D%0A%0D%0ATrân trọng,%0D%0A[Họ và tên]" 
+          class="btn-action glow"
+        >📩 NỘP HỒ SƠ ỨNG TUYỂN</a>
+      </div>
+    </section>
+
+    <section class="slide-right">
+      <h2>Hạn nộp hồ sơ</h2>
+      <div class="callout callout-important">
+        Đến hết ngày <strong>31/08/2025</strong>
+      </div>
+    </section>
+
+    <section class="slide-left">
+      <h2>Giới thiệu về BIODAS</h2>
+      <p><strong>Viện Nghiên cứu Khoa học và Dữ liệu Y sinh (BIODAS)</strong> là đơn vị kết nối và thúc đẩy nghiên cứu ứng dụng trong y tế và sinh học tại Việt Nam.</p>
+      <div class="callout callout-note">
+        <ul>
+          <li>Thu thập, quản lý, phân tích dữ liệu y sinh theo chuẩn quốc tế.</li>
+          <li>Nghiên cứu dịch tễ, lâm sàng, y sinh học, hệ thống thông tin y tế.</li>
+          <li>Xây dựng nền tảng dữ liệu nghiên cứu lâm sàng, khảo sát cộng đồng, nghiên cứu thị trường y tế.</li>
+          <li>Phát triển hệ thống quản lý dữ liệu chuẩn hóa.</li>
+          <li>Tổ chức chuỗi tập huấn về ứng dụng dữ liệu trong nghiên cứu y sinh và đào tạo phân tích dữ liệu.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="footer-note">
+      Mọi thắc mắc vui lòng liên hệ: <a href="mailto:contact@biodas.net">contact@biodas.net</a><br><br>
+      <strong>Trân trọng,</strong><br>
+      <em>BIODAS Team</em>
+    </div>
+  </div>
+
+<!-- Gắn file JS -->
+<script src="section-recruitment-template.js"></script>
+</body>
+
+
+```

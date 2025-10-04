@@ -1,0 +1,235 @@
+/* =============================
+   BIẾN MÀU & FONT CHUNG / GLOBAL COLORS & FONT
+   ============================= */
+.section-post-template {
+  --bg: #f9fafb;
+  --panel: #ffffff;       
+  --muted: #475569;       
+  --text: #111827;        
+  --accent: #0284c7;      
+  --accent-2: #313d5d;
+  --ok: #16a34a;          
+  --warn: #d97706;        
+  --danger: #dc2626;      
+  --chip: #e2e8f0;        
+  --card: #ffffff;        
+  --shadow: 0 6px 18px rgba(0,0,0,.08);
+  --round: 14px;
+
+  font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+/* =============================
+   LAYOUT CHUNG / GENERAL LAYOUT
+   ============================= */
+.section-post-template .layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* =============================
+   THANH MỤC LỤC (TOC) / TABLE OF CONTENTS (TOC)
+   ============================= */
+.section-post-template nav.toc {
+  flex: 0 0 250px;
+  align-self: flex-start;
+  position: sticky;
+  top: 20px;
+  background: var(--panel);
+  border: 1px solid #cbd5e1;
+  border-radius: var(--round);
+  padding: 18px 26px;
+  height: max-content;
+  box-shadow: var(--shadow);
+}
+
+.section-post-template nav.toc h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--accent-2);
+}
+
+.section-post-template nav.toc ul {
+  margin: 0;
+  padding-left: 10px;
+  list-style: none;
+}
+
+.section-post-template nav.toc li {
+  margin: 10px 0;
+}
+
+.section-post-template nav.toc a {
+  color: var(--accent-2);
+  text-decoration: none;
+  display: block;
+  padding: 4px 6px;
+  border-radius: 6px;
+  transition: all .2s ease;
+}
+
+.section-post-template nav.toc a:hover {
+  background: rgba(49,61,93,0.08);
+  transform: translateX(4px);
+}
+
+.section-post-template nav.toc a.active {
+  background: rgba(49,61,93,0.12);
+  font-weight: 600;
+}
+
+/* =============================
+   PHẦN NỘI DUNG CHÍNH / MAIN CONTENT AREA
+   ============================= */
+.section-post-template main.content {
+  flex: 1;
+}
+
+/* =============================
+   CẤU TRÚC SECTION & ANIMATION / SECTION STRUCTURE & ANIMATION
+   ============================= */
+.section-post-template section {
+  background: var(--panel);
+  border: 1px solid #cbd5e1;
+  border-radius: var(--round);
+  padding: 20px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow);
+  opacity: 0; 
+  transform: translateY(20px);
+  transition: opacity .6s ease, transform .6s ease, background .4s ease;
+  position: relative;
+}
+
+.section-post-template section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-post-template section h2 {
+  margin-top: 0;
+  font-size: 28px;
+  color: var(--accent-2);
+  position: relative;
+  display: inline-block;
+  transition: color .3s ease;
+}
+
+.section-post-template section.active {
+  background: #f1f5f9;
+}
+
+.section-post-template section.active::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 6px; 
+  height: 100%;
+  background: var(--accent-2);
+  transform: scaleY(0);
+  transform-origin: top;
+  animation: markerSlide .4s forwards;
+  border-top-left-radius: var(--round);
+  border-bottom-left-radius: var(--round);
+}
+
+@keyframes markerSlide {
+  to { transform: scaleY(1); }
+}
+
+.section-post-template section.active h2 { 
+  color: var(--accent); 
+}
+
+.section-post-template section h2::after {
+  content: "";
+  position: absolute;
+  bottom: -4px; 
+  left: 0;
+  width: 0; 
+  height: 3px;
+  background: var(--accent-2);
+  transition: width .4s ease;
+}
+
+.section-post-template section h2:hover::after { 
+  width: 100%; 
+}
+
+/* =============================
+   HỘP GHI CHÚ (CALLOUT) / CALLOUT BOX
+   ============================= */
+.section-post-template .callout {
+  border-left: 4px solid var(--accent);
+  background: #f0f9ff;
+  padding: 12px 14px 12px 40px;
+  border-radius: 8px;
+  margin: 14px 0;
+  position: relative;
+}
+
+/* =============================
+   THẺ NỘI DUNG (CARD) / CONTENT CARD
+   ============================= */
+.section-post-template .card {
+  background: var(--card);
+  border: 1px solid #cbd5e1;
+  border-radius: var(--round);
+  padding: 16px;
+  margin: 14px 0;
+  box-shadow: var(--shadow);
+  transition: all .25s ease;
+}
+
+.section-post-template .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.15);
+}
+
+/* =============================
+   PHẦN TÀI LIỆU THAM KHẢO / REFERENCES SECTION
+   ============================= */
+.section-post-template #refs h2 {
+  text-align: center;
+  font-size: 22px;
+  color: var(--accent-2);
+}
+
+/* =============================
+   ẢNH & FIGURE / IMAGES & FIGURE
+   ============================= */
+.section-post-template figure { 
+  text-align: center; 
+  margin: 16px 0; 
+}
+
+.section-post-template .img-wrap {
+  width: 100%; 
+  overflow: hidden; 
+  border-radius: 12px; 
+  border: 1px solid #e5e7eb;
+}
+
+.section-post-template .img {
+  width: 100%; 
+  display: block; 
+  margin: auto; 
+  height: auto;
+}
+
+.section-post-template figcaption {
+  font-size: 13px; 
+  color: #6b7280; 
+  margin-top: 8px; 
+  text-align: center;
+}

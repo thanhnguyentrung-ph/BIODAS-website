@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="BIODAS Team">
+<meta name="dcterms.date" content="2025-08-08">
 
-<title>ThS. Nguyễn Quốc Đạt</title>
+<title>Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,12 +88,15 @@ ul.task-list li input[type="checkbox"] {
 background: #313d5d;
       }
 </style>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -185,20 +190,49 @@ background: #313d5d;
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">ThS. Nguyễn Quốc Đạt</h1>
-            <p class="subtitle lead">Quản lý vận hành</p>
-                      </div>
+      <h1 class="title">Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam</h1>
+            <p class="subtitle lead">Vietnam biobanking feasibility study</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Research</div>
+                <div class="quarto-category">Biobank</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>BIODAS Team </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 8, 2025</p>
+      </div>
+    </div>
     
       
     </div>
@@ -206,6 +240,18 @@ background: #313d5d;
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -215,207 +261,269 @@ background: #313d5d;
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/250808-poster.png" class="img-cover img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
 <style>
-/* Container 2 cột */
-.section-team-member {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 40px 20px;
+.section-biobank-feasibility {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin: 40px 0;
 }
 
-/* Cột ảnh */
-.section-team-member .profile-pic-wrapper {
-  flex: 0 0 280px;
-  position: sticky;
-  top: 100px;
+.section-biobank-feasibility .section-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   opacity: 0;
-  transform: translateX(-50px);
-  animation: slideInLeft 1s ease forwards;
-}
-@keyframes slideInLeft {
-  to { opacity: 1; transform: translateX(0); }
+  transform: translateY(30px);
+  transition: all 0.6s ease-out, border-top-width 0.3s ease;
 }
 
-/* Ảnh */
-.section-team-member .profile-pic {
-  width: 100%;
-  border-radius: 16px; /* bo góc nhẹ giống Bevel Rectangle */
-  padding: 6px; /* tạo khoảng viền */
-  background: linear-gradient(145deg, #ffffff, #c9c9c9); /* gradient sáng - tối mô phỏng bevel */
-  
-  box-shadow: inset 3px 3px 6px rgba(0,0,0,0.2),   /* bóng trong tối */
-              inset -3px -3px 6px rgba(255,255,255,0.7), /* bóng trong sáng */
-              4px 4px 10px rgba(0,0,0,0.3); /* bóng ngoài nhẹ */
-  
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.section-team-member .profile-pic:hover {
-  transform: scale(1.05);
-  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.25),
-              inset -2px -2px 5px rgba(255,255,255,0.8),
-              6px 6px 14px rgba(0,0,0,0.4);
-}
-
-/* Cột nội dung */
-.section-team-member .profile-content {
-  flex: 1;
-  max-width: 700px;
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-  padding: 25px;
-  line-height: 1.7;
-  opacity: 0;
-  transform: translateX(50px);
-  animation: slideInRight 1s ease forwards;
-  animation-delay: 0.3s;
-}
-@keyframes slideInRight {
-  to { opacity: 1; transform: translateX(0); }
-}
-
-/* Tên chuyên gia: highlight + căn giữa */
-.section-team-member .profile-content h2 {
-  margin-top: 0;
-  color: #313d5d;
-  font-size: 1.8em;
-  font-weight: bold;
-  border-bottom: 2px solid #1265c9;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-/* Văn bản: căn đều, không có background chữ */
-.section-team-member .profile-content p {
-  color: #444;
-  font-size: 1em;
-  margin-bottom: 20px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-  text-align: justify;
-}
-.section-team-member .profile-content p.glow {
+.section-biobank-feasibility .section-card.visible {
   opacity: 1;
   transform: translateY(0);
 }
-.section-team-member .profile-content p:nth-of-type(1).glow { transition-delay: 0.2s; }
-.section-team-member .profile-content p:nth-of-type(2).glow { transition-delay: 0.5s; }
-.section-team-member .profile-content p:nth-of-type(3).glow { transition-delay: 0.8s; }
 
-/* Icons: căn giữa */
-.section-team-member .contact-icons {
-  margin-top: 20px;
+.section-biobank-feasibility .section-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.2);
+  border-top-width: 8px;
+}
+
+.section-biobank-feasibility .section-card h3 {
+  font-size: 22px;         
+  font-weight: 700;        
+  margin-bottom: 20px;     
   text-align: center;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-}
-.section-team-member .contact-icons.glow {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 1.2s;
-}
-.section-team-member .contact-icons a {
-  margin: 0 10px;
-  font-size: 1.6em;
-  color: #313d5d;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-.section-team-member .contact-icons a:hover {
-  color: #1265c9;
-  transform: scale(1.2);
+  color: #2c3e50;          
+  letter-spacing: 0.5px;   
+  text-transform: uppercase; 
+  position: relative;      
+  transition: transform 0.3s ease;
 }
 
-/* Nút quay lại: căn giữa */
-.section-team-member .back-btn {
+.section-biobank-feasibility .section-card h3::after {
+  content: "";
   display: block;
-  margin: 25px auto 0; /* căn giữa */
-  padding: 12px 22px;
-  background: #313d5d;
-  color: #fff;
-  border-radius: 8px;
-  font-size: 1em;
-  text-decoration: none;
-  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: center;
-  width: fit-content;
-}
-.section-team-member .back-btn:hover {
-  background: #1265c9;
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(18, 101, 201, 0.4);
+  width: 50px;              
+  height: 3px;              
+  background: currentColor; 
+  margin: 8px auto 0;       
+  border-radius: 2px;
+  opacity: 0.7;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .section-team-member {
-    flex-direction: column;
-    align-items: center;
-  }
-  .section-team-member .profile-pic-wrapper {
-    position: relative;
-    top: auto;
-    margin-bottom: 20px;
-    width: 60%;
-  }
-  .section-team-member .profile-content {
-    width: 100%;
-  }
+.section-biobank-feasibility .section-card:hover h3 {
+  transform: scale(1.05);
 }
+
+.section-biobank-feasibility .section-card ul {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.6;
+}
+
+.section-biobank-feasibility .section-card li {
+  margin-bottom: 6px;
+}
+
+/* Màu border-top cho từng card */
+.card-theory { border-top: 6px solid #2a9d8f; }
+.card-infra { border-top: 6px solid #e76f51; }
+.card-legal { border-top: 6px solid #457b9d; }
+.card-finance { border-top: 6px solid #f4a261; }
+.card-public { border-top: 6px solid #8e44ad; }
+.card-partner { border-top: 6px solid #16a085; }
+.card-impact { border-top: 6px solid #c0392b; }
+.card-culture { border-top: 6px solid #2980b9; }
+.card-result { border-top: 6px solid #9b59b6; }
 </style>
 
-<section class="section-team-member">
+<div class="section-biobank-feasibility">
 
-  <!-- Cột ảnh -->
-  <div class="profile-pic-wrapper">
-    <img src="images/nguyen-quoc-dat.jpg" alt="Nguyễn Quốc Đạt" class="profile-pic" id="expert-pic">
+  <div class="section-card card-theory">
+    <h3 class="anchored">Cơ sở lý luận</h3>
+    <ul>
+      <li>Biobank là hạ tầng quan trọng cho giám sát y tế công cộng.</li>
+      <li>80% nghiên cứu y tế toàn cầu tập trung ở các nước phát triển.</li>
+      <li>WHO/IARC BCnet hỗ trợ xây dựng biobank tại LMIC.</li>
+      <li>Kinh nghiệm ASEAN: tăng trưởng kinh tế, COVID-19 thúc đẩy nhu cầu.</li>
+      <li>Philippines (2021) có công cụ đánh giá có thể nhân rộng.</li>
+      <li>Việt Nam: tăng trưởng nhanh, nhu cầu nghiên cứu cao → cần nghiên cứu khả thi riêng.</li>
+    </ul>
   </div>
 
-  <!-- Cột nội dung -->
-  <div class="profile-content">
-    <h2 class="anchored">ThS. Nguyễn Quốc Đạt</h2>
-    <p>ThS Nguyễn Quốc Đạt có nền tảng vững chắc trong lĩnh vực y tế công cộng, với gần 10 năm kinh nghiệm trong phát triển hệ thống y tế, an ninh y tế toàn cầu (GHS) và triển khai các nghiên cứu lâm sàng. Trước khi gia nhập BIODAS, anh đã tham gia điều phối và thực hiện nhiều dự án chăm sóc sức khỏe, cũng như phát triển các chương trình đào tạo nhằm nâng cao năng lực y tế.</p>
-    <p>Với chuyên môn sâu về giám sát và đánh giá chương trình, phân tích dữ liệu và lập kế hoạch dự án trong các lĩnh vực dịch tễ học, kiểm soát bệnh truyền nhiễm và ứng phó khẩn cấp, anh hiện đảm nhiệm vị trí Quản lý Vận hành của BIODAS. Trong vai trò này, anh tập trung quản lý, thúc đẩy các hoạt động nghiên cứu, phát triển tổ chức và tăng cường hợp tác với các đối tác trong và ngoài nước.</p>
-
-    <div class="contact-icons">
-      <a href="tel:+84962613695" target="_blank"><i class="fa fa-phone"></i></a>
-      <a href="mailto:dat.nguyenquoc@biodas.net" target="_blank"><i class="fa fa-envelope"></i></a>
-    </div>
-
-    <a href="https://biodas.net/about/team.html" class="back-btn">← Quay lại danh sách Chuyên gia và Nhân sự</a>
+  <div class="section-card card-infra">
+    <h3 class="anchored">Đánh giá hạ tầng &amp; nguồn lực</h3>
+    <ul>
+      <li>Hạ tầng: thách thức về điện, kho lạnh, Internet.</li>
+      <li>Nghiên cứu khả thi giúp xác định khoảng trống.</li>
+      <li>Nhân lực: cần kỹ năng thu thập mẫu, lưu trữ, quản lý dữ liệu, đạo đức nghiên cứu.</li>
+      <li>Tài chính: yêu cầu đầu tư lớn, cần huy động cả trong nước và quốc tế.</li>
+    </ul>
   </div>
 
-</section>
+  <div class="section-card card-legal">
+    <h3 class="anchored">Khung pháp lý &amp; đạo đức</h3>
+    <ul>
+      <li>Đánh giá hệ thống pháp luật hiện tại, chỉ ra khoảng trống.</li>
+      <li>Quy trình consent và bảo mật dữ liệu phù hợp văn hóa – pháp lý.</li>
+      <li>Tham vấn và huy động các bên liên quan.</li>
+    </ul>
+  </div>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="section-card card-finance">
+    <h3 class="anchored">Tính bền vững &amp; duy trì</h3>
+    <ul>
+      <li>Biobank đòi hỏi kinh phí lớn, quỹ hiện tại thường ngắn hạn.</li>
+      <li>Cần kế hoạch kinh doanh chi tiết: phân tích chi phí, chiến lược dài hạn.</li>
+      <li>Xác định nguồn quỹ nội địa &amp; quốc tế.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-public">
+    <h3 class="anchored">Nhu cầu y tế &amp; nghiên cứu</h3>
+    <ul>
+      <li>Ưu tiên quốc gia: lao, viêm gan, ung thư, tiểu đường.</li>
+      <li>Biobank hỗ trợ nghiên cứu gắn với gánh nặng bệnh tật.</li>
+      <li>Đánh giá năng lực hiện tại: tiền lâm sàng → lâm sàng.</li>
+      <li>Xác định nhu cầu đào tạo &amp; nâng cao năng lực.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-partner">
+    <h3 class="anchored">Quan hệ đối tác &amp; hợp tác</h3>
+    <ul>
+      <li>Tăng cường hợp tác viện/trường trong nước &amp; quốc tế.</li>
+      <li>Đánh giá sự ủng hộ từ chính phủ, Bộ Y tế.</li>
+      <li>Xem xét lập Văn phòng điều phối Biobank Việt Nam.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-impact">
+    <h3 class="anchored">Tác động kinh tế – xã hội</h3>
+    <ul>
+      <li>Thực hiện Cost–Benefit Analysis.</li>
+      <li>Cải thiện sức khỏe cộng đồng.</li>
+      <li>Thúc đẩy khoa học và thu hút hợp tác quốc tế.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-culture">
+    <h3 class="anchored">Yếu tố văn hóa &amp; xã hội</h3>
+    <ul>
+      <li>Cần lưu ý nhận thức cộng đồng về thu thập &amp; sử dụng mẫu sinh học.</li>
+      <li>Chiến lược gắn kết: cộng đồng – cán bộ y tế – nhà hoạch định chính sách.</li>
+    </ul>
+  </div>
+
+  <div class="section-card card-result">
+    <h3 class="anchored">Kết quả kỳ vọng</h3>
+    <ul>
+      <li><b>Manuscript</b>: tổng hợp dữ liệu nghiên cứu khả thi → mô tả hiện trạng hạ tầng Biobank tại Việt Nam.</li>
+      <li>Đảm bảo hướng đi:</li>
+      <ul>
+        <li>Phù hợp văn hóa – xã hội.</li>
+        <li>Đúng chuẩn mực đạo đức.</li>
+        <li>Bền vững về tài chính.</li>
+      </ul>
+    </ul>
+  </div>
+
+</div>
 
 <script>
-// Parallax effect
-window.addEventListener("scroll", function() {
-  const pic = document.getElementById("expert-pic");
-  const offset = window.scrollY * 0.0015; 
-  pic.style.transform = `scale(${1 + offset})`;
+// Script thêm class 'visible' khi card vào viewport
+document.addEventListener("DOMContentLoaded", function() {
+  const cards = document.querySelectorAll(".section-biobank-feasibility .section-card");
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.9;
+    cards.forEach((card, i) => {
+      const cardTop = card.getBoundingClientRect().top;
+      if (cardTop < triggerBottom) {
+        setTimeout(() => card.classList.add("visible"), i * 150); // delay xen kẽ
+      }
+    });
+  };
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll();
 });
-
-// Glow on scroll
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("glow");
-    }
-  });
-}, { threshold: 0.2 });
-
-document.querySelectorAll(".profile-content p, .contact-icons, #expert-pic")
-  .forEach(el => observer.observe(el));
 </script>
 
+<section id="bảng-tóm-tắt" class="level1">
+<h1>Bảng tóm tắt</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 42%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Thách thức</th>
+<th>Cơ hội</th>
+<th>Giải pháp đề xuất</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hạ tầng &amp; điện/kho lạnh</td>
+<td>Kinh nghiệm ASEAN, WHO hỗ trợ</td>
+<td>Đầu tư pilot site</td>
+</tr>
+<tr class="even">
+<td>Thiếu nhân lực chuyên môn</td>
+<td>Nhu cầu đào tạo cao</td>
+<td>Xây dựng chương trình đào tạo</td>
+</tr>
+<tr class="odd">
+<td>Quỹ ngắn hạn, thiếu bền vững</td>
+<td>Hợp tác quốc tế, quỹ nghiên cứu</td>
+<td>Kế hoạch tài chính dài hạn</td>
+</tr>
+<tr class="even">
+<td>Nhận thức cộng đồng thấp</td>
+<td>COVID-19 tăng quan tâm</td>
+<td>Chiến lược truyền thông</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sơ-đồ-workflow-về-nghiên-cứu-tính-khả-thi-của-ngân-hàng-sinh-học-tại-việt-nam" class="level1">
+<h1>Sơ đồ workflow về nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam</h1>
+<div style="text-align: center;">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A([📦 Nhu cầu Biobank tại Việt Nam]) --&gt; B([🏭 Hạ tầng: điện, kho lạnh, Internet])
+    A --&gt; C([👩‍🔬 Nhân lực: đào tạo, kỹ năng, đạo đức])
+    A --&gt; D([⚖️ Pháp lý &amp; đạo đức: consent, bảo mật])
 
+    B --&gt; E([💰 Tài chính &amp; bền vững: CBA, kế hoạch dài hạn])
+    C --&gt; E
+    D --&gt; E
+
+    E --&gt; F([🤝 Hợp tác: viện/trường, Bộ Y tế, quốc tế])
+    F --&gt; G([🌍 Tác động: sức khỏe, khoa học, hợp tác])
+    G --&gt; H([🎯 Kết quả kỳ vọng: Manuscript + chính sách])
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -874,7 +982,7 @@ document.querySelectorAll(".profile-content p, .contact-icons, #expert-pic")
     </a>
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/edit/main/project/posts/250808-vn-biobank-feasibility.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/blob/main/project/posts/250808-vn-biobank-feasibility.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p><a href="other/ts-and-cs.qmd">Terms &amp; Conditions</a></p>
 </div>
