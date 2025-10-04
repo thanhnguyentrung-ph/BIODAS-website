@@ -10,7 +10,7 @@ author: BIODAS Team
 date: 08/10/2025 # mm/dd/yyyy
 image: images/250810-poster.jpg
 aliases: 
-  - /media/recruitment/posts/
+  - /recruitment/posts/
 ---
 
 

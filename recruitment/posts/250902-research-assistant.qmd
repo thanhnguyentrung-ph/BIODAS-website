@@ -10,7 +10,7 @@ author: BIODAS Team
 date: 09/02/2025 # mm/dd/yyyy
 image: images/250902-poster.jpg
 aliases: 
-  - /media/recruitment/posts/2025/09/02/research-assistant.html
+  - /recruitment/posts/
 ---
 
 
