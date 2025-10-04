@@ -152,8 +152,8 @@ listing:
 <div class="section-highlight">
   <!-- Slide 1 -->
   <div class="highlight-slide active">
-    <a href="project/posts/2025/08/08/vn-biobank-feasibility.qmd">
-      <img src="project/posts/2025/08/08/images/poster.png" alt="Biobanking feasibility">
+    <a href="project/posts/250808-vn-biobank-feasibility.qmd">
+      <img src="project/posts/images/250808-poster.png" alt="Biobanking feasibility">
       <div class="text-box">
         <h2>Vietnam biobanking feasibility study</h2>
         <p>Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam</p>
@@ -163,8 +163,8 @@ listing:
 
   <!-- Slide 2 -->
   <div class="highlight-slide">
-    <a href="project/posts/2025/08/24/data-training.qmd">
-      <img src="project/posts/2025/08/24/images/poster.png" alt="Data training">
+    <a href="project/posts/250824-data-training.qmd">
+      <img src="project/posts/images/250824-poster.png" alt="Data training">
       <div class="text-box">
         <h2>Initiative for strengthening community capacity in data processing and analytics in the digital age</h2>
         <p>Dự án xây dựng Nền tảng năng lực Xử lý và phân tích dữ liệu cho cộng đồng trong kỷ nguyên số</p>
@@ -174,8 +174,8 @@ listing:
 
   <!-- Slide 3 -->
   <div class="highlight-slide">
-    <a href="project/posts/2025/08/28/data-handbook.qmd">
-      <img src="project/posts/2025/08/28/images/poster.png" alt="Data handbook">
+    <a href="project/posts/250828-data-handbook.qmd">
+      <img src="project/posts/images/250828-poster.png" alt="Data handbook">
       <div class="text-box">
         <h2>Project on Developing a Practical Handbook for Data Processing and Analytics to Empower Communities in the Digital Age</h2>
         <p>Dự án biên soạn cẩm nang thực hành xử lý và Phân tích dữ liệu phục vụ cộng đồng trong kỷ nguyên số</p>
@@ -185,8 +185,8 @@ listing:
 
   <!-- Slide 4 -->
   <div class="highlight-slide">
-    <a href="project/posts/2025/09/02/data-kap.qmd">
-      <img src="project/posts/2025/09/02/images/poster.png" alt="Data KAP">
+    <a href="project/posts/250902-data-kap.qmd">
+      <img src="project/posts/images/250902-poster.png" alt="Data KAP">
       <div class="text-box">
         <h2>Survey on Knowledge, Attitudes, and Practices Regarding Data Use, e-Health, and Artificial Intelligence among Healthcare Workers</h2>
         <p>Khảo sát về kiến thức, thái độ và thực hành của cán bộ y tế đối với dữ liệu, e-health và trí tuệ nhân tạo</p>
@@ -196,8 +196,8 @@ listing:
 
   <!-- Slide 5 -->
   <div class="highlight-slide">
-    <a href="project/posts/2025/08/04/vn-biobank-nsclc.qmd">
-      <img src="project/posts/2025/08/04/images/poster.png" alt="Biobank NSCLC">
+    <a href="project/posts/250804-vn-biobank-nsclc.qmd">
+      <img src="project/posts/images/250804-poster.png" alt="Biobank NSCLC">
       <div class="text-box">
         <h2>Development of a Reference Biobank and Standardized Biological Database to Support Research and Precision Treatment of Non-Small Cell Lung Cancer in Vietnam</h2>
         <p>Xây dựng ngân hàng mẫu tham chiếu và cơ sở dữ liệu sinh học chuẩn hóa phục vụ nghiên cứu và điều trị ung thư phổi không tế bào nhỏ tại Việt Nam</p>
@@ -207,8 +207,8 @@ listing:
 
   <!-- Slide 6 -->
   <div class="highlight-slide">
-    <a href="project/posts/2025/08/12/vn-biobank-risk-manage.qmd">
-      <img src="project/posts/2025/08/12/images/poster.png" alt="Biobank risk management">
+    <a href="project/posts/250812-vn-biobank-risk-manage.qmd">
+      <img src="project/posts/images/250812-poster.png" alt="Biobank risk management">
       <div class="text-box">
         <h2>Assessment and strategic optimization of risk management in biobank systems: The case of Vietnam</h2>
         <p>Đánh giá và tối ưu hóa quản trị rủi ro trong hệ thống ngân hàng mẫu sinh học tại Việt Nam</p>
@@ -218,8 +218,8 @@ listing:
 
   <!-- Slide 7 -->
   <div class="highlight-slide">
-    <a href="project/posts/2025/08/16/vn-biobank-data.qmd">
-      <img src="project/posts/2025/08/16/images/poster.png" alt="Biobank data">
+    <a href="project/posts/250816-vn-biobank-data.qmd">
+      <img src="project/posts/images/250816-poster.png" alt="Biobank data">
       <div class="text-box">
         <h2>A study on the management and use of biobank data in Vietnam: An evaluation of their effectiveness</h2>
         <p>Khảo sát và đánh giá hiệu quả việc quản lý và sử dụng dữ liệu từ các ngân hàng sinh học tại Việt Nam</p>
@@ -229,8 +229,8 @@ listing:
 
   <!-- Slide 8 -->
   <div class="highlight-slide">
-    <a href="project/posts/2025/08/20/vn-medical-tourism.qmd">
-      <img src="project/posts/2025/08/20/images/poster.png" alt="Medical tourism market">
+    <a href="project/posts/250820-vn-medical-tourism.qmd">
+      <img src="project/posts/images/250820-poster.png" alt="Medical tourism market">
       <div class="text-box">
         <h2>Medical tourism market in Vietnam: An analysis of the current situation and development potential</h2>
         <p>Nghiên cứu thị trường y tế du lịch tại Việt Nam: Thực trạng và tiềm năng phát triển</p>
