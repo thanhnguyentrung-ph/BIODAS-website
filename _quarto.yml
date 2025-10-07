@@ -51,18 +51,14 @@ website:
         href: "resource/index.qmd"
 
       # 4. Media and Communication
-      # - text: "Tin tức & Sự kiện"
-      #   menu:
       - text: "Tin tức & Sự kiện"
-        href: "news/index.qmd"
-        # - text: "Hợp tác quốc tế"
-        #   href: "media/international-cooperation.qmd"
-        # - text: "Giá trị cộng đồng"
-        #   href: "media/community.qmd"
-        # - text: "Hội nghị khoa học"
-        #   href: "media/conference.qmd"
-        # - text: "Xuất bản khoa học"
-        #   href: "media/publication.qmd"
+        menu:
+        - text: "Tin tức"
+          href: "media/news.qmd"
+        - text: "Sự kiện"
+          href: "media/event.qmd"
+        - text: "Thông tin học bổng"
+          href: "media/scholarship.qmd"
 
       # 5. Recruitment
       - text: "Tuyển dụng"

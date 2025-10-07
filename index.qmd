@@ -14,7 +14,7 @@ listing:
       contents:
       - /project
       - /resource
-      - /news
+      - /media
       - /recruitment
       - "!index.qmd"
       sort: "date desc"

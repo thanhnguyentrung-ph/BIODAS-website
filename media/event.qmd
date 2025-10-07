@@ -1,0 +1,22 @@
+---
+title: Sự kiện
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+search: true
+repo-actions: false
+listing:
+  contents:
+  - event 
+  - "!news.qmd"
+  - "!event.qmd"
+  - "!scholarship.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 12
+  feed: true
+aliases: 
+  - /media/
+---

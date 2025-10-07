@@ -340,5 +340,23 @@
   },
   "recruitment/posts/250904-field-assistant.qmd": {
     "250904-field-assistant.html": "ba76c756"
+  },
+  "news/posts/250910-digitising-medical.qmd": {
+    "250910-digitising-medical.html": "1bc2057b"
+  },
+  "media/event.qmd": {
+    "event.html": "5660306e"
+  },
+  "media/event/250910-digitising-medical.qmd": {
+    "250910-digitising-medical.html": "0553ba7e"
+  },
+  "media/event/250912-scope-trial-design.qmd": {
+    "250912-scope-trial-design.html": "6014e55a"
+  },
+  "media/event/250929-cep.qmd": {
+    "250929-cep.html": "2dd648da"
+  },
+  "media/scholarship.qmd": {
+    "scholarship.html": "663fd608"
   }
 }

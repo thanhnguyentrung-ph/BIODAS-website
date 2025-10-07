@@ -1,0 +1,139 @@
+---
+title: "Chương trình trải nghiệm tại Trung Quốc (CEP) dành cho Tài năng trẻ quốc tế"
+subtitle: "China Experience Program (CEP) - Shanghai Jiao Tong University School of Medicine - Hainan International Medical Center"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Chương trình
+  - Quốc tế
+  - Trung Quốc
+  - Trải nghiệm thực tế
+  - Offline
+author: BIODAS Team
+date: 09/10/2025 # mm/dd/yyyy
+toc: true
+image: "https://i.pinimg.com/1200x/80/e4/9a/80e49a598a6b5da46871853cb0aecf58.jpg"
+aliases: 
+  - /media/event/
+---
+
+![](https://i.pinimg.com/1200x/e0/6a/2e/e06a2e8cfd4974e481e6e9d58f6aab61.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-event-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section class="section-event-template">
+  <div class="event-hero">
+    <div class="light-beam"></div>
+
+    <!-- PARTICLES -->
+    <div class="particle-container">
+      <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+      <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+      <div class="particle"></div><div class="particle"></div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title shimmer">Chương trình trải nghiệm tại Trung Quốc dành cho Tài năng trẻ quốc tế</h1>
+      <h2 class="hero-subtitle">
+        China Experience Program (CEP) - Shanghai Jiao Tong University School of Medicine - Hainan International Medical Center
+      </h2>
+      <a href="mailto:cheong.iohong@shsmu.edu.cn" class="btn-register">
+        Liên hệ đăng ký
+      </a>
+    </div>
+  </div>
+
+  <div class="event-body">
+    <h3>1. Giới thiệu chương trình</h3>
+    <p>
+      Trường Đại học Y khoa Jiao Tong Thượng Hải phối hợp cùng Trung tâm Y khoa Quốc tế Hải Nam trân trọng gửi lời mời đến các trường đại học và tổ chức học thuật trên toàn cầu đề cử những sinh viên và học viên tốt nghiệp xuất sắc tham gia 
+      <strong>Chương trình Trải nghiệm Trung Quốc (China Experience Program – CEP)</strong>, do Quỹ Giao lưu Nhân tài Quốc tế Trung Quốc tài trợ.
+    </p>
+
+    <h3>2. Mục tiêu chương trình</h3>
+    <p>
+      Chương trình CEP là một chương trình trao đổi ngắn hạn được tài trợ toàn phần, nhằm quy tụ các tài năng trẻ hàng đầu thế giới đến trải nghiệm văn hóa đa dạng và môi trường đổi mới sáng tạo năng động của Trung Quốc. 
+      Mục tiêu của chương trình là xây dựng một cộng đồng lãnh đạo toàn cầu tương lai có hiểu biết sâu sắc về Trung Quốc và các giá trị hợp tác quốc tế.
+    </p>
+
+    <h3>3. Điểm nổi bật của chương trình (kéo dài 1 tuần)</h3>
+    <!-- CALL OUT: Điểm nổi bật -->
+    <div class="event-callout">
+      <ul>
+        <li>Học bổng toàn phần: Bao gồm vé máy bay quốc tế, chỗ ở, bữa ăn và toàn bộ chi phí liên quan đến chương trình tại Trung Quốc.</li>
+        <li>Chương trình học tập chuyên sâu: Các buổi hội thảo theo chủ đề, lớp học tiếng Trung và văn hóa cơ bản, cùng với hoạt động thực hành và workshop tương tác.</li>
+        <li>Trải nghiệm văn hóa được chọn lọc: Tham quan những địa danh lịch sử và văn hóa biểu tượng, mang đến trải nghiệm sâu sắc về di sản Trung Hoa.</li>
+        <li>Mạng lưới kết nối giá trị cao: Cơ hội giao lưu trực tiếp với giảng viên và sinh viên của các trường đại học hàng đầu, cùng chuyến thăm thực tế đến doanh nghiệp hoặc viện nghiên cứu đổi mới của Trung Quốc.</li>
+      </ul>
+    </div>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/f1/99/5c/f1995cadbd70bd80a3d0c3bd35210bbe.jpg" class="img" alt="China Experience Program illustration" />
+      </div>
+      <figcaption>
+        Hình ảnh: Minh họa Chương trình Trải nghiệm Trung Quốc (CEP)
+      </figcaption>
+    </figure>
+
+    <h3>4. Tiêu chí đề cử</h3>
+    <!-- CALL OUT: Tiêu chí đề cử -->
+    <div class="event-callout">
+      <ul>
+        <li>Độ tuổi: Sinh sau ngày 1 tháng 1 năm 1990</li>
+        <li>Trình độ học vấn: Đã tốt nghiệp đại học, thạc sĩ hoặc tiến sĩ trong vòng 3 năm gần nhất.</li>
+        <li>Phẩm chất cá nhân: Có thành tích học tập xuất sắc, tiềm năng lãnh đạo và quan tâm sâu sắc đến giao lưu văn hóa – khoa học giữa Trung Quốc và thế giới.</li>
+      </ul>
+    </div>
+
+    <h3>5. Quy trình đề cử</h3>
+    <p>Các trường hoặc tổ chức có thể gửi danh sách ứng viên qua email, bao gồm:</p>
+    <!-- CALL OUT: Quy trình đề cử -->
+    <div class="event-callout">
+      <ul>
+        <li>Họ và tên (theo hộ chiếu)</li>
+        <li>Ngày tháng năm sinh</li>
+        <li>Số hộ chiếu</li>
+        <li>Bằng cấp cao nhất đạt được (ví dụ: Cử nhân Y tế công cộng, 2023) và ngày cấp bằng</li>
+      </ul>
+    </div>
+    <br>
+
+    <p>
+      Thư mời được ký bởi Ông <strong>Cheong Io Hong</strong>, Giám đốc Văn phòng Trao đổi Quốc tế – Trường Đại học Y khoa Jiao Tong Thượng Hải, Trung tâm Y khoa Quốc tế Hải Nam.
+    </p>
+
+    <p>
+      <center>Liên hệ: 📧 <a href="mailto:cheong.iohong@shsmu.edu.cn">cheong.iohong@shsmu.edu.cn</a> | ☎️ +86 199 6567 0289</center>
+    </p>
+
+    <div class="btn-wrap">
+      <a href="mailto:cheong.iohong@shsmu.edu.cn" class="btn-register">
+        Liên hệ đăng ký
+      </a>
+    </div>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Chia sẻ thông tin này:</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/event/250929-cep.html" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/event/250929-cep.html" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/event/250929-cep.html" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+```
+

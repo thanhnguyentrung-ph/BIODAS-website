@@ -8,8 +8,18 @@
     ]
   },
   {
+    "listing": "/media/scholarship.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/media/event.html",
+      "/media/news.html",
+      "/media/scholarship.html",
+      "/media/event/250912-scope-trial-design.html",
+      "/media/event/250910-digitising-medical.html",
+      "/media/event/250929-cep.html",
       "/recruitment/posts/250904-field-assistant.html",
       "/recruitment/posts/250902-research-assistant.html",
       "/project/posts/250828-data-handbook.html",
@@ -22,6 +32,18 @@
       "/project/posts/250808-vn-biobank-feasibility.html",
       "/project/posts/250804-vn-biobank-nsclc.html"
     ]
+  },
+  {
+    "listing": "/media/event.html",
+    "items": [
+      "/media/event/250912-scope-trial-design.html",
+      "/media/event/250910-digitising-medical.html",
+      "/media/event/250929-cep.html"
+    ]
+  },
+  {
+    "listing": "/media/news.html",
+    "items": []
   },
   {
     "listing": "/project/index.html",

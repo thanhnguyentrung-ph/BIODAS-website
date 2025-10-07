@@ -1,0 +1,218 @@
+---
+title: "Thúc đẩy tương lai Nghiên cứu thử nghiệm lâm Sàng: Hội nghị SCOPE Lần thứ 3 về Thiết kế & phát triển Đề cương nghiên cứu"
+subtitle: "Powering the Future of Clinical Research: SCOPE’s 3rd Annual Trial Design & Protocol Development"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Hội nghị
+  - Quốc tế
+  - Clinical trial
+  - Online
+  - Offline
+  - Research
+author: BIODAS Team
+date: 09/12/2025 # mm/dd/yyyy
+toc: true
+image: "https://www.scopesummit.com/images/librariesprovider15/agenda/26/track-assets/c1-stream.png?sfvrsn=a0d23c71_1"
+aliases: 
+  - /media/event/
+---
+
+![](https://www.scopesummit.com/images/librariesprovider15/home/26/hero-video2.png?sfvrsn=e16066a5_1){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-event-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section class="section-event-template">
+  <div class="event-hero">
+    <div class="light-beam"></div>
+
+    <!-- PARTICLES -->
+    <div class="particle-container">
+      <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+      <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+      <div class="particle"></div><div class="particle"></div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title shimmer">Hội nghị quốc tế: Thúc đẩy tương lai Nghiên cứu Thử nghiệm Lâm sàng</h1>
+      <h2 class="hero-subtitle">
+        Hội nghị SCOPE Lần thứ 3 về Thiết kế & Phát triển Đề cương Nghiên cứu
+      </h2>
+      <a href="https://register.cambridgeinnovationinstitute.com/reg/scopeeur" class="btn-register" target="_blank">
+        Đăng ký ngay
+      </a>
+    </div>
+  </div>
+
+  <div class="event-body">
+
+    <h3>1. Giới thiệu</h3>
+    <p>
+      Trong kỷ nguyên dữ liệu và công nghệ, thành công của thử nghiệm lâm sàng không chỉ nằm ở kết quả khoa học mà còn ở khả năng lắng nghe và tích hợp tiếng nói của bệnh nhân, bác sĩ và trung tâm nghiên cứu ngay từ giai đoạn thiết kế đề cương nghiên cứu.
+    </p>
+
+    <p>
+      <strong>Hội nghị SCOPE 2026</strong> – “Thúc đẩy tương lai nghiên cứu lâm sàng”, phiên thứ 3 của chuỗi <em>Trial Design & Protocol Development</em>, mang đến góc nhìn toàn diện về cách xây dựng các đề cương nghiên cứu thông minh, linh hoạt và bao trùm hơn.
+    </p>
+
+    <p>
+      Sự kiện tập trung vào việc ứng dụng phản hồi từ bệnh nhân, công cụ kỹ thuật số và các mô hình thử nghiệm lâm sàng mới như phân tán (DCT), lai (Hybrid) và thực tiễn (Pragmatic Trials) nhằm nâng cao hiệu quả, tính bền vững và trải nghiệm người tham gia.
+    </p>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.scopesummit.com/images/librariesprovider15/agenda/26/track-assets/c1-stream.png?sfvrsn=a0d23c71_1" class="img" />
+      </div>
+      <figcaption>
+        Nguồn: SCOPEsummit
+      </figcaption>
+    </figure>
+
+    <!-- THÔNG TIN HỘI NGHỊ -->
+    <h3>2. Thông tin Hội nghị</h3>
+    <div class="event-callout">
+      <ul>
+        <li><strong>Địa điểm:</strong> Rosen Shingle Creek, Orlando, Florida, Hoa Kỳ</li>
+        <li><strong>Thời gian:</strong> 2 – 5 tháng 2 năm 2026</li>
+        <li><strong>Website:</strong> <a href="https://www.scopesummit.com" target="_blank">https://www.scopesummit.com</a></li>
+      </ul>
+    </div>
+
+    <!-- COUNTDOWN -->
+    <div class="countdown-container">
+      <p id="countdown-label" class="countdown-label">Hội nghị sẽ diễn ra sau:</p>
+      <div class="countdown" id="countdown">
+        <div class="digit"><span id="days">00</span><small>Ngày</small></div>
+        <div class="digit"><span id="hours">00</span><small>Giờ</small></div>
+        <div class="digit"><span id="minutes">00</span><small>Phút</small></div>
+        <div class="digit"><span id="seconds">00</span><small>Giây</small></div>
+      </div>
+    </div>
+
+    <p>
+      👉 <strong>Đăng ký ngay:</strong> 
+      <a href="https://register.cambridgeinnovationinstitute.com/reg/scopeeur" target="_blank">
+        https://register.cambridgeinnovationinstitute.com/reg/scopeeur
+      </a><br>
+      <em>(Ưu đãi đăng ký sớm đến hết ngày 12 tháng 9 năm 2025)</em>
+    </p>
+
+    <div class="btn-wrap">
+      <a href="https://register.cambridgeinnovationinstitute.com/reg/scopeeur" class="btn-register" target="_blank">
+        Đăng ký ngay
+      </a>
+    </div>
+
+    <h3>3. Tổng quan chương trình</h3>
+
+    <!-- THỨ HAI -->
+    <div class="event-callout">
+      <p><strong>Thứ Hai, 2/2/2026 – Hoạt động tiền hội nghị</strong></p>
+      <p><em>Buổi sáng</em></p>
+      <ul>
+        <li>6:30 sáng: Đăng ký & Ăn sáng tại <em>Giải Golf Masters of Clinical Research</em> – cơ hội kết nối và gây quỹ.</li>
+        <li>1:00 – 3:30 chiều: Các hội thảo chuyên đề trước hội nghị:</li>
+        <ul>
+          <li>Tăng tốc thử nghiệm lâm sàng qua hợp tác – thảo luận nhóm cùng ClinEco và SCOPE 365.</li>
+          <li>Hướng tới các thử nghiệm lâm sàng bền vững – giảm phát thải carbon và tối ưu quy trình xanh hơn, do Michael Cohen (PPD/Thermo Fisher Scientific) hướng dẫn.</li>
+        </ul>
+      </ul>
+      <p><strong>Buổi chiều (3:50): Phiên toàn thể khai mạc</strong></p>
+      <ul>
+        <li>Đối thoại “Hy vọng – Lưỡi dao hai lưỡi trong trải nghiệm bệnh nhân”.</li>
+        <li>Trao Giải Đổi mới Trung tâm Nghiên cứu (<em>Site Innovation Award</em>) & Giải Gắn kết Người tham gia (<em>Participant Engagement Award</em>).</li>
+        <li>Tiệc khai mạc SCOPE 2026 – kết nối và gặp gỡ đối tác quốc tế.</li>
+      </ul>
+    </div>
+
+    <!-- THỨ BA -->
+    <div class="event-callout">
+      <p><strong>Thứ Ba, 3/2/2026 – Tiếng nói bệnh nhân và cơ sở nghiên cứu trong thiết kế thử nghiệm lâm sàng</strong></p>
+      <p><em>Buổi sáng: Lồng ghép tiếng nói người bệnh vào thiết kế đề cương nghiên cứu</em></p>
+      <ul>
+        <li>“Biến tầm nhìn thành chiến lược: Hành trình từ thí điểm rời rạc đến cách tiếp cận hệ thống”</li>
+        <li>“Điều bệnh nhân muốn chúng ta hiểu” – kết quả khảo sát quốc gia về trải nghiệm người tham gia thử nghiệm lâm sàng</li>
+        <li>“Từ thấu hiểu đến tác động: Đưa tiếng nói bệnh nhân vào từng giai đoạn của thử nghiệm lâm sàng” – chia sẻ từ Bristol Myers Squibb</li>
+      </ul>
+      <p><em>Buổi chiều: Thiết kế đề cương nghiên cứu số & dữ liệu</em></p>
+      <ul>
+        <li>“Tối ưu dữ liệu thu thập để giảm gánh nặng cho bệnh nhân và cơ sở” – MSD & Tufts CSDD</li>
+        <li>“Đề cương nghiên cứu kỹ thuật số – Tăng tốc và tối ưu hóa nghiên cứu” – CDISC & TransCelerate</li>
+        <li>“Kết hợp phân tích dữ liệu và phản hồi bệnh nhân để xây dựng đề cương nghiên cứu hiệu quả hơn” – Eli Lilly & Company</li>
+      </ul>
+    </div>
+
+    <!-- THỨ TƯ -->
+    <div class="event-callout">
+      <p><strong>Thứ Tư, 4/2/2026 – Hiện thực hóa chiến lược lấy bệnh nhân làm trung tâm</strong></p>
+      <p><em>Buổi sáng</em></p>
+      <ul>
+        <li>“Chiến lược toàn cầu cho tương tác bệnh nhân” – SubjectWell</li>
+        <li>“Khung đánh giá thực chứng về tính lấy bệnh nhân làm trung tâm” – Yale School of Medicine & Good Pharma Scorecard</li>
+        <li>“Tích hợp tiếng nói bệnh nhân trong hướng dẫn ICH E6/E8 mới” – Genentech</li>
+      </ul>
+      <p><em>Buổi chiều</em></p>
+      <ul>
+        <li>Phiên toàn thể: <em>Rethinking Trial Design</em></li>
+        <li>Tọa đàm: Khi nghiên cứu lâm sàng không thể tách rời thực tế y học và thị trường.</li>
+        <li>Tọa đàm: Ứng dụng AI trong phát triển nghiên cứu lâm sàng – thách thức về con người hơn là công nghệ.</li>
+      </ul>
+    </div>
+
+    <!-- THỨ NĂM -->
+    <div class="event-callout">
+      <p><strong>Thứ Năm, 5/2/2026 – Trí tuệ nhân tạo & đổi mới trong thiết kế thử nghiệm lâm sàng</strong></p>
+      <p><em>Chủ đề: Công nghệ, Dữ liệu và AI/ML cho thiết kế thử nghiệm lâm sàng thông minh</em></p>
+      <ul>
+        <li>“AI thúc đẩy thử nghiệm lâm sàng lấy bệnh nhân và trung tâm nghiên cứu làm trọng tâm” – Boehringer Ingelheim</li>
+        <li>“Công cụ GenAI hỗ trợ đánh giá độ phức tạp của đề cương nghiên cứu” – Takeda Pharmaceuticals</li>
+        <li>“Nhiều tiếng nói – Một mục tiêu: AI có trách nhiệm trong thử nghiệm lâm sàng” – Medidata & HCA Healthcare</li>
+      </ul>
+      <p><strong>Kết thúc hội nghị</strong></p>
+      <ul>
+        <li>1:25 chiều: Tổng kết SCOPE Summit 2026</li>
+        <li>2–5/2 & 6/2: Các khóa đào tạo chuyên sâu về quản lý, cải tiến quy trình, và thực hành ICH E6(R3)/E8.</li>
+      </ul>
+    </div>
+
+    <h3>4. Khuyến nghị nên tham dự Hội nghị</h3>
+    <ul>
+      <li>✅ Cập nhật xu hướng thiết kế thử nghiệm lâm sàng hiện đại nhất: phân tán (DCT), lai (Hybrid), thực tiễn (Pragmatic)</li>
+      <li>✅ Học hỏi từ hơn 300 tổ chức hàng đầu toàn cầu trong lĩnh vực nghiên cứu lâm sàng</li>
+      <li>✅ Kết nối với các nhà tài trợ, CRO, cơ sở nghiên cứu, và đại diện bệnh nhân</li>
+      <li>✅ Trải nghiệm mạng lưới triển lãm – yoga – golf – networking – giải thưởng danh giá, trong không khí cởi mở, sáng tạo của cộng đồng SCOPE</li>
+    </ul>
+
+    <hr>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Chia sẻ bài viết này:</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://biodas.net/media/event/250912-scope-trial-design.html" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=https://biodas.net/media/event/250912-scope-trial-design.html" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/event/250912-scope-trial-design.html" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COUNTDOWN SCRIPT -->
+<script>
+  const targetDate = new Date("Feb 2, 2026 08:00:00").getTime();
+</script>
+
+<script src="section-event-template.js"></script>
+
+
+```
+

@@ -3,9 +3,27 @@
     "index.qmd": [
       "/project",
       "/resource",
-      "/news",
+      "/media",
       "/recruitment",
       "!index.qmd"
+    ],
+    "media\\event.qmd": [
+      "event",
+      "!news.qmd",
+      "!event.qmd",
+      "!scholarship.qmd"
+    ],
+    "media\\news.qmd": [
+      "news",
+      "!news.qmd",
+      "!event.qmd",
+      "!scholarship.qmd"
+    ],
+    "media\\scholarship.qmd": [
+      "scholarship",
+      "!news.qmd",
+      "!event.qmd",
+      "!scholarship.qmd"
     ],
     "project\\index.qmd": [
       "posts",
