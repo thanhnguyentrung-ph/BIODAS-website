@@ -14,7 +14,9 @@ listing:
       contents:
       - /project
       - /resource
-      - /media
+      - /media/event
+      - /media/news
+      - /media/scholarship
       - /recruitment
       - "!index.qmd"
       sort: "date desc"
@@ -726,7 +728,7 @@ listing:
         </a>
 
         <a href="project/#category=Project" class="specialty-box">
-        <img src="images/expertise/project.jpg" alt="Dự án">
+        <img src="https://i.pinimg.com/736x/65/72/da/6572da506db717469e0262cf8d570a9d.jpg" alt="Dự án">
         <div class="box-title">Dự án</div>
         </a>
         
@@ -736,18 +738,18 @@ listing:
         </a>
 
         <a href="project/#category=Data" class="specialty-box">
-        <img src="images/expertise/data.png" alt="Dữ liệu">
+        <img src="https://i.pinimg.com/1200x/d5/ab/bb/d5abbbb66a0e729aef4025fa61af34e7.jpg" alt="Dữ liệu">
         <div class="box-title">Dữ liệu</div>
         </a>
 
         <a href="project/#category=Biobank" class="specialty-box">
         <img src="images/expertise/biobank.jpg" alt="Biobank">
-        <div class="box-title">Ngân hàng sinh học (Biobank)</div>
+        <div class="box-title">Ngân hàng sinh học</div>
         </a>
 
         <a href="project/#category=Healthcare%20market" class="specialty-box">
         <img src="https://i.pinimg.com/736x/c8/0b/84/c80b8411cf222adf7fc325803a21c530.jpg" alt="Healthcare market">
-        <div class="box-title">Nghiên cứu thị trường y tế</div>
+        <div class="box-title">Nghiên cứu thị trường</div>
         </a>
     </div>
 </div>

@@ -3,7 +3,9 @@
     "index.qmd": [
       "/project",
       "/resource",
-      "/media",
+      "/media/event",
+      "/media/news",
+      "/media/scholarship",
       "/recruitment",
       "!index.qmd"
     ],

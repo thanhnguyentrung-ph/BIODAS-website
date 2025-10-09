@@ -53,10 +53,10 @@ website:
       # 4. Media and Communication
       - text: "Tin tức & Sự kiện"
         menu:
-        - text: "Tin tức"
-          href: "media/news.qmd"
         - text: "Sự kiện"
           href: "media/event.qmd"
+        - text: "Tin tức"
+          href: "media/news.qmd"
         - text: "Thông tin học bổng"
           href: "media/scholarship.qmd"
 
