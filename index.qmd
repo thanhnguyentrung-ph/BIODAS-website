@@ -153,7 +153,7 @@ listing:
 
 <div class="section-highlight">
   <!-- Slide 1 -->
-  <div class="highlight-slide active">
+  <!-- <div class="highlight-slide">
     <a href="project/posts/250808-vn-biobank-feasibility.qmd">
       <img src="project/posts/images/250808-poster.png" alt="Biobanking feasibility">
       <div class="text-box">
@@ -161,10 +161,10 @@ listing:
         <p>Nghiên cứu tính khả thi của ngân hàng sinh học tại Việt Nam</p>
       </div>
     </a>
-  </div>
+  </div> -->
 
   <!-- Slide 2 -->
-  <div class="highlight-slide">
+  <div class="highlight-slide active">
     <a href="project/posts/250824-data-training.qmd">
       <img src="project/posts/images/250824-poster.png" alt="Data training">
       <div class="text-box">
@@ -197,7 +197,7 @@ listing:
   </div>
 
   <!-- Slide 5 -->
-  <div class="highlight-slide">
+  <!-- <div class="highlight-slide">
     <a href="project/posts/250804-vn-biobank-nsclc.qmd">
       <img src="project/posts/images/250804-poster.png" alt="Biobank NSCLC">
       <div class="text-box">
@@ -205,10 +205,10 @@ listing:
         <p>Xây dựng ngân hàng mẫu tham chiếu và cơ sở dữ liệu sinh học chuẩn hóa phục vụ nghiên cứu và điều trị ung thư phổi không tế bào nhỏ tại Việt Nam</p>
       </div>
     </a>
-  </div>
+  </div> -->
 
   <!-- Slide 6 -->
-  <div class="highlight-slide">
+  <!-- <div class="highlight-slide">
     <a href="project/posts/250812-vn-biobank-risk-manage.qmd">
       <img src="project/posts/images/250812-poster.png" alt="Biobank risk management">
       <div class="text-box">
@@ -216,10 +216,10 @@ listing:
         <p>Đánh giá và tối ưu hóa quản trị rủi ro trong hệ thống ngân hàng mẫu sinh học tại Việt Nam</p>
       </div>
     </a>
-  </div>
+  </div> -->
 
   <!-- Slide 7 -->
-  <div class="highlight-slide">
+  <!-- <div class="highlight-slide">
     <a href="project/posts/250816-vn-biobank-data.qmd">
       <img src="project/posts/images/250816-poster.png" alt="Biobank data">
       <div class="text-box">
@@ -227,7 +227,7 @@ listing:
         <p>Khảo sát và đánh giá hiệu quả việc quản lý và sử dụng dữ liệu từ các ngân hàng sinh học tại Việt Nam</p>
       </div>
     </a>
-  </div>
+  </div> -->
 
   <!-- Slide 8 -->
   <div class="highlight-slide">
@@ -742,10 +742,10 @@ listing:
         <div class="box-title">Dữ liệu</div>
         </a>
 
-        <a href="project/#category=Biobank" class="specialty-box">
+        <!-- <a href="project/#category=Biobank" class="specialty-box">
         <img src="images/expertise/biobank.jpg" alt="Biobank">
         <div class="box-title">Ngân hàng sinh học</div>
-        </a>
+        </a> -->
 
         <a href="project/#category=Healthcare%20market" class="specialty-box">
         <img src="https://i.pinimg.com/736x/c8/0b/84/c80b8411cf222adf7fc325803a21c530.jpg" alt="Healthcare market">

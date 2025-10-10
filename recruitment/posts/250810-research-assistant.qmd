@@ -2,8 +2,7 @@
 title: "TRỢ LÝ NGHIÊN CỨU <br> (PART-TIME)"
 title-block-banner: "#313d5d"
 title-block-banner-color: "#ffffff"
-subtitle: "Trạng thái: Đóng"
-description: "Deadline: 31/08/2025"
+description: "Deadline: 31/08/2025 | Trạng thái: Đóng"
 categories:
   - Research Assistant
   - Part-time
