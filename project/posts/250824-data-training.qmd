@@ -267,10 +267,11 @@ aliases:
 
   </main>
 </div>
+</body>
 
 <!-- Gắn file JS -->
 <script src="section-post-template.js"></script>
-</body>
+
 
 ```
 
