@@ -26,6 +26,8 @@ aliases:
 <!-- Gắn file CSS -->
 <link rel="stylesheet" href="section-news-template.css">
 
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
 <body class="section-news-template">
@@ -278,9 +280,28 @@ aliases:
     <section id="sec-9">
       <h2>9. Tài liệu tham khảo</h2>
       <div class="ref">
-        Chourasia, P., Coffel, M., Conklin, J. L., Wood, W. A., & Khairat, S. (2025). <em>Acceptance and Adoption of Artificial Intelligence Among Cancer Survivors Seeking Information: A Literature Review.</em> Journal of Patient Experience, 12, 1–11.
+        <a href="https://doi.org/10.1177/23743735251380949" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style="text-decoration: none; color: inherit;">
+          Chourasia P, Coffel M, Conklin JL, Wood WA, Khairat S. 
+          <em>Acceptance and Adoption of Artificial Intelligence Among Cancer Survivors Seeking Information: A Literature Review.</em> 
+          <strong>J Patient Exp.</strong> 2025 Sep 26;12:23743735251380949. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.1177/23743735251380949</span>. 
+          PMID: 41020165; PMCID: PMC12475323.
+        </a>
       </div>
     </section>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Chia sẻ bài viết này</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/251010-ai-cancer.html/" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/251010-ai-cancer.html/" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/news/251010-ai-cancer.html/" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
 
   </main>
 </div>
