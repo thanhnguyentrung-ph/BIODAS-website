@@ -1,6 +1,6 @@
 ---
-title: "Chấp nhận và tiếp nhận Trí tuệ nhân tạo (AI) trong chẩn đoán, điều trị và chăm sóc người bệnh ung Thư: Bài học từ Quốc tế"
-subtitle: "Acceptance and Adoption of Artificial Intelligence (AI) in Cancer Diagnosis, Treatment, and Patient Care: Lessons from International Experience"
+title: "Chấp nhận và tiếp nhận Trí tuệ nhân tạo (AI) trong chẩn đoán, điều trị và chăm sóc người bệnh ung thư"
+subtitle: "Acceptance and Adoption of Artificial Intelligence (AI) in Cancer Diagnosis, Treatment, and Patient Care"
 title-block-banner: "#313d5d"
 title-block-banner-color: "#ffffff"
 description: ""
@@ -10,7 +10,7 @@ categories:
   - Diagnosis
   - Treatment
   - Patient Care
-author: BIODAS Team
+author: "Prabal Chourasia và cộng sự | Dịch và biên tập: BIODAS Team"
 date: 10/10/2025 # mm/dd/yyyy
 toc: true
 image: https://mapmygenome.in/cdn/shop/articles/The_Role_of_AI_in_Cancer_Diagnosis_and_Treatment.jpg?v=1745564737
@@ -49,6 +49,41 @@ aliases:
 
   <!-- Nội dung chính -->
   <main class="content">
+
+    <!-- =============================
+     INTRO SECTION – BIODAS ARTICLE INTRO
+     ============================= -->
+    <section>
+      <p>
+        Nghiên cứu mang tên 
+        <strong>
+          <a href="https://doi.org/10.1177/23743735251380949" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style="color:#313d5d; text-decoration:underline;">
+            Acceptance and Adoption of Artificial Intelligence Among Cancer Survivors Seeking Information: A Literature Review
+          </a>
+        </strong>           
+        của nhóm tác giả 
+        <em>Prabal Chourasia, Melissa Coffel, Jamie Lynn Conklin, William A. Wood và Saif Khairat</em> 
+        được công bố năm 2025 trên 
+        <em>Journal of Patient Experience</em>.
+      </p>
+
+      <p>
+        Hướng nghiên cứu tập trung vào việc khai thác mức độ chấp nhận và tiếp nhận trí tuệ nhân tạo (AI) trong nhóm người sống sót sau ung thư khi họ tìm kiếm thông tin y tế — một chủ đề ngày càng quan trọng trong bối cảnh AI đang thay đổi diện mạo chăm sóc sức khỏe toàn cầu.
+      </p>
+
+      <div class="callout">
+        <p>
+          <strong>BIODAS Team</strong> hân hạnh giới thiệu và chia sẻ nội dung nghiên cứu này đến bạn đọc, 
+          nhằm mang lại cái nhìn sâu sắc hơn về 
+          <strong>niềm tin, hành vi và mối quan hệ giữa bệnh nhân – AI – bác sĩ</strong> trong kỷ nguyên y học số. 
+          Hãy cùng <strong>BIODAS Team</strong> khám phá chi tiết hơn những phát hiện thú vị từ công trình này nhé.
+        </p>
+      </div>
+    </section>
+
 
     <!-- 1. Đặt vấn đề -->
     <section id="sec-1">

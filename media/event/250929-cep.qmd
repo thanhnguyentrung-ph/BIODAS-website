@@ -13,12 +13,12 @@ categories:
 author: BIODAS Team
 date: 09/29/2025 # mm/dd/yyyy
 toc: true
-image: "https://i.pinimg.com/1200x/80/e4/9a/80e49a598a6b5da46871853cb0aecf58.jpg"
+image: "https://i.pinimg.com/736x/fd/8a/49/fd8a49362d23267dcfa86169d5543c96.jpg"
 aliases: 
   - /media/event/
 ---
 
-![](https://i.pinimg.com/1200x/e0/6a/2e/e06a2e8cfd4974e481e6e9d58f6aab61.jpg){fig-align="center" class="img-cover"}
+![](https://smapse.com/storage/2022/03/converted/660_464_shanghai-jiao-tong-university-school-of-medicine-smapse-1.webp){fig-align="center" class="img-cover"}
 
 
 
@@ -46,7 +46,7 @@ aliases:
       <h2 class="hero-subtitle">
         China Experience Program (CEP) - Shanghai Jiao Tong University School of Medicine - Hainan International Medical Center
       </h2>
-      <a href="mailto:cheong.iohong@shsmu.edu.cn" class="btn-register">
+      <a href="mailto:contact@biodas.net" class="btn-register">
         Liên hệ đăng ký
       </a>
     </div>
@@ -59,11 +59,29 @@ aliases:
       <strong>Chương trình Trải nghiệm Trung Quốc (China Experience Program – CEP)</strong>, do Quỹ Giao lưu Nhân tài Quốc tế Trung Quốc tài trợ.
     </p>
 
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/c3/f5/f8/c3f5f8484aa69762bbe7892a454b3d26.jpg" class="img" alt="China Experience Program illustration" />
+      </div>
+      <figcaption>
+        Hình ảnh: Minh họa Chương trình Trải nghiệm Trung Quốc (CEP) (Nguồn: Internet)
+      </figcaption>
+    </figure>
+
     <h3>2. Mục tiêu chương trình</h3>
     <p>
       Chương trình CEP là một chương trình trao đổi ngắn hạn được tài trợ toàn phần, nhằm quy tụ các tài năng trẻ hàng đầu thế giới đến trải nghiệm văn hóa đa dạng và môi trường đổi mới sáng tạo năng động của Trung Quốc. 
       Mục tiêu của chương trình là xây dựng một cộng đồng lãnh đạo toàn cầu tương lai có hiểu biết sâu sắc về Trung Quốc và các giá trị hợp tác quốc tế.
     </p>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/736x/d4/06/ec/d406ec2eb04828feac15edb95383ac8b.jpg" class="img" alt="China Experience Program illustration" />
+      </div>
+      <figcaption>
+        Hình ảnh: Minh họa Chương trình Trải nghiệm Trung Quốc (CEP) (Nguồn: Internet)
+      </figcaption>
+    </figure>
 
     <h3>3. Điểm nổi bật của chương trình (kéo dài 1 tuần)</h3>
     <!-- CALL OUT: Điểm nổi bật -->
@@ -81,7 +99,7 @@ aliases:
         <img src="https://i.pinimg.com/1200x/f1/99/5c/f1995cadbd70bd80a3d0c3bd35210bbe.jpg" class="img" alt="China Experience Program illustration" />
       </div>
       <figcaption>
-        Hình ảnh: Minh họa Chương trình Trải nghiệm Trung Quốc (CEP)
+        Hình ảnh: Minh họa Chương trình Trải nghiệm Trung Quốc (CEP) (Nguồn: Internet)
       </figcaption>
     </figure>
 
@@ -116,11 +134,47 @@ aliases:
       <center>Liên hệ: 📧 <a href="mailto:cheong.iohong@shsmu.edu.cn">cheong.iohong@shsmu.edu.cn</a> | ☎️ +86 199 6567 0289</center>
     </p>
 
+    <h3>6. Liên hệ đăng ký</h3>
+    <p>BIODAS hân hạnh là đối tác tin cậy của Trường Đại học Y khoa Jiao Tong Thượng Hải và Trung tâm Y khoa Quốc tế Hải Nam trong việc triển khai Chương trình Trải nghiệm Trung Quốc (China Experience Program – CEP), một sáng kiến quốc tế do Quỹ Giao lưu Nhân tài Quốc tế Trung Quốc tài trợ.</p>
+    <p>Chương trình CEP mang đến cơ hội hiếm có dành cho các tài năng trẻ toàn cầu được trải nghiệm một tuần học tập, giao lưu và khám phá tại Trung Quốc — nơi giao thoa giữa truyền thống văn hóa đặc sắc và nền khoa học – công nghệ tiên tiến.</p>
+    <p>Với học bổng toàn phần bao gồm vé máy bay, chỗ ở, sinh hoạt và các hoạt động chuyên môn, CEP không chỉ là hành trình khám phá tri thức mà còn là cầu nối hợp tác quốc tế trong lĩnh vực y học và nghiên cứu đổi mới sáng tạo.</p>
+    <p>Hãy liên hệ ngay với BIODAS để được hướng dẫn tham gia và trở thành một trong những đại diện Việt Nam góp mặt trong mạng lưới học giả trẻ quốc tế của CEP – nơi bạn có thể trao đổi chuyên môn, mở rộng tầm nhìn và trải nghiệm văn hóa Trung Hoa một cách sâu sắc nhất.</p>
+
+    <p>
+      <center>Liên hệ BIODAS: 📧 <a href="mailto:contact@biodas.net">contact@biodas.net</a></center>
+    </p>
+    
     <div class="btn-wrap">
-      <a href="mailto:cheong.iohong@shsmu.edu.cn" class="btn-register">
+      <a href="mailto:contact@biodas.net" class="btn-register">
         Liên hệ đăng ký
       </a>
     </div>
+
+    <h3>7. Một số hoạt động nổi bật của Trường Đại học Y khoa Jiao Tong Thượng Hải và Trung tâm Y khoa Quốc tế Hải Nam</h3>
+    <p>
+      Trường Đại học Y khoa Jiao Tong Thượng Hải và Trung tâm Y khoa Quốc tế Hải Nam vừa tổ chức thành công hoạt động 
+      <strong>
+        <a href="https://www.shsmu.edu.cn/english/info/1021/5236.htm" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style="color:#313d5d; text-decoration:underline;">
+          Trường nghiên cứu mùa hè 2025
+        </a>
+      </strong> 
+      , quy tụ các nhà khoa học, giảng viên và học viên xuất sắc trong lĩnh vực y học và công nghệ sinh học.
+    </p>
+    <p>Chương trình không chỉ mang đến cơ hội trao đổi học thuật, thực hành nghiên cứu chuyên sâu mà còn thúc đẩy hợp tác quốc tế trong đào tạo y học.</p>
+    <p>BIODAS tự hào là đối tác hợp tác chiến lược của SJTUSM và HIMC, góp phần kết nối và mở rộng cơ hội học tập, nghiên cứu và giao lưu văn hóa cho các tài năng trẻ Việt Nam tại Trung Quốc.</p>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.shsmu.edu.cn/__local/4/14/6C/B80D75E7DD9E82DA4CFA12540EC_1FAFEA2B_7464A.png" class="img" alt="Research Summer Camp 2025" />
+      </div>
+      <figcaption>
+        Hình ảnh: Lễ khai mạc Trường nghiên cứu mùa hè 2025 của Trung tâm Y khoa Quốc tế Hải Nam (HIMC) – thuộc Trường Đại học Y khoa Jiao Tong Thượng Hải (Nguồn: www.shsmu.edu.cn)
+      </figcaption>
+    </figure>
+
 
     <!-- SOCIAL SHARE -->
     <div class="social-section">
