@@ -1,0 +1,370 @@
+---
+title: "Những hướng nghiên cứu y sinh tiên phong: Khoa học dữ liệu kiến tạo tương lai"
+subtitle: "Emerging Frontiers in Biomedical Research: Data Science as the Architect of Future Healthcare"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Study
+  - Research
+  - Data
+  - Data science
+  - Patient Care
+  - Biomedical
+  - Healthcare
+author: "BIODAS Team"
+date: 09/30/2025 # mm/dd/yyyy
+toc: true
+image: https://www.zucisystems.com/wp-content/uploads/2022/07/Data-Science-in-Healthcare-Industry-Benefits-Strategies-Applications-Tools-and-Future-Trends.png
+aliases: 
+  - /media/news/
+---
+
+![](https://s44783.pcdn.co/in/wp-content/uploads/sites/3/2023/01/Data-Science-in-Healthcare-7-Applications-No-One-Will-Tell-You-About.jpg.optimal.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-news-template">
+
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc">
+    <h3>Mục lục</h3>
+    <ol>
+      <li><a href="#sec-1">Giới thiệu chung</a></li>
+      <li><a href="#sec-2">Tích hợp dữ liệu đa phương thức</a></li>
+      <li><a href="#sec-3">Bằng chứng thế giới thực</a></li>
+      <li><a href="#sec-4">Dấu ấn sinh học số</a></li>
+      <li><a href="#sec-5">Hệ thống hỗ trợ quyết định lâm sàng</a></li>
+      <li><a href="#sec-6">Thách thức và cơ hội phát triển</a></li>
+      <li><a href="#sec-7">Kết luận</a></li>
+      <li><a href="#sec-8">Tài liệu tham khảo</a></li>
+    </ol>
+  </nav>
+
+  <!-- Nội dung chính -->
+  <main class="content">
+
+    <!-- =============================
+     INTRO SECTION – BIOMEDICAL DATA ARTICLE
+     ============================= -->
+    <section id="sec-1">
+      <h2>1. Giới thiệu chung</h2>
+      <p><strong>Các hướng Nghiên cứu Y sinh mới: Khoa học Dữ liệu định hình tương lai Y tế</strong></p>
+      <p>
+        Khoa học dữ liệu y sinh đang trở thành nền tảng của những đột phá y học hiện đại — 
+        không phải nhờ các công nghệ quá phức tạp, mà nhờ khai thác hiệu quả nguồn dữ liệu sẵn có trong hệ thống y tế. 
+        Các hướng nghiên cứu mới tập trung vào việc tích hợp dữ liệu đa nguồn, 
+        xây dựng bằng chứng từ thực tiễn lâm sàng, 
+        phát triển các chỉ số sinh học số, 
+        và ứng dụng phân tích dự báo nhằm cải thiện kết quả điều trị. 
+        Những tiến bộ này đang tạo ra những thay đổi đáng kể trong chăm sóc sức khỏe.
+      </p>
+    </section>
+
+    <!-- 2. Tích hợp dữ liệu đa phương thức -->
+    <section id="sec-2">
+      <h2>2. Tích hợp dữ liệu đa phương thức: Bức tranh toàn diện về sức khỏe</h2>
+      <p>
+        <em>Hao Y, Cheng C, Li J, Li H, Di X, Zeng X, Jin S, Han X, Liu C, Wang Q, Luo B, Zeng X, Li K. 
+        Multimodal Integration in Health Care: Development With Applications in Disease Management. 
+        J Med Internet Res. 2025 Aug 21;27:e76557. doi: 10.2196/76557. PMID: 40840463; PMCID: PMC12370271.</em>
+      </p>
+
+      <p>
+        Tích hợp dữ liệu đa phương thức (multimodal data integration) đang cách mạng hóa cách chúng ta hiểu về sức khỏe bệnh nhân, 
+        bằng cách kết hợp các nguồn dữ liệu khác nhau như hình ảnh y khoa, hồ sơ sức khỏe điện tử, dữ liệu gen (genomics) 
+        và thông tin từ thiết bị đeo. Phương pháp này cung cấp góc nhìn đa chiều về tình trạng bệnh nhân, 
+        tăng cường khả năng chẩn đoán, điều trị và quản lý bệnh lý.
+      </p>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8ce0/8810682/8b074c92a18c/nihms-1762907-f0002.jpg" class="img" />
+        </div>
+        <figcaption>
+          Hình ảnh: Các mô hình đa phương thức tích hợp các đặc trưng từ nhiều loại dữ liệu khác nhau. Các mô hình con trước hết trích xuất các đặc trưng đơn phương thức (unimodal features) từ từng loại dữ liệu. Tiếp theo, bước tích hợp đa phương thức (multimodal integration) tạo ra các đặc trưng liên phương thức — trong ví dụ này được minh họa bằng Mạng Hợp Nhất Tensor (Tensor Fusion Network – TFN). Một mô hình con cuối cùng sẽ suy luận kết quả đầu ra của bệnh nhân. GPU: Đơn vị xử lý đồ họa (graphics processing unit). (Nguồn: Boehm KM, Khosravi P, Vanguri R, Gao J, Shah SP. Harnessing multimodal data integration to advance precision oncology. Nat Rev Cancer. 2022 Feb;22(2):114-126. doi: 10.1038/s41568-021-00408-3. Epub 2021 Oct 18. PMID: 34663944; PMCID: PMC8810682.)
+        </figcaption>
+      </figure>
+
+      <p>
+        Trong ung thư học, dữ liệu đa phương thức cho phép xác định đặc điểm khối u chính xác hơn 
+        và hỗ trợ xây dựng kế hoạch điều trị cá nhân hóa. 
+        Một nghiên cứu cho thấy việc kết hợp các loại dữ liệu này có thể dự đoán chính xác đáp ứng điều trị bằng 
+        Anti–Human Epidermal Growth Factor Receptor 2 (Anti-HER2) với AUC = 0,91. 
+        Trong nhãn khoa, việc tích hợp dữ liệu di truyền và hình ảnh giúp phát hiện sớm bệnh lý võng mạc.
+      </p>
+
+      <p>
+        Tuy nhiên, tích hợp dữ liệu đa phương thức vẫn đối mặt với nhiều thách thức, 
+        như sự thiếu nhất quán trong thu thập, dữ liệu không đầy đủ hoặc sai lệch làm giảm độ tin cậy của mô hình. 
+        Để đạt hiệu quả, cần có chuẩn hóa dữ liệu, tiền xử lý nghiêm ngặt và xác thực liên ngành 
+        nhằm đảm bảo chất lượng phân tích dự báo.
+      </p>
+    </section>
+
+    <!-- 3. Bằng chứng thế giới thực -->
+    <section id="sec-3">
+      <h2>3. Bằng chứng thế giới thực: Từ thử nghiệm lâm sàng đến thực tiễn</h2>
+      <p>
+        <em>Manfred Stapff. The Importance of Real-World Evidence in Medical Research and Drug Development. 
+        Applied Clinical Trials. 2025.<br>
+        Dang A. Real-World Evidence: A Primer. Pharmaceut Med. 2023 Jan;37(1):25-36. 
+        doi: 10.1007/s40290-022-00456-6. PMID: 36604368; PMCID: PMC9815890.</em>
+      </p>
+
+      <p>
+        Real-World Evidence (RWE) – bằng chứng từ thế giới thực – đại diện cho một sự chuyển đổi trong nghiên cứu y học: 
+        từ việc chỉ dựa vào thử nghiệm lâm sàng (RCTs) sang khai thác dữ liệu từ thực tiễn chăm sóc sức khỏe hàng ngày. 
+        RWE là bằng chứng khoa học về tính an toàn và hiệu quả của một sản phẩm y tế, 
+        được tạo ra từ Real-World Data (RWD) – dữ liệu được thu thập trong quá trình chăm sóc thông thường.
+      </p>
+
+      <p>
+        Các nguồn RWD bao gồm bệnh án điện tử (EHRs), hồ sơ đăng ký, dữ liệu bảo hiểm, 
+        và dữ liệu từ ứng dụng hoặc thiết bị sức khỏe cá nhân. 
+        Một nghiên cứu so sánh hiệu quả điều trị đa u tủy xương (Multiple Myeloma) giữa thử nghiệm lâm sàng và dữ liệu thực tế cho thấy: 
+        bệnh nhân trong RWD thường lớn tuổi hơn, và kết quả chỉ ra rằng 6/7 phác đồ điều trị trong thế giới thực 
+        có thời gian sống không tiến triển thấp hơn 1,44 lần và sống toàn bộ thấp hơn 1,75 lần so với RCT tương ứng.
+      </p>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://toolbox.eupati.eu/wp-content/uploads/sites/4/2025/02/Patient-generated-health-data-11.png" class="img" />
+        </div>
+        <figcaption>
+          Hình ảnh: Nguồn dữ liệu thế giới thực (RWD) – Được tạo bởi EUPATI (Nguồn: European Patients’ Academy on Therapeutic Innovation)
+        </figcaption>
+      </figure>
+
+      <p>
+        RWE có tiềm năng lấp đầy khoảng trống nghiên cứu, đặc biệt với bệnh hiếm gặp, 
+        khi nhiều bệnh nhân không thể tham gia thử nghiệm truyền thống. 
+        Ngoài ra, RWE hỗ trợ hoạch định chính sách y tế, quy hoạch nguồn lực, 
+        và đánh giá hiệu quả điều trị trong môi trường thực tế, 
+        góp phần giảm bất bình đẳng trong chăm sóc sức khỏe.
+      </p>
+    </section>
+
+    <!-- 4. Dấu ấn sinh học số -->
+    <section id="sec-4">
+      <h2>4. Dấu ấn sinh học số: Giám sát sức khỏe liên tục</h2>
+      <p>
+        <em>Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, 
+        Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. 
+        Traditional and Digital Biomarkers: Two Worlds Apart? Digit Biomark. 
+        2019 Aug 16;3(2):92-102. doi: 10.1159/000502000. PMID: 32095769; PMCID: PMC7015353.</em>
+      </p>
+
+      <p>
+        Trong y học hiện đại, biomarkers (dấu ấn sinh học) là công cụ không thể thiếu để đánh giá tình trạng sức khỏe. 
+        Sự phát triển của thiết bị kỹ thuật số và ứng dụng di động đã tạo ra một thế hệ mới – digital biomarkers, 
+        cung cấp dữ liệu liên tục, khách quan và cá nhân hóa hơn bao giờ hết.
+      </p>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2717/7015353/0340b11e08d1/dib-0003-0092-g01.jpg" class="img" />
+        </div>
+        <figcaption>
+          Hình ảnh: Các công nghệ số đã cho phép đo lường các dấu ấn sinh học số (digital biomarkers). Các dấu ấn sinh học truyền thống được chia thành bảy nhóm tùy theo mục tiêu lâm sàng (ví dụ: an toàn, dự đoán, chẩn đoán, v.v.). Nghiên cứu cho rằng các công nghệ số mở ra khả năng đo lường các dấu ấn sinh học số, mang lại những đặc tính mới và độc đáo (như đo lường liên tục theo thời gian) trong khi vẫn hướng tới các mục tiêu lâm sàng tương tự như các dấu ấn sinh học truyền thống. (Nguồn: Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. Traditional and Digital Biomarkers: Two Worlds Apart? Digit Biomark. 2019 Aug 16;3(2):92-102. doi: 10.1159/000502000. PMID: 32095769; PMCID: PMC7015353.)
+        </figcaption>
+      </figure>
+
+      <p>
+        Biomarkers truyền thống bao gồm các chỉ số như cholesterol, huyết áp, BMI... 
+        Trong khi đó, digital biomarkers được định nghĩa là “các phép đo sinh lý và hành vi khách quan, 
+        thu thập qua thiết bị kỹ thuật số đeo được, cấy ghép, hoặc tiêu hóa được”. 
+        Điểm khác biệt cốt lõi là khả năng giám sát liên tục, giúp phát hiện sớm thay đổi sức khỏe.
+      </p>
+
+      <p>
+        Digital biomarkers đã chứng minh tiềm năng trong nhiều lĩnh vực:
+        phát hiện nguy cơ sa sút trí tuệ thông qua kiểm tra nhận thức trên máy tính,
+        theo dõi vận động trong bệnh Huntington,
+        và đánh giá triệu chứng Parkinson qua bài kiểm tra chạm ngón tay trên điện thoại thông minh.
+      </p>
+
+      <p>
+        Mặc dù tiềm năng lớn, lĩnh vực này vẫn gặp thách thức về chuẩn hóa định nghĩa, 
+        bảo mật dữ liệu, và quy trình phê duyệt chậm – cần được cải thiện để mở rộng ứng dụng lâm sàng.
+      </p>
+    </section>
+
+    <!-- 5. Hệ thống hỗ trợ quyết định lâm sàng -->
+    <section id="sec-5">
+      <h2>5. Hệ thống hỗ trợ quyết định lâm sàng dựa trên AI</h2>
+      <p>
+        <em>Elhaddad M, Hamam S. AI-Driven Clinical Decision Support Systems: An Ongoing Pursuit of Potential. 
+        Cureus. 2024 Apr 6;16(4):e57728. doi: 10.7759/cureus.57728. PMID: 38711724; PMCID: PMC11073764.</em>
+      </p>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://cdn.open-pr.com/R/9/R91127234_g.jpg" class="img" />
+        </div>
+        <figcaption>
+          Hình ảnh: Clinical Decision Support Systems (CDSS) Market (Nguồn: Clinical Decision Support Systems (CDSS) Market Globally by 2022: Worldwide Top Key Players - Agfa Healthcare, McKesson, Carestream Health, AthenaHealth, Philips Healthcare, Wolters Kluwer NU, Cerner. www.openpr.com)
+        </figcaption>
+      </figure>
+
+      <p>
+        Clinical Decision Support Systems (CDSS) dựa trên AI đang cách mạng hóa quá trình ra quyết định y khoa, 
+        nhờ khả năng phân tích dữ liệu phức tạp và nhận diện mẫu ẩn (hidden patterns).  
+        Trong chẩn đoán hình ảnh, các mạng nơ-ron tích chập (CNNs) đã đạt hiệu suất tương đương chuyên gia 
+        trong phân loại ung thư da (Esteva et al.).  
+        Trong dự đoán rủi ro tim mạch, mô hình deep learning sử dụng EHRs giúp xác định sớm bệnh nhân có nguy cơ cao, 
+        cho phép can thiệp sớm và phòng ngừa biến chứng.
+      </p>
+    </section>
+
+    <!-- 6. Thách thức và cơ hội -->
+    <section id="sec-6">
+      <h2>6. Thách thức và cơ hội phát triển</h2>
+      <p>
+        Bên cạnh tiến bộ, lĩnh vực khoa học dữ liệu y sinh đối mặt với thách thức lớn:  
+        bảo mật và quyền riêng tư dữ liệu; tính tương thích của hệ thống giữa các bệnh viện, 
+        đặc biệt với hạ tầng cũ; tốc độ chấp nhận công nghệ còn chậm trong một số cơ sở y tế.
+      </p>
+
+      <p>
+        Tuy nhiên, cơ hội phát triển tại Việt Nam rất lớn. 
+        Với hơn 100 triệu dân, Việt Nam sở hữu nguồn dữ liệu y tế quý giá cho huấn luyện mô hình AI. 
+        Chính phủ đang đẩy mạnh chuyển đổi số y tế, 
+        với Quỹ phát triển dữ liệu quốc gia trị giá 1.000 tỷ đồng (2025) — 
+        một bước tiến quan trọng để thúc đẩy đổi mới và ứng dụng AI trong y học.
+      </p>
+    </section>
+
+    <!-- 7. Kết luận -->
+    <section id="sec-7">
+      <h2>7. Kết luận</h2>
+      <p>
+        Các hướng nghiên cứu khoa học dữ liệu y sinh mới thể hiện cách tiếp cận thực tiễn, hiệu quả và hướng đến bệnh nhân.  
+        Từ tích hợp dữ liệu đa nguồn đến bằng chứng thực tế, từ digital biomarkers đến hệ thống hỗ trợ quyết định thông minh —  
+        tất cả đều hướng tới mục tiêu chung: nâng cao chất lượng điều trị, giảm chi phí và thúc đẩy y học cá thể hóa trong kỷ nguyên dữ liệu.
+      </p>
+    </section>
+
+    <!-- 8. Tài liệu tham khảo -->
+    <section id="sec-8">
+      <h2>8. Tài liệu tham khảo</h2>
+
+      <div class="ref">
+        <a href="https://doi.org/10.2196/76557" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style="text-decoration:none; color:inherit;">
+          Hao Y, Cheng C, Li J, Li H, Di X, Zeng X, Jin S, Han X, Liu C, Wang Q, Luo B, Zeng X, Li K. 
+          <em>Multimodal Integration in Health Care: Development With Applications in Disease Management.</em> 
+          <strong>J Med Internet Res.</strong> 2025 Aug 21;27:e76557. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.2196/76557</span>. 
+          PMID: 40840463; PMCID: PMC12370271.
+        </a>
+      </div>
+
+      <div class="ref">
+        <a href="https://www.appliedclinicaltrialsonline.com/view/the-importance-of-real-world-evidence-in-medical-research-and-drug-development" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style="text-decoration:none; color:inherit;">
+          Manfred Stapff. 
+          <em>The Importance of Real-World Evidence in Medical Research and Drug Development.</em> 
+          <strong>Applied Clinical Trials.</strong> 2025.
+        </a>
+      </div>
+
+      <div class="ref">
+        <a href="https://doi.org/10.1007/s40290-022-00456-6" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style="text-decoration:none; color:inherit;">
+          Dang A. 
+          <em>Real-World Evidence: A Primer.</em> 
+          <strong>Pharmaceut Med.</strong> 2023 Jan;37(1):25–36. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.1007/s40290-022-00456-6</span>. 
+          PMID: 36604368; PMCID: PMC9815890.
+        </a>
+      </div>
+
+      <div class="ref">
+        <a href="https://doi.org/10.1159/000502000" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style="text-decoration:none; color:inherit;">
+          Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, 
+          Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. 
+          <em>Traditional and Digital Biomarkers: Two Worlds Apart?</em> 
+          <strong>Digit Biomark.</strong> 2019 Aug 16;3(2):92–102. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.1159/000502000</span>. 
+          PMID: 32095769; PMCID: PMC7015353.
+        </a>
+      </div>
+
+      <div class="ref">
+        <a href="https://doi.org/10.7759/cureus.57728" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style="text-decoration:none; color:inherit;">
+          Elhaddad M, Hamam S. 
+          <em>AI-Driven Clinical Decision Support Systems: An Ongoing Pursuit of Potential.</em> 
+          <strong>Cureus.</strong> 2024 Apr 6;16(4):e57728. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.7759/cureus.57728</span>. 
+          PMID: 38711724; PMCID: PMC11073764.
+        </a>
+      </div>
+    </section>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Chia sẻ bài viết này</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/250930-data-science.html" 
+          class="fb" 
+          title="Chia sẻ trên Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/250930-data-science.html" 
+          class="x" 
+          title="Chia sẻ trên X / Twitter">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.biodas.net/media/news/250930-data-science.html" 
+          class="in" 
+          title="Chia sẻ trên LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+
+
+  </main>
+</div>
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title">MỘT SỐ TIN TỨC KHÁC</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+</body>
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-news-template.js"></script>
+
+```

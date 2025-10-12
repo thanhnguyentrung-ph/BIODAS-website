@@ -1,50 +1,35 @@
 // =============================
-// TOC & SECTION SCROLL EFFECTS
-// =============================
-document.addEventListener("DOMContentLoaded", function () {
-  const sections = document.querySelectorAll("main.content section");
-  const navLinks = document.querySelectorAll("nav.toc a");
-
-  function onScroll() {
-    let currentId = "";
-    sections.forEach(section => {
-      const top = section.offsetTop - 150;
-      if (window.scrollY >= top) currentId = section.id;
-    });
-    navLinks.forEach(link => {
-      link.classList.remove("active");
-      if (link.getAttribute("href").substring(1) === currentId) {
-        link.classList.add("active");
-      }
-    });
-    sections.forEach(sec => sec.classList.remove("active"));
-    if (currentId) document.getElementById(currentId).classList.add("active");
-  }
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(e => {
-      if (e.isIntersecting) e.target.classList.add("visible");
-    });
-  }, { threshold: 0.1 });
-
-  sections.forEach(sec => observer.observe(sec));
-  window.addEventListener("scroll", onScroll);
-  onScroll();
-});
-
-
-// =============================
 // BIODAS NEWS & INSIGHTS
 // =============================
 
-// 🧾 Danh sách bài viết (ví dụ 5 bài mới)
+// 🧾 Danh sách bài viết
 const biodasNewsList = [
-  { title: "AI Adoption in Cancer Care", desc: "Exploring AI in cancer diagnosis and treatment.", uploadDate: "2025-10-10", img: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12475323/", link: "ai-cancer.html" },
-  { title: "Digital Health Transformation", desc: "How digital ecosystems reshape healthcare.", uploadDate: "2025-09-25", img: "https://www.who.int/images/default-source/imported/ai-health.jpg", link: "digital-health.html" },
-  { title: "Precision Medicine and Bioinformatics", desc: "Integrating genomic data into practice.", uploadDate: "2025-08-18", img: "https://www.genome.gov/sites/default/files/media/images/2023-06/precision-medicine.jpg", link: "precision-medicine.html" },
-  { title: "AI and Infectious Diseases", desc: "Using ML to predict outbreaks.", uploadDate: "2025-07-10", img: "https://assets.researchsquare.com/files/rs-2404699/v1/01e6f9da-cbe7-4a24-8c61-bb26abf623c3.png", link: "ai-infectious.html" },
-  { title: "Genomic Data Ethics", desc: "Balancing innovation and privacy.", uploadDate: "2025-06-15", img: "https://cdn.pixabay.com/photo/2018/01/15/07/51/dna-3088011_1280.jpg", link: "genomics-ethics.html" },
+  // {
+  //   title: "abc",
+  //   desc: "abc",
+  //   uploadDate: "2025-10-10",
+  //   img: "https://abc",
+  //   link: "251010-ai-cancer.html"
+  // },
+
+  {
+    title: "Chấp nhận và tiếp nhận Trí tuệ nhân tạo (AI) trong chẩn đoán, điều trị và chăm sóc người bệnh ung thư",
+    desc: "Acceptance and Adoption of Artificial Intelligence (AI) in Cancer Diagnosis, Treatment, and Patient Care",
+    uploadDate: "2025-10-10",
+    img: "https://mapmygenome.in/cdn/shop/articles/The_Role_of_AI_in_Cancer_Diagnosis_and_Treatment.jpg?v=1745564737",
+    link: "../media/news/251010-ai-cancer.html"
+  },
+
+  {
+    title: "Những hướng nghiên cứu y sinh tiên phong: Khoa học dữ liệu kiến tạo tương lai",
+    desc: "Emerging Frontiers in Biomedical Research: Data Science as the Architect of Future Healthcare",
+    uploadDate: "2025-09-30",
+    img: "https://www.zucisystems.com/wp-content/uploads/2022/07/Data-Science-in-Healthcare-Industry-Benefits-Strategies-Applications-Tools-and-Future-Trends.png",
+    link: "../media/news/250930-data-science.html"
+  },
+
 ];
+
 
 // 🧮 Tính thời gian “Uploaded X days/weeks/months ago”
 function getTimeAgo(dateString) {
@@ -95,3 +80,39 @@ function renderBiodasNews() {
 
 // 🔰 Khởi chạy Biodas News
 document.addEventListener("DOMContentLoaded", renderBiodasNews);
+
+
+
+// =============================
+// TOC & SECTION SCROLL EFFECTS
+// =============================
+document.addEventListener("DOMContentLoaded", function () {
+  const sections = document.querySelectorAll("main.content section");
+  const navLinks = document.querySelectorAll("nav.toc a");
+
+  function onScroll() {
+    let currentId = "";
+    sections.forEach(section => {
+      const top = section.offsetTop - 150;
+      if (window.scrollY >= top) currentId = section.id;
+    });
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href").substring(1) === currentId) {
+        link.classList.add("active");
+      }
+    });
+    sections.forEach(sec => sec.classList.remove("active"));
+    if (currentId) document.getElementById(currentId).classList.add("active");
+  }
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add("visible");
+    });
+  }, { threshold: 0.1 });
+
+  sections.forEach(sec => observer.observe(sec));
+  window.addEventListener("scroll", onScroll);
+  onScroll();
+});
