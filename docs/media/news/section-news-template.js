@@ -21,11 +21,27 @@ const biodasNewsList = [
   },
 
   {
+    title: "Chuyển đổi số trong Y tế Việt Nam: Nền tảng hiện đại hóa và đổi mới Hệ thống Chăm sóc sức khỏe Quốc gia",
+    desc: "Digital Transformation of Vietnam’s Healthcare: Modernizing the National Health System for an Intelligent and Inclusive Future",
+    uploadDate: "2025-09-19",
+    img: "https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/12/5/chuyen-doi-so-y-te-10-173338760854580749395.jpg",
+    link: "../media/news/250919-vn-digital-health.html"
+  },
+
+  {
+    title: "Khoa học Dữ liệu Y Sinh: Động lực kiến tạo nền Y học hiện đại",
+    desc: "Biomedical Data Science: Intelligence Powering the Next Era of Medicine",
+    uploadDate: "2025-09-15",
+    img: "https://community.nasscom.in/sites/default/files/styles/560_x_350/public/media/images/Data%20Analytics%20Techniques%20for%20Next-Generation%20Sequencing%20Insights.jpg.webp?itok=lrkVV24s",
+    link: "../media/news/250915-data-science-powering.html"
+  },
+
+  {
     title: "Những hướng nghiên cứu y sinh tiên phong: Khoa học dữ liệu kiến tạo tương lai",
     desc: "Emerging Frontiers in Biomedical Research: Data Science as the Architect of Future Healthcare",
-    uploadDate: "2025-09-30",
+    uploadDate: "2025-09-09",
     img: "https://www.zucisystems.com/wp-content/uploads/2022/07/Data-Science-in-Healthcare-Industry-Benefits-Strategies-Applications-Tools-and-Future-Trends.png",
-    link: "../media/news/250930-data-science.html"
+    link: "../media/news/250909-data-science-direction.html"
   },
 
 ];

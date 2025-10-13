@@ -8,12 +8,12 @@ categories:
   - Study
   - Research
   - Data
-  - Data science
+  - Data Science
   - Patient Care
   - Biomedical
   - Healthcare
 author: "BIODAS Team"
-date: 09/30/2025 # mm/dd/yyyy
+date: 09/09/2025 # mm/dd/yyyy
 toc: true
 image: https://www.zucisystems.com/wp-content/uploads/2022/07/Data-Science-in-Healthcare-Industry-Benefits-Strategies-Applications-Tools-and-Future-Trends.png
 aliases: 
@@ -328,17 +328,17 @@ aliases:
     <div class="social-section">
       <p class="share-note">Chia sẻ bài viết này</p>
       <div class="social-share">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/250930-data-science.html" 
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/250909-data-science-direction.html" 
           class="fb" 
           title="Chia sẻ trên Facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/250930-data-science.html" 
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/250909-data-science-direction.html" 
           class="x" 
           title="Chia sẻ trên X / Twitter">
           <i class="fab fa-x-twitter"></i>
         </a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.biodas.net/media/news/250930-data-science.html" 
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.biodas.net/media/news/250909-data-science-direction.html" 
           class="in" 
           title="Chia sẻ trên LinkedIn">
           <i class="fab fa-linkedin-in"></i>
