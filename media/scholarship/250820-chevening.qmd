@@ -1,0 +1,230 @@
+---
+title: "Học bổng toàn phần Chevening 2025/2026 – Cơ hội du học Anh Quốc dành cho Nhà lãnh đạo trẻ toàn cầu"
+subtitle: "Chevening Scholarships: Study in the UK on a fully-funded scholarship with Chevening"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Chevening
+  - UK
+  - Fully-funded
+  - 2025/2026
+author: "Dịch và biên tập: BIODAS Team"
+date: 08/20/2025 # mm/dd/yyyy
+toc: true
+image: "https://media.licdn.com/dms/image/v2/D4D12AQG_niWAKZdyXA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1728640151097?e=2147483647&v=beta&t=I_Wj6WoF1NgpKq606-nJxFPrU4rYu969GZ1j617uWW8"
+aliases: 
+  - /media/scholarship/
+---
+
+![](https://alt.edu.vn/wp-content/uploads/2023/11/alt-feature-Chevening-Scholarship-1.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-scholarship-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-scholarship-template">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>HỌC BỔNG TOÀN PHẦN CHEVENING 2025/2026</h1>
+      <p class="hero-subtitle">Cơ hội du học Anh Quốc dành cho Nhà lãnh đạo trẻ toàn cầu</p>
+      <a href="https://www.chevening.org/apply" target="_blank" class="apply-button">APPLY NOW</a>
+    </div>
+  </div>
+
+  <!-- ===== CONTENT ===== -->
+  <div class="layout">
+    <div class="main-content">
+      <br><br>
+      <p><strong>BIODAS Team</strong> hân hạnh chia sẻ thông tin về <strong>Học bổng Chevening</strong> – chương trình học bổng danh giá của Chính phủ Anh dành cho những cá nhân xuất sắc, có khát vọng tạo ra thay đổi tích cực tại cộng đồng, quốc gia và trên toàn cầu. Đây là cơ hội du học thạc sĩ 1 năm tại Vương quốc Anh hoàn toàn miễn phí, mở ra hành trình phát triển học thuật, nghề nghiệp và mạng lưới lãnh đạo quốc tế bền vững.</p>
+
+      <div style="text-align:center;">
+        <iframe 
+          src="https://www.youtube.com/embed/hHDTKvt4yIY?si=7aA_ddT_g6sWoywN"
+          title="YouTube video player"
+          style="width:auto; height:auto; aspect-ratio:16/9; border:0;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+      
+      <strong>Website chính thức:</strong> <a href="https://www.chevening.org" target="_blank">https://www.chevening.org</a></p>
+
+      <h2>1. Giới thiệu về Học bổng Chevening</h2>
+      <p>Chevening Scholarships cho phép những nhà lãnh đạo trẻ tiềm năng trên toàn thế giới theo học chương trình thạc sĩ 1 năm tại các trường đại học hàng đầu ở Vương quốc Anh. Nếu ứng viên có đam mê, tầm ảnh hưởng và khát vọng giải quyết các thách thức địa phương hoặc toàn cầu, Chevening chính là cơ hội dành cho ứng viên.</p>
+
+      <div class="highlight-box">
+        <ul>
+          <li>Phát triển chuyên môn và học thuật.</li>
+          <li>Mở rộng mạng lưới kết nối quốc tế.</li>
+          <li>Trải nghiệm văn hóa Anh quốc.</li>
+          <li>Xây dựng mối quan hệ hợp tác lâu dài với Anh.</li>
+        </ul>
+      </div>
+
+      <!-- Ảnh minh họa -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://www.scholarshipregion.com/wp-content/uploads/elementor/thumbs/UK-Government-Chevening-Scholarships-qc0g3ibu1s0523zq02df7ib6anvlhihenpt574hz4w.jpg" class="img" />
+        </div>
+        <figcaption>
+          Ảnh minh họa (Nguồn: www.scholarshipregion.com)
+        </figcaption>
+      </figure>
+
+      <h2>2. Ai có thể đăng ký Học bổng Chevening?</h2>
+      <p>Chevening không giới hạn độ tuổi, giới tính, tôn giáo, tình trạng hôn nhân hay nghề nghiệp. Điều quan trọng là tư duy lãnh đạo, mục tiêu rõ ràng và tiềm năng tạo tác động tích cực.</p>
+
+      <h3>✅ Điều kiện cần có:</h3>
+      <div class="highlight-box">
+        <ul>
+          <li>Là công dân của quốc gia đủ điều kiện.</li>
+          <li>Cam kết trở về nước ít nhất 2 năm sau khi học bổng kết thúc.</li>
+          <li>Có tối thiểu 2.800 giờ kinh nghiệm làm việc.</li>
+          <li>Có bằng cử nhân đủ điều kiện học thạc sĩ tại Anh.</li>
+          <li>Ứng tuyển 3 khóa học khác nhau và có ít nhất 1 thư mời nhập học vô điều kiện.</li>
+        </ul>
+      </div>
+
+      <h3>❌ Không đủ điều kiện nếu:</h3>
+      <div class="highlight-box">
+        <ul>
+          <li>Có quốc tịch Anh hoặc song tịch Anh.</li>
+          <li>Từng học tại Anh bằng học bổng chính phủ Anh khác.</li>
+          <li>Là nhân viên hoặc người thân cơ quan chính phủ Anh trong 2 năm gần nhất.</li>
+        </ul>
+      </div>
+
+      <h2>3. Kinh nghiệm làm việc</h2>
+      <p>Ứng viên cần có ít nhất 2.800 giờ kinh nghiệm làm việc (tương đương 2 năm full-time), có thể tính từ:</p>
+      <div class="highlight-box">
+        <ul>
+          <li>Việc làm toàn thời gian hoặc bán thời gian.</li>
+          <li>Hoạt động tình nguyện.</li>
+          <li>Thực tập có hoặc không lương.</li>
+        </ul>
+      </div>
+
+      <h2>4. Hướng dẫn nộp hồ sơ Chevening</h2>
+      <div class="highlight-box">
+        <ol>
+          <li>Kiểm tra điều kiện dự tuyển.</li>
+          <li>Chọn 3 khóa học thạc sĩ tại Anh.</li>
+          <li>Chuẩn bị hồ sơ và thư giới thiệu.</li>
+          <li>Nộp đơn trực tuyến trên hệ thống Chevening.</li>
+          <li>Tham gia phỏng vấn và nộp thư mời nhập học vô điều kiện.</li>
+        </ol>
+      </div>
+
+      <h2>5. Chuẩn bị cho phỏng vấn Chevening</h2>
+      <p>Hãy chuẩn bị kỹ lưỡng: nắm vững nội dung hồ sơ, định hướng nghề nghiệp và thể hiện năng lực lãnh đạo, khả năng giao tiếp tiếng Anh tự tin.</p>
+
+      <h2>6. Chọn khóa học tại Anh</h2>
+      <p>Ứng viên cần chọn 3 chương trình thạc sĩ đủ điều kiện từ các trường đại học tại Anh.<br>
+      <a href="https://www.chevening.org/scholarships/find-a-course/" target="_blank">Tìm khóa học phù hợp (Chevening Course Finder)</a></p>
+
+      <h2>7. Tăng cường kỹ năng tiếng Anh</h2>
+      <p>Mặc dù Chevening không yêu cầu chứng chỉ tiếng Anh khi ứng tuyển, hầu hết các trường đại học Anh đều yêu cầu. Hãy trau dồi kỹ năng để viết bài luận và phỏng vấn tốt hơn.</p>
+
+      <!-- Ảnh minh họa -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://asean.org/wp-content/uploads/elementor/thumbs/Chevening-pic1724738642-scaled-qt9q5iek65l9u60mnz6mswzdf7322vdce2z1lqj2iw.jpeg" class="img" />
+        </div>
+        <figcaption>
+          Ảnh minh họa (Nguồn: https://asean.org/)
+        </figcaption>
+      </figure>
+
+      <h2>8. Mốc thời gian quan trọng</h2>
+      <ul>
+        <li>5/8/2025 – Mở cổng đăng ký</li>
+        <li>7/10/2025 – Hạn cuối nộp hồ sơ</li>
+        <li>10/2025 – 1/2026 – Sàng lọc hồ sơ</li>
+        <li>2/2026 – Công bố danh sách phỏng vấn</li>
+        <li>3–4/2026 – Phỏng vấn tại Đại sứ quán Anh</li>
+        <li>6/2026 – Kết quả chính thức</li>
+        <li>9/7/2026 – Hạn thư mời học</li>
+        <li>9–10/2026 – Khởi hành du học</li>
+      </ul>
+
+      <h2>9. Vì sao nên chọn Chevening?</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Học bổng toàn phần bao gồm toàn bộ chi phí.</li>
+          <li>Học tại các trường danh giá bậc nhất thế giới.</li>
+          <li>Mạng lưới hơn 50.000 cựu học viên toàn cầu.</li>
+          <li>Trở thành cầu nối văn hóa Việt – Anh.</li>
+        </ul>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Hãy chuẩn bị ngay từ hôm nay!</strong><br><br>
+        Chevening không chỉ là học bổng – mà là cánh cửa mở ra hành trình trở thành nhà lãnh đạo toàn cầu.<br>
+        Nếu ứng viên có khát vọng, tầm nhìn và cam kết cống hiến cho quê hương, hãy mạnh dạn ứng tuyển Chevening 2025/2026!</p>
+      </div>
+    
+      <br>
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <p class="share-note">Chia sẻ bài viết này</p>
+        <div class="social-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/scholarship/250820-chevening.html/" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/scholarship/250820-chevening.html/" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/scholarship/250820-chevening.html/" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="quick-info">
+        <h3>📘 Thông tin nhanh</h3>
+        <ul>
+          <li>🎓 Học bổng toàn phần 1 năm</li>
+          <li>🌍 Du học tại Anh Quốc</li>
+          <li>💼 Tối thiểu 2.800 giờ kinh nghiệm</li>
+          <li>🕓 Hạn chót: 7/10/2025</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>🗓️ Mốc thời gian</h3>
+        <ul>
+          <li>5/8/2025 – Mở đơn</li>
+          <li>7/10/2025 – Hạn nộp</li>
+          <li>3–4/2026 – Phỏng vấn</li>
+          <li>9/7/2026 – Nộp thư mời học</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>💡 Tips ứng tuyển</h3>
+        <ul>
+          <li>Thể hiện tầm nhìn rõ ràng, khả năng lãnh đạo thực tế.</li>
+          <li>Liên hệ mục tiêu học tập với nhu cầu phát triển quốc gia.</li>
+          <li>Chứng minh tác động xã hội của công việc ứng viên đang và sẽ làm.</li>
+        </ul>
+      </div>
+
+      <a class="apply-button" href="https://www.chevening.org/apply" target="_blank">APPLY NOW</a>
+    </aside>
+  </div>
+
+</body>
+
+<!-- JS SCRIPT -->
+<script src="section-scholarship-template.js"></script>
+
+
+```
