@@ -6,7 +6,6 @@ project:
     - "*.qmd"
 
 
-
 # Execute setup
 execute:
   freeze: auto

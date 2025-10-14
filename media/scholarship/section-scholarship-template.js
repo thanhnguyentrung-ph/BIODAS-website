@@ -13,3 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
     );
     items.forEach((item) => observer.observe(item));
 });
+
+// Tự động tạo độ trễ theo số lượng box (linh hoạt)
+document.addEventListener("DOMContentLoaded", () => {
+const timelineItems = document.querySelectorAll(".section-scholarship-template .timeline-item");
+timelineItems.forEach((item, index) => {
+    item.style.setProperty("--i", index);
+});
+});
