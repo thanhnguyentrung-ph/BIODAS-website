@@ -21,3 +21,27 @@ timelineItems.forEach((item, index) => {
     item.style.setProperty("--i", index);
 });
 });
+
+// UNIVERSAL APPLY BUTTON DEADLINE HANDLER (All buttons)
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".apply-button");
+
+  buttons.forEach((btn) => {
+    const deadlineStr = btn.getAttribute("data-deadline");
+    if (!deadlineStr) return;
+
+    const deadline = new Date(deadlineStr);
+    const now = new Date();
+
+    if (now > deadline) {
+      // 🔹 Quá hạn — đổi nút
+      btn.textContent = "Applications are now closed";
+      btn.removeAttribute("href");
+      btn.classList.add("closed");
+    } else {
+      // 🔹 Còn hạn — hiển thị tooltip ngày hết hạn
+      const diffDays = Math.ceil((deadline - now) / (1000 * 60 * 60 * 24));
+      btn.title = `Deadline: ${deadline.toLocaleDateString()} (${diffDays} days left)`;
+    }
+  });
+});

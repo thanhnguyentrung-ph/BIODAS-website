@@ -36,7 +36,16 @@ aliases:
     <div class="hero-content">
       <h1>HỌC BỔNG TOÀN PHẦN CHEVENING 2025/2026</h1>
       <p class="hero-subtitle">Cơ hội du học Anh Quốc dành cho Nhà lãnh đạo trẻ toàn cầu</p>
-      <a href="https://www.chevening.org/apply" target="_blank" class="apply-button">APPLY NOW</a>
+      
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="https://www.chevening.org/apply"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-11-07T23:59:00"
+      >
+        APPLY NOW
+      </a>
     </div>
   </div>
 
@@ -242,7 +251,16 @@ aliases:
         </ul>
       </div>
 
-      <a class="apply-button" href="https://www.chevening.org/apply" target="_blank">APPLY NOW</a>
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="https://www.chevening.org/apply"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-11-07T23:59:00"
+      >
+        APPLY NOW
+      </a>
+
     </aside>
   </div>
 
