@@ -42,7 +42,7 @@ aliases:
         href="https://www.chevening.org/apply"
         target="_blank"
         class="apply-button"
-        data-deadline="2025-11-07T23:59:00"
+        data-deadline="2025-10-07T23:59:00"
       >
         APPLY NOW
       </a>
@@ -256,7 +256,7 @@ aliases:
         href="https://www.chevening.org/apply"
         target="_blank"
         class="apply-button"
-        data-deadline="2025-11-07T23:59:00"
+        data-deadline="2025-10-07T23:59:00"
       >
         APPLY NOW
       </a>
