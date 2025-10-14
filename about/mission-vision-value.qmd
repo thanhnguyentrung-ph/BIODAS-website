@@ -122,7 +122,7 @@ aliases:
 <div class="section-mission-vision-value">
   <!-- Mission -->
   <div class="core-box mission">
-    <img src="images/mission.jpg" alt="Mission">
+    <img src="https://i.pinimg.com/1200x/97/30/11/973011450f7bbef3c9779a9f713b64ca.jpg" alt="Mission">
     <div class="title">Sứ mệnh</div>
     <div class="content">
       <ul>
@@ -136,7 +136,7 @@ aliases:
 
   <!-- Vision -->
   <div class="core-box vision">
-    <img src="images/vision.jpg" alt="Vision">
+    <img src="https://www.countrynavigator.com/hubfs/Webp.net-resizeimage%20(84).jpg" alt="Vision">
     <div class="title">Tầm nhìn</div>
     <div class="content">
       <ul>
@@ -149,7 +149,7 @@ aliases:
 
   <!-- Values -->
   <div class="core-box values">
-    <img src="images/value.jpg" alt="Value">
+    <img src="https://blog.victor.org/hubfs/Blog%20Images/Team%20with%20Hands%20Together%20-%20Core%20Values.jpg" alt="Value">
     <div class="title">Giá trị cốt lõi</div>
     <div class="content">
       <ul>

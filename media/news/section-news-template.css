@@ -310,7 +310,7 @@
 /* =============================
    BIODAS NEWS & INSIGHTS
    ============================= */
-.biodas-news-section {
+.section-news-template .biodas-news-section {
   background: #f9fafb;
   padding: 60px 20px 80px;
   border-top: 2px solid #e5e7eb;
@@ -320,7 +320,7 @@
 }
 
 /* Tiêu đề khu vực */
-.biodas-news-section .section-title {
+.section-news-template .biodas-news-section .section-title {
   text-align: center;
   font-size: 28px;
   color: #313d5d; /* màu xanh BIODAS */
@@ -329,7 +329,7 @@
 }
 
 /* Lưới bài viết */
-.biodas-news-section .news-grid {
+.section-news-template .biodas-news-section .news-grid {
   display: inline-grid; /* giữ căn giữa theo chiều ngang */
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 20px;
@@ -339,49 +339,110 @@
 }
 
 /* Thẻ bài viết */
-.biodas-news-section .news-card {
+.section-news-template .biodas-news-section .news-card {
   background: #fff;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 6px 14px rgba(0,0,0,0.08);
   transition: transform 0.3s, box-shadow 0.3s;
 }
-.biodas-news-section .news-card:hover {
+.section-news-template .biodas-news-section .news-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0,0,0,0.12);
 }
 
 /* Ảnh và nội dung */
-.biodas-news-section .news-card img {
+.section-news-template .biodas-news-section .news-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
-.biodas-news-section .news-info {
+.section-news-template .biodas-news-section .news-info {
   padding: 16px 20px;
 }
-.biodas-news-section .news-info h3 a {
+.section-news-template .biodas-news-section .news-info h3 a {
   color: #111827;
   text-decoration: none;
   font-weight: 700;
 }
-.biodas-news-section .news-info h3 a:hover {
+.section-news-template .biodas-news-section .news-info h3 a:hover {
   color: #4b6bfb;
 }
-.biodas-news-section .news-meta {
+.section-news-template .biodas-news-section .news-meta {
   font-size: 13px;
   color: #6b7280;
   margin-top: 6px;
   display: block;
 }
 
-/* Responsive */
+
+/* =============================
+   RESPONSIVE DESIGN / MOBILE LAYOUT
+   ============================= */
 @media (max-width: 768px) {
-  .biodas-news-section {
-    padding: 40px 16px 60px;
+  /* Bố cục chính hiển thị dọc thay vì ngang */
+  .section-news-template .layout {
+    flex-direction: column;
+    padding: 12px;
+    gap: 16px;
   }
-  .biodas-news-section .section-title {
-    font-size: 24px;
+
+  /* TOC hiển thị trước, gọn và dễ đọc */
+  .section-news-template nav.toc {
+    position: relative; /* bỏ sticky để không che nội dung */
+    top: auto;
+    width: 100%;
+    order: 1; /* xuất hiện trước content */
+    margin-bottom: 16px;
+    padding: 14px 18px;
+  }
+
+  /* Nội dung chính sau TOC */
+  .section-news-template main.content {
+    order: 2;
+  }
+
+  /* Giảm padding và font cho nội dung phù hợp màn nhỏ */
+  .section-news-template section {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .section-news-template section h2 {
+    font-size: 22px;
+  }
+
+  .section-news-template nav.toc h3 {
+    font-size: 14px;
+  }
+
+  /* Ảnh trong bài viết co vừa màn hình */
+  .section-news-template .img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Căn giữa các nút chia sẻ xã hội */
+  .section-news-template .social-share {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  /* Lưới bài viết BIODAS News gọn hơn */
+  .section-news-template .biodas-news-section .news-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .section-news-template .biodas-news-section .news-card img {
+    height: 180px;
+  }
+
+  .section-news-template .biodas-news-section .news-info {
+    padding: 14px 16px;
+  }
+
+  .section-news-template .biodas-news-section .section-title {
+    font-size: 22px;
   }
 }
-

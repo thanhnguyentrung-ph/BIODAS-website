@@ -261,11 +261,12 @@ window.Quarto = {
 .section-highlight {
   position: relative;
   width: 100%;
-  height: 650px;
+  aspect-ratio: 16 / 9; /* 🔹 Tự co chiều cao theo tỷ lệ ảnh */
   overflow: hidden;
   border-radius: 12px;
 }
 
+/* Slide */
 .section-highlight .highlight-slide {
   position: absolute;
   top: 0;
@@ -275,21 +276,25 @@ window.Quarto = {
   background-size: cover;
   background-position: center;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 1.2s ease-in-out;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   padding: 20px;
 }
 
 .section-highlight .highlight-slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Giữ tỷ lệ ảnh */
   object-position: center;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
+  opacity: 0;
+  transform: scale(1);
+  transition: transform 8s ease, opacity 1.2s ease;
 }
 
 .section-highlight .highlight-slide.active {
@@ -297,9 +302,25 @@ window.Quarto = {
   z-index: 2;
 }
 
+.section-highlight .highlight-slide.active img {
+  opacity: 1;
+  animation: kenburnsZoom 15s ease-in-out infinite alternate;
+}
+
+/* 🔹 Hiệu ứng Ken Burns (Zoom nhẹ + dịch chuyển) */
+@keyframes kenburnsZoom {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.08) translate(-2%, -2%);
+  }
+}
+
+/* Text box */
 .section-highlight .text-box {
   position: absolute;
-  bottom: 60px;
+  bottom: 8%;
   left: 50%;
   transform: translateX(-50%);
   width: 75%;
@@ -322,6 +343,7 @@ window.Quarto = {
 .section-highlight .text-box h2 {
   margin-top: 3px;
   margin-bottom: 3px;
+  font-size: 1.5rem;
 }
 
 /* Nút điều hướng */
@@ -344,18 +366,13 @@ window.Quarto = {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.section-highlight .nav-left {
-  left: 20px;
-}
-
-.section-highlight .nav-right {
-  right: 20px;
-}
+.section-highlight .nav-left { left: 20px; }
+.section-highlight .nav-right { right: 20px; }
 
 /* Dot indicators */
 .section-highlight .dots {
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -375,6 +392,64 @@ window.Quarto = {
 .section-highlight .dot.active {
   background: #fff;
 }
+
+/* =======================================
+   🔹 RESPONSIVE DESIGN
+   ======================================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .section-highlight {
+    aspect-ratio: 16 / 10;
+  }
+  .section-highlight .text-box {
+    width: 85%;
+    padding: 16px;
+  }
+  .section-highlight .text-box h2 {
+    font-size: 1.25rem;
+  }
+  .section-highlight .text-box p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .section-highlight {
+    aspect-ratio: 1 / 1; /* Vuông hơn để phù hợp màn hình dọc */
+  }
+  .section-highlight .highlight-slide {
+    padding: 10px;
+  }
+  .section-highlight .text-box {
+    width: 90%;
+    bottom: 6%;
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+  .section-highlight .text-box h2 {
+    font-size: 1.1rem;
+    line-height: 1.3;
+  }
+  .section-highlight .text-box p {
+    font-size: 0.85rem;
+  }
+  .section-highlight .nav-btn {
+    font-size: 1.4em;
+    padding: 6px 10px;
+  }
+  .section-highlight .dots {
+    bottom: 8px;
+    gap: 8px;
+  }
+  .section-highlight .dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+
 </style>
 
 <div class="section-highlight">
@@ -546,124 +621,181 @@ window.Quarto = {
 <p><br></p>
 <hr>
 <h1 id="biodas-institute-of-biomedical-data-and-science-research">BIODAS — Institute of Biomedical Data and Science Research</h1>
-<!-- Giới thiệu -->
+<!-- Section Introduction -->
 <style>
 .section-intro {
-    position: relative;
-    width: 100%;
-    border-radius: 12px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  background-image: url('https://i.pinimg.com/1200x/4b/28/86/4b2886de2b3714d57ed2d896141cd6fe.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  overflow: hidden;
+  border-radius: 12px;
 }
 
-/* Ảnh nền */
-.section-intro img.bg {
-    width: 100%;
-    height: 650px;
-    display: block;
-    border-radius: 12px;
+/* Lớp phủ mờ màu trắng */
+.section-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  z-index: 1;
 }
 
-/* Text box */
+/* Logo bên trái */
+.section-intro .logo {
+  position: relative;
+  z-index: 2;
+  width: 38%;
+  max-width: 380px;
+  margin-left: 5%;
+  animation: fadeInLeft 1.2s ease forwards;
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+/* Text box bên phải – nền xanh đậm trong suốt */
 .section-intro .text-box {
-    position: absolute;
-    top: 20%;
-    right: 9%;
-    width: 40%;
-    padding: 20px;
-    background-color: rgba(49, 61, 93, 0.8);
-    color: #ffffff;
-    border-radius: 12px;
-    text-align: justify;
-    line-height: 1.6;
-    transition: background-color 0.3s ease;
-
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeUp 1s ease forwards;
-    animation-delay: 0.5s;
-}
-
-.section-intro .text-box:hover {
-    background-color: rgba(49, 61, 93, 0.95);
+  position: relative;
+  z-index: 2;
+  width: 45%;
+  margin-right: 5%;
+  background-color: rgba(49, 61, 93, 0.8);
+  padding: 28px;
+  border-radius: 14px;
+  color: #ffffff;
+  text-align: justify;
+  line-height: 1.7;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.4s;
 }
 
 .section-intro .text-box h2 {
-    text-align: center;
-    margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #ffffff;
 }
 
-/* Button */
+/* Button màu nền xanh đậm hơn, căn giữa */
 .section-intro .btn-action {
-    display: block;
-    margin: 20px auto 0; /* căn giữa */
-    padding: 12px 24px;
-    background-color: #0284c7;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 8px;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.3s ease;
-
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeUp 1s ease forwards;
-    animation-delay: 1.2s; /* xuất hiện trễ hơn text */
+  display: block; /* để margin auto hoạt động */
+  margin: 24px auto 0;
+  padding: 12px 24px;
+  background-color: rgba(49, 61, 93, 0.9);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: fit-content;
 }
 
 .section-intro .btn-action:hover {
-    background-color: #0369a1;
-    transform: scale(1.08);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
-}
-
-/* Logo */
-.section-intro .logo {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    width: 30%;
-    height: auto;
-
-    opacity: 0;
-    transform: translateX(-30px);
-    animation: fadeInLeft 1s ease forwards;
-    animation-delay: 0.8s;
+  background-color: rgba(49, 61, 93, 1);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
 /* Animation */
 @keyframes fadeUp {
-    to { opacity: 1; transform: translateY(0); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-@keyframes fadeInLeft {
-    to { opacity: 1; transform: translateX(0); }
+/* 📱 Responsive - Điện thoại */
+@media (max-width: 768px) {
+  .section-intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/1200x/a8/2f/d3/a82fd3a65fbf5c934d04827248f3c0a8.jpg');
+    background-size: fill;
+    background-position: center;
+    min-height: auto;
+    padding: 60px 20px;
+  }
+
+  .section-intro::before {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+  }
+
+  .section-intro .logo {
+    width: 65%;
+    max-width: 300px;
+    margin: 0 0 20px 0;
+    transform: none;
+    opacity: 1;
+    animation: none;
+  }
+
+  .section-intro .text-box {
+    width: 100%;
+    margin: 0;
+    background-color: rgba(49, 61, 93, 0.8);
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 12px;
+    opacity: 1;
+    animation: none;
+  }
+
+  .section-intro .text-box h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .section-intro .btn-action {
+    margin: 20px auto 0;
+    width: fit-content;
+  }
 }
 </style>
 
-
 <div class="section-intro">
-    <img src="images/background/1.jpg" alt="Ảnh nền" class="bg">
+  <!-- Logo bên trái (desktop) / trên (mobile) -->
+  <img src="images/logo/BIODAS-logo-horizontal.png" alt="Logo" class="logo">
 
-    <div class="text-box">
-        <h2 class="anchored">
-        Chào mừng đến với BIODAS<br>
-        Viện Nghiên cứu Khoa học và<br>Dữ liệu Y sinh
-        </h2>
-        <p>
-        BIODAS là đơn vị nghiên cứu chuyên sâu trong lĩnh vực y sinh học và khoa học dữ liệu tại Việt Nam.
-        <br><br>
-        Chúng tôi mang trong mình sứ mệnh kết nối bệnh viện, viện nghiên cứu, các đơn vị y tế công - tư trong và ngoài nước, nhằm thúc đẩy nghiên cứu y học, phát triển công nghệ và nâng cao chất lượng điều trị y tế cho cộng đồng.
-        </p>
-
-        <!-- Nút bấm căn giữa -->
-        <a href="./about/introduce.html" class="btn-action">⮕ Tìm hiểu thêm về BIODAS</a>
-    </div>
-
-    <img src="images/logo/BIODAS-logo-horizontal.png" alt="Logo" class="logo">
+  <!-- Text box bên phải (desktop) / dưới (mobile) -->
+  <div class="text-box">
+    <h2 class="anchored">
+      Chào mừng đến với BIODAS<br>
+      Viện Nghiên cứu Khoa học và<br>Dữ liệu Y sinh
+    </h2>
+    <p>
+      BIODAS là đơn vị nghiên cứu chuyên sâu trong lĩnh vực y sinh học và khoa học dữ liệu tại Việt Nam.
+      <br><br>
+      Chúng tôi mang trong mình sứ mệnh kết nối bệnh viện, viện nghiên cứu, các đơn vị y tế công - tư trong và ngoài nước, nhằm thúc đẩy nghiên cứu y học, phát triển công nghệ và nâng cao chất lượng điều trị y tế cho cộng đồng.
+    </p>
+    <a href="./about/introduce.html" class="btn-action">⮕ Tìm hiểu thêm về BIODAS</a>
+  </div>
 </div>
 
-<p><br> <br></p>
+<p><br></p>
 <hr>
 <h1 id="sứ-mệnh-tầm-nhìn-và-giá-trị-cốt-lõi-của-biodas">Sứ mệnh, tầm nhìn và giá trị cốt lõi của BIODAS</h1>
 <style>
@@ -674,7 +806,7 @@ window.Quarto = {
     overflow: hidden;
 }
 
-/* Ảnh nền */
+/* === ẢNH NỀN CHO MÁY TÍNH === */
 .section-mission img.bg {
     width: 100%;
     height: 650px;
@@ -682,30 +814,43 @@ window.Quarto = {
     border-radius: 12px;
     object-fit: cover;
     object-position: center;
+    z-index: 0;
+    position: relative;
+    content: url("https://i.pinimg.com/1200x/62/b6/5b/62b65bb6ef6bcec3358e2d016e3e4315.jpg");
 }
 
-/* Overlay */
+/* === LỚP MỜ (Overlay) === */
 .section-mission::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(3px);
-    background-color: rgba(255,255,255,0.15);
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
     z-index: 1;
     opacity: 0;
     animation: fadeBlur 1.2s ease forwards;
 }
 
 @keyframes fadeBlur {
-    0% { opacity: 0; backdrop-filter: blur(0px); background-color: rgba(255,255,255,0.0); }
-    50% { opacity: 0.5; backdrop-filter: blur(3px); background-color: rgba(255,255,255,0.15); }
-    100% { opacity: 1; backdrop-filter: blur(6px); background-color: rgba(255,255,255,0.35); }
+    0% {
+        opacity: 0;
+        backdrop-filter: blur(0px);
+        background-color: rgba(255, 255, 255, 0.0);
+    }
+    50% {
+        opacity: 0.5;
+        backdrop-filter: blur(0.5px);
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+    100% {
+        opacity: 1;
+        backdrop-filter: blur(1px);
+        background-color: rgba(255, 255, 255, 0.7);
+    }
 }
 
-/* Wrapper */
+/* === NỘI DUNG === */
 .section-mission .content-wrapper {
     position: absolute;
     top: 50%;
@@ -715,7 +860,6 @@ window.Quarto = {
     z-index: 2;
 }
 
-/* Container */
 .section-mission .container {
     display: flex;
     flex-direction: column;
@@ -724,7 +868,6 @@ window.Quarto = {
     width: 100%;
 }
 
-/* Hàng box */
 .section-mission .box-row {
     display: flex;
     justify-content: space-between;
@@ -733,32 +876,23 @@ window.Quarto = {
     width: 100%;
 }
 
-/* Box */
+/* === BOX (không còn hiệu ứng xuất hiện) === */
 .section-mission .box {
     flex: 1;
     max-width: 30%;
     display: flex;
     flex-direction: column;
-    opacity: 0;
-    animation: fadeUp 0.8s ease forwards;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 12px;
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 1; /* luôn hiển thị */
+    transform: none; /* bỏ hiệu ứng ban đầu */
 }
 
 .section-mission .box:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     cursor: pointer;
-}
-
-.section-mission .box:nth-child(1) { animation-delay: 0.3s; }
-.section-mission .box:nth-child(2) { animation-delay: 0.6s; }
-.section-mission .box:nth-child(3) { animation-delay: 0.9s; }
-
-@keyframes fadeUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to   { opacity: 1; transform: translateY(0); }
 }
 
 /* Box title */
@@ -796,13 +930,12 @@ window.Quarto = {
     background-color: rgba(49, 61, 93, 0.85);
 }
 
-/* Button */
+/* === BUTTON === */
 .section-mission .btn-action {
     display: inline-block;
     margin: 40px auto 0;
     padding: 14px 28px;
-    /* background: linear-gradient(135deg, rgba(49,61,93,0.9), rgba(80,100,140,0.9)); */
-    background-color: #0284c7;
+    background-color: rgba(49, 61, 93, 0.9);
     color: #fff;
     font-weight: 600;
     border-radius: 8px;
@@ -811,25 +944,44 @@ window.Quarto = {
     opacity: 0;
     transform: translateY(20px);
     animation: fadeUp 1s ease forwards;
-    animation-delay: 1.8s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
 }
 
 .section-mission .btn-action:hover {
-    /* background: linear-gradient(135deg, rgba(49,61,93,1), rgba(80,100,140,1)); */
-    background-color: #0369a1;
-    transform: scale(1.08);
+    background-color: rgba(49, 61, 93, 1);
+    transform: scale(1.05);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-/* Responsive */
+/* Chỉ giữ fadeUp cho nút */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* === RESPONSIVE: GIAO DIỆN ĐIỆN THOẠI === */
 @media (max-width: 768px) {
+    .section-mission img.bg {
+        content: url("https://i.pinimg.com/1200x/9f/41/38/9f41381b03337a4393f488de76da0cd2.jpg");
+        height: 1000px;
+    }
+
+    .section-mission::after {
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+    }
+
     .section-mission .box-row {
         flex-direction: column;
         align-items: center;
     }
+
     .section-mission .box {
         max-width: 100%;
     }
+
     .section-mission .btn-action {
         width: 100%;
         text-align: center;
@@ -838,11 +990,10 @@ window.Quarto = {
 </style>
 
 <div class="section-mission">
-    <img src="images/background/2.jpg" alt="Ảnh nền" class="bg">
+    <img src="" alt="Ảnh nền" class="bg">
 
     <div class="content-wrapper">
         <div class="container">
-            <!-- 3 box -->
             <div class="box-row">
                 <div class="box">
                     <div class="box-title">Sứ mệnh</div>
@@ -866,13 +1017,15 @@ window.Quarto = {
                 </div>
             </div>
 
-            <!-- Nút cùng level, nằm dưới -->
             <a href="./about/mission-vision-value.html" class="btn-action">
                 ⮕ Tìm hiểu thêm về Sứ mệnh - Tầm nhìn - Giá trị cốt lõi của BIODAS
             </a>
         </div>
     </div>
 </div>
+
+
+
 
 <p><br></p>
 <hr>
@@ -939,7 +1092,7 @@ window.Quarto = {
         </a>
 
         <a href="project/#category=Data" class="specialty-box">
-        <img src="https://i.pinimg.com/1200x/d5/ab/bb/d5abbbb66a0e729aef4025fa61af34e7.jpg" alt="Dữ liệu">
+        <img src="https://www.ue-germany.com/uploads/sites/9/2022/07/digital-business-data-sience-960x540-1.jpg?w=960" alt="Dữ liệu">
         <div class="box-title">Dữ liệu</div>
         </a>
 
@@ -961,11 +1114,11 @@ window.Quarto = {
 <p><a href="latest-content.qmd"></a></p>
 <div id="listing-latest-content" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QUklMkNDYW5jZXIlMkNEaWFnbm9zaXMlMkNUcmVhdG1lbnQlMkNQYXRpZW50JTIwQ2FyZQ==" data-listing-date-sort="1760029200000" data-listing-file-modified-sort="1760270807781" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3218">
+<div class="g-col-1" data-index="0" data-categories="QUklMkNDYW5jZXIlMkNEaWFnbm9zaXMlMkNUcmVhdG1lbnQlMkNQYXRpZW50JTIwQ2FyZQ==" data-listing-date-sort="1760029200000" data-listing-file-modified-sort="1760422858144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3218">
 <a href="./media/news/251010-ai-cancer.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="https://mapmygenome.in/cdn/shop/articles/The_Role_of_AI_in_Cancer_Diagnosis_and_Treatment.jpg?v=1745564737" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="https://i.pinimg.com/736x/10/fe/12/10fe12094076f89c72ee1795dcdf7cc3.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -989,7 +1142,7 @@ Oct 10, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Q2glQzYlQjAlQzYlQTFuZyUyMHRyJUMzJUFDbmglMkNRdSVFMSVCQiU5MWMlMjB0JUUxJUJBJUJGJTJDVHJ1bmclMjBRdSVFMSVCQiU5MWMlMkNUciVFMSVCQSVBM2klMjBuZ2hpJUUxJUJCJTg3bSUyMHRoJUUxJUJCJUIxYyUyMHQlRTElQkElQkYlMkNPZmZsaW5l" data-listing-date-sort="1759078800000" data-listing-file-modified-sort="1760328646000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1796">
+<div class="g-col-1" data-index="1" data-categories="Q2glQzYlQjAlQzYlQTFuZyUyMHRyJUMzJUFDbmglMkNRdSVFMSVCQiU5MWMlMjB0JUUxJUJBJUJGJTJDVHJ1bmclMjBRdSVFMSVCQiU5MWMlMkNUciVFMSVCQSVBM2klMjBuZ2hpJUUxJUJCJTg3bSUyMHRoJUUxJUJCJUIxYyUyMHQlRTElQkElQkYlMkNPZmZsaW5l" data-listing-date-sort="1759078800000" data-listing-file-modified-sort="1760328646414" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1796">
 <a href="./media/event/250929-cep.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1013,7 +1166,7 @@ Sep 29, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="VmlldG5hbSUyQ0RpZ2l0YWwlMjBIZWFsdGglMkNOYXRpb25hbCUyMEhlYWx0aCUyMFN5c3RlbSUyQ0RpZ2l0YWwlMjBUcmFuc2Zvcm1hdGlvbiUyQ1ZOZUlEJTJDNTctTlElMkZUVyUyQ1RlbGVoZWFsdGglMkNFbGVjdHJvbmljJTIwTWVkaWNhbCUyMFJlY29yZCUyMChFTVIpJTJDRWxlY3Ryb25pYyUyMEhlYWx0aCUyMFJlY29yZCUyMChFSFIpJTJDQUklMkNQcmVjaXNpb24lMjBNZWRpY2luZSUyQ1dITw==" data-listing-date-sort="1758214800000" data-listing-file-modified-sort="1760348006000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3054">
+<div class="g-col-1" data-index="2" data-categories="VmlldG5hbSUyQ0RpZ2l0YWwlMjBIZWFsdGglMkNOYXRpb25hbCUyMEhlYWx0aCUyMFN5c3RlbSUyQ0RpZ2l0YWwlMjBUcmFuc2Zvcm1hdGlvbiUyQ1ZOZUlEJTJDNTctTlElMkZUVyUyQ1RlbGVoZWFsdGglMkNFbGVjdHJvbmljJTIwTWVkaWNhbCUyMFJlY29yZCUyMChFTVIpJTJDRWxlY3Ryb25pYyUyMEhlYWx0aCUyMFJlY29yZCUyMChFSFIpJTJDQUklMkNQcmVjaXNpb24lMjBNZWRpY2luZSUyQ1dITw==" data-listing-date-sort="1758214800000" data-listing-file-modified-sort="1760348006387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3054">
 <a href="./media/news/250919-vn-digital-health.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1039,7 +1192,7 @@ Sep 19, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="RGF0YSUyQ0RhdGElMjBTY2llbmNlJTJDQmlvbWVkaWNhbCUyQ0hlYWx0aGNhcmU=" data-listing-date-sort="1757869200000" data-listing-file-modified-sort="1760340357000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2232">
+<div class="g-col-1" data-index="3" data-categories="RGF0YSUyQ0RhdGElMjBTY2llbmNlJTJDQmlvbWVkaWNhbCUyQ0hlYWx0aGNhcmU=" data-listing-date-sort="1757869200000" data-listing-file-modified-sort="1760340357364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2232">
 <a href="./media/news/250915-data-science-powering.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1064,7 +1217,7 @@ Sep 15, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="SCVFMSVCQiU5OWklMjBuZ2glRTElQkIlOEIlMkNRdSVFMSVCQiU5MWMlMjB0JUUxJUJBJUJGJTJDQ2xpbmljYWwlMjB0cmlhbCUyQ09ubGluZSUyQ09mZmxpbmUlMkNSZXNlYXJjaA==" data-listing-date-sort="1757610000000" data-listing-file-modified-sort="1759840182819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1902">
+<div class="g-col-1" data-index="4" data-categories="SCVFMSVCQiU5OWklMjBuZ2glRTElQkIlOEIlMkNRdSVFMSVCQiU5MWMlMjB0JUUxJUJBJUJGJTJDQ2xpbmljYWwlMjB0cmlhbCUyQ09ubGluZSUyQ09mZmxpbmUlMkNSZXNlYXJjaA==" data-listing-date-sort="1757610000000" data-listing-file-modified-sort="1759840182000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1902">
 <a href="./media/event/250912-scope-trial-design.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1089,7 +1242,7 @@ Sep 12, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="SCVFMSVCQiU5OWklMjB0aCVFMSVCQSVBM28lMkNRdSVFMSVCQiU5MWMlMjB0JUUxJUJBJUJGJTJDQUklMkNCaW9iYW5rJTJDT25saW5l" data-listing-date-sort="1757437200000" data-listing-file-modified-sort="1759838816966" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1389">
+<div class="g-col-1" data-index="5" data-categories="SCVFMSVCQiU5OWklMjB0aCVFMSVCQSVBM28lMkNRdSVFMSVCQiU5MWMlMjB0JUUxJUJBJUJGJTJDQUklMkNCaW9iYW5rJTJDT25saW5l" data-listing-date-sort="1757437200000" data-listing-file-modified-sort="1759838816000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1389">
 <a href="./media/event/250910-digitising-medical.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1114,7 +1267,7 @@ Sep 10, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="U3R1ZHklMkNSZXNlYXJjaCUyQ0RhdGElMkNEYXRhJTIwU2NpZW5jZSUyQ1BhdGllbnQlMjBDYXJlJTJDQmlvbWVkaWNhbCUyQ0hlYWx0aGNhcmU=" data-listing-date-sort="1757350800000" data-listing-file-modified-sort="1760331487000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4151">
+<div class="g-col-1" data-index="6" data-categories="U3R1ZHklMkNSZXNlYXJjaCUyQ0RhdGElMkNEYXRhJTIwU2NpZW5jZSUyQ1BhdGllbnQlMjBDYXJlJTJDQmlvbWVkaWNhbCUyQ0hlYWx0aGNhcmU=" data-listing-date-sort="1757350800000" data-listing-file-modified-sort="1760331487939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4151">
 <a href="./media/news/250909-data-science-direction.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1138,7 +1291,7 @@ Sep 9, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="RmlsZWQlMjBBc3Npc3RhbnQlMkNQYXJ0LXRpbWU=" data-listing-date-sort="1756918800000" data-listing-file-modified-sort="1760029207773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1859">
+<div class="g-col-1" data-index="7" data-categories="RmlsZWQlMjBBc3Npc3RhbnQlMkNQYXJ0LXRpbWU=" data-listing-date-sort="1756918800000" data-listing-file-modified-sort="1760029207000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1859">
 <a href="./recruitment/posts/250904-field-assistant.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1162,7 +1315,7 @@ Sep 4, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="UmVzZWFyY2glMjBBc3Npc3RhbnQlMkNGdWxsLXRpbWU=" data-listing-date-sort="1756746000000" data-listing-file-modified-sort="1760029193057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1385">
+<div class="g-col-1" data-index="8" data-categories="UmVzZWFyY2glMjBBc3Npc3RhbnQlMkNGdWxsLXRpbWU=" data-listing-date-sort="1756746000000" data-listing-file-modified-sort="1760029193000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1385">
 <a href="./recruitment/posts/250902-research-assistant.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">

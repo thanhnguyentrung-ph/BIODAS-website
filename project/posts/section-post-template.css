@@ -233,3 +233,37 @@
   margin-top: 8px; 
   text-align: center;
 }
+
+/* =============================
+   RESPONSIVE DESIGN / MOBILE LAYOUT
+   ============================= */
+@media (max-width: 768px) {
+  .section-post-template .layout {
+    flex-direction: column;         /* Hiển thị theo chiều dọc */
+    padding: 12px;
+  }
+
+  .section-post-template nav.toc {
+    position: relative;             /* Bỏ sticky để không che nội dung */
+    top: auto;
+    width: 100%;
+    order: 1;                       /* Hiển thị TOC trước */
+    margin-bottom: 16px;
+  }
+
+  .section-post-template main.content {
+    order: 2;                       /* Hiển thị content sau TOC */
+  }
+
+  .section-post-template section {
+    padding: 16px;
+  }
+
+  .section-post-template section h2 {
+    font-size: 22px;                /* Giảm cỡ chữ tiêu đề cho phù hợp màn hình nhỏ */
+  }
+
+  .section-post-template nav.toc h3 {
+    font-size: 14px;
+  }
+}

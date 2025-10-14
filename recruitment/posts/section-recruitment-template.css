@@ -1,17 +1,17 @@
 /* =============================
-   RECRUITMENT TEMPLATE
+   RECRUITMENT TEMPLATE (RESPONSIVE, NO SLIDE OR FADE-IN)
    ============================= */
 .section-recruitment-template {
   --bg: #f9fafb;
-  --panel: #ffffff;       
-  --muted: #475569;       
-  --text: #111827;        
-  --accent: #0284c7;      
+  --panel: #ffffff;
+  --muted: #475569;
+  --text: #111827;
+  --accent: #0284c7;
   --accent-2: #313d5d;
-  --ok: #16a34a;          
-  --warn: #d97706;        
-  --danger: #dc2626;      
-  --card: #ffffff;        
+  --ok: #16a34a;
+  --warn: #d97706;
+  --danger: #dc2626;
+  --card: #ffffff;
   --shadow: 0 6px 18px rgba(0,0,0,.08);
   --round: 14px;
 
@@ -31,7 +31,6 @@
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-  animation: fadeHero 1s ease-out both;
 }
 .section-recruitment-template .hero h1 {
   font-size: 40px;
@@ -44,10 +43,6 @@
   font-size: 18px;
   margin: 0 0 20px;
   opacity: 0.9;
-}
-@keyframes fadeHero {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
 }
 
 /* ===== NÚT CHUNG ===== */
@@ -73,7 +68,6 @@
   transform: translateY(-2px) scale(1.02);
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
-/* Ripple click */
 .section-recruitment-template .btn-action:after {
   content: "";
   position: absolute;
@@ -90,7 +84,6 @@
   opacity: 0;
   transition: transform 0.6s, opacity 1s;
 }
-/* Glow cho nút quan trọng */
 @keyframes glow {
   0%   { box-shadow: 0 0 0 rgba(2,132,199,0.6); }
   50%  { box-shadow: 0 0 20px rgba(2,132,199,0.6); }
@@ -100,14 +93,14 @@
   animation: glow 2s infinite;
 }
 
-/* Layout */
+/* ========== LAYOUT ========== */
 .section-recruitment-template .layout {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Section + hiệu ứng slide */
+/* ========== SECTION ========== */
 .section-recruitment-template section {
   background: var(--panel);
   border: 1px solid #cbd5e1;
@@ -115,23 +108,11 @@
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: var(--shadow);
-  opacity: 0;
-}
-.section-recruitment-template section.visible { opacity: 1; }
-.section-recruitment-template section.slide-left { transform: translateX(-50px); }
-.section-recruitment-template section.slide-right { transform: translateX(50px); }
-.section-recruitment-template section.slide-left.visible { animation: slideInLeft 0.7s ease-out both; }
-.section-recruitment-template section.slide-right.visible { animation: slideInRight 0.7s ease-out both; }
-@keyframes slideInLeft {
-  from { opacity: 0; transform: translateX(-50px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-@keyframes slideInRight {
-  from { opacity: 0; transform: translateX(50px); }
-  to { opacity: 1; transform: translateX(0); }
+  opacity: 1; /* bỏ hiệu ứng xuất hiện */
+  transform: none;
 }
 
-/* Heading */
+/* ========== HEADING ========== */
 .section-recruitment-template h2 {
   margin-top: 0;
   font-size: 24px;
@@ -152,7 +133,7 @@
 }
 .section-recruitment-template h2:hover::after { width: 100%; }
 
-/* Callout */
+/* ========== CALLOUT ========== */
 .section-recruitment-template .callout {
   background: #f0f9ff;
   padding: 12px 14px 12px 40px;
@@ -176,32 +157,56 @@
   100% { box-shadow: 0 0 0 0 rgba(220,38,38,0); }
 }
 
-/* List item fade-in */
-.section-recruitment-template .callout ul li {
-  opacity: 0;
-  transform: translateY(10px);
-}
-.section-recruitment-template .callout.visible ul li {
-  animation: fadeInItem 0.5s forwards;
-}
-.section-recruitment-template .callout.visible ul li:nth-child(1) { animation-delay: 0.3s; }
-.section-recruitment-template .callout.visible ul li:nth-child(2) { animation-delay: 0.6s; }
-.section-recruitment-template .callout.visible ul li:nth-child(3) { animation-delay: 0.9s; }
-.section-recruitment-template .callout.visible ul li:nth-child(4) { animation-delay: 1.2s; }
-.section-recruitment-template .callout.visible ul li:nth-child(5) { animation-delay: 1.5s; }
-.section-recruitment-template .callout.visible ul li:nth-child(6) { animation-delay: 1.8s; }
-.section-recruitment-template .callout.visible ul li:nth-child(7) { animation-delay: 2.1s; }
-.section-recruitment-template .callout.visible ul li:nth-child(8) { animation-delay: 2.4s; }
-.section-recruitment-template .callout.visible ul li:nth-child(9) { animation-delay: 2.7s; }
-@keyframes fadeInItem {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Footer */
+/* ========== FOOTER ========== */
 .section-recruitment-template .footer-note {
   text-align: center;
   margin-top: 30px;
   font-style: italic;
   color: var(--muted);
+}
+
+/* =============================
+   RESPONSIVE DESIGN / MOBILE
+   ============================= */
+@media (max-width: 768px) {
+  .section-recruitment-template .hero {
+    padding: 40px 16px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+
+  .section-recruitment-template .hero h1 {
+    font-size: 28px;
+  }
+
+  .section-recruitment-template .hero p {
+    font-size: 16px;
+  }
+
+  .section-recruitment-template .btn-action {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  .section-recruitment-template .layout {
+    padding: 16px;
+  }
+
+  .section-recruitment-template section {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .section-recruitment-template h2 {
+    font-size: 20px;
+  }
+
+  .section-recruitment-template .callout {
+    padding: 12px;
+  }
+
+  .section-recruitment-template .footer-note {
+    font-size: 14px;
+    margin-top: 20px;
+  }
 }

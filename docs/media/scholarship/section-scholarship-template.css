@@ -274,6 +274,7 @@
   font-weight: 700;
   color: #0077b6;
   margin-bottom: 6px;
+  text-align: center;
 }
 
 .section-scholarship-template .timeline-item p {
@@ -508,4 +509,139 @@
     flex: 100%;
     position: static;
     }
+}
+
+/* =============================
+   RESPONSIVE DESIGN – MOBILE OPTIMIZATION
+   ============================= */
+@media (max-width: 768px) {
+  /* === HERO BANNER === */
+  .section-scholarship-template .hero-banner {
+    height: auto;
+    padding: 60px 16px 80px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+  }
+
+  .section-scholarship-template .hero-content h1 {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+
+  .section-scholarship-template .hero-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .section-scholarship-template .apply-button {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+
+  /* === MAIN LAYOUT === */
+  .section-scholarship-template .layout {
+    flex-direction: column;
+    padding: 0 14px 60px;
+    gap: 20px;
+  }
+
+  .section-scholarship-template .main-content {
+    flex: 100%;
+    padding: 24px 18px;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  }
+
+  .section-scholarship-template .sidebar {
+    flex: 100%;
+    margin-top: 20px;
+    padding: 18px 16px;
+    border-radius: 14px;
+    position: static;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .section-scholarship-template .sidebar h3 {
+    font-size: 16px;
+  }
+
+  .section-scholarship-template .sidebar li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* === TYPOGRAPHY === */
+  .section-scholarship-template h2 {
+    font-size: 20px;
+    margin-top: 24px;
+  }
+
+  .section-scholarship-template h3 {
+    font-size: 17px;
+  }
+
+  .section-scholarship-template p,
+  .section-scholarship-template li {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* === TIMELINE === */
+  .section-scholarship-template .timeline-flow {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .section-scholarship-template .timeline-item {
+    width: 100%;
+    padding: 16px 18px;
+    text-align: left;
+  }
+
+  .section-scholarship-template .timeline-item::after {
+    content: "⬇";
+    left: 50%;
+    right: auto;
+    top: auto;
+    bottom: -24px;
+    transform: translateX(-50%);
+  }
+
+  /* === HIGHLIGHT BOX === */
+  .section-scholarship-template .highlight-box {
+    padding: 14px 16px;
+    border-radius: 10px;
+  }
+
+  /* === FIGURE & IMAGE === */
+  .section-scholarship-template .img-wrap {
+    border-radius: 10px;
+  }
+
+  .section-scholarship-template .img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* === FINAL NOTE === */
+  .section-scholarship-template .final-note {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 32px;
+    font-size: 15px;
+  }
+
+  /* === SOCIAL SHARE === */
+  .section-scholarship-template .social-section {
+    margin-top: 32px;
+  }
+
+  .section-scholarship-template .social-share a {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
 }

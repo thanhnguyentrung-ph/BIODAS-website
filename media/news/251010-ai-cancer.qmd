@@ -13,7 +13,7 @@ categories:
 author: "Prabal Chourasia và cộng sự | Dịch và biên tập: BIODAS Team"
 date: 10/10/2025 # mm/dd/yyyy
 toc: true
-image: https://mapmygenome.in/cdn/shop/articles/The_Role_of_AI_in_Cancer_Diagnosis_and_Treatment.jpg?v=1745564737
+image: https://i.pinimg.com/736x/10/fe/12/10fe12094076f89c72ee1795dcdf7cc3.jpg
 aliases: 
   - /media/news/
 ---

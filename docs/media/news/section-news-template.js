@@ -16,7 +16,7 @@ const biodasNewsList = [
     title: "Chấp nhận và tiếp nhận Trí tuệ nhân tạo (AI) trong chẩn đoán, điều trị và chăm sóc người bệnh ung thư",
     desc: "Acceptance and Adoption of Artificial Intelligence (AI) in Cancer Diagnosis, Treatment, and Patient Care",
     uploadDate: "2025-10-10",
-    img: "https://mapmygenome.in/cdn/shop/articles/The_Role_of_AI_in_Cancer_Diagnosis_and_Treatment.jpg?v=1745564737",
+    img: "https://i.pinimg.com/736x/10/fe/12/10fe12094076f89c72ee1795dcdf7cc3.jpg",
     link: "../media/news/251010-ai-cancer.html"
   },
 
