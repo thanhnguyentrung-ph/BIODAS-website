@@ -586,6 +586,475 @@ listing:
 
 
 
+# Chủ đề tháng 10/2025 của BIODAS
+```{=html}
+<div style="text-align:center; margin: 24px 0;">
+  <p>
+    <span
+      style="
+        position: relative;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 1.5rem; /* 🔹 cỡ chữ vừa phải */
+        color: #313d5d;
+        letter-spacing: 0.3px;
+        cursor: default;
+      "
+      onmouseover="this.style.setProperty('--underline-scale', '1')"
+      onmouseout="this.style.setProperty('--underline-scale', '0')"
+    >
+      Trí tuệ nhân tạo – Kiến tạo tương lai
+      <span
+        style="
+          position: absolute;
+          bottom: -4px;
+          left: 0;
+          width: 100%;
+          height: 3px;
+          background: linear-gradient(90deg, #00b4d8, #48cae4, #90e0ef);
+          border-radius: 2px;
+          transform: scaleX(var(--underline-scale, 0));
+          transform-origin: left;
+          transition: transform 0.4s ease;
+        "
+      ></span>
+    </span>
+  </p>
+</div>
+
+```
+
+```{=html}
+<style>
+  .section-topic {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    overflow: visible;
+    z-index: 1;
+  }
+
+  .section-topic .topic-hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: url("https://i.pinimg.com/1200x/c5/f9/d7/c5f9d76df5ba1546f3421e3bbe2513e1.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.22);
+    isolation: isolate;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(1.02); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  .section-topic .topic-hero::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: rgba(255,255,255, 0.3);
+    backdrop-filter: blur(2px) brightness(1.1);
+    z-index: 1;
+  }
+
+  /* GRID */
+  .section-topic .topic-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 18px;
+    height: calc(100% - 180px);
+    padding: 0 28px 28px;
+    margin-top: 100px;
+  }
+
+  /* LEFT FEATURE */
+  .section-topic .left-feature {
+    position: relative;
+    align-self: stretch;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.18);
+    backdrop-filter: blur(6px);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.28), 0 18px 40px rgba(0,0,0,0.20);
+    min-height: 450px;
+    margin-bottom: 60px;
+    z-index: 2;
+  }
+
+  .section-topic .feature-image {
+    position: absolute; inset: 0;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease, transform 0.8s ease, opacity 1s ease;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .section-topic .feature-nav {
+    position: absolute;
+    top: 50%; left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    transform: translateY(-50%);
+    z-index: 3;
+  }
+
+  .section-topic .nav-btn {
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    background: rgba(255,255,255,0.8);
+    color: #1b2a41;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  }
+
+  .section-topic .nav-btn:hover {
+    background: #f1f3f9;
+  }
+
+  /* RIGHT PANEL */
+  .section-topic .right-panel {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    align-content: start;
+    z-index: 2;
+  }
+
+  .section-topic .post-summary {
+    position: relative;
+    border-radius: 16px;
+    padding: 14px 16px 50px 16px;
+    background: rgba(31, 44, 72, 0.66);
+    color: #fff;
+    font-size: 0.95rem;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-topic .post-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+  }
+
+  .section-topic .post-excerpt {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0 12px;
+    line-height: 1.6;
+    text-align: justify;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.4) transparent;
+  }
+
+  .section-topic .post-excerpt::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .section-topic .post-excerpt::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.4);
+    border-radius: 6px;
+  }
+
+  .section-topic .read-link {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    text-decoration: none;
+    background: #313d5d;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    width: fit-content;
+  }
+
+  .section-topic .read-link:hover { background: rgba(49, 61, 93, 0.9); }
+
+  .section-topic .thumb-strip {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.22);
+    backdrop-filter: blur(6px);
+    height: 60%;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.28);
+    padding: 0 10px;
+    z-index: 2;
+  }
+
+  .section-topic .thumb-track {
+    display: flex;
+    gap: 14px;
+    transition: transform .6s ease;
+    height: 100%;
+    align-items: center;
+  }
+
+  .section-topic .thumb {
+    flex: 0 0 48%;
+    max-width: 48%;
+    aspect-ratio: 16/9;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+    transition: box-shadow .35s ease, opacity .35s ease;
+    opacity: 0.85;
+  }
+
+  .section-topic .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .section-topic .thumb.active { opacity: 1; box-shadow: 0 12px 24px rgba(0,0,0,0.3); }
+
+  /* === RESPONSIVE FOR MOBILE DEVICES === */
+  @media (max-width: 768px) {
+    .section-topic {
+      aspect-ratio: auto;
+      height: auto;
+    }
+
+    .section-topic .topic-hero {
+      background-image: url("https://i.pinimg.com/1200x/f0/b2/a4/f0b2a472aafb4be4650da50a83da1a05.jpg");
+      background-size: cover;
+      background-position: center top;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 24px 0 40px;
+    }
+
+    .section-topic .left-feature { display: none !important; }
+
+    .section-topic .topic-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 0 16px;
+    }
+
+    .section-topic .right-panel {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      max-width: 520px;
+    }
+
+    .section-topic .post-summary {
+      order: 1;
+      width: 100%;
+      height: 380px;
+      position: relative;
+      padding: 14px 16px 10px 16px;
+      background: rgba(31, 44, 72, 0.85);
+      border-radius: 14px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .section-topic .post-excerpt {
+      flex: 1;
+      overflow-y: auto;
+      text-align: justify;
+      line-height: 1.6;
+      padding-right: 4px;
+    }
+
+    .section-topic .thumb {
+      flex: 0 0 85%;
+      max-width: 85%;
+      margin-right: 10px;
+      aspect-ratio: unset;
+    }
+    .section-topic .thumb img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 12px;
+      display: block;
+    }
+
+    .section-topic .read-link {
+      position: static;
+      bottom: 2px;
+      transform: none;
+      margin: 2px auto 0;
+      text-align: center;
+      width: fit-content;
+    }
+  }
+</style>
+
+<section class="section-topic">
+  <div class="topic-hero">
+    <div class="topic-grid">
+
+      <!-- LEFT FEATURE -->
+      <div class="left-feature">
+        <div class="feature-image" id="featureImage"></div>
+        <div class="feature-nav">
+          <button class="nav-btn" id="prevBtn" aria-label="Bài trước">⟵</button>
+          <button class="nav-btn" id="nextBtn" aria-label="Bài sau">⟶</button>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="right-panel">
+        <div class="post-summary">
+          <h3 class="post-title" id="postTitle"></h3>
+          <p class="post-excerpt" id="postExcerpt"></p>
+          <a class="read-link" id="postLink" target="_blank" rel="noopener">Đọc thêm bài viết</a>
+        </div>
+        <div class="thumb-strip">
+          <div class="thumb-track" id="thumbTrack"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Danh sách bài viết
+    let posts = [
+      {
+        title: "Chuyển đổi số trong Y tế Việt Nam: Nền tảng hiện đại hóa và đổi mới Hệ thống Chăm sóc sức khỏe Quốc gia",
+        excerpt: `
+          Việt Nam đang triển khai mạnh mẽ chuyển đổi số y tế nhằm xây dựng hệ thống chăm sóc sức khỏe hiện đại, thông minh và hiệu quả.<br><br>
+          <b>Các chính sách trọng tâm:</b>
+          <ul>
+            <li>Nghị quyết 57-NQ/TW và Đề án Chuyển đổi số Y tế 2023–2025.</li>
+            <li>Phát triển hạ tầng dữ liệu, ứng dụng AI, bảo mật thông tin và đào tạo nhân lực số.</li>
+            <li>Sổ sức khỏe điện tử tích hợp VNeID, hệ thống dữ liệu y tế quốc gia và dự án gen người Việt.</li>
+          </ul>
+          Mục tiêu đến năm 2030, Việt Nam trở thành quốc gia dẫn đầu khu vực về y tế số.
+        `,
+        link: "./media/news/250919-vn-digital-health",
+        img: "https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/12/5/chuyen-doi-so-y-te-10-173338760854580749395.jpg"
+      },
+      {
+        title: "Chấp nhận và tiếp nhận Trí tuệ nhân tạo (AI) trong chẩn đoán, điều trị và chăm sóc người bệnh ung thư",
+        excerpt: `
+          Nghiên cứu của Prabal Chourasia và cộng sự (2025) trên Journal of Patient Experience xem xét mức độ chấp nhận AI của người sống sót sau ung thư khi tìm kiếm thông tin y tế.<br>
+          Kết quả cho thấy bệnh nhân đánh giá cao AI trong hỗ trợ chẩn đoán và tra cứu thông tin, đặc biệt với mô hình “AI hỗ trợ – bác sĩ quyết định”. Tuy nhiên, họ vẫn tin tưởng bác sĩ hơn AI, nhấn mạnh yêu cầu về bảo mật dữ liệu và minh bạch sử dụng thông tin.<br>
+          AI được xem là công cụ giúp nâng cao hiểu biết và giảm gánh nặng cho bác sĩ, nhưng cần triển khai thận trọng, có khung pháp lý và đào tạo phù hợp.<br>
+          Tại Việt Nam, BIODAS Team đề xuất phát triển AI "made in Vietnam" và thí điểm tại các Bệnh viện tuyến Trung ương trước khi mở rộng.
+        `,
+        link: "./media/news/251010-ai-cancer",
+        img: "https://i.pinimg.com/736x/10/fe/12/10fe12094076f89c72ee1795dcdf7cc3.jpg"
+      }
+    ];
+
+    // Đảo ngẫu nhiên bài hiển thị đầu
+    posts = posts.sort(() => Math.random() - 0.5);
+
+    // DOM elements
+    const featureImage = document.getElementById("featureImage");
+    const postTitle = document.getElementById("postTitle");
+    const postExcerpt = document.getElementById("postExcerpt");
+    const postLink = document.getElementById("postLink");
+    const thumbTrack = document.getElementById("thumbTrack");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    // Tạo thumbnail tự động
+    posts.forEach((p, idx) => {
+      const item = document.createElement("div");
+      item.className = "thumb";
+      item.setAttribute("data-idx", idx);
+      item.innerHTML = `<img src="${p.img}" alt="${p.title}" loading="lazy">`;
+      item.addEventListener("click", () => goTo(idx));
+      thumbTrack.appendChild(item);
+    });
+
+    let active = 0;
+    let autoplayTimer = null;
+    const DURATION = 5000; // 5s đổi ảnh
+
+    // Hiển thị bài viết
+    function render() {
+      const p = posts[active];
+      featureImage.style.backgroundImage = `url('${p.img}')`;
+      postTitle.textContent = p.title;
+      postExcerpt.innerHTML = p.excerpt;
+      postLink.href = p.link;
+
+      // Cập nhật thumbnail
+      [...thumbTrack.children].forEach((el, i) => el.classList.toggle("active", i === active));
+
+      // Cuộn thumbnail theo bài
+      const thumbWidth = thumbTrack.querySelector(".thumb")?.getBoundingClientRect().width || 200;
+      const gap = 14;
+      const trackOffset = Math.max(0, (thumbWidth + gap) * active);
+      thumbTrack.style.transform = `translateX(${-trackOffset}px)`;
+    }
+
+    // Điều hướng
+    function goTo(i) {
+      active = (i + posts.length) % posts.length;
+      render();
+      restartAutoplay();
+    }
+    function next() {
+      goTo(active + 1);
+    }
+    function prev() {
+      goTo(active - 1);
+    }
+
+    // Tự động đổi ảnh
+    function restartAutoplay() {
+      clearInterval(autoplayTimer);
+      autoplayTimer = setInterval(next, DURATION);
+    }
+
+    // Sự kiện nút
+    prevBtn.addEventListener("click", prev);
+    nextBtn.addEventListener("click", next);
+
+    // Khởi tạo
+    render();
+    restartAutoplay();
+  });
+
+</script>
+```
+<br>
+
+
+
+---
+
+
+
 # Sứ mệnh, tầm nhìn và giá trị cốt lõi của BIODAS
 
 ```{=html}
@@ -820,6 +1289,8 @@ listing:
 
 ```
 <br>
+
+
 
 ---
 

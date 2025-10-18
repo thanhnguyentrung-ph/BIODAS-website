@@ -2,7 +2,7 @@
 title: "TRỢ LÝ THỰC ĐỊA <br> (PART-TIME)"
 title-block-banner: "#313d5d"
 title-block-banner-color: "#ffffff"
-description: "Deadline: 15/10/2025 | Trạng thái: Mở"
+description: "Deadline: 15/10/2025 | Trạng thái: Đóng"
 categories:
   - Filed Assistant
   - Part-time
