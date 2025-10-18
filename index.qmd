@@ -945,6 +945,20 @@ listing:
   document.addEventListener("DOMContentLoaded", () => {
     // Danh sách bài viết
     let posts = [
+      
+      {
+        title: "Nâng cao Trí tuệ nhân tạo Y học từ Dữ liệu Ca bệnh trong 100 năm: Dr. CaBot và CPC-Bench",
+        excerpt: `
+          Trường Y Harvard (Harvard Medical School) vừa giới thiệu nghiên cứu đột phá “Advancing Medical Artificial Intelligence Using a Century of Cases” (Buckley et al., 2025), ra mắt hệ thống AI Dr. CaBot và bộ dữ liệu CPC-Bench xây dựng từ hơn 7.000 ca bệnh NEJM suốt 100 năm.<br>
+          Dr. CaBot có thể lập luận, chẩn đoán và thuyết trình y khoa như bác sĩ thật, đánh dấu lần đầu tiên NEJM công bố một chẩn đoán do AI tạo ra.<br>
+          Mô hình OpenAI o3 đạt độ chính xác 84%, vượt nhóm bác sĩ nội khoa và được đánh giá “khó phân biệt với con người”.<br>
+          Dự án mở ra chuẩn đánh giá mới cho AI y học, hướng tới ứng dụng trong đào tạo và nghiên cứu lâm sàng toàn cầu.<br>
+          Toàn bộ hệ thống được công khai tại https://cpcbench.com
+        `,
+        link: "./media/news/251014-drcabot",
+        img: "https://cpcbench.com/assets/robot_cpc_small.png"
+      },
+
       {
         title: "Chuyển đổi số trong Y tế Việt Nam: Nền tảng hiện đại hóa và đổi mới Hệ thống Chăm sóc sức khỏe Quốc gia",
         excerpt: `
@@ -960,6 +974,7 @@ listing:
         link: "./media/news/250919-vn-digital-health",
         img: "https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/12/5/chuyen-doi-so-y-te-10-173338760854580749395.jpg"
       },
+      
       {
         title: "Chấp nhận và tiếp nhận Trí tuệ nhân tạo (AI) trong chẩn đoán, điều trị và chăm sóc người bệnh ung thư",
         excerpt: `

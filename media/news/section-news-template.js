@@ -9,8 +9,16 @@ const biodasNewsList = [
   //   desc: "abc",
   //   uploadDate: "2025-10-10",
   //   img: "https://abc",
-  //   link: "251010-ai-cancer.html"
+  //   link: "../media/news/251010-ai-cancer.html"
   // },
+
+  {
+    title: "Nâng cao Trí tuệ nhân tạo Y học từ Dữ liệu Ca bệnh trong 100 năm: Dr. CaBot và CPC-Bench",
+    desc: "Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot và CPC-Bench",
+    uploadDate: "2025-10-14",
+    img: "https://cpcbench.com/assets/robot_cpc_small.png",
+    link: "../media/news/251014-drcabot.html"
+  },
 
   {
     title: "Chấp nhận và tiếp nhận Trí tuệ nhân tạo (AI) trong chẩn đoán, điều trị và chăm sóc người bệnh ung thư",
