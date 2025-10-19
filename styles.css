@@ -4,12 +4,10 @@
 
 
 
-
 /* ==============================================================
-=== BIODAS NAVBAR 
+=== BIODAS NAVBAR – DESKTOP CÓ HIỆU ỨNG / MOBILE TĨNH ===
 ================================================================= */
 
-/* --- Tổng thể layout --- */
 .navbar .container-fluid {
   display: flex;
   align-items: center;
@@ -17,7 +15,6 @@
   position: relative;
 }
 
-/* --- Hiệu ứng gradient động toàn thanh navbar --- */
 .navbar {
   background: linear-gradient(115deg, #2c3b59, #313d5d, #3b506d, #2c3b59);
   background-size: 300% 300%;
@@ -36,11 +33,9 @@
   100% { background-position: 0% 50%; }
 }
 
-body {
-  padding-top: 70px;
-}
+body { padding-top: 70px; }
 
-/* --- Logo bên trái --- */
+/* --- Logo --- */
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -48,33 +43,31 @@ body {
   position: relative;
   z-index: 2;
 }
-
 .navbar-brand img {
   max-height: 36px !important;
   width: auto;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
-
 .navbar-brand img:hover {
   transform: scale(1.05);
   filter: brightness(1.15);
 }
 
-/* --- Menu chính ở giữa --- */
-.navbar .navbar-nav:first-of-type {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  z-index: 1;
+/* --- Menu chính ở giữa (DESKTOP) --- */
+@media (min-width: 992px) {
+  .navbar .navbar-nav:first-of-type {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    z-index: 1;
+  }
 }
 
-/* --- Mục menu chính --- */
-.navbar .navbar-nav:first-of-type > li > a,
-.navbar .navbar-nav:first-of-type > li > .nav-link {
+.navbar .navbar-nav:first-of-type > li > a {
   color: #ffffff !important;
   font-weight: 500;
   padding: 10px 16px;
@@ -83,16 +76,12 @@ body {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
-
-/* --- Hover gradient tinh tế --- */
 .navbar .navbar-nav:first-of-type > li > a:hover {
   background: linear-gradient(120deg, rgba(0,194,224,0.25), rgba(255,255,255,0.1));
   color: #eaffff !important;
   box-shadow: 0 2px 8px rgba(0,194,224,0.35);
   text-shadow: 0 0 10px rgba(0,194,224,0.5);
 }
-
-/* --- Gạch dưới gradient nhẹ --- */
 .navbar .navbar-nav:first-of-type > li > a::after {
   content: "";
   position: absolute;
@@ -105,12 +94,11 @@ body {
   border-radius: 1px;
   transition: width 0.3s ease;
 }
-
 .navbar .navbar-nav:first-of-type > li > a:hover::after {
   width: 60%;
 }
 
-/* --- Dropdown (submenu) – chỉ giữ slide, bỏ fade --- */
+/* --- Dropdown submenu --- */
 .navbar .dropdown-menu {
   background: rgba(49, 61, 93, 0.98);
   border: none;
@@ -118,17 +106,23 @@ body {
   padding: 6px 0;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   transform: translateY(8px);
+  opacity: 0;
   visibility: hidden;
-  transition: transform 0.25s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease;
 }
-
-/* --- Hover dropdown: trượt mượt không mờ --- */
-.navbar .dropdown:hover .dropdown-menu {
+@media (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.navbar .dropdown-menu.show {
   transform: translateY(0);
+  opacity: 1;
   visibility: visible;
 }
 
-/* --- Bullet cho các mục con --- */
 .navbar .dropdown-item {
   color: #e8eef6 !important;
   font-size: 0.75rem;
@@ -137,7 +131,6 @@ body {
   position: relative;
   transition: all 0.25s ease;
 }
-
 .navbar .dropdown-item::before {
   content: "•";
   position: absolute;
@@ -146,7 +139,6 @@ body {
   font-weight: 700;
   opacity: 0.85;
 }
-
 .navbar .dropdown-item:hover {
   background: linear-gradient(90deg, rgba(0,194,224,0.25), rgba(255,255,255,0.08));
   color: #ffffff !important;
@@ -154,7 +146,7 @@ body {
   box-shadow: 0 2px 6px rgba(0,194,224,0.25);
 }
 
-/* --- ICON + SEARCH bên phải --- */
+/* --- ICON + SEARCH --- */
 .navbar .navbar-nav:last-of-type,
 .navbar .quarto-navbar-tools {
   display: flex;
@@ -166,87 +158,108 @@ body {
   z-index: 2;
 }
 
-/* --- Icon mặc định --- */
 .navbar .navbar-nav:last-of-type a {
   color: #ffffff !important;
   font-size: 1.15rem;
   transition: transform 0.25s ease, color 0.25s ease, opacity 0.25s ease;
 }
-
-/* --- Icon hover theo màu thương hiệu --- */
-.navbar .navbar-nav:last-of-type a[href*="facebook"]:hover,
-.navbar .navbar-nav:last-of-type i[class*="facebook"]:hover {
-  color: #1877F2 !important;
-}
-
-.navbar .navbar-nav:last-of-type a[href*="linkedin"]:hover,
-.navbar .navbar-nav:last-of-type i[class*="linkedin"]:hover {
-  color: #0A66C2 !important;
-}
-
-.navbar .navbar-nav:last-of-type a[href*="youtube"]:hover,
-.navbar .navbar-nav:last-of-type i[class*="youtube"]:hover {
-  color: #FF0000 !important;
-}
-
-.navbar .navbar-nav:last-of-type a[href*="github"]:hover,
-.navbar .navbar-nav:last-of-type i[class*="github"]:hover {
-  color: #999999 !important;
-}
-
-/* ✅ Twitter / X hover – trắng sáng hơn (#f4faff) */
-.navbar .navbar-nav:last-of-type a[href*="twitter"]:hover,
-.navbar .navbar-nav:last-of-type a[href*="x.com"]:hover,
-.navbar .navbar-nav:last-of-type i[class*="x-twitter"]:hover,
-.navbar .navbar-nav:last-of-type i[class*="twitter"]:hover {
-  color: #f4faff !important;
-  filter: brightness(1.3);
-}
-
-.navbar .navbar-nav:last-of-type a[href*="tiktok"]:hover,
-.navbar .navbar-nav:last-of-type i[class*="tiktok"]:hover {
-  color: #EE1D52 !important;
-  text-shadow: 0 0 8px #69C9D0;
-}
-
-.navbar .navbar-nav:last-of-type a[href*="mailto"]:hover,
-.navbar .navbar-nav:last-of-type i[class*="envelope"]:hover {
-  color: #00c2e0 !important;
-}
-
-/* --- Icon hover nổi nhẹ --- */
 .navbar .navbar-nav:last-of-type a:hover {
   transform: translateY(-2px);
   opacity: 0.9;
 }
 
-/* --- Responsive --- */
+/* --- Hover màu thương hiệu --- */
+.navbar .navbar-nav:last-of-type a[href*="facebook"]:hover { color: #1877F2 !important; }
+.navbar .navbar-nav:last-of-type a[href*="linkedin"]:hover { color: #0A66C2 !important; }
+.navbar .navbar-nav:last-of-type a[href*="youtube"]:hover { color: #FF0000 !important; }
+.navbar .navbar-nav:last-of-type a[href*="github"]:hover { color: #999999 !important; }
+.navbar .navbar-nav:last-of-type a[href*="twitter"]:hover,
+.navbar .navbar-nav:last-of-type a[href*="x.com"]:hover {
+  color: #f4faff !important;
+  filter: brightness(1.3);
+}
+.navbar .navbar-nav:last-of-type a[href*="tiktok"]:hover {
+  color: #EE1D52 !important;
+  text-shadow: 0 0 8px #69C9D0;
+}
+.navbar .navbar-nav:last-of-type a[href*="mailto"]:hover { color: #00c2e0 !important; }
+
+/* =====================================================
+   ✅ MOBILE: KHÔNG HIỆU ỨNG, GIAO DIỆN TĨNH
+   ===================================================== */
 @media (max-width: 991.98px) {
+  /* Bố cục */
   .navbar .container-fluid {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
   }
 
-  .navbar .navbar-nav:first-of-type {
+  .navbar-collapse { width: 100%; }
+  .navbar .navbar-nav { width: 100%; }
+
+  .navbar .navbar-nav:first-of-type,
+  .navbar .navbar-nav:last-of-type {
     position: relative;
     left: 0;
     transform: none;
-    justify-content: flex-start;
-    width: 100%;
-    margin-top: 10px;
+    display: block;
+    margin: 0;
   }
 
-  .navbar .navbar-nav:last-of-type,
-  .navbar .quarto-navbar-tools {
-    justify-content: flex-start;
-    margin-top: 10px;
-    width: 100%;
+  /* Tắt animation & shadow & hover */
+  .navbar {
+    background: #313d5d !important;
+    animation: none !important;
+    box-shadow: none !important;
   }
 
-  .navbar .navbar-nav:first-of-type > li > a::after {
-    display: none;
+  .navbar .navbar-nav a,
+  .navbar .dropdown-item {
+    transition: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    text-shadow: none !important;
+  }
+
+  .navbar .navbar-nav:first-of-type > li > a::after { display: none !important; }
+  .navbar .dropdown-menu {
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    box-shadow: none !important;
+    transition: none !important;
+    background: #313d5d !important;
+  }
+
+  .navbar .dropdown-item:hover,
+  .navbar .navbar-nav a:hover {
+    background: none !important;
+    color: #ffffff !important;
+    transform: none !important;
+  }
+
+  /* Icon: xếp ngang, không hiệu ứng */
+  .navbar .navbar-nav:last-of-type {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .navbar .navbar-nav:last-of-type a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    transform: none !important;
+    opacity: 1 !important;
   }
 }
+
 
 
 
