@@ -15,6 +15,8 @@
       "/media/news/251014-drcabot.html",
       "/media/news/251010-ai-cancer.html",
       "/media/event/250929-cep.html",
+      "/media/scholarship/250925-pace-up.html",
+      "/media/scholarship/250924-pace-up.html",
       "/media/scholarship/250922-jica.html",
       "/media/news/250919-vn-digital-health.html",
       "/media/news/250915-data-science-powering.html",
@@ -52,6 +54,8 @@
   {
     "listing": "/media/scholarship.html",
     "items": [
+      "/media/scholarship/250925-pace-up.html",
+      "/media/scholarship/250924-pace-up.html",
       "/media/scholarship/250922-jica.html",
       "/media/scholarship/250820-chevening.html"
     ]

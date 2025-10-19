@@ -1,0 +1,224 @@
+---
+title: "Học bổng Tiến sĩ Toàn phần PACE-UP 2026–2030: Nghiên cứu Bệnh Truyền Nhiễm tại Đức"
+subtitle: "Full PhD Scholarship PACE-UP 2026–2030: Infectious Disease Research in Germany"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - PACE-UP
+  - DAAD
+  - PhD
+  - University of Hamburg
+  - Germany
+  - VG-CARE
+  - 108 Military Central Hospital
+  - Fully-funded
+  - 2026–2030
+  - Infectious Disease
+author: "Dịch và biên tập: BIODAS Team"
+date: 09/24/2025 # mm/dd/yyyy
+toc: true
+image: "https://i.ytimg.com/vi/6HBRrsZp_yg/mqdefault.jpg"
+aliases: 
+  - /media/scholarship/
+---
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-scholarship-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-scholarship-template">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>HỌC BỔNG TIẾN SĨ TOÀN PHẦN PACE-UP 2026–2030</h1>
+      <p class="hero-subtitle">Cơ hội học Tiến sĩ ngành Nghiên cứu Cơ bản về Bệnh Truyền Nhiễm tại Viện Y học Nhiệt đới Bernhard Nocht, Hamburg, Đức</p>
+      
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="mailto:salome.steinke@vgcare.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-31T23:59:00"
+      >
+        APPLY NOW
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== CONTENT ===== -->
+  <div class="layout">
+    <div class="main-content">
+      <br><br>
+
+      <p><strong>BIODAS Team</strong> hân hạnh chia sẻ thông tin về <strong>Học bổng Tiến sĩ Toàn phần PACE-UP 2026–2030</strong> – cơ hội dành cho những nhà nghiên cứu trẻ Việt Nam mong muốn theo đuổi sự nghiệp khoa học trong lĩnh vực bệnh truyền nhiễm, tại một trong những trung tâm hàng đầu thế giới về y học nhiệt đới – <strong>Viện Bernhard Nocht, Hamburg, Đức</strong>.</p>
+
+      <p>Chương trình là một phần của dự án <strong>PACE-UP</strong> được tài trợ bởi <strong>DAAD</strong>, mang đến môi trường nghiên cứu hiện đại, đa quốc gia và cơ hội phát triển học thuật sâu rộng, góp phần thúc đẩy năng lực nghiên cứu và hợp tác khoa học giữa Việt Nam và Đức.</p>
+
+      <p><strong>Website chính thức:</strong> 
+        <a href="https://paceup.org/opportunities/" target="_blank">https://paceup.org/opportunities/</a>
+      </p>
+
+      <!-- Ảnh minh họa -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://i0.wp.com/paceup.org/wp-content/uploads/2025/10/Call-for-PhD-Applications_VG-CARE_BNITM-1.jpg?resize=709%2C1024" class="img" />
+        </div>
+        <figcaption>
+          Hình ảnh: Call for PhD Applications (Nguồn: PACE-UP, https://paceup.org)
+        </figcaption>
+      </figure>
+
+      <h2>1. Giới thiệu chương trình</h2>
+      <p>Chương trình <strong>tuyển sinh 01 suất Tiến sĩ toàn phần</strong> trong lĩnh vực <strong>nghiên cứu cơ bản về bệnh truyền nhiễm</strong>. Vị trí được tài trợ toàn phần trong 4 năm bởi DAAD, nằm trong khuôn khổ dự án PACE-UP. Ứng viên được theo học Tiến sĩ tại <strong>Viện Y học Nhiệt đới Bernhard Nocht (BNITM)</strong>, phối hợp cùng <strong>Đại học Hamburg</strong>, CHLB Đức.</p>
+
+      <h2>2. Đề tài nghiên cứu</h2>
+      <p><em>Xây dựng mô hình ruột giữa muỗi ex vivo để mô phỏng quá trình nhiễm virus truyền qua côn trùng.</em>  
+      Nghiên cứu xem xét ảnh hưởng của nhiệt độ, liều nhiễm và khả năng sống của virus trong mô ruột. Kết quả được đánh giá về tính ứng dụng trong các nhóm virus khác nhau và tiềm năng mở rộng cho nghiên cứu chất ức chế virus.</p>
+
+      <h2>3. Quyền lợi chương trình</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>🎓 Học bổng toàn phần 4 năm (07/2026 – 06/2030).</li>
+          <li>💶 Trợ cấp hàng tháng 1.400 €, bảo hiểm y tế và vé máy bay khứ hồi.</li>
+          <li>🔬 Tiếp cận cơ sở vật chất và phòng thí nghiệm hiện đại tại Đức.</li>
+          <li>🌍 Cơ hội trao đổi quốc tế, tham dự hội thảo và thực địa.</li>
+          <li>👩‍🔬 Được hướng dẫn trong môi trường nghiên cứu quốc tế năng động.</li>
+        </ul>
+      </div>
+
+      <!-- Ảnh minh họa -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://smapse.com/storage/2018/10/converted/660_464_universit-t-hamburg-21.webp" class="img" />
+        </div>
+        <figcaption>
+          Hình ảnh: Universität Hamburg (Nguồn: https://smapse.com)
+        </figcaption>
+      </figure>
+
+      <h2>4. Điều kiện ứng tuyển</h2>
+      <p>Chương trình khuyến khích ứng viên đến từ mọi nền tảng học thuật, đặc biệt là sinh viên tốt nghiệp thế hệ đầu tiên và các nhóm ít được đại diện trong nghiên cứu khoa học.</p>
+      <div class="highlight-box">
+        <ul>
+          <li>Bằng Thạc sĩ hoặc Bác sĩ có bằng Thạc sĩ trong lĩnh vực liên quan (Khoa học sức khỏe, Sinh học, Y học, Y tế công cộng,...).</li>
+          <li>Thành tích học tập tốt và định hướng nghiên cứu rõ ràng.</li>
+          <li>Thành thạo tiếng Anh (nói & viết, tương đương IELTS ≥ 6.5).</li>
+          <li>Khả năng đọc hiểu và phân tích tài liệu khoa học chuyên ngành.</li>
+          <li>Có kỹ năng phòng thí nghiệm cơ bản: nuôi cấy tế bào, tách RNA, PCR và tuân thủ quy trình thực hành tốt (GLP).</li>
+          <li>Quan tâm đến nghiên cứu muỗi và có khả năng làm việc trong môi trường an toàn sinh học cấp độ cao (BSL2/3).</li>
+        </ul>
+      </div>
+
+      <h2>5. Hướng dẫn nộp hồ sơ</h2>
+      <p>Ứng viên vui lòng gửi hồ sơ <strong>dưới dạng 01 tệp PDF (bằng tiếng Anh)</strong> bao gồm:</p>
+      <div class="highlight-box">
+        <ol>
+          <li>CV (tối đa 2 trang).</li>
+          <li>Thư động lực / Thư trình bày mục tiêu học tập (tối đa 1 trang).</li>
+          <li>Bản sao bằng cấp, bảng điểm liên quan.</li>
+          <li>Chứng chỉ tiếng Anh (TOEFL / IELTS / TOEIC hoặc tương đương, tối thiểu IELTS 6.5).</li>
+          <li>Thông tin liên hệ của 2 người giới thiệu học thuật.</li>
+        </ol>
+      </div>
+
+      <h2>6. Mốc thời gian quan trọng</h2>
+      <div class="timeline-flow">
+        <div class="timeline-item">
+          <span class="timeline-date">31/10/2025</span>
+          <p>Hạn chót nộp hồ sơ</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">11–12/2025</span>
+          <p>Phỏng vấn sơ tuyển bởi Hội đồng Khoa học VG-CARE</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Đầu năm 2026</span>
+          <p>Phỏng vấn vòng cuối cùng cùng DAAD & Đại học Hamburg</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Giữa năm 2026</span>
+          <p>Thông báo kết quả chính thức</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">01/07/2026</span>
+          <p>Chương trình bắt đầu</p>
+        </div>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Hạn nộp hồ sơ: 31/10/2025</strong><br><br>
+        📧 Gửi hồ sơ về: <a href="mailto:salome.steinke@vgcare.org">salome.steinke@vgcare.org</a><br>
+        Người liên hệ: <strong>Ms. Salome Steinke (VG-CARE)</strong><br>
+        Điện thoại: +84 984 684 908</p>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Hãy chuẩn bị ngay từ hôm nay!</strong><br><br>
+        PACE-UP không chỉ là học bổng – mà là cánh cửa mở ra hành trình trở thành nhà khoa học quốc tế, đóng góp cho y học và sức khỏe cộng đồng toàn cầu.<br>
+        Nếu bạn có đam mê nghiên cứu, tinh thần học hỏi và khát vọng cống hiến, hãy mạnh dạn ứng tuyển <strong>PACE-UP PhD 2026–2030</strong>!</p>
+      </div>
+
+      <br>
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <p class="share-note">Chia sẻ thông tin này</p>
+        <div class="social-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/scholarship/250924-pace-up.html" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/scholarship/250924-pace-up.html" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/scholarship/250924-pace-up.html" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="quick-info">
+        <h3>📘 Thông tin nhanh</h3>
+        <ul>
+          <li>🎓 Học bổng Tiến sĩ toàn phần 4 năm</li>
+          <li>🏛️ Đơn vị đào tạo: BNITM & Đại học Hamburg</li>
+          <li>🌍 Dự án: PACE-UP, hợp tác cùng VG-CARE</li>
+          <li>🕓 Hạn chót: 31/10/2025</li>
+          <li>🚀 Khai giảng: 01/07/2026</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>🧬 Chủ đề nghiên cứu</h3>
+        <ul>
+          <li>Mô hình ruột giữa muỗi ex vivo cho virus truyền qua côn trùng</li>
+          <li>Ảnh hưởng của nhiệt độ và liều nhiễm</li>
+          <li>Ứng dụng trong nghiên cứu chất ức chế virus</li>
+        </ul>
+      </div>
+
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="mailto:salome.steinke@vgcare.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-31T23:59:00"
+      >
+        APPLY NOW
+      </a>
+
+    </aside>
+  </div>
+
+</body>
+
+
+<!-- JS SCRIPT -->
+<script src="section-scholarship-template.js"></script>
+
+
+```

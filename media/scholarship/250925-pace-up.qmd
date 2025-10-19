@@ -1,0 +1,228 @@
+---
+title: "Học bổng Tiến sĩ Toàn phần PACE-UP 2026–2030: Nghiên cứu Bệnh truyền nhiễm, Dịch tễ học, Y tế Toàn cầu và Kháng kháng sinh tại Đức"
+subtitle: "Full PhD Scholarship PACE-UP 2026–2030: Infectious Diseases, Epidemiology, Global Health, and Antimicrobial Resistance Research in Germany"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - PACE-UP
+  - DAAD
+  - PhD
+  - University of Hamburg
+  - University of Tübingen
+  - University of Lübeck
+  - Germany
+  - VG-CARE
+  - 108 Military Central Hospital
+  - Fully-funded
+  - 2026–2030
+  - Infectious Diseases
+  - Epidemiology
+  - Global Health
+  - Antimicrobial Resistance
+author: "Dịch và biên tập: BIODAS Team"
+date: 09/25/2025 # mm/dd/yyyy
+toc: true
+image: "https://i0.wp.com/paceup.org/wp-content/uploads/2022/11/3-DAAD-GLOBAL-CENTERS.png?fit=461%2C134&ssl=1"
+aliases: 
+  - /media/scholarship/
+---
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-scholarship-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<body class="section-scholarship-template">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>HỌC BỔNG TIẾN SĨ TOÀN PHẦN PACE-UP 2026–2030</h1>
+      <p class="hero-subtitle">Cơ hội học Tiến sĩ về Bệnh truyền nhiễm, Dịch tễ học, Y tế Toàn cầu và Kháng kháng sinh tại Đức</p>
+      
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="mailto:salome.steinke@vgcare.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-31T23:59:00"
+      >
+        APPLY NOW
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== CONTENT ===== -->
+  <div class="layout">
+    <div class="main-content">
+      <br><br>
+
+      <p><strong>BIODAS Team</strong> hân hạnh chia sẻ thông tin về <strong>Học bổng Tiến sĩ Toàn phần PACE-UP 2026–2030</strong> – chương trình học bổng danh giá do <strong>DAAD</strong> tài trợ, mang đến cơ hội nghiên cứu và đào tạo tiến sĩ tại các trường đại học hàng đầu của Đức trong lĩnh vực <strong>bệnh truyền nhiễm, dịch tễ học, y tế toàn cầu và kháng kháng sinh</strong>.</p>
+
+      <p><strong>PACE-UP (PAN ASEAN Coalition for Epidemic and Outbreak Preparedness)</strong> là một sáng kiến y tế toàn cầu do <strong>Trung tâm Nghiên cứu Y học Việt-Đức (VG-CARE), Bệnh viện Trung ương Quân đội 108</strong> điều phối, hợp tác cùng các đối tác tại Đức, Malaysia, Indonesia và nhiều quốc gia khác nhằm tăng cường năng lực phòng chống dịch bệnh và củng cố khả năng ứng phó y tế trong khu vực Đông Nam Á.</p>
+
+      <p><strong>Website chính thức:</strong> 
+        <a href="https://paceup.org/opportunities/" target="_blank">https://paceup.org/opportunities/</a>
+      </p>
+
+      <!-- Ảnh minh họa -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://i0.wp.com/paceup.org/wp-content/uploads/2025/10/Call-for-PhD-Applications_VG-CARE_Final-1.jpg?resize=768%2C1109" class="img" />
+        </div>
+        <figcaption>
+          Hình ảnh: Call for PhD Applications (Nguồn: PACE-UP)
+        </figcaption>
+      </figure>
+
+      <h2>1. Giới thiệu chương trình</h2>
+      <p>Chương trình tuyển sinh các vị trí <strong>Tiến sĩ toàn phần (Fully funded PhD positions)</strong> trong lĩnh vực <strong>bệnh truyền nhiễm, dịch tễ học, y tế toàn cầu và kháng kháng sinh</strong> tại các cơ sở nghiên cứu hàng đầu của Đức, trong khuôn khổ dự án PACE-UP được tài trợ bởi DAAD.</p>
+
+      <p>Các nghiên cứu sinh sẽ được học tại một trong bốn cơ sở hàng đầu: <strong>Đại học Tübingen</strong>, <strong>Đại học Lübeck</strong>, <strong>Đại học Hamburg</strong> hoặc phối hợp cùng <strong>Viện Y tế Toàn cầu Heidelberg</strong>.</p>
+
+      <h2>2. Quyền lợi chương trình</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>🎓 Học bổng toàn phần 4 năm (07/2026 – 06/2030).</li>
+          <li>💶 Trợ cấp hàng tháng 1.400 €, bảo hiểm y tế, và vé máy bay khứ hồi.</li>
+          <li>🔬 Tiếp cận cơ sở vật chất và hạ tầng nghiên cứu hiện đại.</li>
+          <li>🌍 Cơ hội tham gia trao đổi quốc tế, thực địa và hội thảo khoa học.</li>
+          <li>👩‍🔬 Hướng dẫn và giám sát trong môi trường nghiên cứu quốc tế năng động, liên ngành.</li>
+        </ul>
+      </div>
+
+      <!-- Ảnh minh họa -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://uni-tuebingen.de/fileadmin/Uni_Tuebingen/Fakultaeten/WiSo/Wiwi/Uploads/International/Neue_Aula_092.jpg" class="img" />
+        </div>
+        <figcaption>
+          Hình ảnh: Universität Tübingen (Nguồn: https://uni-tuebingen.de)
+        </figcaption>
+      </figure>
+
+
+      <h2>3. Điều kiện ứng tuyển</h2>
+      <p>Chương trình chào đón ứng viên đến từ mọi nền tảng học thuật, với tiêu chí tuyển chọn dựa trên năng lực và thành tích học tập. Khuyến khích sinh viên thế hệ đầu tiên và các nhóm ít được đại diện trong nghiên cứu khoa học.</p>
+
+      <div class="highlight-box">
+        <ul>
+          <li>Bằng Thạc sĩ hoặc Bác sĩ có bằng Thạc sĩ trong lĩnh vực Khoa học sức khỏe, Y tế công cộng, Dược học, Sinh học, hoặc lĩnh vực liên quan.</li>
+          <li>Thành tích học tập xuất sắc và định hướng nghiên cứu rõ ràng.</li>
+          <li>Thành thạo tiếng Anh (nói và viết, tương đương IELTS ≥ 6.5).</li>
+          <li>Khả năng đọc hiểu, phân tích tài liệu khoa học.</li>
+          <li>Kỹ năng thực hành phòng thí nghiệm cơ bản và tuân thủ tiêu chuẩn an toàn thực hành tốt.</li>
+        </ul>
+      </div>
+
+      <h2>4. Hướng dẫn nộp hồ sơ</h2>
+      <p>Ứng viên vui lòng gửi <strong>01 tệp PDF bằng tiếng Anh</strong> bao gồm các tài liệu sau:</p>
+      <div class="highlight-box">
+        <ol>
+          <li>CV (tối đa 2 trang).</li>
+          <li>Thư động lực / Statement of Purpose (tối đa 1 trang).</li>
+          <li>Bằng cấp và bảng điểm học tập.</li>
+          <li>Chứng chỉ tiếng Anh (TOEFL / IELTS / TOEIC hoặc tương đương, tối thiểu IELTS 6.5).</li>
+          <li>Họ tên và thông tin liên hệ của 2 người giới thiệu học thuật.</li>
+        </ol>
+      </div>
+
+      <h2>5. Mốc thời gian quan trọng</h2>
+      <div class="timeline-flow">
+        <div class="timeline-item">
+          <span class="timeline-date">31/10/2025</span>
+          <p>Hạn chót nộp hồ sơ</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Cuối năm 2025</span>
+          <p>Phỏng vấn sơ tuyển bởi Hội đồng Khoa học VG-CARE</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Đầu năm 2026</span>
+          <p>Phỏng vấn trực tuyến cùng DAAD và đại diện các trường đại học Đức</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Giữa năm 2026</span>
+          <p>Thông báo kết quả cuối cùng</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">01/07/2026</span>
+          <p>Chương trình chính thức bắt đầu</p>
+        </div>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Hạn nộp hồ sơ: 31/10/2025</strong><br><br>
+        📧 Gửi hồ sơ về: <a href="mailto:salome.steinke@vgcare.org">salome.steinke@vgcare.org</a><br>
+        Người liên hệ: <strong>Ms. Salome Steinke (VG-CARE)</strong><br>
+        Điện thoại: +84 984 684 908</p>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Hãy chuẩn bị ngay từ hôm nay!</strong><br><br>
+        PACE-UP không chỉ là học bổng – mà là cơ hội trở thành nhà khoa học toàn cầu, đóng góp cho y học, y tế cộng đồng và phòng chống dịch bệnh trong tương lai.<br>
+        Nếu bạn có đam mê nghiên cứu, tinh thần học hỏi và mong muốn tạo ra ảnh hưởng tích cực, hãy mạnh dạn ứng tuyển <strong>PACE-UP PhD 2026–2030</strong>!</p>
+      </div>
+
+      <br>
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <p class="share-note">Chia sẻ thông tin này</p>
+        <div class="social-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/scholarship/paceup2026.html" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/scholarship/paceup2026.html" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/scholarship/paceup2026.html" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="quick-info">
+        <h3>📘 Thông tin nhanh</h3>
+        <ul>
+          <li>🎓 Học bổng Tiến sĩ toàn phần 4 năm</li>
+          <li>🏛️ Cơ sở đào tạo: Đại học Tübingen, Lübeck, Hamburg, Heidelberg</li>
+          <li>🌍 Dự án: PACE-UP (VG-CARE, Đức – Đông Nam Á)</li>
+          <li>🕓 Hạn chót: 31/10/2025</li>
+          <li>🚀 Khai giảng: 01/07/2026</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>🧪 Lĩnh vực nghiên cứu</h3>
+        <ul>
+          <li>Bệnh truyền nhiễm & dịch tễ học</li>
+          <li>Y tế toàn cầu & kháng kháng sinh</li>
+          <li>Công tác chuẩn bị và ứng phó dịch bệnh</li>
+        </ul>
+      </div>
+
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="mailto:salome.steinke@vgcare.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-31T23:59:00"
+      >
+        APPLY NOW
+      </a>
+
+    </aside>
+  </div>
+
+</body>
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-scholarship-template.js"></script>
+
+
+```

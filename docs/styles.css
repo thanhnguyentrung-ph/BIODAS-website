@@ -266,14 +266,45 @@ body { padding-top: 70px; }
 
 
 /* Content */
-h1 {
-    color: #313d5d;
-    font-size: 2.5em;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: linear-gradient(115deg, #2c3b59, #313d5d, #3b506d, #2c3b59);
+  background-size: 300% 300%;
+  animation: navbarGradient 18s ease infinite;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
 
+/* Gradient animation giữ nguyên */
+@keyframes navbarGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ===== NỘI DUNG BÊN DƯỚI NAVBAR ===== */
+body {
+  padding-top: 50px !important;
+}
+
+/* ===== TIÊU ĐỀ H1/ TITLE ===== */
+h1 {
+  color: #313d5d;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+/* ===== TIÊU ĐỀ SUBTITLE ===== */
 .subtitle {
   font-size: 1.5rem;
   font-weight: 500;
@@ -282,6 +313,16 @@ h1 {
 
 
 
+
+
+
+/* Title for posts
+.quarto-title-banner {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    color: #fff;
+    background: #313d5d;
+} */
 
 /* Image cover page for posts */
 .img-cover {
