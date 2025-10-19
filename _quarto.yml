@@ -31,7 +31,8 @@ website:
     foreground: "#FFFFFF"
     title: ""
     search: true
-    right:
+
+    left:
       # 1. About BIODAS
       - text: "Giới thiệu"
         menu:
@@ -63,6 +64,7 @@ website:
       - text: "Tuyển dụng"
         href: "recruitment/index.qmd"
 
+    right:
       # 9. Link to other BIODAS platforms
       - icon: envelope
         aria-label: BIODAS mail
