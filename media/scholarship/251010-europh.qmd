@@ -1,0 +1,254 @@
+---
+title: "Học bổng Thạc sỹ toàn phần Europubhealth+ 2026-2028"
+subtitle: "Fully Funded Europubhealth+ Master’s Scholarship 2026–2028"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Europubhealth+
+  - Europe
+  - Fully-funded
+  - 2026-2028
+  - Erasmus Mundus
+  - Public Health
+  - Master
+author: "Dịch và biên tập: BIODAS Team"
+date: 10/10/2025 # mm/dd/yyyy
+toc: true
+image: "https://www.easp.es/wp-content/uploads/2018/06/europubhealth.jpg"
+aliases: 
+  - /media/scholarship/
+---
+
+![](https://keystoneacademic-res.cloudinary.com/image/upload/element/20/200801_banner.png){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-scholarship-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<body class="section-scholarship-template">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>HỌC BỔNG THẠC SĨ TOÀN PHẦN EUROPUBHEALTH+</h1>
+      <p class="hero-subtitle">Chương trình Thạc sĩ Y tế Công cộng tại 2–3 quốc gia châu Âu với học bổng toàn phần Erasmus Mundus</p>
+      
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="https://www.europubhealth.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2026-01-08T12:00:00"
+      >
+        APPLY NOW
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== CONTENT ===== -->
+  <div class="layout">
+    <div class="main-content">
+      <br><br>
+
+      <p><strong>BIODAS Team</strong> hân hạnh giới thiệu <strong>Học bổng Erasmus Mundus Europubhealth+</strong> – chương trình thạc sĩ toàn phần về Y tế công cộng dành cho sinh viên quốc tế, cho phép học tại 2–3 quốc gia châu Âu, nhận bằng kép từ 2 trường đại học hàng đầu, và được hỗ trợ tài chính €1,400/tháng. Đặc biệt, chương trình chấp nhận trái ngành – dù bạn học Y, Dược, Công nghệ Sinh học hay Kinh tế, Luật, Xã hội học đều có thể ứng tuyển.</p>
+
+      <p><strong>Website chính thức:</strong> <a href="https://www.europubhealth.org" target="_blank">https://www.europubhealth.org</a></p>
+
+      <!-- Ảnh minh họa -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://www.europubhealth.org/wp-content/uploads/2024/10/Logos-2024-2025-2048x410.png.webp" class="img" />
+        </div>
+        <figcaption>Hình ảnh minh họa (Nguồn: www.europubhealth.org)</figcaption>
+      </figure>
+
+      <h2>1. Giới thiệu chương trình Europubhealth+</h2>
+      <p><strong>Europubhealth+</strong> là chương trình Thạc sĩ Erasmus Mundus 2 năm (120 ECTS) về Y tế công cộng, được Ủy ban Châu Âu công nhận là "Master of Excellence" từ năm 2006. Chương trình do liên minh 8 trường đại học hàng đầu châu Âu phối hợp giảng dạy, mang đến cho sinh viên cơ hội học tập tại nhiều quốc gia và nhận bằng kép được thừa nhận toàn cầu.</p>
+
+      <p>Chương trình chào đón sinh viên quốc tế có bằng Cử nhân (tối thiểu 180 ECTS) hoặc tương đương, đến từ mọi ngành học:</p>
+
+      <div class="highlight-box">
+        <ul>
+          <li>Ngành sức khỏe: Y, Dược, Sinh học, Điều dưỡng, Kỹ thuật Y sinh...</li>
+          <li>Khoa học xã hội: Xã hội học, Kinh tế, Luật, Chính trị, Nhân học...</li>
+          <li>Quản trị kinh doanh và các ngành liên quan.</li>
+        </ul>
+      </div>
+
+      <p>Mục tiêu: Đào tạo các chuyên gia có năng lực đa ngành, có thể phân tích và giải quyết các thách thức y tế công cộng ở quy mô toàn cầu, đề xuất và triển khai các chính sách dựa trên bằng chứng để cải thiện sức khỏe cộng đồng.</p>
+
+      <h2>2. Tại sao nên chọn Europubhealth+</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>✅ Học bổng toàn phần: €1,400/tháng + miễn học phí + bảo hiểm y tế</li>
+          <li>✅ Bằng kép từ 2 trường EU, được công nhận quốc tế</li>
+          <li>✅ Học tại 2–3 quốc gia châu Âu, trải nghiệm đa văn hóa độc đáo</li>
+          <li>✅ Chấp nhận trái ngành – không yêu cầu nền tảng y tế</li>
+          <li>✅ Bao gồm biostatistics, epidemiology, health policy, health economics</li>
+          <li>✅ Mạng lưới cựu sinh viên toàn cầu về y tế công cộng</li>
+        </ul>
+      </div>
+
+      <h2>3. Lộ trình học tập</h2>
+      <p><strong>Năm 1:</strong> Kiến thức nền tảng Y tế Công cộng (60 ECTS)</p>
+      <p>Sinh viên chọn học tại 1 trong 4 trường sau:</p>
+      <div class="highlight-box">
+        <ul>
+          <li>University of Sheffield – Anh (Tiếng Anh)</li>
+          <li>University College Dublin – Ireland (Tiếng Anh)</li>
+          <li>University of Granada – Tây Ban Nha (Tiếng Tây Ban Nha)</li>
+          <li>University of Liège – Bỉ (Tiếng Pháp)</li>
+        </ul>
+      </div>
+
+      <p><strong>Năm 2:</strong> Chuyên môn hóa và Thực hành (60 ECTS)</p>
+      <div class="highlight-box">
+        <ul>
+          <li>Maastricht University – Hà Lan (Tiếng Anh)</li>
+          <li>Jagiellonian University – Ba Lan (Tiếng Anh)</li>
+          <li>EHESP School of Public Health – Pháp (Rennes)</li>
+          <li>University of Bordeaux ISPED – Pháp (Bordeaux)</li>
+        </ul>
+      </div>
+
+      <p>Nội dung gồm các học phần chuyên sâu, thực tập (2–6 tháng) và luận văn thạc sĩ.</p>
+
+      <!-- Ảnh minh họa -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://pbs.twimg.com/media/GaAArEWXcAArfol.jpg" class="img" />
+        </div>
+        <figcaption>Hình ảnh minh họa (Nguồn: Internet)</figcaption>
+      </figure>
+
+      <h2>4. Yêu cầu tuyển sinh</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Cử nhân ≥180 ECTS ở mọi lĩnh vực.</li>
+          <li>Không yêu cầu nền tảng y tế.</li>
+          <li>IELTS ≥6.5 hoặc tương đương (tùy pathway).</li>
+          <li>Hồ sơ gồm: bằng & bảng điểm, CV, thư động lực, 2 thư giới thiệu, chứng chỉ ngôn ngữ.</li>
+        </ul>
+      </div>
+
+      <h2>5. Mốc thời gian quan trọng</h2>
+      <div class="timeline-flow">
+        <div class="timeline-item"><span class="timeline-date">8/10/2025</span><p>Mở đơn intake 2026–2028</p></div>
+        <div class="timeline-item"><span class="timeline-date">8/1/2026</span><p>Hạn nộp Erasmus Mundus Scholarship</p></div>
+        <div class="timeline-item"><span class="timeline-date">18/2/2026</span><p>Phỏng vấn trực tuyến</p></div>
+        <div class="timeline-item"><span class="timeline-date">3/2026</span><p>Công bố kết quả học bổng EM</p></div>
+        <div class="timeline-item"><span class="timeline-date">25/3/2026</span><p>Hạn nộp đơn tự túc</p></div>
+        <div class="timeline-item"><span class="timeline-date">9/2026</span><p>Khởi đầu chương trình</p></div>
+      </div>
+
+      <h2>6. Giá trị học bổng Erasmus Mundus</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Trợ cấp sinh hoạt: €1,400/tháng (24 tháng = €33,600)</li>
+          <li>Miễn 100% học phí</li>
+          <li>Bảo hiểm y tế toàn thời gian học</li>
+          <li>Tổng giá trị: khoảng €50,000–55,000/2 năm</li>
+        </ul>
+      </div>
+
+      <h2>7. Hướng dẫn nộp hồ sơ</h2>
+      <div class="highlight-box">
+        <ol>
+          <li>Tạo tài khoản tại <a href="https://emundus.izp.cm-uj.krakow.pl" target="_blank">emundus.izp.cm-uj.krakow.pl</a></li>
+          <li>Hoàn thành đơn online (9 phần: học vấn, kinh nghiệm, động lực, tài liệu...)</li>
+          <li>Tải lên tài liệu bắt buộc và tùy chọn.</li>
+          <li>Phỏng vấn online (18/2/2026, 15–20 phút).</li>
+        </ol>
+      </div>
+
+      <h2>8. Tiêu chí tuyển chọn</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Động lực và mục tiêu nghề nghiệp – 30%</li>
+          <li>Thành tích học tập – 25%</li>
+          <li>Kinh nghiệm chuyên môn/tình nguyện – 20%</li>
+          <li>Kinh nghiệm quốc tế – 15%</li>
+          <li>Kỹ năng giao tiếp – 10%</li>
+        </ul>
+      </div>
+
+      <h2>9. Lý do nên chọn Europubhealth+</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Học tại 8 trường hàng đầu EU – được công nhận "Master of Excellence".</li>
+          <li>Bằng kép quốc tế, học tại 2–3 quốc gia.</li>
+          <li>Tích hợp biostatistics, epidemiology, data science.</li>
+          <li>Mạng lưới alumni toàn cầu, thực tập tại WHO, NGO, viện nghiên cứu.</li>
+          <li>Hỗ trợ tài chính mạnh mẽ và cơ hội nghề nghiệp rộng mở.</li>
+        </ul>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Hãy chuẩn bị ngay từ hôm nay!</strong><br><br>
+        Europubhealth+ không chỉ là chương trình thạc sĩ – mà là hành trình trở thành nhà lãnh đạo y tế công cộng toàn cầu.<br>
+        Dù bạn đến từ Y, Dược, Sinh học hay Kinh tế, Luật, Xã hội học – chương trình chào đón tất cả.<br>
+        Hạn nộp học bổng Erasmus Mundus: <strong>8/1/2026</strong> – Đừng bỏ lỡ!</p>
+      </div>
+
+      <br>
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <p class="share-note">Chia sẻ bài viết này</p>
+        <div class="social-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/scholarship/251010-europh.html" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/scholarship/251010-europh.html" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/scholarship/251010-europh.html" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="quick-info">
+        <h3>📘 Thông tin nhanh</h3>
+        <ul>
+          <li>🎓 Thạc sĩ Y tế Công cộng (2 năm)</li>
+          <li>🌍 Học tại 2–3 quốc gia EU</li>
+          <li>💶 Học bổng toàn phần €1,400/tháng</li>
+          <li>🕓 Hạn chót: 8/1/2026</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>🗓️ Mốc thời gian</h3>
+        <ul>
+          <li>8/10/2025 – Mở đơn</li>
+          <li>8/1/2026 – Hạn học bổng EM</li>
+          <li>18/2/2026 – Phỏng vấn</li>
+          <li>25/3/2026 – Hạn tự túc</li>
+        </ul>
+      </div>
+
+      <a 
+        href="https://www.europubhealth.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2026-01-08T12:00:00"
+      >
+        APPLY NOW
+      </a>
+
+    </aside>
+  </div>
+
+</body>
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-scholarship-template.js"></script>
+
+
+```

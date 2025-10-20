@@ -242,15 +242,6 @@ aliases:
         </ul>
       </div>
 
-      <div class="quick-info">
-        <h3>💡 Tips ứng tuyển</h3>
-        <ul>
-          <li>Thể hiện tầm nhìn rõ ràng, khả năng lãnh đạo thực tế</li>
-          <li>Liên hệ mục tiêu học tập với nhu cầu phát triển quốc gia</li>
-          <li>Chứng minh tác động xã hội của công việc ứng viên đang và sẽ làm</li>
-        </ul>
-      </div>
-
       <!-- Button with scholarship deadline -->
       <a 
         href="https://www.chevening.org/apply"

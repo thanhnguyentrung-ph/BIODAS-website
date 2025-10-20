@@ -253,15 +253,6 @@ aliases:
         </ul>
       </div>
 
-      <div class="quick-info">
-        <h3>💡 Tips ứng tuyển</h3>
-        <ul>
-          <li>Trình bày rõ ràng kế hoạch nghiên cứu và mục tiêu nghề nghiệp.</li>
-          <li>Thể hiện khả năng lãnh đạo, tư duy chính sách và tầm nhìn dài hạn.</li>
-          <li>Chuẩn bị sớm hồ sơ tiếng Anh, thư đề cử và chứng chỉ.</li>
-        </ul>
-      </div>
-
       <a 
         href="mailto:nguyenthimaikhanh.vt@jica.go.jp"
         target="_blank"

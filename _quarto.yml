@@ -51,7 +51,7 @@ website:
         href: "resource/index.qmd"
 
       # 4. Media and Communication
-      - text: "Tin tức & Sự kiện"
+      - text: "Tin tức"
         menu:
         - text: "Sự kiện"
           href: "media/event.qmd"
