@@ -544,7 +544,7 @@
   /* === MAIN LAYOUT === */
   .section-scholarship-template .layout {
     flex-direction: column;
-    padding: 0 14px 60px;
+    padding: 0 3px 60px;
     gap: 20px;
   }
 

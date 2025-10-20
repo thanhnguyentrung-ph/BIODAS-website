@@ -94,6 +94,7 @@
   flex: 1;
 }
 
+
 /* =============================
    CẤU TRÚC SECTION & ANIMATION / SECTION STRUCTURE & ANIMATION
    ============================= */
@@ -108,6 +109,12 @@
   transform: translateY(20px);
   transition: opacity .6s ease, transform .6s ease, background .4s ease;
   position: relative;
+}
+
+.section-news-template section p,
+.section-news-template section li {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .section-news-template section.visible {

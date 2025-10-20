@@ -25,6 +25,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
+  display: flex;
 }
 
 @keyframes navbarGradient {
@@ -33,7 +34,7 @@
   100% { background-position: 0% 50%; }
 }
 
-body { padding-top: 70px; }
+body { padding-top: 50px !important; }
 
 /* --- Logo --- */
 .navbar-brand {
@@ -62,7 +63,7 @@ body { padding-top: 70px; }
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.25rem;
     z-index: 1;
   }
 }
@@ -70,7 +71,7 @@ body { padding-top: 70px; }
 .navbar .navbar-nav:first-of-type > li > a {
   color: #ffffff !important;
   font-weight: 500;
-  padding: 10px 16px;
+  padding: 8px 12px;
   border-radius: 6px;
   position: relative;
   text-decoration: none;
@@ -153,7 +154,7 @@ body { padding-top: 70px; }
   justify-content: flex-end;
   align-items: center;
   margin-left: auto;
-  gap: 14px;
+  gap: 5px;
   position: relative;
   z-index: 2;
 }
@@ -266,34 +267,6 @@ body { padding-top: 70px; }
 
 
 /* Content */
-/* ===== NAVBAR ===== */
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background: linear-gradient(115deg, #2c3b59, #313d5d, #3b506d, #2c3b59);
-  background-size: 300% 300%;
-  animation: navbarGradient 18s ease infinite;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
-  height: 70px;
-  display: flex;
-  align-items: center;
-}
-
-/* Gradient animation giữ nguyên */
-@keyframes navbarGradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* ===== NỘI DUNG BÊN DƯỚI NAVBAR ===== */
-body {
-  padding-top: 50px !important;
-}
-
 /* ===== TIÊU ĐỀ H1/ TITLE ===== */
 h1 {
   color: #313d5d;
@@ -315,14 +288,6 @@ h1 {
 
 
 
-
-/* Title for posts
-.quarto-title-banner {
-    margin-bottom: 1em;
-    margin-top: 2em;
-    color: #fff;
-    background: #313d5d;
-} */
 
 /* Image cover page for posts */
 .img-cover {

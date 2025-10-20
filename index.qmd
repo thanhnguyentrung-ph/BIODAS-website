@@ -955,7 +955,7 @@ listing:
           Dự án mở ra chuẩn đánh giá mới cho AI y học, hướng tới ứng dụng trong đào tạo và nghiên cứu lâm sàng toàn cầu.<br>
           Toàn bộ hệ thống được công khai tại https://cpcbench.com
         `,
-        link: "./media/news/251014-drcabot",
+        link: "./media/news/251014-drcabot.html",
         img: "https://cpcbench.com/assets/robot_cpc_small.png"
       },
 
@@ -971,7 +971,7 @@ listing:
           </ul>
           Mục tiêu đến năm 2030, Việt Nam trở thành quốc gia dẫn đầu khu vực về y tế số.
         `,
-        link: "./media/news/250919-vn-digital-health",
+        link: "./media/news/250919-vn-digital-health.html",
         img: "https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/12/5/chuyen-doi-so-y-te-10-173338760854580749395.jpg"
       },
       
@@ -983,7 +983,7 @@ listing:
           AI được xem là công cụ giúp nâng cao hiểu biết và giảm gánh nặng cho bác sĩ, nhưng cần triển khai thận trọng, có khung pháp lý và đào tạo phù hợp.<br>
           Tại Việt Nam, BIODAS Team đề xuất phát triển AI "made in Vietnam" và thí điểm tại các Bệnh viện tuyến Trung ương trước khi mở rộng.
         `,
-        link: "./media/news/251010-ai-cancer",
+        link: "./media/news/251010-ai-cancer.html",
         img: "https://i.pinimg.com/736x/10/fe/12/10fe12094076f89c72ee1795dcdf7cc3.jpg"
       }
     ];
@@ -1361,7 +1361,7 @@ listing:
 <div class="section-expertise">
     <div class="container">
         <a href="project/#category=Research" class="specialty-box">
-        <img src="images/expertise/research.jpg" alt="Nghiên cứu">
+        <img src="https://i.pinimg.com/736x/af/23/9a/af239a7b61fd3258288f3a8350765eab.jpg" alt="Nghiên cứu">
         <div class="box-title">Nghiên cứu</div>
         </a>
 
@@ -1371,7 +1371,7 @@ listing:
         </a>
         
         <a href="project/#category=Training" class="specialty-box">
-        <img src="images/expertise/training.png" alt="Đào tạo/ Tập huấn">
+        <img src="https://i.pinimg.com/736x/49/a7/db/49a7dbce7aa2ccfba1169855547f0f88.jpg" alt="Đào tạo/ Tập huấn">
         <div class="box-title">Đào tạo/ Tập huấn</div>
         </a>
 
@@ -1386,7 +1386,7 @@ listing:
         </a> -->
 
         <a href="project/#category=Healthcare%20market" class="specialty-box">
-        <img src="https://i.pinimg.com/736x/c8/0b/84/c80b8411cf222adf7fc325803a21c530.jpg" alt="Healthcare market">
+        <img src="https://algorithmus.sahaarpharma.com/wp-content/uploads/2023/10/market-research.jpg" alt="Healthcare market">
         <div class="box-title">Nghiên cứu thị trường</div>
         </a>
     </div>
