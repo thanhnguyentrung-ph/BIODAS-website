@@ -1,0 +1,263 @@
+---
+title: "Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot and CPC-Bench"
+subtitle: "Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot and CPC-Bench"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - AI
+  - Dr. CaBot
+  - CPCs
+  - CPC-Bench
+  - Patient Cases
+  - NEJM
+author: "Translated and edited by: BIODAS Team"
+date: 10/14/2025 # mm/dd/yyyy
+toc: true
+image: https://cpcbench.com/assets/robot_cpc_small.png
+aliases: 
+  - /media/news/
+---
+
+![](https://cpcbench.com/assets/robot_cpc_small.png){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-news-template">
+<!-- ===== PAGE LAYOUT ===== -->
+<div class="layout">
+
+  <!-- ===== SIDEBAR - TOC ===== -->
+  <nav class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#highlights">Highlights</a></li>
+      <li><a href="#authors">About the study</a></li>
+      <li><a href="#background">Introduction</a></li>
+      <li><a href="#methods">Research Methods</a></li>
+      <li><a href="#results">Key Results</a></li>
+      <li><a href="#discussion">Discussion</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+      <li><a href="#reference">References</a></li>
+    </ol>
+  </nav>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="content">
+
+    <!-- ===== INTRO ===== -->
+    <section id="intro">
+      <p>
+        <strong>The BIODAS Team</strong> is pleased to share with you a recently published work from 
+        <strong>Harvard Medical School</strong> — a major milestone in the history of medical artificial intelligence: 
+        <em>“<a href="https://doi.org/10.48550/arXiv.2509.12194">Advancing Medical Artificial Intelligence Using a Century of Cases</a>”</em> (Buckley TA, Conci R, Brodeur PG, et al., 2025).
+      </p>
+      <p>
+        For the first time in the nearly <strong>200-year history of the New England Journal of Medicine (NEJM)</strong>, 
+        an <strong>AI-generated diagnosis</strong> has been published alongside that of a human physician. 
+        This AI system is named <strong>Dr. CaBot</strong> – a “virtual doctor” trained on more than 
+        <strong>7,102 real patient cases</strong> published by NEJM over <strong>a century (1923–2025)</strong>.
+      </p>
+
+      <div class="card">
+        <p>
+          The work was led by <strong><a href="https://tabuckley.com/">Thomas Buckley</a></strong> and <strong><a href="https://dbmi.hms.harvard.edu/people/arjun-raj-manrai">Arjun K. Manrai</a></strong>, 
+          of the <em>Manrai Lab</em>, Department of Biomedical Informatics, Harvard Medical School, 
+          in collaboration with <em>Beth Israel Deaconess Medical Center</em> and <em>Massachusetts General Hospital</em>.  
+          The study also introduces <strong>CPC-Bench</strong> – the world's first benchmark for evaluating the 
+          <strong>reasoning, diagnostic, and explanatory capabilities of medical AI models</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== HIGHLIGHTS ===== -->
+    <section id="highlights">
+      <h2>1. Study Highlights</h2>
+      <div class="callout">
+        <ul>
+          <li><strong>NEJM publishes an AI-generated diagnosis for the first time</strong> – Dr. CaBot presents alongside a real doctor.</li>
+          <li><strong>Dr. CaBot</strong> can analyze, reason, and present clinically in the style of CPCs.</li>
+          <li><strong>CPC-Bench</strong> includes <strong>7,102 CPC cases</strong> and <strong>1,021 NEJM Image Challenges</strong>, validated by physicians.</li>
+          <li><strong>OpenAI o3</strong> achieves <strong>top-1 diagnostic accuracy = 60%</strong>, <strong>top-10 = 84%</strong>, 
+              surpassing 20 internists (24% and 45%).</li>
+          <li>In a blind test, <strong>74% of physicians mistook Dr. CaBot for a human</strong> – AI was rated higher for the quality of its reasoning.</li>
+          <li>The entire project is publicly available at: <a href="https://cpcbench.com" target="_blank">https://cpcbench.com</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== AUTHORS ===== -->
+    <section id="authors">
+      <h2>2. About the study</h2>
+      <p>
+        <strong>Title:</strong> <em>Advancing Medical Artificial Intelligence Using a Century of Cases</em><br>
+        <strong>Authors:</strong> Thomas A. Buckley, Riccardo Conci, Peter G. Brodeur, Jason Gusdorf, Sourik Beltrán, 
+        Bita Behrouzi, Byron Crowe, Jacob Dockterman, Muzzammil Muhammad, Sarah Ohnigian, Andrew Sanchez, 
+        James Diao, Aashna P. Shah, Daniel Restrepo, Eric S. Rosenberg, Andrew S. Lea, Marinka Zitnik, 
+        Scott H. Podolsky, Zahir Kanjee, Raja-Elie E. Abdulnour, Jacob Koshy, Adam Rodman & Arjun K. Manrai.
+      </p>
+      <p>
+        <strong>Institution:</strong><br>
+        Department of Biomedical Informatics, Harvard Medical School · Beth Israel Deaconess Medical Center · 
+        Massachusetts General Hospital · Kempner Institute for the Study of Natural and Artificial Intelligence, Harvard University.
+      </p>
+      <p><strong>Contact:</strong> <a href="mailto:Arjun_Manrai@hms.harvard.edu">Arjun_Manrai@hms.harvard.edu</a><br>
+          <strong>Source:</strong> <a href="https://doi.org/10.48550/arXiv.2509.12194" target="_blank">arXiv:2509.12194</a>
+      </p>
+    </section>
+
+    <!-- ===== BACKGROUND ===== -->
+    <section id="background">
+      <h2>3. Introduction</h2>
+      <p>
+        Artificial intelligence (AI) is changing the approach to diagnosis and clinical decision-making. 
+        However, most models are evaluated based on output accuracy, 
+        while <strong>clinical reasoning</strong> – the process of analysis and inference leading to a diagnosis – 
+        is the core value of medicine.
+      </p>
+      <p>
+        <em>Clinicopathological Conferences (CPCs)</em>, 
+        initiated by Dr. <strong>Richard Cabot</strong> in 1923 at Massachusetts General Hospital (MGH), 
+        are where experts present, argue, and defend diagnoses based on real patient case data.  
+        After a century, NEJM has published over 7,000 CPC cases – an invaluable data repository describing how humans think in medicine.  
+        The Harvard team realized that this was the foundation for building a generation of AI that could <strong>reason like a real doctor</strong>.
+      </p>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://scx2.b-cdn.net/gfx/news/2025/an-ai-system-with-deta.jpg" class="img" />
+      </div>
+      <figcaption>
+        Image: Overview of CPC-Bench and Dr. CaBot (Source: arXiv (2025). DOI: 10.48550/arXiv.2509.12194)
+      </figcaption>
+    </figure>
+
+    <!-- ===== METHODS ===== -->
+    <section id="methods">
+      <h2>4. Research Methods</h2>
+      <ul>
+        <li>Collected <strong>7,102 CPC cases (1923–2025)</strong> and <strong>1,021 NEJM Image Challenges (2006–2025)</strong>.</li>
+        <li>Built <strong>CPC-Bench</strong> – a benchmark consisting of <strong>10 medical tasks</strong> (diagnosis, testing, literature search, imaging...).</li>
+        <li>Data was annotated and validated by <strong>10 internists</strong> (5 residents, 5 attending physicians).</li>
+        <li>Developed the <strong>Dr. CaBot</strong> system based on the <strong>OpenAI o3</strong> model, 
+            capable of finding similar cases, simulating the writing style of CPC experts, 
+            and generating conference videos using <em>LaTeX Beamer + TTS-HD</em>.</li>
+        <li>Compared with <strong>20 internists</strong> and conducted a “blind” test to evaluate the human-likeness of the AI.</li>
+      </ul>
+    </section>
+
+    <!-- ===== RESULTS ===== -->
+    <section id="results">
+      <h2>5. Key Results</h2>
+      <div class="card">
+        <p>
+          <strong>OpenAI o3</strong> achieved <strong>Top-1 = 60%</strong>, <strong>Top-10 = 84%</strong>, 
+          far surpassing the physician group (24% and 45%). The accuracy of selecting appropriate tests reached <strong>98%</strong>.  
+          In the “blind” test, <strong>74% of physicians mistook the AI for a human</strong> – 
+          and even <strong>rated Dr. CaBot higher</strong> for reasoning and educational appeal.
+        </p>
+      </div>
+
+      <div class="card">
+        <p>
+          In imaging, Gemini 2.5 Pro achieved 84%, o3 achieved 82%, and GPT-4o achieved 75%.  
+          However, AI is still weak in X-rays and histopathology (55–67%).  
+          When analyzing the history of CPCs over 100 years, the team discovered a shift in pathology: 
+          from 56% infectious diseases (1920s) to 68% cancer (1950s), 
+          and Dr. CaBot achieved comparable – even slightly better – performance than human experts in the 2000–2010 period.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- ===== DISCUSSION ===== -->
+    <section id="discussion">
+      <h2>6. Discussion</h2>
+      <div class="card">
+        <p>
+          The results show that large language models (LLMs) not only reproduce information but also <strong>reproduce medical thinking</strong>.  
+          CPC-Bench has become a standardized measure, helping the scientific community track the progress of AI in clinical diagnosis.  
+        </p>
+      </div>
+      
+      <div class="card">
+        <p>
+          <strong>Dr. CaBot</strong> promises to become a powerful teaching tool in medical education, 
+          where learners can discuss directly with AI, learn how to form hypotheses, and perform multi-level reasoning.  
+          However, the Harvard team notes that AI still needs to improve its ability to search literature, process images, 
+          and adhere to ethical standards and patient data privacy.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== CONCLUSION ===== -->
+    <section id="conclusion">
+      <h2>7. Conclusion</h2>
+      <p>
+        From Dr. <strong>Richard Cabot</strong> of the 20th century to <strong>Dr. CaBot</strong> of the 21st century, 
+        the century-long journey of CPCs has come full circle between humans and artificial intelligence.  
+        <strong>Dr. CaBot</strong> demonstrates that AI not only provides answers, 
+        but also <strong>understands and explains clinical thinking</strong> – the foundation of the medical profession.  
+      </p>
+      <div class="callout">
+        <p>
+          “Dr. CaBot does not replace doctors, but demonstrates the collaboration between humans and machines in the journey of understanding medicine.”  
+          — <em>Harvard Medical School research team</em>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== REFERENCES ===== -->
+    <section id="reference">
+      <h2>References</h2>
+      <ol>
+        <li>Buckley T.A. et al. (2025). <em>Advancing Medical Artificial Intelligence Using a Century of Cases.</em> arXiv:2509.12194. <a href="https://doi.org/10.48550/arXiv.2509.12194" target="_blank">https://doi.org/10.48550/arXiv.2509.12194</a></li>
+        <li>Brinkmann R. et al. (2024). <em>Building a Community of Medical Learning – A Century of Case Records of the MGH in the Journal.</em> N Engl J Med, 391(9):858–863.</li>
+        <li>Kanjee Z. et al. (2023). <em>Accuracy of a Generative AI Model in a Complex Diagnostic Challenge.</em> JAMA, 330(1):78–80.</li>
+        <li>McDuff D. et al. (2025). <em>Towards Accurate Differential Diagnosis with Large Language Models.</em> Nature, 642(8067):451–457.</li>
+        <li>Rodman A. et al. (2025). <em>When it Comes to Benchmarks, Humans Are the Only Way.</em> NEJM AI, 2(4):AIe2500143.</li>
+        <li>Priem J. et al. (2022). <em>OpenAlex: A Fully Open Index of Scholarly Works.</em> arXiv [cs.DL]:2205.01833.</li>
+        <li>Diao J.A., Adamson A.S. (2022). <em>Representation and Misdiagnosis of Dark Skin in a Large-Scale Visual Diagnostic Challenge.</em> J Am Acad Dermatol, 86(4):950–951.</li>
+      </ol>
+    </section>
+
+    <!-- ===== SOCIAL SHARE ===== -->
+    <div class="social-section">
+      <p class="share-note">Share this article</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://biodas.net/media/news/251014-drcabot.html" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=https://biodas.net/media/news/251014-drcabot.html" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/news/251014-drcabot.html" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title">OTHER NEWS</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+</body>
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-news-template.js"></script>
+

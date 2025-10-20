@@ -1,0 +1,1412 @@
+---
+pagetitle: "Home"
+section-divs: false
+editor: source
+sidebar: false
+search: false
+repo-actions: false
+description: "BIODAS website homepage"
+hide-description: true
+toc: false
+
+listing:
+    - id: latest-content
+      contents:
+      - /project
+      - /resource
+      - /media/event
+      - /media/news
+      - /media/scholarship
+      - /recruitment
+      - "!index.qmd"
+      sort: "date desc"
+      type: grid
+      categories: false
+      sort-ui: false
+      filter-ui: false
+      max-items: 9
+      feed: false
+---
+
+<!-- # BIODAS Highlights -->
+
+```{=html}
+<style>
+.section-highlight {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* 🔹 Auto-adjust height based on image ratio */
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Slide */
+.section-highlight .highlight-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px;
+}
+
+.section-highlight .highlight-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain image ratio */
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transform: scale(1);
+  transition: transform 8s ease, opacity 1.2s ease;
+}
+
+.section-highlight .highlight-slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.section-highlight .highlight-slide.active img {
+  opacity: 1;
+  animation: kenburnsZoom 15s ease-in-out infinite alternate;
+}
+
+/* 🔹 Ken Burns effect (slight zoom + pan) */
+@keyframes kenburnsZoom {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.08) translate(-2%, -2%);
+  }
+}
+
+/* Text box */
+.section-highlight .text-box {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  background: rgba(49, 61, 93, 0.75);
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  line-height: 1.6;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+  z-index: 2;
+}
+
+.section-highlight .text-box:hover {
+  background: rgba(49, 61, 93, 0.9);
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+.section-highlight .text-box h2 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 1.5rem;
+}
+
+/* Navigation buttons */
+.section-highlight .nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.section-highlight .nav-btn:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.section-highlight .nav-left { left: 20px; }
+.section-highlight .nav-right { right: 20px; }
+
+/* Dot indicators */
+.section-highlight .dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.section-highlight .dot {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.section-highlight .dot.active {
+  background: #fff;
+}
+
+/* =======================================
+   🔹 RESPONSIVE DESIGN
+   ======================================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .section-highlight {
+    aspect-ratio: 16 / 10;
+  }
+  .section-highlight .text-box {
+    width: 85%;
+    padding: 16px;
+  }
+  .section-highlight .text-box h2 {
+    font-size: 1.25rem;
+  }
+  .section-highlight .text-box p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .section-highlight {
+    aspect-ratio: 1 / 1; /* More square for portrait screens */
+  }
+  .section-highlight .highlight-slide {
+    padding: 10px;
+  }
+  .section-highlight .text-box {
+    width: 90%;
+    bottom: 6%;
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+  .section-highlight .text-box h2 {
+    font-size: 1.1rem;
+    line-height: 1.3;
+  }
+  .section-highlight .text-box p {
+    font-size: 0.85rem;
+  }
+  .section-highlight .nav-btn {
+    font-size: 1.4em;
+    padding: 6px 10px;
+  }
+  .section-highlight .dots {
+    bottom: 8px;
+    gap: 8px;
+  }
+  .section-highlight .dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+
+</style>
+
+<div class="section-highlight">
+  <!-- Slide 1 -->
+  <!-- <div class="highlight-slide">
+    <a href="project/posts/250808-vn-biobank-feasibility.qmd">
+      <img src="project/posts/images/250808-poster.png" alt="Biobanking feasibility">
+      <div class="text-box">
+        <h2>Vietnam biobanking feasibility study</h2>
+        <p>Feasibility study of biobanking in Vietnam</p>
+      </div>
+    </a>
+  </div> -->
+
+  <!-- Slide 2 -->
+  <div class="highlight-slide active">
+    <a href="project/posts/250824-data-training.qmd">
+      <img src="project/posts/images/250824-poster.png" alt="Data training">
+      <div class="text-box">
+        <h2>Initiative for strengthening community capacity in data processing and analytics in the digital age</h2>
+        <p>Project to build a platform for community data processing and analysis capacity in the digital age</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="highlight-slide">
+    <a href="project/posts/250828-data-handbook.qmd">
+      <img src="project/posts/images/250828-poster.png" alt="Data handbook">
+      <div class="text-box">
+        <h2>Project on Developing a Practical Handbook for Data Processing and Analytics to Empower Communities in the Digital Age</h2>
+        <p>Project to compile a practical handbook for data processing and analysis to serve the community in the digital age</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Slide 4 -->
+  <div class="highlight-slide">
+    <a href="project/posts/250902-data-kap.qmd">
+      <img src="project/posts/images/250902-poster.png" alt="Data KAP">
+      <div class="text-box">
+        <h2>Survey on Knowledge, Attitudes, and Practices Regarding Data Use, e-Health, and Artificial Intelligence among Healthcare Workers</h2>
+        <p>Survey on the knowledge, attitudes, and practices of healthcare workers regarding data, e-health, and artificial intelligence</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Slide 5 -->
+  <!-- <div class="highlight-slide">
+    <a href="project/posts/250804-vn-biobank-nsclc.qmd">
+      <img src="project/posts/images/250804-poster.png" alt="Biobank NSCLC">
+      <div class="text-box">
+        <h2>Development of a Reference Biobank and Standardized Biological Database to Support Research and Precision Treatment of Non-Small Cell Lung Cancer in Vietnam</h2>
+        <p>Building a reference biobank and standardized biological database to serve research and treatment of non-small cell lung cancer in Vietnam</p>
+      </div>
+    </a>
+  </div> -->
+
+  <!-- Slide 6 -->
+  <!-- <div class="highlight-slide">
+    <a href="project/posts/250812-vn-biobank-risk-manage.qmd">
+      <img src="project/posts/images/250812-poster.png" alt="Biobank risk management">
+      <div class="text-box">
+        <h2>Assessment and strategic optimization of risk management in biobank systems: The case of Vietnam</h2>
+        <p>Assessment and optimization of risk management in biobank systems in Vietnam</p>
+      </div>
+    </a>
+  </div> -->
+
+  <!-- Slide 7 -->
+  <!-- <div class="highlight-slide">
+    <a href="project/posts/250816-vn-biobank-data.qmd">
+      <img src="project/posts/images/250816-poster.png" alt="Biobank data">
+      <div class="text-box">
+        <h2>A study on the management and use of biobank data in Vietnam: An evaluation of their effectiveness</h2>
+        <p>Survey and evaluation of the effectiveness of managing and using data from biobanks in Vietnam</p>
+      </div>
+    </a>
+  </div> -->
+
+  <!-- Slide 8 -->
+  <div class="highlight-slide">
+    <a href="project/posts/250820-vn-medical-tourism.qmd">
+      <img src="project/posts/images/250820-poster.png" alt="Medical tourism market">
+      <div class="text-box">
+        <h2>Medical tourism market in Vietnam: An analysis of the current situation and development potential</h2>
+        <p>Research on the medical tourism market in Vietnam: Current situation and development potential</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Navigation buttons -->
+  <button class="nav-btn nav-left">&#10094;</button>
+  <button class="nav-btn nav-right">&#10095;</button>
+
+  <!-- Dot indicators (auto-generated by JS) -->
+  <div class="dots"></div>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.highlight-slide');
+  const prevBtn = document.querySelector('.nav-left');
+  const nextBtn = document.querySelector('.nav-right');
+  const dotsContainer = document.querySelector('.dots');
+  let currentIndex = 0;
+  let autoSlide;
+
+  // auto-generate dots based on the number of slides
+  dotsContainer.innerHTML = "";
+  slides.forEach((_, i) => {
+    const dot = document.createElement("div");
+    dot.classList.add("dot");
+    if (i === 0) dot.classList.add("active");
+    dot.setAttribute("data-index", i);
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = document.querySelectorAll('.dot');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+    });
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[index].classList.add('active');
+    currentIndex = index;
+  }
+
+  function nextSlide() {
+    let nextIndex = (currentIndex + 1) % slides.length;
+    showSlide(nextIndex);
+  }
+
+  function prevSlide() {
+    let prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(prevIndex);
+  }
+
+  nextBtn.addEventListener('click', () => {
+    nextSlide();
+    resetAutoSlide();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    prevSlide();
+    resetAutoSlide();
+  });
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      let index = parseInt(dot.getAttribute('data-index'));
+      showSlide(index);
+      resetAutoSlide();
+    });
+  });
+
+  function startAutoSlide() {
+    autoSlide = setInterval(nextSlide, 5000); // auto 5s
+  }
+
+  function resetAutoSlide() {
+    clearInterval(autoSlide);
+    startAutoSlide();
+  }
+
+  startAutoSlide();
+</script>
+```
+<br>
+
+
+
+---
+
+
+
+# BIODAS — Institute of Biomedical Data and Science Research
+
+<!-- Section Introduction -->
+```{=html}
+<style>
+.section-intro {
+  position: relative;
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  background-image: url('https://i.pinimg.com/1200x/4b/28/86/4b2886de2b3714d57ed2d896141cd6fe.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* White blur overlay */
+.section-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  z-index: 1;
+}
+
+/* Logo on the left */
+.section-intro .logo {
+  position: relative;
+  z-index: 2;
+  width: 38%;
+  max-width: 380px;
+  margin-left: 5%;
+  animation: fadeInLeft 1.2s ease forwards;
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+/* Text box on the right – transparent dark blue background */
+.section-intro .text-box {
+  position: relative;
+  z-index: 2;
+  width: 45%;
+  margin-right: 5%;
+  background-color: rgba(49, 61, 93, 0.8);
+  padding: 28px;
+  border-radius: 14px;
+  color: #ffffff;
+  text-align: justify;
+  line-height: 1.7;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.section-intro .text-box h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+/* Darker blue background button, centered */
+.section-intro .btn-action {
+  display: block; /* to make margin auto work */
+  margin: 24px auto 0;
+  padding: 12px 24px;
+  background-color: rgba(49, 61, 93, 0.9);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.section-intro .btn-action:hover {
+  background-color: rgba(49, 61, 93, 1);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Animation */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 📱 Responsive - Mobile */
+@media (max-width: 768px) {
+  .section-intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/1200x/a8/2f/d3/a82fd3a65fbf5c934d04827248f3c0a8.jpg');
+    background-size: fill;
+    background-position: center;
+    min-height: auto;
+    padding: 60px 20px;
+  }
+
+  .section-intro::before {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+  }
+
+  .section-intro .logo {
+    width: 65%;
+    max-width: 300px;
+    margin: 0 0 20px 0;
+    transform: none;
+    opacity: 1;
+    animation: none;
+  }
+
+  .section-intro .text-box {
+    width: 100%;
+    margin: 0;
+    background-color: rgba(49, 61, 93, 0.8);
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 12px;
+    opacity: 1;
+    animation: none;
+  }
+
+  .section-intro .text-box h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .section-intro .btn-action {
+    margin: 20px auto 0;
+    width: fit-content;
+  }
+}
+</style>
+
+<div class="section-intro">
+  <!-- Logo on the left (desktop) / top (mobile) -->
+  <img src="images/logo/BIODAS-logo-horizontal.png" alt="Logo" class="logo">
+
+  <!-- Text box on the right (desktop) / bottom (mobile) -->
+  <div class="text-box">
+    <h2>
+      Welcome to BIODAS<br>
+      Institute of Biomedical Research and Data Science
+    </h2>
+    <p>
+      BIODAS is a specialized research unit in the field of biomedicine and data science in Vietnam.
+      <br><br>
+      We are on a mission to connect hospitals, research institutes, public and private healthcare units at home and abroad, to promote medical research, technology development, and improve the quality of medical treatment for the community.
+    </p>
+    <a href="about/introduce.qmd" class="btn-action">⮕ Learn more about BIODAS</a>
+  </div>
+</div>
+
+```
+<br>
+
+
+
+---
+
+
+
+# BIODAS's Theme for October 2025
+```{=html}
+<div style="text-align:center; margin: 24px 0;">
+  <p>
+    <span
+      style="
+        position: relative;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 1.5rem; /* 🔹 medium font size */
+        color: #313d5d;
+        letter-spacing: 0.3px;
+        cursor: default;
+      "
+      onmouseover="this.style.setProperty('--underline-scale', '1')"
+      onmouseout="this.style.setProperty('--underline-scale', '0')"
+    >
+      Artificial Intelligence – Creating the Future
+      <span
+        style="
+          position: absolute;
+          bottom: -4px;
+          left: 0;
+          width: 100%;
+          height: 3px;
+          background: linear-gradient(90deg, #00b4d8, #48cae4, #90e0ef);
+          border-radius: 2px;
+          transform: scaleX(var(--underline-scale, 0));
+          transform-origin: left;
+          transition: transform 0.4s ease;
+        "
+      ></span>
+    </span>
+  </p>
+</div>
+
+```
+
+```{=html}
+<style>
+  .section-topic {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    overflow: visible;
+    z-index: 1;
+  }
+
+  .section-topic .topic-hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: url("https://i.pinimg.com/1200x/c5/f9/d7/c5f9d76df5ba1546f3421e3bbe2513e1.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.22);
+    isolation: isolate;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(1.02); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  .section-topic .topic-hero::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: rgba(255,255,255, 0.3);
+    backdrop-filter: blur(2px) brightness(1.1);
+    z-index: 1;
+  }
+
+  /* GRID */
+  .section-topic .topic-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 18px;
+    height: calc(100% - 180px);
+    padding: 0 28px 28px;
+    margin-top: 100px;
+  }
+
+  /* LEFT FEATURE */
+  .section-topic .left-feature {
+    position: relative;
+    align-self: stretch;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.18);
+    backdrop-filter: blur(6px);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.28), 0 18px 40px rgba(0,0,0,0.20);
+    min-height: 450px;
+    margin-bottom: 60px;
+    z-index: 2;
+  }
+
+  .section-topic .feature-image {
+    position: absolute; inset: 0;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease, transform 0.8s ease, opacity 1s ease;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .section-topic .feature-nav {
+    position: absolute;
+    top: 50%; left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    transform: translateY(-50%);
+    z-index: 3;
+  }
+
+  .section-topic .nav-btn {
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    background: rgba(255,255,255,0.8);
+    color: #1b2a41;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  }
+
+  .section-topic .nav-btn:hover {
+    background: #f1f3f9;
+  }
+
+  /* RIGHT PANEL */
+  .section-topic .right-panel {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    align-content: start;
+    z-index: 2;
+  }
+
+  .section-topic .post-summary {
+    position: relative;
+    border-radius: 16px;
+    padding: 14px 16px 50px 16px;
+    background: rgba(31, 44, 72, 0.66);
+    color: #fff;
+    font-size: 0.95rem;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-topic .post-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+  }
+
+  .section-topic .post-excerpt {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0 12px;
+    line-height: 1.6;
+    text-align: justify;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.4) transparent;
+  }
+
+  .section-topic .post-excerpt::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .section-topic .post-excerpt::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.4);
+    border-radius: 6px;
+  }
+
+  .section-topic .read-link {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    text-decoration: none;
+    background: #313d5d;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    width: fit-content;
+  }
+
+  .section-topic .read-link:hover { background: rgba(49, 61, 93, 0.9); }
+
+  .section-topic .thumb-strip {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.22);
+    backdrop-filter: blur(6px);
+    height: 60%;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.28);
+    padding: 0 10px;
+    z-index: 2;
+  }
+
+  .section-topic .thumb-track {
+    display: flex;
+    gap: 14px;
+    transition: transform .6s ease;
+    height: 100%;
+    align-items: center;
+  }
+
+  .section-topic .thumb {
+    flex: 0 0 48%;
+    max-width: 48%;
+    aspect-ratio: 16/9;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+    transition: box-shadow .35s ease, opacity .35s ease;
+    opacity: 0.85;
+  }
+
+  .section-topic .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .section-topic .thumb.active { opacity: 1; box-shadow: 0 12px 24px rgba(0,0,0,0.3); }
+
+  /* === RESPONSIVE FOR MOBILE DEVICES === */
+  @media (max-width: 768px) {
+    .section-topic {
+      aspect-ratio: auto;
+      height: auto;
+    }
+
+    .section-topic .topic-hero {
+      background-image: url("https://i.pinimg.com/1200x/f0/b2/a4/f0b2a472aafb4be4650da50a83da1a05.jpg");
+      background-size: cover;
+      background-position: center top;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 24px 0 40px;
+    }
+
+    .section-topic .left-feature { display: none !important; }
+
+    .section-topic .topic-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 0 16px;
+    }
+
+    .section-topic .right-panel {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      max-width: 520px;
+    }
+
+    .section-topic .post-summary {
+      order: 1;
+      width: 100%;
+      height: 380px;
+      position: relative;
+      padding: 14px 16px 10px 16px;
+      background: rgba(31, 44, 72, 0.85);
+      border-radius: 14px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .section-topic .post-excerpt {
+      flex: 1;
+      overflow-y: auto;
+      text-align: justify;
+      line-height: 1.6;
+      padding-right: 4px;
+    }
+
+    .section-topic .thumb {
+      flex: 0 0 85%;
+      max-width: 85%;
+      margin-right: 10px;
+      aspect-ratio: unset;
+    }
+    .section-topic .thumb img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 12px;
+      display: block;
+    }
+
+    .section-topic .read-link {
+      position: static;
+      bottom: 2px;
+      transform: none;
+      margin: 2px auto 0;
+      text-align: center;
+      width: fit-content;
+    }
+  }
+</style>
+
+<section class="section-topic">
+  <div class="topic-hero">
+    <div class="topic-grid">
+
+      <!-- LEFT FEATURE -->
+      <div class="left-feature">
+        <div class="feature-image" id="featureImage"></div>
+        <div class="feature-nav">
+          <button class="nav-btn" id="prevBtn" aria-label="Previous Post">⟵</button>
+          <button class="nav-btn" id="nextBtn" aria-label="Next Post">⟶</button>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="right-panel">
+        <div class="post-summary">
+          <h3 class="post-title" id="postTitle"></h3>
+          <p class="post-excerpt" id="postExcerpt"></p>
+          <a class="read-link" id="postLink" target="_blank" rel="noopener">Read more</a>
+        </div>
+        <div class="thumb-strip">
+          <div class="thumb-track" id="thumbTrack"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // List of posts
+    let posts = [
+      
+      {
+        title: "Advancing Medical Artificial Intelligence Using a Century of Patient Cases: Dr. CaBot and CPC-Bench",
+        excerpt: `
+          Harvard Medical School has just introduced the groundbreaking study “Advancing Medical Artificial Intelligence Using a Century of Cases” (Buckley et al., 2025), launching the AI system Dr. CaBot and the CPC-Bench dataset built from over 7,000 NEJM cases over 100 years.<br>
+          Dr. CaBot can reason, diagnose, and present medically like a real doctor, marking the first time NEJM has published a diagnosis generated by AI.<br>
+          The OpenAI o3 model achieved 84% accuracy, surpassing a group of internists and being rated as “indistinguishable from a human.”<br>
+          The project opens up a new evaluation standard for medical AI, aiming for applications in training and clinical research globally.<br>
+          The entire system is publicly available at https://cpcbench.com
+        `,
+        link: "./media/news/251014-drcabot.html",
+        img: "https://cpcbench.com/assets/robot_cpc_small.png"
+      },
+
+      {
+        title: "Digital Transformation of Vietnam’s Healthcare: Modernizing the National Health System for an Intelligent and Inclusive Future",
+        excerpt: `
+          Vietnam is strongly implementing digital transformation in healthcare to build a modern, intelligent, and efficient healthcare system.<br><br>
+          <b>Key policies:</b>
+          <ul>
+            <li>Resolution 57-NQ/TW and the Digital Health Transformation Project 2023–2025.</li>
+            <li>Development of data infrastructure, AI applications, information security, and digital human resource training.</li>
+            <li>Electronic health records integrated with VNeID, a national health data system, and a Vietnamese genome project.</li>
+          </ul>
+          By 2030, Vietnam aims to become a regional leader in digital health.
+        `,
+        link: "./media/news/250919-vn-digital-health.html",
+        img: "https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/12/5/chuyen-doi-so-y-te-10-173338760854580749395.jpg"
+      },
+      
+      {
+        title: "Acceptance and Adoption of Artificial Intelligence (AI) in Cancer Diagnosis, Treatment, and Patient Care",
+        excerpt: `
+          A study by Prabal Chourasia et al. (2025) in the Journal of Patient Experience examines the acceptance of AI by cancer survivors when seeking medical information.<br>
+          The results show that patients highly value AI in supporting diagnosis and information retrieval, especially with the “AI-assisted – doctor-decides” model. However, they still trust doctors more than AI, emphasizing the need for data security and transparency in information use.<br>
+          AI is seen as a tool to enhance understanding and reduce the burden on doctors, but it needs to be implemented cautiously, with an appropriate legal framework and training.<br>
+          In Vietnam, the BIODAS Team proposes developing “made in Vietnam” AI and piloting it at central-level hospitals before expanding.
+        `,
+        link: "./media/news/251010-ai-cancer.html",
+        img: "https://i.pinimg.com/736x/10/fe/12/10fe12094076f89c72ee1795dcdf7cc3.jpg"
+      }
+    ];
+
+    // Randomize the initial display post
+    posts = posts.sort(() => Math.random() - 0.5);
+
+    // DOM elements
+    const featureImage = document.getElementById("featureImage");
+    const postTitle = document.getElementById("postTitle");
+    const postExcerpt = document.getElementById("postExcerpt");
+    const postLink = document.getElementById("postLink");
+    const thumbTrack = document.getElementById("thumbTrack");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    // Auto-generate thumbnails
+    posts.forEach((p, idx) => {
+      const item = document.createElement("div");
+      item.className = "thumb";
+      item.setAttribute("data-idx", idx);
+      item.innerHTML = `<img src="${p.img}" alt="${p.title}" loading="lazy">`;
+      item.addEventListener("click", () => goTo(idx));
+      thumbTrack.appendChild(item);
+    });
+
+    let active = 0;
+    let autoplayTimer = null;
+    const DURATION = 5000; // 5s to change image
+
+    // Render post
+    function render() {
+      const p = posts[active];
+      featureImage.style.backgroundImage = `url('${p.img}')`;
+      postTitle.textContent = p.title;
+      postExcerpt.innerHTML = p.excerpt;
+      postLink.href = p.link;
+
+      // Update thumbnails
+      [...thumbTrack.children].forEach((el, i) => el.classList.toggle("active", i === active));
+
+      // Scroll thumbnails according to the post
+      const thumbWidth = thumbTrack.querySelector(".thumb")?.getBoundingClientRect().width || 200;
+      const gap = 14;
+      const trackOffset = Math.max(0, (thumbWidth + gap) * active);
+      thumbTrack.style.transform = `translateX(${-trackOffset}px)`;
+    }
+
+    // Navigation
+    function goTo(i) {
+      active = (i + posts.length) % posts.length;
+      render();
+      restartAutoplay();
+    }
+    function next() {
+      goTo(active + 1);
+    }
+    function prev() {
+      goTo(active - 1);
+    }
+
+    // Autoplay
+    function restartAutoplay() {
+      clearInterval(autoplayTimer);
+      autoplayTimer = setInterval(next, DURATION);
+    }
+
+    // Button events
+    prevBtn.addEventListener("click", prev);
+    nextBtn.addEventListener("click", next);
+
+    // Initialize
+    render();
+    restartAutoplay();
+  });
+
+</script>
+```
+<br>
+
+
+
+---
+
+
+
+# BIODAS's Mission, Vision, and Core Values
+
+```{=html}
+<style>
+.section-mission {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* === BACKGROUND IMAGE FOR DESKTOP === */
+.section-mission img.bg {
+    width: 100%;
+    height: 650px;
+    display: block;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+    position: relative;
+    content: url("https://i.pinimg.com/1200x/62/b6/5b/62b65bb6ef6bcec3358e2d016e3e4315.jpg");
+}
+
+/* === OVERLAY === */
+.section-mission::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    z-index: 1;
+    opacity: 0;
+    animation: fadeBlur 1.2s ease forwards;
+}
+
+@keyframes fadeBlur {
+    0% {
+        opacity: 0;
+        backdrop-filter: blur(0px);
+        background-color: rgba(255, 255, 255, 0.0);
+    }
+    50% {
+        opacity: 0.5;
+        backdrop-filter: blur(0.5px);
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+    100% {
+        opacity: 1;
+        backdrop-filter: blur(1px);
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+/* === CONTENT === */
+.section-mission .content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    z-index: 2;
+}
+
+.section-mission .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+
+.section-mission .box-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* === BOX (no longer has appearance effect) === */
+.section-mission .box {
+    flex: 1;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 1; /* always visible */
+    transform: none; /* remove initial effect */
+}
+
+.section-mission .box:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+/* Box title */
+.section-mission .box-title {
+    background: linear-gradient(135deg, rgba(49,61,93,0.9), rgba(80,100,140,0.9));
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 12px 12px 0 0;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-mission .box:hover .box-title {
+    background: linear-gradient(135deg, rgba(49,61,93,1), rgba(80,100,140,1));
+    box-shadow: inset 0 -3px 6px rgba(255,255,255,0.2);
+}
+
+/* Box content */
+.section-mission .box-content {
+    background-color: rgba(49, 61, 93, 0.7);
+    color: #fff;
+    border-radius: 0 0 12px 12px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    flex: 1;
+    transition: background-color 0.3s ease;
+}
+
+.section-mission .box:hover .box-content {
+    background-color: rgba(49, 61, 93, 0.85);
+}
+
+/* === BUTTON === */
+.section-mission .btn-action {
+    display: inline-block;
+    margin: 40px auto 0;
+    padding: 14px 28px;
+    background-color: rgba(49, 61, 93, 0.9);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.section-mission .btn-action:hover {
+    background-color: rgba(49, 61, 93, 1);
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Only keep fadeUp for the button */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* === RESPONSIVE: MOBILE INTERFACE === */
+@media (max-width: 768px) {
+    .section-mission img.bg {
+        content: url("https://i.pinimg.com/1200x/9f/41/38/9f41381b03337a4393f488de76da0cd2.jpg");
+        height: 1000px;
+    }
+
+    .section-mission::after {
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+    }
+
+    .section-mission .box-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-mission .box {
+        max-width: 100%;
+    }
+
+    .section-mission .btn-action {
+        width: 100%;
+        text-align: center;
+    }
+}
+</style>
+
+<div class="section-mission">
+    <img src="" alt="Background image" class="bg">
+
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="box-row">
+                <div class="box">
+                    <div class="box-title">Mission</div>
+                    <div class="box-content">
+                        BIODAS connects Vietnamese intelligence with global science, provides comprehensive data solutions, accompanies domestic and foreign medical units, promotes biomedical research and innovation for a prosperous and humane future.
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">Vision</div>
+                    <div class="box-content">
+                        BIODAS pioneers scientific research & biomedical data, accompanies the nation's era of growth, for the health and quality of life of the community.
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">Core Values</div>
+                    <div class="box-content">
+                        BIODAS upholds Transparent Science, Technological Innovation, Collaborative Connection, Research Ethics, and For the Community.
+                    </div>
+                </div>
+            </div>
+
+            <a href="about/mission-vision-value.qmd" class="btn-action">
+                ⮕ Learn more about BIODAS's Mission - Vision - Core Values
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+```
+<br>
+
+
+
+---
+
+
+
+# BIODAS's Professional Activities
+
+```{=html}
+<style>
+.section-expertise {
+    padding: 20px 20px;
+}
+
+.section-expertise .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.section-expertise .specialty-box {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 330px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none; /* Remove link underline */
+    color: inherit; /* Keep text color */
+}
+
+.section-expertise .specialty-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section-expertise .specialty-box img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.section-expertise .box-title {
+    background-color: #e9ecef;
+    padding: 15px 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #313d5d;
+}
+</style>
+
+<div class="section-expertise">
+    <div class="container">
+        <a href="project/#category=Research" class="specialty-box">
+        <img src="https://i.pinimg.com/736x/af/23/9a/af239a7b61fd3258288f3a8350765eab.jpg" alt="Research">
+        <div class="box-title">Research</div>
+        </a>
+
+        <a href="project/#category=Project" class="specialty-box">
+        <img src="https://i.pinimg.com/736x/65/72/da/6572da506db717469e0262cf8d570a9d.jpg" alt="Project">
+        <div class="box-title">Project</div>
+        </a>
+        
+        <a href="project/#category=Training" class="specialty-box">
+        <img src="https://i.pinimg.com/736x/49/a7/db/49a7dbce7aa2ccfba1169855547f0f88.jpg" alt="Training/Workshop">
+        <div class="box-title">Training/Workshop</div>
+        </a>
+
+        <a href="project/#category=Data" class="specialty-box">
+        <img src="https://www.ue-germany.com/uploads/sites/9/2022/07/digital-business-data-sience-960x540-1.jpg?w=960" alt="Data">
+        <div class="box-title">Data</div>
+        </a>
+
+        <!-- <a href="project/#category=Biobank" class="specialty-box">
+        <img src="images/expertise/biobank.jpg" alt="Biobank">
+        <div class="box-title">Biobank</div>
+        </a> -->
+
+        <a href="project/#category=Healthcare%20market" class="specialty-box">
+        <img src="https://algorithmus.sahaarpharma.com/wp-content/uploads/2023/10/market-research.jpg" alt="Healthcare market">
+        <div class="box-title">Market Research</div>
+        </a>
+    </div>
+</div>
+```
+
+
+
+---
+
+
+
+# Latest News
+
+::: {.content-container}
+::: {.listing-block}
+<a href="latest-content.qmd"></a>
+
+::: {#latest-content}
+:::
+
+

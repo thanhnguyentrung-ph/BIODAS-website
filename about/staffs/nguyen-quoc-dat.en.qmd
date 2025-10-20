@@ -1,0 +1,213 @@
+---
+title: "MSc. Nguyen Quoc Dat"
+subtitle: "Operations Manager"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+sidebar: false
+toc: false
+repo-actions: false
+aliases: 
+  - /about/staffs/
+---
+
+```{=html}
+<style>
+/* 2-column container */
+.section-team-member {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+/* Image column */
+.section-team-member .profile-pic-wrapper {
+  flex: 0 0 280px;
+  position: sticky;
+  top: 100px;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideInLeft 1s ease forwards;
+}
+@keyframes slideInLeft {
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Image */
+.section-team-member .profile-pic {
+  width: 100%;
+  border-radius: 16px; /* slight corner rounding like Bevel Rectangle */
+  padding: 6px; /* create a border space */
+  background: linear-gradient(145deg, #ffffff, #c9c9c9); /* light-dark gradient to simulate bevel */
+  
+  box-shadow: inset 3px 3px 6px rgba(0,0,0,0.2),   /* dark inner shadow */
+              inset -3px -3px 6px rgba(255,255,255,0.7), /* light inner shadow */
+              4px 4px 10px rgba(0,0,0,0.3); /* light outer shadow */
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-team-member .profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.25),
+              inset -2px -2px 5px rgba(255,255,255,0.8),
+              6px 6px 14px rgba(0,0,0,0.4);
+}
+
+/* Content column */
+.section-team-member .profile-content {
+  flex: 1;
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  padding: 25px;
+  line-height: 1.7;
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideInRight 1s ease forwards;
+  animation-delay: 0.3s;
+}
+@keyframes slideInRight {
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Expert name: highlight + center */
+.section-team-member .profile-content h2 {
+  margin-top: 0;
+  color: #313d5d;
+  font-size: 1.8em;
+  font-weight: bold;
+  border-bottom: 2px solid #1265c9;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Text: justify, no background color */
+.section-team-member .profile-content p {
+  color: #444;
+  font-size: 1em;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  text-align: justify;
+}
+.section-team-member .profile-content p.glow {
+  opacity: 1;
+  transform: translateY(0);
+}
+.section-team-member .profile-content p:nth-of-type(1).glow { transition-delay: 0.2s; }
+.section-team-member .profile-content p:nth-of-type(2).glow { transition-delay: 0.5s; }
+.section-team-member .profile-content p:nth-of-type(3).glow { transition-delay: 0.8s; }
+
+/* Icons: center */
+.section-team-member .contact-icons {
+  margin-top: 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.section-team-member .contact-icons.glow {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1.2s;
+}
+.section-team-member .contact-icons a {
+  margin: 0 10px;
+  font-size: 1.6em;
+  color: #313d5d;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.section-team-member .contact-icons a:hover {
+  color: #1265c9;
+  transform: scale(1.2);
+}
+
+/* Back button: center */
+.section-team-member .back-btn {
+  display: block;
+  margin: 25px auto 0; /* center */
+  padding: 12px 22px;
+  background: #313d5d;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  width: fit-content;
+}
+.section-team-member .back-btn:hover {
+  background: #1265c9;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(18, 101, 201, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .section-team-member {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-team-member .profile-pic-wrapper {
+    position: relative;
+    top: auto;
+    margin-bottom: 20px;
+    width: 60%;
+  }
+  .section-team-member .profile-content {
+    width: 100%;
+  }
+}
+</style>
+
+<section class="section-team-member">
+
+  <!-- Image column -->
+  <div class="profile-pic-wrapper">
+    <img src="images/nguyen-quoc-dat.jpg" alt="Nguyen Quoc Dat" class="profile-pic" id="expert-pic">
+  </div>
+
+  <!-- Content column -->
+  <div class="profile-content">
+    <h2>MSc. Nguyen Quoc Dat</h2>
+    <p>MSc. Nguyen Quoc Dat has a solid background in public health, with nearly 10 years of experience in health system development, global health security (GHS), and implementation of clinical research. Before joining BIODAS, he participated in coordinating and implementing many healthcare projects, as well as developing training programs to enhance health capacity.</p>
+    <p>With deep expertise in program monitoring and evaluation, data analysis, and project planning in the fields of epidemiology, infectious disease control, and emergency response, he currently holds the position of Operations Manager at BIODAS. In this role, he focuses on managing and promoting research activities, organizational development, and strengthening cooperation with domestic and foreign partners.</p>
+
+    <div class="contact-icons">
+      <a href="tel:+84962613695" target="_blank"><i class="fa fa-phone"></i></a>
+      <a href="mailto:dat.nguyenquoc@biodas.net" target="_blank"><i class="fa fa-envelope"></i></a>
+    </div>
+
+    <a href="https://biodas.net/about/team.html" class="back-btn">← Back to Experts and Staff list</a>
+  </div>
+
+</section>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+// Parallax effect
+window.addEventListener("scroll", function() {
+  const pic = document.getElementById("expert-pic");
+  const offset = window.scrollY * 0.0015; 
+  pic.style.transform = `scale(${1 + offset})`;
+});
+
+// Glow on scroll
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("glow");
+    }
+  });
+}, { threshold: 0.2 });
+
+document.querySelectorAll(".profile-content p, .contact-icons, #expert-pic")
+  .forEach(el => observer.observe(el));
+</script>
+```

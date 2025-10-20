@@ -1,0 +1,263 @@
+---
+title: "Chevening Scholarships: Study in the UK on a fully-funded scholarship with Chevening"
+subtitle: "Chevening Scholarships: Study in the UK on a fully-funded scholarship with Chevening"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Chevening
+  - UK
+  - Fully-funded
+  - 2025/2026
+author: "Translated and edited by: BIODAS Team"
+date: 08/20/2025 # mm/dd/yyyy
+toc: true
+image: "https://media.licdn.com/dms/image/v2/D4D12AQG_niWAKZdyXA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1728640151097?e=2147483647&v=beta&t=I_Wj6WoF1NgpKq606-nJxFPrU4rYu969GZ1j617uWW8"
+aliases: 
+  - /media/scholarship/
+---
+
+![](https://alt.edu.vn/wp-content/uploads/2023/11/alt-feature-Chevening-Scholarship-1.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-scholarship-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-scholarship-template">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>CHEVENING FULLY FUNDED SCHOLARSHIP 2025/2026</h1>
+      <p class="hero-subtitle">Study in the UK for young global leaders</p>
+      
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="https://www.chevening.org/apply"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-07T23:59:00"
+      >
+        APPLY NOW
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== CONTENT ===== -->
+  <div class="layout">
+    <div class="main-content">
+      <br><br>
+      <p><strong>The BIODAS Team</strong> is pleased to share information about the <strong>Chevening Scholarship</strong> – the UK government's prestigious scholarship program for outstanding individuals with a desire to create positive change in their communities, countries, and globally. This is an opportunity to study for a one-year master's degree in the UK completely free of charge, opening up a journey of academic and professional development and a sustainable international leadership network.</p>
+
+      <div style="text-align:center;">
+        <iframe 
+          src="https://www.youtube.com/embed/hHDTKvt4yIY?si=7aA_ddT_g6sWoywN"
+          title="YouTube video player"
+          style="width:auto; height:auto; aspect-ratio:16/9; border:0;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+      
+      <strong>Official website:</strong> <a href="https://www.chevening.org" target="_blank">https://www.chevening.org</a></p>
+
+      <h2>1. Introduction to the Chevening Scholarship</h2>
+      <p>Chevening Scholarships enable promising young leaders from around the world to pursue a one-year master's degree at leading universities in the UK. If you have passion, influence, and a desire to solve local or global challenges, Chevening is the opportunity for you.</p>
+
+      <div class="highlight-box">
+        <ul>
+          <li>Professional and academic development.</li>
+          <li>Expand your international network.</li>
+          <li>Experience British culture.</li>
+          <li>Build a long-lasting cooperative relationship with the UK.</li>
+        </ul>
+      </div>
+
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://www.scholarshipregion.com/wp-content/uploads/elementor/thumbs/UK-Government-Chevening-Scholarships-qc0g3ibu1s0523zq02df7ib6anvlhihenpt574hz4w.jpg" class="img" />
+        </div>
+        <figcaption>
+          Illustration (Source: www.scholarshipregion.com)
+        </figcaption>
+      </figure>
+
+      <h2>2. Who can apply for the Chevening Scholarship?</h2>
+      <p>Chevening does not have any restrictions on age, gender, religion, marital status, or profession. What matters is your leadership mindset, clear goals, and potential to make a positive impact.</p>
+
+      <h3>✅ Eligibility requirements:</h3>
+      <div class="highlight-box">
+        <ul>
+          <li>Be a citizen of an eligible country.</li>
+          <li>Commit to returning to your home country for at least 2 years after the scholarship ends.</li>
+          <li>Have at least 2,800 hours of work experience.</li>
+          <li>Have a bachelor's degree that qualifies you for a master's degree in the UK.</li>
+          <li>Apply for 3 different courses and have at least 1 unconditional offer of admission.</li>
+        </ul>
+      </div>
+
+      <h3>❌ Not eligible if:</h3>
+      <div class="highlight-box">
+        <ul>
+          <li>Have British or dual British citizenship.</li>
+          <li>Have previously studied in the UK with another UK government scholarship.</li>
+          <li>Are an employee or relative of a UK government agency in the last 2 years.</li>
+        </ul>
+      </div>
+
+      <h2>3. Work experience</h2>
+      <p>Applicants need at least 2,800 hours of work experience (equivalent to 2 years full-time), which can be calculated from:</p>
+      <div class="highlight-box">
+        <ul>
+          <li>Full-time or part-time employment.</li>
+          <li>Volunteer activities.</li>
+          <li>Paid or unpaid internships.</li>
+        </ul>
+      </div>
+
+      <h2>4. Chevening Application Guide</h2>
+      <div class="highlight-box">
+        <ol>
+          <li>Check your eligibility.</li>
+          <li>Choose 3 master's courses in the UK.</li>
+          <li>Prepare your application and letters of recommendation.</li>
+          <li>Apply online through the Chevening system.</li>
+          <li>Attend an interview and submit an unconditional offer of admission.</li>
+        </ol>
+      </div>
+
+      <h2>5. Preparing for the Chevening interview</h2>
+      <p>Prepare thoroughly: master the content of your application, your career orientation, and demonstrate your leadership ability and confident English communication skills.</p>
+
+      <h2>6. Choosing a course in the UK</h2>
+      <p>Applicants need to choose 3 eligible master's programs from universities in the UK.<br>
+      <a href="https://www.chevening.org/scholarships/find-a-course/" target="_blank">Find a suitable course (Chevening Course Finder)</a></p>
+
+      <h2>7. Improving English skills</h2>
+      <p>Although Chevening does not require an English language certificate when applying, most UK universities do. Hone your skills to write better essays and perform better in interviews.</p>
+
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://asean.org/wp-content/uploads/elementor/thumbs/Chevening-pic1724738642-scaled-qt9q5iek65l9u60mnz6mswzdf7322vdce2z1lqj2iw.jpeg" class="img" />
+        </div>
+        <figcaption>
+          Illustration (Source: https://asean.org/)
+        </figcaption>
+      </figure>
+
+      <h2>8. Important timeline</h2>
+
+      <div class="timeline-flow">
+        <div class="timeline-item">
+          <span class="timeline-date">08/05/2025</span>
+          <p>Application portal opens</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">10/07/2025</span>
+          <p>Application deadline</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Oct 2025 – Jan 2026</span>
+          <p>Application screening</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Feb 2026</span>
+          <p>Interview list announced</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Mar–Apr 2026</span>
+          <p>Interviews at the British Embassy</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Jun 2026</span>
+          <p>Official results</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">07/09/2026</span>
+          <p>Offer of admission deadline</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Sep–Oct 2026</span>
+          <p>Departure for studies</p>
+        </div>
+      </div>
+
+      <h2>9. Why choose Chevening?</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Full scholarship covering all expenses.</li>
+          <li>Study at the world's most prestigious universities.</li>
+          <li>Network of over 50,000 alumni worldwide.</li>
+          <li>Become a cultural bridge between Vietnam and the UK.</li>
+        </ul>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Start preparing today!</strong><br><br>
+        Chevening is not just a scholarship – it's a gateway to becoming a global leader.<br>
+        If you have ambition, vision, and a commitment to contributing to your homeland, don't hesitate to apply for Chevening 2025/2026!</p>
+      </div>
+    
+      <br>
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <p class="share-note">Share this article</p>
+        <div class="social-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/scholarship/250820-chevening.html/" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/scholarship/250820-chevening.html/" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/scholarship/250820-chevening.html/" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="quick-info">
+        <h3>📘 Quick Info</h3>
+        <ul>
+          <li>🎓 1-year full scholarship</li>
+          <li>🌍 Study in the UK</li>
+          <li>💼 Minimum 2,800 hours of work experience</li>
+          <li>🕓 Deadline: October 7, 2025</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>🗓️ Timeline</h3>
+        <ul>
+          <li>August 5, 2025 – Applications open</li>
+          <li>October 7, 2025 – Application deadline</li>
+          <li>March–April 2026 – Interviews</li>
+          <li>July 9, 2026 – Submit offer of admission</li>
+        </ul>
+      </div>
+
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="https://www.chevening.org/apply"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-07T23:59:00"
+      >
+        APPLY NOW
+      </a>
+
+    </aside>
+  </div>
+
+</body>
+
+<!-- JS SCRIPT -->
+<script src="section-scholarship-template.js"></script>
+
+

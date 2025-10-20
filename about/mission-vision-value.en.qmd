@@ -1,0 +1,212 @@
+---
+title: Mission - Vision - Core Values
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+search: true
+toc: true
+repo-actions: false
+aliases: 
+  - /about/
+---
+
+![](images/mission-vision-value.jpg){fig-align="center" class="img-cover"}
+
+
+```{=html}
+
+<style>
+.section-mission-vision-value {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.section-mission-vision-value .core-box {
+  flex: 1 1 calc(33.333% - 20px);
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: scale(0.9);
+  transition: transform 0.8s ease, opacity 0.8s ease, box-shadow 0.3s ease;
+}
+
+/* Hover */
+.section-mission-vision-value .core-box:hover {
+  transform: scale(1.03) translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Same size images */
+.section-mission-vision-value img {
+  width: 100%;
+  height: 300px;         /* fixed height */
+  object-fit: cover;     /* crop image evenly, no distortion */
+  border-radius: 12px 12px 0 0;
+}
+
+/* Title */
+.section-mission-vision-value .title {
+  padding: 14px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #313d5d, #4a5d9d);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: box-shadow 0.3s ease;
+}
+
+.section-mission-vision-value .title:hover {
+  box-shadow: 0 0 12px rgba(74,93,157,0.8);
+}
+
+/* Content */
+.section-mission-vision-value .content {
+  padding: 16px 20px;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #333;
+}
+
+.section-mission-vision-value .content ul {
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.section-mission-vision-value .content li {
+  margin-bottom: 8px;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .section-mission-vision-value .core-box {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .section-mission-vision-value .core-box {
+    flex: 1 1 100%;
+  }
+}
+
+/* Staggered appearance effect */
+.section-mission-vision-value .mission { transform: translateX(-60px) scale(0.9); }
+.section-mission-vision-value .vision  { transform: translateX(60px) scale(0.9); }
+.section-mission-vision-value .values  { transform: translateY(60px) scale(0.9); }
+
+.section-mission-vision-value .core-box.visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0) scale(1);
+}
+
+/* Sequential delay for boxes */
+.section-mission-vision-value .mission.visible { transition-delay: 0.2s; }
+.section-mission-vision-value .vision.visible  { transition-delay: 0.4s; }
+.section-mission-vision-value .values.visible  { transition-delay: 0.6s; }
+
+/* Keyframes for li */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<div class="section-mission-vision-value">
+  <!-- Mission -->
+  <div class="core-box mission">
+    <img src="https://i.pinimg.com/1200x/97/30/11/973011450f7bbef3c9779a9f713b64ca.jpg" alt="Mission">
+    <div class="title">Mission</div>
+    <div class="content">
+      <ul>
+        <li>Connecting Vietnamese intelligence with global scientific trends</li>
+        <li>Providing comprehensive solutions: data collection, management, analysis, and technology transfer</li>
+        <li>Accompanying hospitals, research institutes, public and private healthcare units at home and abroad</li>
+        <li>Promoting biomedical research, innovation, for a prosperous and humane future</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Vision -->
+  <div class="core-box vision">
+    <img src="https://www.countrynavigator.com/hubfs/Webp.net-resizeimage%20(84).jpg" alt="Vision">
+    <div class="title">Vision</div>
+    <div class="content">
+      <ul>
+        <li>To become a pioneer in Vietnam in scientific research and biomedical data</li>
+        <li>To accompany the nation's era of growth, affirming the country's position on the world scientific map</li>
+        <li>To contribute to improving the health and quality of life for the community</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Values -->
+  <div class="core-box values">
+    <img src="https://blog.victor.org/hubfs/Blog%20Images/Team%20with%20Hands%20Together%20-%20Core%20Values.jpg" alt="Value">
+    <div class="title">Core Values</div>
+    <div class="content">
+      <ul>
+        <li><strong>Science:</strong> Transparency, standards, and objectivity in research and data analysis</li>
+        <li><strong>Innovation:</strong> Application of advanced technology, E-Health, and artificial intelligence in biomedicine</li>
+        <li><strong>Connection:</strong> A bridge of cooperation between hospitals, research institutes, businesses, and the international community</li>
+        <li><strong>Ethics:</strong> Strict adherence to ethical standards, confidentiality, and consent in research</li>
+        <li><strong>For the community:</strong> Creating specific reference data, improving the quality of treatment, and contributing to public health</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+/* Fade-in + zoom + staggered list */
+document.addEventListener("DOMContentLoaded", function() {
+  const boxes = document.querySelectorAll(".section-mission-vision-value .core-box");
+
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.9;
+
+    boxes.forEach(box => {
+      const boxTop = box.getBoundingClientRect().top;
+      if (boxTop < triggerBottom) {
+        if (!box.classList.contains("visible")) {
+          box.classList.add("visible");
+
+          // Staggered effect for list items
+          const items = box.querySelectorAll("li");
+          items.forEach((item, index) => {
+            item.style.animation = `fadeUp 0.6s ease forwards`;
+            item.style.animationDelay = `${0.2 + index * 0.15}s`;
+          });
+        }
+      }
+    });
+  };
+
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll();
+});
+</script>
+```
+<br>
+<div style="text-align:center;">
+  <h2>Contact</h2>
+
+  <p>
+    Email:
+    <strong>
+      <a href="mailto:contact@biodas.net">contact@biodas.net</a>
+    </strong>
+  </p>
+
+  <p>
+    <span style="color:#313d5d; font-weight:700;">
+      BIODAS — Science • Connection • For the Community
+    </span>
+  </p>
+</div>

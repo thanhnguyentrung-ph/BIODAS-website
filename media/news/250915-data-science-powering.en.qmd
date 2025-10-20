@@ -1,0 +1,234 @@
+---
+title: "Biomedical Data Science: Intelligence Powering the Next Era of Medicine"
+subtitle: "Biomedical Data Science: Intelligence Powering the Next Era of Medicine"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Data
+  - Data Science
+  - Biomedical
+  - Healthcare
+author: "BIODAS Team"
+date: 09/15/2025 # mm/dd/yyyy
+toc: true
+image: https://community.nasscom.in/sites/default/files/styles/560_x_350/public/media/images/Data%20Analytics%20Techniques%20for%20Next-Generation%20Sequencing%20Insights.jpg.webp?itok=lrkVV24s
+aliases: 
+  - /media/news/
+---
+
+![](https://www.etit.tu-darmstadt.de/media/etit/02_buehnenbilder/Buehne_Medizintechnik_1300x570.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-news-template">
+
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#sec-1">Introduction</a></li>
+      <li><a href="#sec-2">A New Approach in Medicine</a></li>
+      <li><a href="#sec-3">Central Role in Basic Research</a></li>
+      <li><a href="#sec-4">Transforming the Clinical Model</a></li>
+      <li><a href="#sec-5">Revolutionizing Diagnosis through Artificial Intelligence</a></li>
+      <li><a href="#sec-6">Challenges and Limitations</a></li>
+      <li><a href="#sec-7">Conclusion</a></li>
+      <li><a href="#sec-8">References</a></li>
+    </ol>
+  </nav>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <!-- 1. INTRODUCTION -->
+    <section id="sec-1">
+      <h2>1. The Importance of Biomedical Data Science: The Driving Force of Modern Medical Transformation</h2>
+      <h3>Introduction</h3>
+      <p>
+        In the era of the digital revolution, medicine is undergoing a powerful transformation — from relying on clinical experience and personal intuition to a model based on data evidence.
+      </p>
+      <p>
+        The explosion of data in the medical and biological fields, from genomics, proteomics to electronic health records (EHR), poses a challenge: how to transform this huge amount of data into valuable knowledge for patient care.
+      </p>
+      <p>
+        The answer lies in Biomedical Data Science — an interdisciplinary field that harnesses big data to drive innovation and biomedical discovery. [1]
+      </p>
+    </section>
+
+    <div style="text-align:center;">
+      <iframe 
+        src="https://www.youtube.com/embed/76LqIY7uL2w?si=iTaIgPK4IJsknmtJ"
+        title="YouTube video player"
+        style="width:600px; height:auto; aspect-ratio:16/9; border:0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- 2. A NEW APPROACH -->
+    <section id="sec-2">
+      <h2>2. A New Approach in Medicine</h2>
+      <p>
+        Biomedical data science is not just about applying technology to medicine, but a completely new approach to understanding and solving complex problems in healthcare.
+      </p>
+      <p>
+        As researchers at Wake Forest School of Medicine have noted, we are living in an era of huge and diverse data — but the challenge is not just in collecting, but also in assessing the quality and reliability of the data.
+      </p>
+      <p>
+        This requires the development of skills and thinking in biomedical data analysis to be able to work effectively in the era of big data.
+      </p>
+    </section>
+
+    <!-- 3. ROLE IN BASIC RESEARCH -->
+    <section id="sec-3">
+      <h2>3. Central Role in Basic Research [3]</h2>
+      <p>
+        The importance of biomedical data science is clearly demonstrated by the legacy of the Human Genome Project (HGP), a revolutionary milestone that transformed modern biology through the model of “integrated big science”.
+      </p>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://www.genome.gov/sites/default/files/media/images/2021-02/HGP_dynamic.jpg" alt="HGP-NIH" class="img">
+        </div>
+        <figcaption>
+          Illustration (Source: HGP-NIH)
+        </figcaption>
+      </figure>
+
+      <p>
+        The impact of the HGP is profound and multidimensional. The sequencing of the genomes of microorganisms, plants, and animals has revolutionized many scientific fields, from microbiology, virology, infectious diseases to genetics.
+      </p>
+      <p>
+        Thanks to the ability to sequence the DNA of cancer cells and compare it with data from the HGP, scientists can identify mutated genes, thereby improving the understanding of genetic diseases and developing targeted therapies.
+      </p>
+    </section>
+
+    <!-- 4. TRANSFORMING THE CLINICAL MODEL -->
+    <section id="sec-4">
+      <h2>4. Transforming the Clinical Model Through Learning Health Systems [4][6]</h2>
+      <p>
+        In the clinical field, biomedical data science is promoting a new model called Learning Health Systems (LHS).
+      </p>
+      <ul>
+        <li>Collecting data from routine clinical practice;</li>
+        <li>Analyzing data to extract new knowledge;</li>
+        <li>Translating that knowledge back into practice to improve patient care.</li>
+      </ul>
+      <p>
+        This model represents a shift from “slow evidence” to “living evidence,” helping the healthcare system to learn and adapt continuously based on real-world data.
+      </p>
+    </section>
+
+    <figure style="text-align:center;">
+      <div class="img-wrap" style="max-width:400px; margin:auto;">
+        <img 
+          src="https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20250131093850404-0988:9781009325912:32590fig1.png" 
+          alt="HGP-NIH" 
+          class="img" 
+          style="width:100%; height:auto; border-radius:8px;"
+        >
+      </div>
+      <figcaption>
+        Image: The learning cycle from data, knowledge to practice (Source: www.cambridge.org)
+      </figcaption>
+    </figure>
+
+    <!-- 5. REVOLUTIONIZING DIAGNOSIS -->
+    <section id="sec-5">
+      <h2>5. Revolutionizing Diagnosis Through Artificial Intelligence [5]</h2>
+      <p>
+        One of the most prominent applications of biomedical data science is medical imaging diagnosis using AI.
+        A recent meta-analysis of 83 studies showed that some generative AI models have diagnostic performance comparable to non-specialist physicians — with a difference of only 0.6% in accuracy.
+      </p>
+      <p>
+        This opens up great prospects in supporting diagnosis in areas with a shortage of medical personnel, while emphasizing the potential of AI in expanding access to healthcare.
+      </p>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://media.vneconomy.vn/images/upload/2025/02/24/bn4.jpg?w=900" alt="AI Diagnostic" class="img">
+        </div>
+      <figcaption>
+        Illustration (Source: Internet)
+      </figcaption>
+      </figure>
+    </section>
+
+    <!-- 6. CHALLENGES -->
+    <section id="sec-6">
+      <h2>6. Challenges and Limitations</h2>
+      <ul>
+        <li><strong>Data quality:</strong> Inaccurate, incomplete, or outdated data can lead to analytical biases and risks for patients.</li>
+        <li><strong>Ethics and privacy:</strong> The collection, sharing, and use of medical data must strictly adhere to the principles of information governance, fairness, transparency, and accountability.</li>
+        <li><strong>Human resources capacity:</strong> Requires a team with interdisciplinary knowledge of medicine, statistics, informatics, and data ethics.</li>
+      </ul>
+    </section>
+
+    <!-- 7. CONCLUSION -->
+    <section id="sec-7">
+      <h2>7. Conclusion</h2>
+      <p>
+        Biomedical data science has become a pillar of modern medicine.
+        From decoding the human genome to developing learning health systems, this field creates a synergy that helps solve many complex medical problems.
+      </p>
+      <p>
+        Although there are still many challenges, the potential to improve treatment outcomes and reduce healthcare costs is undeniable.
+        Continuous investment in research, data infrastructure, and international cooperation will be key to maximizing the potential of biomedical data science in the future.
+      </p>
+    </section>
+
+    <!-- 8. REFERENCES -->
+    <section id="sec-8">
+      <h2>8. References</h2>
+      <div class="ref">[1] <a href="https://en.wikipedia.org/wiki/Biomedical_data_science" target="_blank">Wikipedia: Biomedical Data Science</a></div>
+      <div class="ref">[2] <a href="https://www.youtube.com/watch?v=76LqIY7uL2w" target="_blank">YouTube: AI in Brain MRI</a></div>
+      <div class="ref">[3] <a href="https://doi.org/10.1186/gm483" target="_blank">Hood L, Rowen L. The Human Genome Project: big science transforms biology and medicine. Genome Med. 2013;5(9):79. doi:10.1186/gm483.</a></div>
+      <div class="ref">[4] <a href="https://www.cambridge.org/core/elements/learning-health-systems/2FFC2BE5441728E3CD866643DB543242#figures" target="_blank">Cambridge Elements: Learning Health Systems</a></div>
+      <div class="ref">[5] <a href="https://vneconomy.vn/ai-duoc-cac-benh-vien-ung-dung-trong-chan-doan-hinh-anh.htm" target="_blank">VnEconomy: AI application in diagnostic imaging</a></div>
+      <div class="ref">[6] <a href="https://doi.org/10.1002/lrh2.10259" target="_blank">Kohn MS, Topaloglu U, Kirkendall ES, Dharod A, Wells BJ, Gurcan M. Creating learning health systems and the emerging role of biomedical informatics. Learn Health Syst. 2021;6(1):e10259. doi:10.1002/lrh2.10259.</a></div>
+    </section>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Share this article</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/251015-data-science-powering.html" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=https://www.biodas.net/media/news/251015-data-science-powering.html" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.biodas.net/media/news/251015-data-science-powering.html" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title">OTHER NEWS</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+</body>
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-news-template.js"></script>
+

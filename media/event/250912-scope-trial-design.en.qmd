@@ -1,0 +1,216 @@
+---
+title: "Powering the Future of Clinical Research: SCOPE’s 3rd Annual Trial Design & Protocol Development"
+subtitle: "Powering the Future of Clinical Research: SCOPE’s 3rd Annual Trial Design & Protocol Development"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Conference
+  - International
+  - Clinical trial
+  - Online
+  - Offline
+  - Research
+author: BIODAS Team
+date: 09/12/2025 # mm/dd/yyyy
+toc: true
+image: "https://www.scopesummit.com/images/librariesprovider15/agenda/26/track-assets/c1-stream.png?sfvrsn=a0d23c71_1"
+aliases: 
+  - /media/event/
+---
+
+![](https://www.scopesummit.com/images/librariesprovider15/home/26/hero-video2.png?sfvrsn=e16066a5_1){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-event-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section class="section-event-template">
+  <div class="event-hero">
+    <div class="light-beam"></div>
+
+    <!-- PARTICLES -->
+    <div class="particle-container">
+      <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+      <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+      <div class="particle"></div><div class="particle"></div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title shimmer">International Conference: Powering the Future of Clinical Research</h1>
+      <h2 class="hero-subtitle">
+        SCOPE’s 3rd Annual Trial Design & Protocol Development
+      </h2>
+      <a href="https://register.cambridgeinnovationinstitute.com/reg/scopeeur" class="btn-register" target="_blank">
+        Register Now
+      </a>
+    </div>
+  </div>
+
+  <div class="event-body">
+
+    <h3>1. Introduction</h3>
+    <p>
+      In the era of data and technology, the success of a clinical trial lies not only in its scientific results but also in its ability to listen to and integrate the voices of patients, physicians, and research centers right from the protocol design stage.
+    </p>
+
+    <p>
+      <strong>SCOPE Conference 2026</strong> – “Powering the Future of Clinical Research,” the 3rd installment of the <em>Trial Design & Protocol Development</em> series, offers a comprehensive perspective on how to build smarter, more flexible, and more inclusive research protocols.
+    </p>
+
+    <p>
+      The event focuses on applying patient feedback, digital tools, and new clinical trial models such as decentralized (DCT), hybrid, and pragmatic trials to enhance efficiency, sustainability, and participant experience.
+    </p>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.scopesummit.com/images/librariesprovider15/agenda/26/track-assets/c1-stream.png?sfvrsn=a0d23c71_1" class="img" />
+      </div>
+      <figcaption>
+        Source: SCOPEsummit
+      </figcaption>
+    </figure>
+
+    <!-- CONFERENCE INFORMATION -->
+    <h3>2. Conference Information</h3>
+    <div class="event-callout">
+      <ul>
+        <li><strong>Location:</strong> Rosen Shingle Creek, Orlando, Florida, USA</li>
+        <li><strong>Time:</strong> February 2–5, 2026</li>
+        <li><strong>Website:</strong> <a href="https://www.scopesummit.com" target="_blank">https://www.scopesummit.com</a></li>
+      </ul>
+    </div>
+
+    <!-- COUNTDOWN -->
+    <div class="countdown-container">
+      <p id="countdown-label" class="countdown-label">The conference will take place in:</p>
+      <div class="countdown" id="countdown">
+        <div class="digit"><span id="days">00</span><small>Days</small></div>
+        <div class="digit"><span id="hours">00</span><small>Hours</small></div>
+        <div class="digit"><span id="minutes">00</span><small>Minutes</small></div>
+        <div class="digit"><span id="seconds">00</span><small>Seconds</small></div>
+      </div>
+    </div>
+
+    <p>
+      👉 <strong>Register now:</strong> 
+      <a href="https://register.cambridgeinnovationinstitute.com/reg/scopeeur" target="_blank">
+        https://register.cambridgeinnovationinstitute.com/reg/scopeeur
+      </a><br>
+      <em>(Early registration discount until September 12, 2025)</em>
+    </p>
+
+    <div class="btn-wrap">
+      <a href="https://register.cambridgeinnovationinstitute.com/reg/scopeeur" class="btn-register" target="_blank">
+        Register Now
+      </a>
+    </div>
+
+    <h3>3. Program Overview</h3>
+
+    <!-- MONDAY -->
+    <div class="event-callout">
+      <p><strong>Monday, 2/2/2026 – Pre-conference Activities</strong></p>
+      <p><em>Morning</em></p>
+      <ul>
+        <li>6:30 AM: Registration & Breakfast at the <em>Masters of Clinical Research Golf Tournament</em> – a networking and fundraising opportunity.</li>
+        <li>1:00 – 3:30 PM: Pre-conference thematic workshops:</li>
+        <ul>
+          <li>Accelerating clinical trials through collaboration – a panel discussion with ClinEco and SCOPE 365.</li>
+          <li>Towards sustainable clinical trials – reducing carbon emissions and optimizing greener processes, led by Michael Cohen (PPD/Thermo Fisher Scientific).</li>
+        </ul>
+      </ul>
+      <p><strong>Afternoon (3:50 PM): Opening Plenary Session</strong></p>
+      <ul>
+        <li>Dialogue on “Hope – A Double-Edged Sword in the Patient Experience.”</li>
+        <li>Presentation of the <em>Site Innovation Award</em> & <em>Participant Engagement Award</em>.</li>
+        <li>SCOPE 2026 Opening Reception – connect and meet international partners.</li>
+      </ul>
+    </div>
+
+    <!-- TUESDAY -->
+    <div class="event-callout">
+      <p><strong>Tuesday, 3/2/2026 – The Voice of Patients and Research Sites in Clinical Trial Design</strong></p>
+      <p><em>Morning: Integrating the patient voice into research protocol design</em></p>
+      <ul>
+        <li>“Turning Vision into Strategy: The Journey from Discrete Pilots to a Systematic Approach”</li>
+        <li>“What Patients Want Us to Understand” – results of a national survey on the clinical trial participant experience</li>
+        <li>“From Insight to Impact: Bringing the Patient Voice into Every Stage of a Clinical Trial” – a sharing from Bristol Myers Squibb</li>
+      </ul>
+      <p><em>Afternoon: Digital & Data-Driven Protocol Design</em></p>
+      <ul>
+        <li>“Optimizing Data Collection to Reduce Burden on Patients and Sites” – MSD & Tufts CSDD</li>
+        <li>“Digital Research Protocols – Accelerating and Optimizing Research” – CDISC & TransCelerate</li>
+        <li>“Combining Data Analytics and Patient Feedback to Build More Effective Research Protocols” – Eli Lilly & Company</li>
+      </ul>
+    </div>
+
+    <!-- WEDNESDAY -->
+    <div class="event-callout">
+      <p><strong>Wednesday, 4/2/2026 – Realizing a Patient-Centric Strategy</strong></p>
+      <p><em>Morning</em></p>
+      <ul>
+        <li>“A Global Strategy for Patient Engagement” – SubjectWell</li>
+        <li>“An Evidence-Based Framework for Assessing Patient-Centricity” – Yale School of Medicine & Good Pharma Scorecard</li>
+        <li>“Integrating the Patient Voice in the New ICH E6/E8 Guidelines” – Genentech</li>
+      </ul>
+      <p><em>Afternoon</em></p>
+      <ul>
+        <li>Plenary Session: <em>Rethinking Trial Design</em></li>
+        <li>Panel Discussion: When clinical research cannot be separated from medical practice and the market.</li>
+        <li>Panel Discussion: Applying AI in clinical research development – a human challenge more than a technological one.</li>
+      </ul>
+    </div>
+
+    <!-- THURSDAY -->
+    <div class="event-callout">
+      <p><strong>Thursday, 5/2/2026 – Artificial Intelligence & Innovation in Clinical Trial Design</strong></p>
+      <p><em>Theme: Technology, Data, and AI/ML for Smart Clinical Trial Design</em></p>
+      <ul>
+        <li>“AI-Powered Clinical Trials Centered on Patients and Research Sites” – Boehringer Ingelheim</li>
+        <li>“GenAI Tools to Support the Assessment of Research Protocol Complexity” – Takeda Pharmaceuticals</li>
+        <li>“Many Voices – One Goal: Responsible AI in Clinical Trials” – Medidata & HCA Healthcare</li>
+      </ul>
+      <p><strong>End of conference</strong></p>
+      <ul>
+        <li>1:25 PM: SCOPE Summit 2026 Wrap-up</li>
+        <li>Feb 2–5 & Feb 6: In-depth training courses on management, process improvement, and ICH E6(R3)/E8 practice.</li>
+      </ul>
+    </div>
+
+    <h3>4. Recommendations for Attending the Conference</h3>
+    <ul>
+      <li>✅ Stay updated on the latest clinical trial design trends: decentralized (DCT), hybrid, pragmatic</li>
+      <li>✅ Learn from over 300 leading global organizations in the clinical research field</li>
+      <li>✅ Connect with sponsors, CROs, research sites, and patient representatives</li>
+      <li>✅ Experience a network of exhibitions – yoga – golf – networking – prestigious awards, in the open, creative atmosphere of the SCOPE community</li>
+    </ul>
+
+    <hr>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Share this article:</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://biodas.net/media/event/250912-scope-trial-design.html" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=https://biodas.net/media/event/250912-scope-trial-design.html" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/event/250912-scope-trial-design.html" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COUNTDOWN SCRIPT -->
+<script>
+  const targetDate = new Date("Feb 2, 2026 08:00:00").getTime();
+</script>
+
+<script src="section-event-template.js"></script>
+
+

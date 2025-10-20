@@ -1,0 +1,325 @@
+---
+title: "Acceptance and Adoption of Artificial Intelligence (AI) in Cancer Diagnosis, Treatment, and Patient Care"
+subtitle: "Acceptance and Adoption of Artificial Intelligence (AI) in Cancer Diagnosis, Treatment, and Patient Care"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - AI
+  - Cancer
+  - Diagnosis
+  - Treatment
+  - Patient Care
+author: "Prabal Chourasia et al. | Translated and edited by: BIODAS Team"
+date: 10/10/2025 # mm/dd/yyyy
+toc: true
+image: https://i.pinimg.com/736x/10/fe/12/10fe12094076f89c72ee1795dcdf7cc3.jpg
+aliases: 
+  - /media/news/
+---
+
+![](https://pharmaphorum.com/wp-content/uploads/2020/04/AI-and-cancer-care-Three-ways-artificial-intelligence-may-transform-cancer-outcomes.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-news-template">
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#sec-1">Introduction</a></li>
+      <li><a href="#sec-2">Research Methods</a></li>
+      <li><a href="#sec-3">Research Results</a></li>
+      <li><a href="#sec-4">Acceptance of AI in Diagnosis and Decision-Making</a></li>
+      <li><a href="#sec-5">Adoption of AI in Information Seeking</a></li>
+      <li><a href="#sec-6">Ethical Perspectives on AI Use</a></li>
+      <li><a href="#sec-7">Discussion</a></li>
+      <li><a href="#sec-8">Application Recommendations for Vietnam</a></li>
+      <li><a href="#sec-9">References</a></li>
+    </ol>
+  </nav>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <!-- =============================
+     INTRO SECTION – BIODAS ARTICLE INTRO
+     ============================= -->
+    <section>
+      <p>
+        The study titled 
+        <strong>
+          <a href="https://doi.org/10.1177/23743735251380949" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style="color:#313d5d; text-decoration:underline;">
+            Acceptance and Adoption of Artificial Intelligence Among Cancer Survivors Seeking Information: A Literature Review
+          </a>
+        </strong>           
+        by the author group 
+        <em>Prabal Chourasia, Melissa Coffel, Jamie Lynn Conklin, William A. Wood, and Saif Khairat</em> 
+        was published in 2025 in the 
+        <em>Journal of Patient Experience</em>.
+      </p>
+
+      <p>
+        The research focuses on exploring the level of acceptance and adoption of artificial intelligence (AI) among cancer survivors when they seek medical information — a topic of increasing importance as AI is changing the face of global healthcare.
+      </p>
+
+      <div class="callout">
+        <p>
+          <strong>The BIODAS Team</strong> is pleased to introduce and share the content of this research with you, 
+          to provide a deeper insight into the 
+          <strong>trust, behavior, and relationship between patients – AI – doctors</strong> in the digital medical era. 
+          Let's explore the interesting findings from this work in more detail with the <strong>BIODAS Team</strong>.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- 1. Introduction -->
+    <section id="sec-1">
+      <h2>1. Introduction</h2>
+      <p>
+        Artificial intelligence (AI) in healthcare is no longer a foreign concept, but how it is implemented and the level of patient acceptance remain open questions. Although AI has been studied in healthcare since the 1970s, the real boom has only occurred in the last few decades with the potential to improve prognosis, reduce costs, and enhance the quality of care for both doctors and patients. As a multidisciplinary field, AI is gradually becoming a pillar of a patient-centered healthcare system.
+      </p>
+      <p>
+        For cancer patients, specific challenges include the lack of continuous personalized care, and patients often experience anxiety and uncertainty. These anxieties are further exacerbated in linguistic, ethnic, and racial minority groups - vulnerable communities in society. AI applications have shown positive results in mitigating these challenges while aiming to improve quality of life. However, the level of acceptance and adoption of AI by cancer patients is still not well understood.
+      </p>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.xsolis.com/wp-content/uploads/2023/05/ai-in-healthcare-3.webp" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: xsolis.com)
+      </figcaption>
+    </figure>
+
+
+    <!-- 2. Research Methods -->
+    <section id="sec-2">
+      <h2>2. Research Methods</h2>
+      <p>
+        The study <em>“Acceptance and Adoption of Artificial Intelligence Among Cancer Survivors Seeking Information: A Literature Review”</em> by Prabal Chourasia et al. (2025), published in the <em>Journal of Patient Experience</em>, conducted a systematic review following PRISMA guidelines on three main databases: PubMed, Scopus, and CINAHL Plus with Full Text.
+      </p>
+      <div class="callout">
+        <p><strong>Inclusion criteria:</strong></p>
+        <ul>
+          <li>Studies surveying people aged 18–99;</li>
+          <li>Focusing on cancer patients;</li>
+          <li>Assessing the acceptance or adoption of AI in seeking medical information;</li>
+          <li>Being original research.</li>
+        </ul>
+      </div>
+      <div class="callout">
+        <p><strong>Exclusion criteria:</strong></p>
+        <ul>
+          <li>Special patient populations (children, pregnant women...);</li>
+          <li>Studies focusing on service providers instead of patients;</li>
+          <li>Studies not about cancer patients or just conference abstracts.</li>
+        </ul>
+      </div>
+      <p>
+        The analysis process used a combination of inductive and deductive methods to identify factors of trust in AI, the usability of AI tools, and the role of personalization.
+      </p>
+    </section>
+
+    <!-- 3. Research Results -->
+    <section id="sec-3">
+      <h2>3. Research Results</h2>
+      
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a5b/12475323/f104874480e0/10.1177_23743735251380949-fig1.jpg" class="img" />
+        </div>
+        <figcaption>
+          Acceptance and Adoption of Artificial Intelligence (AI) by Cancer Patients in Information Seeking (Prabal Chourasia, 2025)
+        </figcaption>
+      </figure>
+
+      <p>
+        After screening 858 documents and removing duplicates, the research team analyzed 581 articles and selected 12 suitable studies. Among them:
+      </p>
+      <ul>
+        <li>5 studies from the United States,</li>
+        <li>2 from the UK, 2 from Germany,</li>
+        <li>1 from Canada, 1 from Norway, and 1 from China.</li>
+      </ul>
+      <p>
+        These studies included patient groups with: skin cancer, meningioma, prostate cancer, breast cancer, gastrointestinal cancer, and metastatic cancer.
+      </p>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://suckhoedoisong.qltns.mediacdn.vn/thumb_w/640/324455921873985536/2021/9/28/dieu-tri-ung-thu-2-1632796387865274138824.jpeg" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: suckhoedoisong.vn)
+      </figcaption>
+    </figure>
+
+    <!-- 4. Acceptance of AI in Diagnosis and Decision-Making -->
+    <section id="sec-4">
+      <h2>4. Acceptance of AI in Diagnosis and Decision-Making</h2>
+      <div class="card">
+        <ul>
+          <li>Patients perceive that AI helps increase diagnostic accuracy, improve access to care, and reduce costs.</li>
+          <li>They prefer the “AI-assisted – doctor-decides” model, especially in sensitive situations.</li>
+          <li>Nearly half of the respondents were not concerned about AI assisting in the diagnosis of skin cancer.</li>
+          <li>Patients trust doctors more than AI in responding to and explaining results.</li>
+          <li>AI controlled by a doctor has a significantly higher level of trust than automated AI.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://media.vneconomy.vn/images/upload/2025/02/24/bn4.jpg?w=900" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: vneconomy.vn)
+      </figcaption>
+    </figure>
+
+    <!-- 5. Adoption of AI in Information Seeking -->
+    <section id="sec-5">
+      <h2>5. Adoption of AI in Information Seeking</h2>
+      <div class="card">
+        <ul>
+          <li>Two prominent applications: <strong>AI-based educational chatbots</strong> and <strong>intelligent online search tools</strong>.</li>
+          <li>A pre-test genetic counseling chatbot was highly accepted by breast cancer patients.</li>
+          <li>Virtual conversational tools were rated as safe, convenient, easy to use, and suitable for home use.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i0.wp.com/www.nextcarehealth.com/wp-content/uploads/2022/06/Symptom-Checker.jpg?fit=1500%2C847&ssl=1" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: www.nextcarehealth.com)
+      </figcaption>
+    </figure>
+
+    <!-- 6. Ethical Perspectives on AI Use -->
+    <section id="sec-6">
+      <h2>6. Ethical Perspectives on AI Use</h2>
+      <div class="card">
+        <ul>
+          <li>The majority of participants supported being informed when their medical data is used.</li>
+          <li>Opposed the sale of medical data for commercial purposes.</li>
+          <li>Wanted data to be anonymized and used only in trusted organizations.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.bcm.edu/sites/default/files/styles/two_thirds_width_component_image/public/2024-07/2.-adobestock_667490278.jpeg?h=9defd0a7&itok=Dv_p4o1j" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: www.bcm.edu)
+      </figcaption>
+    </figure>
+
+
+    <!-- 7. Discussion -->
+    <section id="sec-7">
+      <h2>7. Discussion</h2>
+      <p>
+        The study provides a better understanding of cancer patients' perspectives on the acceptance and adoption of AI. Patient acceptance is a key factor for the successful integration of technology into healthcare.
+      </p>
+      <div class="callout">
+        <ul>
+          <li>Patients see AI as a tool to support doctors, not replace them.</li>
+          <li>AI has potential in information education through chatbots and extended search tools.</li>
+          <li>AI helps save time for doctors, increasing patient interaction and understanding.</li>
+          <li>Ethical aspects and the interpretability of AI models need to be emphasized.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 8. Application Recommendations for Vietnam -->
+    <section id="sec-8">
+      <h2>8. Application Recommendations for Vietnam</h2>
+      <div class="callout">
+        <ul>
+          <li><strong>Policies and regulations:</strong> Develop a clear legal framework, ensuring transparency and patient data protection.</li>
+          <li><strong>Training and education:</strong> Train medical staff on the use and interpretation of AI results, especially in sensitive information.</li>
+          <li><strong>Technology development:</strong> Create chatbots and AI tools suitable for Vietnamese culture and language – “AI made in Vietnam”.</li>
+          <li><strong>Practical implementation:</strong> Apply first at central-level hospitals, then expand.</li>
+          <li><strong>Research and evaluation:</strong> Survey the attitudes of Vietnamese patients to adjust implementation strategies.</li>
+        </ul>
+      </div>
+      <p>
+        The success of AI in cancer diagnosis and treatment in Vietnam depends on the balance between technological innovation and maintaining trust between doctors and patients.
+      </p>
+    </section>
+
+    <!-- 9. References -->
+    <section id="sec-9">
+      <h2>9. References</h2>
+      <div class="ref">
+        <a href="https://doi.org/10.1177/23743735251380949" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style="text-decoration: none; color: inherit;">
+          Chourasia P, Coffel M, Conklin JL, Wood WA, Khairat S. 
+          <em>Acceptance and Adoption of Artificial Intelligence Among Cancer Survivors Seeking Information: A Literature Review.</em> 
+          <strong>J Patient Exp.</strong> 2025 Sep 26;12:23743735251380949. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.1177/23743735251380949</span>. 
+          PMID: 41020165; PMCID: PMC12475323.
+        </a>
+      </div>
+    </section>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Share this article</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/251010-ai-cancer.html/" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/251010-ai-cancer.html/" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.biodas.net/media/news/251010-ai-cancer.html/" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title">OTHER NEWS</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+</body>
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-news-template.js"></script>
+

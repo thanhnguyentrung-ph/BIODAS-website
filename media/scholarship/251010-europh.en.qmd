@@ -1,0 +1,253 @@
+---
+title: "Fully Funded Europubhealth+ Master’s Scholarship 2026–2028"
+subtitle: "Fully Funded Europubhealth+ Master’s Scholarship 2026–2028"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Europubhealth+
+  - Europe
+  - Fully-funded
+  - 2026-2028
+  - Erasmus Mundus
+  - Public Health
+  - Master
+author: "Translated and edited by: BIODAS Team"
+date: 10/10/2025 # mm/dd/yyyy
+toc: true
+image: "https://www.easp.es/wp-content/uploads/2018/06/europubhealth.jpg"
+aliases: 
+  - /media/scholarship/
+---
+
+![](https://keystoneacademic-res.cloudinary.com/image/upload/element/20/200801_banner.png){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-scholarship-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<body class="section-scholarship-template">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>EUROPUBHEALTH+ FULLY FUNDED MASTER'S SCHOLARSHIP</h1>
+      <p class="hero-subtitle">A Master's program in Public Health in 2–3 European countries with a full Erasmus Mundus scholarship</p>
+      
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="https://www.europubhealth.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2026-01-08T12:00:00"
+      >
+        APPLY NOW
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== CONTENT ===== -->
+  <div class="layout">
+    <div class="main-content">
+      <br><br>
+
+      <p><strong>The BIODAS Team</strong> is pleased to introduce the <strong>Erasmus Mundus Europubhealth+ Scholarship</strong> – a fully-funded master's program in Public Health for international students, allowing them to study in 2–3 European countries, receive a dual degree from 2 leading universities, and receive financial support of €1,400/month. Notably, the program accepts students from other fields – whether you have a background in Medicine, Pharmacy, Biotechnology, or Economics, Law, or Sociology, you can apply.</p>
+
+      <p><strong>Official website:</strong> <a href="https://www.europubhealth.org" target="_blank">https://www.europubhealth.org</a></p>
+
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://www.europubhealth.org/wp-content/uploads/2024/10/Logos-2024-2025-2048x410.png.webp" class="img" />
+        </div>
+        <figcaption>Illustration (Source: www.europubhealth.org)</figcaption>
+      </figure>
+
+      <h2>1. Introduction to the Europubhealth+ program</h2>
+      <p><strong>Europubhealth+</strong> is a 2-year (120 ECTS) Erasmus Mundus Master's program in Public Health, recognized by the European Commission as a "Master of Excellence" since 2006. The program is taught by a consortium of 8 leading European universities, offering students the opportunity to study in multiple countries and receive a globally recognized dual degree.</p>
+
+      <p>The program welcomes international students with a Bachelor's degree (minimum 180 ECTS) or equivalent, from all academic fields:</p>
+
+      <div class="highlight-box">
+        <ul>
+          <li>Health sciences: Medicine, Pharmacy, Biology, Nursing, Biomedical Engineering...</li>
+          <li>Social sciences: Sociology, Economics, Law, Political Science, Anthropology...</li>
+          <li>Business administration and related fields.</li>
+        </ul>
+      </div>
+
+      <p>Objective: To train multidisciplinary professionals who can analyze and address public health challenges on a global scale, and propose and implement evidence-based policies to improve public health.</p>
+
+      <h2>2. Why choose Europubhealth+</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>✅ Full scholarship: €1,400/month + tuition fee waiver + health insurance</li>
+          <li>✅ Dual degree from 2 EU universities, internationally recognized</li>
+          <li>✅ Study in 2–3 European countries, a unique multicultural experience</li>
+          <li>✅ Accepts students from other fields – no medical background required</li>
+          <li>✅ Includes biostatistics, epidemiology, health policy, health economics</li>
+          <li>✅ Global alumni network in public health</li>
+        </ul>
+      </div>
+
+      <h2>3. Study pathway</h2>
+      <p><strong>Year 1:</strong> Foundational knowledge of Public Health (60 ECTS)</p>
+      <p>Students choose to study at 1 of the following 4 universities:</p>
+      <div class="highlight-box">
+        <ul>
+          <li>University of Sheffield – UK (English)</li>
+          <li>University College Dublin – Ireland (English)</li>
+          <li>University of Granada – Spain (Spanish)</li>
+          <li>University of Liège – Belgium (French)</li>
+        </ul>
+      </div>
+
+      <p><strong>Year 2:</strong> Specialization and Practice (60 ECTS)</p>
+      <div class="highlight-box">
+        <ul>
+          <li>Maastricht University – Netherlands (English)</li>
+          <li>Jagiellonian University – Poland (English)</li>
+          <li>EHESP School of Public Health – France (Rennes)</li>
+          <li>University of Bordeaux ISPED – France (Bordeaux)</li>
+        </ul>
+      </div>
+
+      <p>The content includes specialized modules, an internship (2–6 months), and a master's thesis.</p>
+
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://pbs.twimg.com/media/GaAArEWXcAArfol.jpg" class="img" />
+        </div>
+        <figcaption>Illustration (Source: Internet)</figcaption>
+      </figure>
+
+      <h2>4. Admission requirements</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Bachelor's degree ≥180 ECTS in any field.</li>
+          <li>No medical background required.</li>
+          <li>IELTS ≥6.5 or equivalent (depending on the pathway).</li>
+          <li>Application documents: degree & transcript, CV, motivation letter, 2 letters of recommendation, language certificate.</li>
+        </ul>
+      </div>
+
+      <h2>5. Important timeline</h2>
+      <div class="timeline-flow">
+        <div class="timeline-item"><span class="timeline-date">10/08/2025</span><p>Applications open for the 2026–2028 intake</p></div>
+        <div class="timeline-item"><span class="timeline-date">01/08/2026</span><p>Erasmus Mundus Scholarship application deadline</p></div>
+        <div class="timeline-item"><span class="timeline-date">02/18/2026</span><p>Online interviews</p></div>
+        <div class="timeline-item"><span class="timeline-date">March 2026</span><p>EM scholarship results announced</p></div>
+        <div class="timeline-item"><span class="timeline-date">03/25/2026</span><p>Self-funded application deadline</p></div>
+        <div class="timeline-item"><span class="timeline-date">September 2026</span><p>Program starts</p></div>
+      </div>
+
+      <h2>6. Erasmus Mundus Scholarship value</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Living allowance: €1,400/month (24 months = €33,600)</li>
+          <li>100% tuition fee waiver</li>
+          <li>Full-time health insurance</li>
+          <li>Total value: approximately €50,000–55,000/2 years</li>
+        </ul>
+      </div>
+
+      <h2>7. Application guide</h2>
+      <div class="highlight-box">
+        <ol>
+          <li>Create an account at <a href="https://emundus.izp.cm-uj.krakow.pl" target="_blank">emundus.izp.cm-uj.krakow.pl</a></li>
+          <li>Complete the online application (9 sections: education, experience, motivation, documents...)</li>
+          <li>Upload required and optional documents.</li>
+          <li>Online interview (02/18/2026, 15–20 minutes).</li>
+        </ol>
+      </div>
+
+      <h2>8. Selection criteria</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Motivation and career goals – 30%</li>
+          <li>Academic achievement – 25%</li>
+          <li>Professional/volunteer experience – 20%</li>
+          <li>International experience – 15%</li>
+          <li>Communication skills – 10%</li>
+        </ul>
+      </div>
+
+      <h2>9. Reasons to choose Europubhealth+</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Study at 8 leading EU universities – recognized as a "Master of Excellence".</li>
+          <li>International dual degree, study in 2–3 countries.</li>
+          <li>Integrates biostatistics, epidemiology, data science.</li>
+          <li>Global alumni network, internships at WHO, NGOs, research institutes.</li>
+          <li>Strong financial support and wide career opportunities.</li>
+        </ul>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Start preparing today!</strong><br><br>
+        Europubhealth+ is not just a master's program – it's a journey to becoming a global public health leader.<br>
+        Whether you come from Medicine, Pharmacy, Biology, or Economics, Law, Sociology – the program welcomes everyone.<br>
+        Erasmus Mundus Scholarship application deadline: <strong>01/08/2026</strong> – Don't miss out!</p>
+      </div>
+
+      <br>
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <p class="share-note">Share this article</p>
+        <div class="social-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/scholarship/251010-europh.html" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/scholarship/251010-europh.html" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/scholarship/251010-europh.html" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="quick-info">
+        <h3>📘 Quick info</h3>
+        <ul>
+          <li>🎓 Master of Public Health (2 years)</li>
+          <li>🌍 Study in 2–3 EU countries</li>
+          <li>💶 Full scholarship €1,400/month</li>
+          <li>🕓 Deadline: 01/08/2026</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>🗓️ Timeline</h3>
+        <ul>
+          <li>10/08/2025 – Applications open</li>
+          <li>01/08/2026 – EM scholarship deadline</li>
+          <li>02/18/2026 – Interviews</li>
+          <li>03/25/2026 – Self-funded deadline</li>
+        </ul>
+      </div>
+
+      <a 
+        href="https://www.europubhealth.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2026-01-08T12:00:00"
+      >
+        APPLY NOW
+      </a>
+
+    </aside>
+  </div>
+
+</body>
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-scholarship-template.js"></script>
+
+

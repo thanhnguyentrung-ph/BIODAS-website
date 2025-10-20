@@ -1,0 +1,21 @@
+---
+title: Recruitment Information
+subtitle: At BIODAS, people are at the center of all innovation. By joining us, you will not only enhance your expertise and expand international cooperation, but also contribute to creating research and projects that bring practical value to public health.
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+search: true
+repo-actions: false
+listing:
+  contents:
+  - posts 
+  - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 12
+  feed: true
+aliases: 
+  - /recruitment/
+---
