@@ -187,7 +187,7 @@ Our mission is to connect hospitals, research institutes, and public-private hea
 <script>
 /* Script để add class "visible" khi scroll xuống */
 document.addEventListener("DOMContentLoaded", function() {
-  const boxes = document.querySelectorAll(".section-introduce .service-box");
+  const boxes = document.querySelectorAll(".section-introduce-en .service-box");
   const revealOnScroll = () => {
     const triggerBottom = window.innerHeight * 0.9;
     boxes.forEach(box => {
