@@ -1,0 +1,647 @@
+/* ===============================
+    SCHOLARSHIP TEMPLATE – MODERN LIGHT BLUE THEME
+    =============================== */
+.section-scholarship-template {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    background: linear-gradient(180deg, #f9fbff 0%, #edf5ff 100%);
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- HERO BANNER ---------- */
+.section-scholarship-template .hero-banner {
+    position: relative;
+    background: linear-gradient(115deg, #00b4d8, #48cae4, #0077b6);
+    background-size: 300% 300%;
+    animation: gradientShift 10s ease infinite;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: inherit;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 119, 182, 0.3);
+}
+
+.section-scholarship-template .hero-banner::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.15), transparent 70%);
+    animation: moveLight 6s linear infinite;
+}
+
+.section-scholarship-template .hero-content {
+    z-index: 2;
+    animation: fadeIn 1.6s ease-out;
+}
+
+.section-scholarship-template .hero-content h1 {
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    background: linear-gradient(90deg, #ffffff, #e0f7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 3px 12px rgba(255, 255, 255, 0.4);
+    margin-bottom: 14px;
+}
+
+.section-scholarship-template .hero-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #f8f9fa;
+    margin-bottom: 28px;
+}
+
+/* ---------- APPLY BUTTON ---------- */
+/* .section-scholarship-template .apply-button {
+    display: inline-block;
+    background: linear-gradient(90deg, #0077b6, #00b4d8, #48cae4);
+    background-size: 300% 300%;
+    animation: gradientShift 6s ease infinite;
+    color: #fff;
+    padding: 14px 36px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 119, 182, 0.3);
+}
+
+.section-scholarship-template .apply-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 180, 216, 0.4);
+} */
+
+/* ===============================
+   APPLY BUTTON – UNIVERSAL STYLE
+   =============================== */
+.section-scholarship-template .apply-button,
+.apply-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #0077b6, #00b4d8, #48cae4);
+  background-size: 300% 300%;
+  animation: gradientShift 6s ease infinite;
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 119, 182, 0.3);
+  width: auto;
+  box-sizing: border-box;
+  margin-top: 12px;
+}
+
+/* Hover effect */
+.apply-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 180, 216, 0.4);
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ===============================
+   CLOSED BUTTON STATE
+   =============================== */
+.apply-button.closed {
+  background: linear-gradient(90deg, #6b7280, #9ca3af);
+  cursor: not-allowed;
+  box-shadow: 0 4px 12px rgba(107, 114, 128, 0.3);
+  animation: none;
+  color: #f5f5f5;
+}
+
+.apply-button.closed:hover {
+  transform: none;
+  box-shadow: 0 4px 12px rgba(107, 114, 128, 0.3);
+}
+
+
+/* ---------- MAIN LAYOUT ---------- */
+.section-scholarship-template .layout {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1250px;
+    margin: -60px auto 0;
+    padding: 0 20px 80px;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.section-scholarship-template .main-content {
+    flex: 0 0 70%;
+    background: white;
+    border-radius: 18px;
+    padding: 40px;
+    box-shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
+    animation: fadeIn 1s ease;
+}
+
+.section-scholarship-template .main-content p,
+.section-scholarship-template .main-content li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.section-scholarship-template .sidebar {
+    flex: 0 0 28%;
+    background: #f0f9ff;
+    border-radius: 16px;
+    padding: 24px 20px;
+    height: fit-content;
+    position: sticky;
+    top: 40px;
+    align-self: flex-start;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 1.4s ease;
+}
+
+/* ---------- TYPOGRAPHY ---------- */
+.section-scholarship-template h2 {
+    font-size: 22px;
+    color: #0077b6;
+    border-left: 5px solid #00b4d8;
+    padding-left: 10px;
+    margin-top: 40px;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.section-scholarship-template h3 {
+    font-size: 18px;
+    color: #023e8a;
+    margin-top: 26px;
+}
+
+.section-scholarship-template .main-content p,
+.section-scholarship-template .sidebar p,
+.section-scholarship-template li {
+    color: #334155;
+}
+
+/* ---------- HIGHTLIGHT BOX ---------- */
+.section-scholarship-template .highlight-box {
+    background: #e0f7ff;
+    border-left: 4px solid #0096c7;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 24px 0;
+    transition: all 0.4s ease;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.section-scholarship-template .highlight-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 150, 199, 0.15);
+}
+
+/* =============================
+   UNIVERSAL TIMELINE FLOW TEMPLATE
+   ============================= */
+.section-scholarship-template .timeline-flow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 55px;
+  margin-top: 36px;
+  position: relative;
+}
+
+/* --- Timeline Box --- */
+.section-scholarship-template .timeline-item {
+  position: relative;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  width: 160px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 119, 182, 0.1);
+  transition: all 0.3s ease;
+  animation: fadeInBox 0.8s ease both;
+}
+
+.section-scholarship-template .timeline-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 180, 216, 0.25);
+}
+
+/* --- Arrow between boxes --- */
+.section-scholarship-template .timeline-item::after {
+  content: "➜";
+  position: absolute;
+  top: 50%;
+  right: -38px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: #00b4d8;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  animation: arrowFlow 3s linear infinite;
+}
+
+/* Hide arrow for the last box */
+.section-scholarship-template .timeline-item:last-child::after {
+  display: none;
+}
+
+/* --- Text Styles --- */
+.section-scholarship-template .timeline-date {
+  display: block;
+  font-weight: 700;
+  color: #0077b6;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.section-scholarship-template .timeline-item p {
+  margin: 0;
+  color: #334155;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* --- Arrow Animation (flow effect) --- */
+@keyframes arrowFlow {
+  0%   { opacity: 0.1; transform: translateY(-50%) scale(1); color: #0077b6; }
+  25%  { opacity: 1;   transform: translate(4px, -50%) scale(1.15); color: #00b4d8; }
+  50%  { opacity: 0.9; transform: translate(6px, -50%) scale(1); color: #48cae4; }
+  75%  { opacity: 0.6; transform: translate(4px, -50%) scale(0.95); color: #90e0ef; }
+  100% { opacity: 0.2; transform: translateY(-50%) scale(1); color: #0077b6; }
+}
+
+/* --- Box Fade In (Sequential Timing using nth-child) --- */
+@keyframes fadeInBox {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 🔁 Tạo hiệu ứng delay tuần tự tự động cho mọi số lượng box */
+.section-scholarship-template .timeline-item {
+  --i: 0; /* Giá trị mặc định (sẽ được cập nhật tự động bằng JS) */
+  animation-delay: calc(var(--i) * 0.3s);
+}
+.section-scholarship-template .timeline-item::after {
+  animation-delay: calc(var(--i) * 0.5s);
+}
+
+/* --- Responsive: dọc khi mobile --- */
+@media (max-width: 768px) {
+  .section-scholarship-template .timeline-flow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .section-scholarship-template .timeline-item {
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .section-scholarship-template .timeline-item::after {
+    content: "⬇";
+    right: auto;
+    left: 50%;
+    top: auto;
+    bottom: -28px;
+    transform: translateX(-50%);
+    animation: arrowFlowVertical 3s linear infinite;
+  }
+
+  @keyframes arrowFlowVertical {
+    0%   { opacity: 0.1; transform: translate(-50%, 0) scale(1); color: #0077b6; }
+    25%  { opacity: 1;   transform: translate(-50%, 4px) scale(1.2); color: #00b4d8; }
+    50%  { opacity: 0.9; transform: translate(-50%, 6px) scale(1); color: #48cae4; }
+    75%  { opacity: 0.6; transform: translate(-50%, 4px) scale(0.95); color: #90e0ef; }
+    100% { opacity: 0.2; transform: translate(-50%, 0) scale(1); color: #0077b6; }
+  }
+}
+
+
+/* ---------- SIDEBAR ---------- */
+.section-scholarship-template .sidebar h3 {
+    font-size: 18px;
+    color: #023e8a;
+    border-bottom: 2px solid rgba(0, 180, 216, 0.3);
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.section-scholarship-template .sidebar ul {
+    list-style: disc;
+    padding-left: 10px;
+}
+
+.section-scholarship-template .sidebar li {
+    margin: 8px 0;
+    color: #334155;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.section-scholarship-template .sidebar .quick-info {
+    background: #e6f4ff;
+    border-left: 4px solid #0096c7;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+}
+
+.section-scholarship-template .sidebar .apply-button {
+    display: block;
+    text-align: center;
+}
+
+/* ---------- FINAL NOTE ---------- */
+.section-scholarship-template .final-note {
+    background: linear-gradient(135deg, #0096c7 0%, #00b4d8 100%);
+    padding: 24px;
+    border-radius: 12px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 0 20px rgba(0, 180, 216, 0.25);
+}
+
+.section-scholarship-template .final-note p {
+    color: #fff;
+}
+
+/* =============================
+    ẢNH & FIGURE / IMAGES & FIGURE
+    ============================= */
+.section-scholarship-template figure { 
+    text-align: center; 
+    margin: 16px 0; 
+}
+
+.section-scholarship-template .img-wrap {
+    width: 100%; 
+    overflow: hidden; 
+    border-radius: 12px; 
+    border: 1px solid #e5e7eb;
+}
+
+.section-scholarship-template .img {
+    width: 100%; 
+    display: block; 
+    margin: auto; 
+    height: auto;
+}
+
+.section-scholarship-template figcaption {
+    font-size: 13px; 
+    color: #6b7280; 
+    margin-top: 8px; 
+    text-align: center;
+}
+
+/* =============================
+   SOCIAL SHARE (section-scholarship-template)
+   ============================= */
+.section-scholarship-template .social-section { 
+  text-align: center; 
+  margin-top: 40px; 
+}
+
+.section-scholarship-template .social-section .share-note { 
+  text-align: center; 
+  color: #475569; 
+  font-weight: 600;
+  margin-bottom: 10px; 
+  font-size: 16px;
+}
+
+.section-scholarship-template .social-section .social-share { 
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 14px; 
+}
+
+.section-scholarship-template .social-section .social-share a {
+  width: 44px; 
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(0, 180, 216, 0.1);
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  color: #0077b6;
+  font-size: 1.2rem;
+  border: 1.5px solid rgba(0, 180, 216, 0.25);
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 119, 182, 0.1);
+}
+
+/* Màu riêng cho từng mạng xã hội khi hover */
+.section-scholarship-template .social-section .social-share a.fb:hover { 
+  background: #1877f2; 
+  color: #fff; 
+}
+
+.section-scholarship-template .social-section .social-share a.x:hover { 
+  background: #000; 
+  color: #fff; 
+}
+
+.section-scholarship-template .social-section .social-share a.in:hover { 
+  background: #0077b5; 
+  color: #fff; 
+}
+
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes moveLight {
+    0% { transform: translate(0%, 0%) rotate(0deg); }
+    100% { transform: translate(50%, 50%) rotate(360deg); }
+}
+
+.section-scholarship-template .show {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+@media (max-width: 900px) {
+    .section-scholarship-template .layout {
+    flex-direction: column;
+    }
+    .section-scholarship-template .main-content,
+    .section-scholarship-template .sidebar {
+    flex: 100%;
+    position: static;
+    }
+}
+
+/* =============================
+   RESPONSIVE DESIGN – MOBILE OPTIMIZATION
+   ============================= */
+@media (max-width: 768px) {
+  /* === HERO BANNER === */
+  .section-scholarship-template .hero-banner {
+    height: auto;
+    padding: 60px 16px 80px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+  }
+
+  .section-scholarship-template .hero-content h1 {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+
+  .section-scholarship-template .hero-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .section-scholarship-template .apply-button {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+
+  /* === MAIN LAYOUT === */
+  .section-scholarship-template .layout {
+    flex-direction: column;
+    padding: 0 3px 60px;
+    gap: 20px;
+  }
+
+  .section-scholarship-template .main-content {
+    flex: 100%;
+    padding: 24px 18px;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  }
+
+  .section-scholarship-template .sidebar {
+    flex: 100%;
+    margin-top: 20px;
+    padding: 18px 16px;
+    border-radius: 14px;
+    position: static;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .section-scholarship-template .sidebar h3 {
+    font-size: 16px;
+  }
+
+  .section-scholarship-template .sidebar li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* === TYPOGRAPHY === */
+  .section-scholarship-template h2 {
+    font-size: 20px;
+    margin-top: 24px;
+  }
+
+  .section-scholarship-template h3 {
+    font-size: 17px;
+  }
+
+  .section-scholarship-template p,
+  .section-scholarship-template li {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* === TIMELINE === */
+  .section-scholarship-template .timeline-flow {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .section-scholarship-template .timeline-item {
+    width: 100%;
+    padding: 16px 18px;
+    text-align: left;
+  }
+
+  .section-scholarship-template .timeline-item::after {
+    content: "⬇";
+    left: 50%;
+    right: auto;
+    top: auto;
+    bottom: -24px;
+    transform: translateX(-50%);
+  }
+
+  /* === HIGHLIGHT BOX === */
+  .section-scholarship-template .highlight-box {
+    padding: 14px 16px;
+    border-radius: 10px;
+  }
+
+  /* === FIGURE & IMAGE === */
+  .section-scholarship-template .img-wrap {
+    border-radius: 10px;
+  }
+
+  .section-scholarship-template .img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* === FINAL NOTE === */
+  .section-scholarship-template .final-note {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 32px;
+    font-size: 15px;
+  }
+
+  /* === SOCIAL SHARE === */
+  .section-scholarship-template .social-section {
+    margin-top: 32px;
+  }
+
+  .section-scholarship-template .social-share a {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}

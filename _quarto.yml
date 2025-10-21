@@ -152,8 +152,8 @@ babelquarto:
   - name: en
     text: "English"
   mainlanguage: "vi"
-  languages: ["vi","en"]
-title-en: "BIODAS - Institute of Biomedical Data and Science Research"
+  languages: ["en"]
+title-en: ""
 description-en: "BIODAS official website in English"
 author-en: author in en
 lang: vn

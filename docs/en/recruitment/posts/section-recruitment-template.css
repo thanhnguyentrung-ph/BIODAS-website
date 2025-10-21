@@ -1,0 +1,212 @@
+/* =============================
+   RECRUITMENT TEMPLATE (RESPONSIVE, NO SLIDE OR FADE-IN)
+   ============================= */
+.section-recruitment-template {
+  --bg: #f9fafb;
+  --panel: #ffffff;
+  --muted: #475569;
+  --text: #111827;
+  --accent: #0284c7;
+  --accent-2: #313d5d;
+  --ok: #16a34a;
+  --warn: #d97706;
+  --danger: #dc2626;
+  --card: #ffffff;
+  --shadow: 0 6px 18px rgba(0,0,0,.08);
+  --round: 14px;
+
+  font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* ========== HERO ========== */
+.section-recruitment-template .hero {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+.section-recruitment-template .hero h1 {
+  font-size: 40px;
+  margin: 0 0 12px;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+.section-recruitment-template .hero p {
+  font-size: 18px;
+  margin: 0 0 20px;
+  opacity: 0.9;
+}
+
+/* ===== NÚT CHUNG ===== */
+.section-recruitment-template .btn-action {
+  display: inline-block;
+  background: linear-gradient(90deg, #fff, #fff);
+  background-size: 200% 100%;
+  color: var(--accent-2);
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all .4s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+}
+.section-recruitment-template .btn-action:hover {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: white;
+  background-position: 100% 0;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+.section-recruitment-template .btn-action:after {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 5px; height: 5px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 50%;
+  transform: scale(1,1) translate(-50%);
+  opacity: 0;
+  pointer-events: none;
+}
+.section-recruitment-template .btn-action:active:after {
+  transform: scale(30,30) translate(-50%);
+  opacity: 0;
+  transition: transform 0.6s, opacity 1s;
+}
+@keyframes glow {
+  0%   { box-shadow: 0 0 0 rgba(2,132,199,0.6); }
+  50%  { box-shadow: 0 0 20px rgba(2,132,199,0.6); }
+  100% { box-shadow: 0 0 0 rgba(2,132,199,0.6); }
+}
+.section-recruitment-template .btn-action.glow {
+  animation: glow 2s infinite;
+}
+
+/* ========== LAYOUT ========== */
+.section-recruitment-template .layout {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ========== SECTION ========== */
+.section-recruitment-template section {
+  background: var(--panel);
+  border: 1px solid #cbd5e1;
+  border-radius: var(--round);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+  opacity: 1; /* bỏ hiệu ứng xuất hiện */
+  transform: none;
+}
+
+/* ========== HEADING ========== */
+.section-recruitment-template h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: var(--accent);
+  position: relative;
+  display: inline-block;
+}
+.section-recruitment-template h2::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+.section-recruitment-template h2:hover::after { width: 100%; }
+
+/* ========== CALLOUT ========== */
+.section-recruitment-template .callout {
+  background: #f0f9ff;
+  padding: 12px 14px 12px 40px;
+  border-radius: 8px;
+  margin: 14px 0;
+  position: relative;
+  transition: all 0.25s ease;
+  border-left: 4px solid var(--accent);
+}
+.section-recruitment-template .callout:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.15);
+}
+.section-recruitment-template .callout-note { border-left-color: var(--accent); }
+.section-recruitment-template .callout-tip { border-left-color: var(--ok); }
+.section-recruitment-template .callout-important { border-left-color: var(--danger); animation: pulse 1.5s infinite; }
+.section-recruitment-template .callout-warn { border-left-color: var(--warn); }
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(220,38,38,0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(220,38,38,0); }
+  100% { box-shadow: 0 0 0 0 rgba(220,38,38,0); }
+}
+
+/* ========== FOOTER ========== */
+.section-recruitment-template .footer-note {
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+  color: var(--muted);
+}
+
+/* =============================
+   RESPONSIVE DESIGN / MOBILE
+   ============================= */
+@media (max-width: 768px) {
+  .section-recruitment-template .hero {
+    padding: 40px 16px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+
+  .section-recruitment-template .hero h1 {
+    font-size: 28px;
+  }
+
+  .section-recruitment-template .hero p {
+    font-size: 16px;
+  }
+
+  .section-recruitment-template .btn-action {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  .section-recruitment-template .layout {
+    padding: 16px;
+  }
+
+  .section-recruitment-template section {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .section-recruitment-template h2 {
+    font-size: 20px;
+  }
+
+  .section-recruitment-template .callout {
+    padding: 12px;
+  }
+
+  .section-recruitment-template .footer-note {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}

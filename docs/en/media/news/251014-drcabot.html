@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<link rel="alternate" hreflang="vi" href="https://biodas.net/media/news/251014-drcabot.html" />
+<link rel="alternate" hreflang="en" href="https://biodas.net/en/media/news/251014-drcabot.en.html" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Translated and edited by: BIODAS Team">
+<meta name="dcterms.date" content="2025-10-14">
+<title>Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot and CPC-Bench</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script><script src="../../site_libs/quarto-nav/headroom.min.js"></script><script src="../../site_libs/clipboard/clipboard.min.js"></script><script src="../../site_libs/quarto-search/autocomplete.umd.js"></script><script src="../../site_libs/quarto-search/fuse.min.js"></script><script src="../../site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="../../">
+<link href="../../images/logo/BIODAS-logo-webtab.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script><script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script><script src="../../site_libs/quarto-html/popper.min.js"></script><script src="../../site_libs/quarto-html/tippy.umd.min.js"></script><script src="../../site_libs/quarto-html/anchor.min.js"></script><link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script><link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-60b224b5ca9076fce8c3334308f56d66.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script><style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #ffffff;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #ffffff;
+background: #313d5d;
+      }
+</style>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body class="section-news-template nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="https://biodas.net" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo/BIODAS-logo-horizontal-radius2.png" alt="" class="navbar-logo light-content"><img src="../../images/logo/BIODAS-logo-horizontal-radius2.png" alt="" class="navbar-logo dark-content"></a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item"><div class="dropdown" id="languages-links-parent">
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> English</button><ul class="dropdown-menu" id="languages-links"><li><a class="dropdown-item" href="https://biodas.net/media/news/251014-drcabot.html" id="language-link-vi">Tiếng Việt</a></li></ul>
+</div></li>
+<li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-giới-thiệu" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Giới thiệu</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-giới-thiệu">
+<li>
+    <a class="dropdown-item" href="../../about/introduce.html">
+ <span class="dropdown-text">Giới thiệu BIODAS</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about/mission-vision-value.html">
+ <span class="dropdown-text">Sứ mệnh - Tầm nhìn - Giá trị cốt lõi</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about/team.html">
+ <span class="dropdown-text">Nhân sự</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../project/index.html"> 
+<span class="menu-text">Hoạt động chuyên môn</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resource/index.html"> 
+<span class="menu-text">Tài nguyên</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tin-tức" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tin tức</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tin-tức">
+<li>
+    <a class="dropdown-item" href="../../media/event.html">
+ <span class="dropdown-text">Sự kiện</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../media/news.html">
+ <span class="dropdown-text">Tin tức</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../media/scholarship.html">
+ <span class="dropdown-text">Thông tin học bổng</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../recruitment/index.html"> 
+<span class="menu-text">Tuyển dụng</span></a>
+  </li>  
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
+    <a class="nav-link" href="mailto:contact@biodas.net"> <i class="bi bi-envelope" role="img" aria-label="BIODAS mail">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thanhnguyentrung-ph/BIODAS-website"> <i class="bi bi-github" role="img" aria-label="BIODAS GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/biodas-team/about/"> <i class="bi bi-linkedin" role="img" aria-label="BIODAS LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../abc"> <i class="bi bi-twitter-x" role="img" aria-label="BIODAS Twitter/X">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61580207438020"> <i class="bi bi-facebook" role="img" aria-label="BIODAS Facebook">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@BIODAS-TEAM"> <i class="bi bi-youtube" role="img" aria-label="BIODAS Youtube">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../tiktok"> <i class="bi bi-tiktok" role="img" aria-label="BIODAS TikTok">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot and CPC-Bench</li></ol></nav><a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot and CPC-Bench</h1>
+            <p class="subtitle lead">Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot and CPC-Bench</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">Dr. CaBot</div>
+                <div class="quarto-category">CPCs</div>
+                <div class="quarto-category">CPC-Bench</div>
+                <div class="quarto-category">Patient Cases</div>
+                <div class="quarto-category">NEJM</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Translated and edited by: BIODAS Team </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 14, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://cpcbench.com/assets/robot_cpc_small.png" class="img-cover img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<!-- Attach CSS file -->
+<p><link rel="stylesheet" href="section-news-template.css"></p>
+<!-- Font Awesome CDN (to display social media icons) -->
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></p>
+
+<!-- ===== PAGE LAYOUT ===== -->
+<div class="layout">
+<!-- ===== SIDEBAR - TOC ===== -->
+<nav class="toc"><h3 class="anchored">
+Table of Contents
+</h3>
+<ol>
+<li>
+<a href="#highlights">Highlights</a>
+</li>
+<li>
+<a href="#authors">About the study</a>
+</li>
+<li>
+<a href="#background">Introduction</a>
+</li>
+<li>
+<a href="#methods">Research Methods</a>
+</li>
+<li>
+<a href="#results">Key Results</a>
+</li>
+<li>
+<a href="#discussion">Discussion</a>
+</li>
+<li>
+<a href="#conclusion">Conclusion</a>
+</li>
+<li>
+<a href="#reference">References</a>
+</li>
+</ol></nav><!-- ===== MAIN CONTENT ===== --><main class="content"><pre><code>&lt;!-- ===== INTRO ===== --&gt;
+&lt;section id="intro"&gt;
+  &lt;p&gt;
+    &lt;strong&gt;The BIODAS Team&lt;/strong&gt; is pleased to share with you a recently published work from 
+    &lt;strong&gt;Harvard Medical School&lt;/strong&gt; — a major milestone in the history of medical artificial intelligence: 
+    &lt;em&gt;“&lt;a href="https://doi.org/10.48550/arXiv.2509.12194"&gt;Advancing Medical Artificial Intelligence Using a Century of Cases&lt;/a&gt;”&lt;/em&gt; (Buckley TA, Conci R, Brodeur PG, et al., 2025).
+  &lt;/p&gt;
+  &lt;p&gt;
+    For the first time in the nearly &lt;strong&gt;200-year history of the New England Journal of Medicine (NEJM)&lt;/strong&gt;, 
+    an &lt;strong&gt;AI-generated diagnosis&lt;/strong&gt; has been published alongside that of a human physician. 
+    This AI system is named &lt;strong&gt;Dr. CaBot&lt;/strong&gt; – a “virtual doctor” trained on more than 
+    &lt;strong&gt;7,102 real patient cases&lt;/strong&gt; published by NEJM over &lt;strong&gt;a century (1923–2025)&lt;/strong&gt;.
+  &lt;/p&gt;
+
+  &lt;div class="card"&gt;
+    &lt;p&gt;
+      The work was led by &lt;strong&gt;&lt;a href="https://tabuckley.com/"&gt;Thomas Buckley&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://dbmi.hms.harvard.edu/people/arjun-raj-manrai"&gt;Arjun K. Manrai&lt;/a&gt;&lt;/strong&gt;, 
+      of the &lt;em&gt;Manrai Lab&lt;/em&gt;, Department of Biomedical Informatics, Harvard Medical School, 
+      in collaboration with &lt;em&gt;Beth Israel Deaconess Medical Center&lt;/em&gt; and &lt;em&gt;Massachusetts General Hospital&lt;/em&gt;.  
+      The study also introduces &lt;strong&gt;CPC-Bench&lt;/strong&gt; – the world's first benchmark for evaluating the 
+      &lt;strong&gt;reasoning, diagnostic, and explanatory capabilities of medical AI models&lt;/strong&gt;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ===== HIGHLIGHTS ===== --&gt;
+&lt;section id="highlights"&gt;
+  &lt;h2&gt;1. Study Highlights&lt;/h2&gt;
+  &lt;div class="callout"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;NEJM publishes an AI-generated diagnosis for the first time&lt;/strong&gt; – Dr. CaBot presents alongside a real doctor.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Dr. CaBot&lt;/strong&gt; can analyze, reason, and present clinically in the style of CPCs.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;CPC-Bench&lt;/strong&gt; includes &lt;strong&gt;7,102 CPC cases&lt;/strong&gt; and &lt;strong&gt;1,021 NEJM Image Challenges&lt;/strong&gt;, validated by physicians.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;OpenAI o3&lt;/strong&gt; achieves &lt;strong&gt;top-1 diagnostic accuracy = 60%&lt;/strong&gt;, &lt;strong&gt;top-10 = 84%&lt;/strong&gt;, 
+          surpassing 20 internists (24% and 45%).&lt;/li&gt;
+      &lt;li&gt;In a blind test, &lt;strong&gt;74% of physicians mistook Dr. CaBot for a human&lt;/strong&gt; – AI was rated higher for the quality of its reasoning.&lt;/li&gt;
+      &lt;li&gt;The entire project is publicly available at: &lt;a href="https://cpcbench.com" target="_blank"&gt;https://cpcbench.com&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ===== AUTHORS ===== --&gt;
+&lt;section id="authors"&gt;
+  &lt;h2&gt;2. About the study&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;Advancing Medical Artificial Intelligence Using a Century of Cases&lt;/em&gt;&lt;br&gt;
+    &lt;strong&gt;Authors:&lt;/strong&gt; Thomas A. Buckley, Riccardo Conci, Peter G. Brodeur, Jason Gusdorf, Sourik Beltrán, 
+    Bita Behrouzi, Byron Crowe, Jacob Dockterman, Muzzammil Muhammad, Sarah Ohnigian, Andrew Sanchez, 
+    James Diao, Aashna P. Shah, Daniel Restrepo, Eric S. Rosenberg, Andrew S. Lea, Marinka Zitnik, 
+    Scott H. Podolsky, Zahir Kanjee, Raja-Elie E. Abdulnour, Jacob Koshy, Adam Rodman &amp; Arjun K. Manrai.
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;strong&gt;Institution:&lt;/strong&gt;&lt;br&gt;
+    Department of Biomedical Informatics, Harvard Medical School · Beth Israel Deaconess Medical Center · 
+    Massachusetts General Hospital · Kempner Institute for the Study of Natural and Artificial Intelligence, Harvard University.
+  &lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Contact:&lt;/strong&gt; &lt;a href="mailto:Arjun_Manrai@hms.harvard.edu"&gt;Arjun_Manrai@hms.harvard.edu&lt;/a&gt;&lt;br&gt;
+      &lt;strong&gt;Source:&lt;/strong&gt; &lt;a href="https://doi.org/10.48550/arXiv.2509.12194" target="_blank"&gt;arXiv:2509.12194&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;!-- ===== BACKGROUND ===== --&gt;
+&lt;section id="background"&gt;
+  &lt;h2&gt;3. Introduction&lt;/h2&gt;
+  &lt;p&gt;
+    Artificial intelligence (AI) is changing the approach to diagnosis and clinical decision-making. 
+    However, most models are evaluated based on output accuracy, 
+    while &lt;strong&gt;clinical reasoning&lt;/strong&gt; – the process of analysis and inference leading to a diagnosis – 
+    is the core value of medicine.
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;em&gt;Clinicopathological Conferences (CPCs)&lt;/em&gt;, 
+    initiated by Dr. &lt;strong&gt;Richard Cabot&lt;/strong&gt; in 1923 at Massachusetts General Hospital (MGH), 
+    are where experts present, argue, and defend diagnoses based on real patient case data.  
+    After a century, NEJM has published over 7,000 CPC cases – an invaluable data repository describing how humans think in medicine.  
+    The Harvard team realized that this was the foundation for building a generation of AI that could &lt;strong&gt;reason like a real doctor&lt;/strong&gt;.
+  &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;!-- Illustration --&gt;
+&lt;figure&gt;
+  &lt;div class="img-wrap"&gt;
+    &lt;img src="https://scx2.b-cdn.net/gfx/news/2025/an-ai-system-with-deta.jpg" class="img" /&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+    Image: Overview of CPC-Bench and Dr. CaBot (Source: arXiv (2025). DOI: 10.48550/arXiv.2509.12194)
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- ===== METHODS ===== --&gt;
+&lt;section id="methods"&gt;
+  &lt;h2&gt;4. Research Methods&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Collected &lt;strong&gt;7,102 CPC cases (1923–2025)&lt;/strong&gt; and &lt;strong&gt;1,021 NEJM Image Challenges (2006–2025)&lt;/strong&gt;.&lt;/li&gt;
+    &lt;li&gt;Built &lt;strong&gt;CPC-Bench&lt;/strong&gt; – a benchmark consisting of &lt;strong&gt;10 medical tasks&lt;/strong&gt; (diagnosis, testing, literature search, imaging...).&lt;/li&gt;
+    &lt;li&gt;Data was annotated and validated by &lt;strong&gt;10 internists&lt;/strong&gt; (5 residents, 5 attending physicians).&lt;/li&gt;
+    &lt;li&gt;Developed the &lt;strong&gt;Dr. CaBot&lt;/strong&gt; system based on the &lt;strong&gt;OpenAI o3&lt;/strong&gt; model, 
+        capable of finding similar cases, simulating the writing style of CPC experts, 
+        and generating conference videos using &lt;em&gt;LaTeX Beamer + TTS-HD&lt;/em&gt;.&lt;/li&gt;
+    &lt;li&gt;Compared with &lt;strong&gt;20 internists&lt;/strong&gt; and conducted a “blind” test to evaluate the human-likeness of the AI.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;!-- ===== RESULTS ===== --&gt;
+&lt;section id="results"&gt;
+  &lt;h2&gt;5. Key Results&lt;/h2&gt;
+  &lt;div class="card"&gt;
+    &lt;p&gt;
+      &lt;strong&gt;OpenAI o3&lt;/strong&gt; achieved &lt;strong&gt;Top-1 = 60%&lt;/strong&gt;, &lt;strong&gt;Top-10 = 84%&lt;/strong&gt;, 
+      far surpassing the physician group (24% and 45%). The accuracy of selecting appropriate tests reached &lt;strong&gt;98%&lt;/strong&gt;.  
+      In the “blind” test, &lt;strong&gt;74% of physicians mistook the AI for a human&lt;/strong&gt; – 
+      and even &lt;strong&gt;rated Dr. CaBot higher&lt;/strong&gt; for reasoning and educational appeal.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card"&gt;
+    &lt;p&gt;
+      In imaging, Gemini 2.5 Pro achieved 84%, o3 achieved 82%, and GPT-4o achieved 75%.  
+      However, AI is still weak in X-rays and histopathology (55–67%).  
+      When analyzing the history of CPCs over 100 years, the team discovered a shift in pathology: 
+      from 56% infectious diseases (1920s) to 68% cancer (1950s), 
+      and Dr. CaBot achieved comparable – even slightly better – performance than human experts in the 2000–2010 period.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;!-- ===== DISCUSSION ===== --&gt;
+&lt;section id="discussion"&gt;
+  &lt;h2&gt;6. Discussion&lt;/h2&gt;
+  &lt;div class="card"&gt;
+    &lt;p&gt;
+      The results show that large language models (LLMs) not only reproduce information but also &lt;strong&gt;reproduce medical thinking&lt;/strong&gt;.  
+      CPC-Bench has become a standardized measure, helping the scientific community track the progress of AI in clinical diagnosis.  
+    &lt;/p&gt;
+  &lt;/div&gt;
+  
+  &lt;div class="card"&gt;
+    &lt;p&gt;
+      &lt;strong&gt;Dr. CaBot&lt;/strong&gt; promises to become a powerful teaching tool in medical education, 
+      where learners can discuss directly with AI, learn how to form hypotheses, and perform multi-level reasoning.  
+      However, the Harvard team notes that AI still needs to improve its ability to search literature, process images, 
+      and adhere to ethical standards and patient data privacy.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ===== CONCLUSION ===== --&gt;
+&lt;section id="conclusion"&gt;
+  &lt;h2&gt;7. Conclusion&lt;/h2&gt;
+  &lt;p&gt;
+    From Dr. &lt;strong&gt;Richard Cabot&lt;/strong&gt; of the 20th century to &lt;strong&gt;Dr. CaBot&lt;/strong&gt; of the 21st century, 
+    the century-long journey of CPCs has come full circle between humans and artificial intelligence.  
+    &lt;strong&gt;Dr. CaBot&lt;/strong&gt; demonstrates that AI not only provides answers, 
+    but also &lt;strong&gt;understands and explains clinical thinking&lt;/strong&gt; – the foundation of the medical profession.  
+  &lt;/p&gt;
+  &lt;div class="callout"&gt;
+    &lt;p&gt;
+      “Dr. CaBot does not replace doctors, but demonstrates the collaboration between humans and machines in the journey of understanding medicine.”  
+      — &lt;em&gt;Harvard Medical School research team&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ===== REFERENCES ===== --&gt;
+&lt;section id="reference"&gt;
+  &lt;h2&gt;References&lt;/h2&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Buckley T.A. et al. (2025). &lt;em&gt;Advancing Medical Artificial Intelligence Using a Century of Cases.&lt;/em&gt; arXiv:2509.12194. &lt;a href="https://doi.org/10.48550/arXiv.2509.12194" target="_blank"&gt;https://doi.org/10.48550/arXiv.2509.12194&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Brinkmann R. et al. (2024). &lt;em&gt;Building a Community of Medical Learning – A Century of Case Records of the MGH in the Journal.&lt;/em&gt; N Engl J Med, 391(9):858–863.&lt;/li&gt;
+    &lt;li&gt;Kanjee Z. et al. (2023). &lt;em&gt;Accuracy of a Generative AI Model in a Complex Diagnostic Challenge.&lt;/em&gt; JAMA, 330(1):78–80.&lt;/li&gt;
+    &lt;li&gt;McDuff D. et al. (2025). &lt;em&gt;Towards Accurate Differential Diagnosis with Large Language Models.&lt;/em&gt; Nature, 642(8067):451–457.&lt;/li&gt;
+    &lt;li&gt;Rodman A. et al. (2025). &lt;em&gt;When it Comes to Benchmarks, Humans Are the Only Way.&lt;/em&gt; NEJM AI, 2(4):AIe2500143.&lt;/li&gt;
+    &lt;li&gt;Priem J. et al. (2022). &lt;em&gt;OpenAlex: A Fully Open Index of Scholarly Works.&lt;/em&gt; arXiv [cs.DL]:2205.01833.&lt;/li&gt;
+    &lt;li&gt;Diao J.A., Adamson A.S. (2022). &lt;em&gt;Representation and Misdiagnosis of Dark Skin in a Large-Scale Visual Diagnostic Challenge.&lt;/em&gt; J Am Acad Dermatol, 86(4):950–951.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/section&gt;
+
+&lt;!-- ===== SOCIAL SHARE ===== --&gt;
+&lt;div class="social-section"&gt;
+  &lt;p class="share-note"&gt;Share this article&lt;/p&gt;
+  &lt;div class="social-share"&gt;
+    &lt;a href="https://www.facebook.com/sharer/sharer.php?u=https://biodas.net/media/news/251014-drcabot.html" class="fb" title="Share on Facebook"&gt;&lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href="https://twitter.com/intent/tweet?url=https://biodas.net/media/news/251014-drcabot.html" class="x" title="Share on X / Twitter"&gt;&lt;i class="fab fa-x-twitter"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://biodas.net/media/news/251014-drcabot.html" class="in" title="Share on LinkedIn"&gt;&lt;i class="fab fa-linkedin-in"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</main>
+</div>
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section"><div class="news-list container">
+<pre><code>&lt;h2 class="section-title"&gt;OTHER NEWS&lt;/h2&gt;
+&lt;div id="biodas-news-grid" class="news-grid"&gt;&lt;/div&gt;</code></pre>
+</div>
+</section><script src="section-news-template.js"></script><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/biodas\.net\/en");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="other/lience.qmd">Bản quyền © 2025 thuộc về Công ty Cổ phần Viện Nghiên cứu Khoa học và Dữ liệu Y sinh</a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="mailto:contact@biodas.net">
+      <i class="bi bi-envelope" role="img" aria-label="BIODAS mail">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thanhnguyentrung-ph/BIODAS-website">
+      <i class="bi bi-github" role="img" aria-label="BIODAS GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/biodas-team/about/">
+      <i class="bi bi-linkedin" role="img" aria-label="BIODAS LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../abc">
+      <i class="bi bi-twitter-x" role="img" aria-label="BIODAS Twitter/X">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61580207438020">
+      <i class="bi bi-facebook" role="img" aria-label="BIODAS Facebook">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@BIODAS-TEAM">
+      <i class="bi bi-youtube" role="img" aria-label="BIODAS Youtube">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../tiktok">
+      <i class="bi bi-tiktok" role="img" aria-label="BIODAS TikTok">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../other/feeds.html">
+      <i class="bi bi-rss" role="img" aria-label="BIODAS RSS">
+</i> 
+    </a>
+  </li>  
+</ul>
+<div class="toc-actions"><ul>
+<li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/edit/main/media/news/251014-drcabot.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li>
+<li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/blob/main/media/news/251014-drcabot.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li>
+<li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li>
+</ul></div>
+</div>
+    <div class="nav-footer-right">
+<p><a href="other/ts-and-cs.qmd">Terms &amp; Conditions</a></p>
+</div>
+  </div>
+</footer>
+</body>
+<!-- JS SCRIPT -->
+</html>

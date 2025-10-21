@@ -16,7 +16,7 @@ listing:
   sort-ui: false
   filter-ui: false
   page-size: 12
-  feed: true
+  feed: false
 aliases: 
   - /media/
 ---

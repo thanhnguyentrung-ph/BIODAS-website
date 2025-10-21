@@ -1,0 +1,74 @@
+[
+  {
+    "listing": "/project/index.html",
+    "items": [
+      "/project/posts/250828-data-handbook.html",
+      "/project/posts/250824-data-training.html",
+      "/project/posts/250820-vn-medical-tourism.html",
+      "/project/posts/250902-data-kap.html"
+    ]
+  },
+  {
+    "listing": "/media/scholarship.html",
+    "items": [
+      "/media/scholarship/251010-europh.html",
+      "/media/scholarship/250925-pace-up.html",
+      "/media/scholarship/250924-pace-up.html",
+      "/media/scholarship/250922-jica.html",
+      "/media/scholarship/250820-chevening.html"
+    ]
+  },
+  {
+    "listing": "/media/news.html",
+    "items": [
+      "/media/news/251014-drcabot.html",
+      "/media/news/251010-ai-cancer.html",
+      "/media/news/250919-vn-digital-health.html",
+      "/media/news/250915-data-science-powering.html",
+      "/media/news/250909-data-science-direction.html"
+    ]
+  },
+  {
+    "listing": "/media/event.html",
+    "items": [
+      "/media/event/250929-cep.html",
+      "/media/event/250912-scope-trial-design.html",
+      "/media/event/250910-digitising-medical.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/recruitment/posts/251016-research-assistant.html",
+      "/media/news/251014-drcabot.html",
+      "/media/news/251010-ai-cancer.html",
+      "/media/scholarship/251010-europh.html",
+      "/media/event/250929-cep.html",
+      "/media/scholarship/250925-pace-up.html",
+      "/media/scholarship/250924-pace-up.html",
+      "/media/scholarship/250922-jica.html",
+      "/media/news/250919-vn-digital-health.html",
+      "/media/news/250915-data-science-powering.html",
+      "/media/event/250912-scope-trial-design.html",
+      "/media/event/250910-digitising-medical.html",
+      "/media/news/250909-data-science-direction.html",
+      "/recruitment/posts/250904-field-assistant.html",
+      "/recruitment/posts/250902-research-assistant.html",
+      "/project/posts/250828-data-handbook.html",
+      "/project/posts/250824-data-training.html",
+      "/project/posts/250820-vn-medical-tourism.html",
+      "/project/posts/250902-data-kap.html",
+      "/media/scholarship/250820-chevening.html",
+      "/recruitment/posts/250810-research-assistant.html"
+    ]
+  },
+  {
+    "listing": "/recruitment/index.html",
+    "items": [
+      "/recruitment/posts/251016-research-assistant.html",
+      "/recruitment/posts/250904-field-assistant.html",
+      "/recruitment/posts/250902-research-assistant.html",
+      "/recruitment/posts/250810-research-assistant.html"
+    ]
+  }
+]
