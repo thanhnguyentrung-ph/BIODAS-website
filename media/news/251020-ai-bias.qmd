@@ -8,7 +8,7 @@ categories:
   - AI
   - Bias
   - Health Care
-author: "Health Care và cộng sự | Dịch và biên tập: BIODAS Team"
+author: "Kadija Ferryman và cộng sự | Dịch và biên tập: BIODAS Team"
 date: 10/20/2025 # mm/dd/yyyy
 toc: true
 image: https://www.datasciencecentral.com/wp-content/uploads/2025/06/Understanding-Bias-in-AI-Models.png
