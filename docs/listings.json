@@ -21,6 +21,7 @@
   {
     "listing": "/media/news.html",
     "items": [
+      "/media/news/251020-ai-bias.html",
       "/media/news/251018-ai-surveillance.html",
       "/media/news/251016-ai-clinical-trial.html",
       "/media/news/251014-drcabot.html",
@@ -41,6 +42,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/media/news/251020-ai-bias.html",
       "/media/news/251018-ai-surveillance.html",
       "/media/news/251016-ai-clinical-trial.html",
       "/recruitment/posts/251016-research-assistant.html",

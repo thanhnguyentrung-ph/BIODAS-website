@@ -13,6 +13,22 @@ const biodasNewsList = [
   // },
 
   {
+    title: "Tái định nghĩa Thiên lệch Dữ liệu: Bài học từ AI trong Y tế",
+    desc: "Considering Biased Data as Informative Artifacts in AI-Assisted Health Care",
+    uploadDate: "2025-10-20",
+    img: "https://www.datasciencecentral.com/wp-content/uploads/2025/06/Understanding-Bias-in-AI-Models.png",
+    link: "../media/news/251020-ai-bias.html"
+  },
+
+  {
+    title: "Nhân viên y tế có nguy cơ bị “định lượng hóa” bởi AI?",
+    desc: "Medical AI and Clinician Surveillance - The Risk of Becoming Quantified Workers",
+    uploadDate: "2025-10-18",
+    img: "https://media.licdn.com/dms/image/v2/D4D10AQHBnfHGzb1ffA/image-shrink_800/B4DZlpoWApIEAc-/0/1758413808045?e=2147483647&v=beta&t=57Fx3lXOvPfawCUL0q24Q2oI5HvlA2AVfWYpTM2Ia84",
+    link: "../media/news/251018-ai-surveillance.html"
+  },
+
+  {
     title: "AI Cách mạng hóa Thử nghiệm lâm sàng (Clinical Trials): Tối ưu hóa hiệu quả và giảm thiểu rủi ro",
     desc: "AI Revolutionizing Clinical Trials: Optimizing Efficiency and Minimizing Risks",
     uploadDate: "2025-10-16",

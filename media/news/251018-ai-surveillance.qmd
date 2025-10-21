@@ -1,6 +1,6 @@
 ---
 title: "Nhân viên y tế có nguy cơ bị “định lượng hóa” bởi AI?"
-subtitle: " Medical AI and Clinician Surveillance - The Risk of Becoming Quantified Workers"
+subtitle: "Medical AI and Clinician Surveillance - The Risk of Becoming Quantified Workers"
 title-block-banner: "#313d5d"
 title-block-banner-color: "#ffffff"
 description: ""

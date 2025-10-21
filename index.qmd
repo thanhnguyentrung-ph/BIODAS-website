@@ -947,6 +947,24 @@ listing:
     let posts = [
       
       {
+        title: "Tái định nghĩa Thiên lệch Dữ liệu: Bài học từ AI trong Y tế",
+        excerpt: `
+          Bài viết dựa trên nghiên cứu của Ferryman et al. (NEJM, 2023) cho rằng dữ liệu y tế thiên lệch không chỉ là lỗi kỹ thuật, mà là “tạo tác thông tin” phản ánh giá trị, thực hành và bất bình đẳng trong hệ thống y tế.<br>
+          Thay vì “làm sạch” dữ liệu, cần hiểu và diễn giải chúng trong bối cảnh xã hội – lịch sử.<br>
+          Ba khía cạnh chính được nêu:
+          <ul>
+            <li>Giá trị xã hội: các giả định như “hiệu chỉnh chủng tộc” thể hiện định kiến di sản</li>
+            <li>Thực hành lâm sàng: dữ liệu thiếu cho thấy lỗ hổng trong ghi chép và niềm tin y tế</li>
+            <li>Bất bình đẳng sức khỏe: dữ liệu phản ánh sự chậm trễ chẩn đoán và phân biệt trong điều trị</li>
+          </ul>
+          Tác giả đề xuất cách tiếp cận xã hội – kỹ thuật (sociotechnical), kết hợp công nghệ với đạo đức và công bằng sức khỏe.<br>
+          Đối với Việt Nam, tư duy này giúp xây dựng hệ thống dữ liệu y tế công bằng và minh bạch, biến AI thành công cụ thúc đẩy — chứ không củng cố — bất bình đẳng.
+        `,
+        link: "./media/news/251020-ai-bias.html",
+        img: "https://www.datasciencecentral.com/wp-content/uploads/2025/06/Understanding-Bias-in-AI-Models.png"
+      },
+      
+      {
         title: "Nhân viên y tế có nguy cơ bị “định lượng hóa” bởi AI?",
         excerpt: `
           Mặc dù AI trong y học được tạo ra để giảm gánh nặng hành chính và nâng cao chất lượng điều trị, nhưng nó cũng có thể trở thành công cụ giám sát và kiểm soát hành vi chuyên môn của bác sĩ.<br>

@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vn" xml:lang="vn"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.20">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Health Care và cộng sự | Dịch và biên tập: BIODAS Team">
+<meta name="dcterms.date" content="2025-10-20">
+
+<title>Tái định nghĩa Thiên lệch Dữ liệu: Bài học từ AI trong Y tế</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo/BIODAS-logo-webtab.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bd0f20613ab34a035844aaae9062fb4e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-47f6bc9baea45dae607d80138c43eca6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #ffffff;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #ffffff;
+background: #313d5d;
+      }
+</style>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="section-news-template nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="https://biodas.net" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo/BIODAS-logo-horizontal-radius2.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/logo/BIODAS-logo-horizontal-radius2.png" alt="" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-giới-thiệu" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Giới thiệu</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-giới-thiệu">    
+        <li>
+    <a class="dropdown-item" href="../../about/introduce.html">
+ <span class="dropdown-text">Giới thiệu BIODAS</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about/mission-vision-value.html">
+ <span class="dropdown-text">Sứ mệnh - Tầm nhìn - Giá trị cốt lõi</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about/team.html">
+ <span class="dropdown-text">Nhân sự</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../project/index.html"> 
+<span class="menu-text">Hoạt động chuyên môn</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resource/index.html"> 
+<span class="menu-text">Tài nguyên</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tin-tức" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tin tức</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tin-tức">    
+        <li>
+    <a class="dropdown-item" href="../../media/event.html">
+ <span class="dropdown-text">Sự kiện</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../media/news.html">
+ <span class="dropdown-text">Tin tức</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../media/scholarship.html">
+ <span class="dropdown-text">Thông tin học bổng</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../recruitment/index.html"> 
+<span class="menu-text">Tuyển dụng</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contact@biodas.net"> <i class="bi bi-envelope" role="img" aria-label="BIODAS mail">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thanhnguyentrung-ph/BIODAS-website"> <i class="bi bi-github" role="img" aria-label="BIODAS GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/biodas-team/about/"> <i class="bi bi-linkedin" role="img" aria-label="BIODAS LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../abc"> <i class="bi bi-twitter-x" role="img" aria-label="BIODAS Twitter/X">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61580207438020"> <i class="bi bi-facebook" role="img" aria-label="BIODAS Facebook">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@BIODAS-TEAM"> <i class="bi bi-youtube" role="img" aria-label="BIODAS Youtube">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../tiktok"> <i class="bi bi-tiktok" role="img" aria-label="BIODAS TikTok">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tái định nghĩa Thiên lệch Dữ liệu: Bài học từ AI trong Y tế</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Tái định nghĩa Thiên lệch Dữ liệu: Bài học từ AI trong Y tế</h1>
+            <p class="subtitle lead">Considering Biased Data as Informative Artifacts in AI-Assisted Health Care</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">Bias</div>
+                <div class="quarto-category">Health Care</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Health Care và cộng sự | Dịch và biên tập: BIODAS Team </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 20, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://assets-global.website-files.com/5ab16d21eba35cdb2416f449/64597a9d5b04415faed315e8_Bias%20Types%20in%20AI%20Healthcare.jpg" class="img-cover img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc">
+    <h3 class="anchored">Mục lục</h3>
+    <ol>
+      <li><a href="#sec-1">Giới thiệu</a></li>
+      <li><a href="#sec-2">Đặt vấn đề</a></li>
+      <li><a href="#sec-3">Ba khía cạnh chính: Khi dữ liệu trở thành “tạo tác”</a></li>
+      <li><a href="#sec-4">Hướng tiếp cận xã hội – kỹ thuật</a></li>
+      <li><a href="#sec-5">Ứng dụng tại Việt Nam</a></li>
+      <li><a href="#sec-6">Kết luận</a></li>
+      <li><a href="#sec-7">Tài liệu tham khảo</a></li>
+    </ol>
+  </nav>
+
+  <!-- Nội dung chính -->
+  <main class="content">
+
+    <!-- 1. Giới thiệu -->
+    <section id="sec-1">
+      <h2 class="anchored">1. Giới thiệu</h2>
+      <p>
+        Bài tổng quan 
+        <strong>
+          <a href="https://doi.org/10.1056/nejmra2214964" target="_blank" rel="noopener noreferrer" style="color:#313d5d; text-decoration:underline;">
+            “Considering Biased Data as Informative Artifacts in AI-Assisted Health Care”
+          </a>
+        </strong> 
+        của <em>Kadija Ferryman</em> (Johns Hopkins University), <em>Maxine Mackintosh</em> (Genomics England) 
+        và <em>Marzyeh Ghassemi</em> (MIT), được đăng trên <em>The New England Journal of Medicine</em> (2023), 
+        đã đặt ra một góc nhìn mới mẻ về dữ liệu y tế trong kỷ nguyên trí tuệ nhân tạo (AI).
+      </p>
+
+      <p>
+        Thay vì xem dữ liệu bị thiên lệch như “rác thải kỹ thuật” cần loại bỏ theo quan niệm 
+        <strong>“garbage in – garbage out”</strong>, nhóm tác giả cho rằng chính những sai lệch này 
+        là <strong>“những tạo tác giàu thông tin” (informative artifacts)</strong> — phản chiếu 
+        giá trị, tập quán và bất bình đẳng đã ăn sâu trong hệ thống y tế hiện đại. 
+        Việc xem dữ liệu như những “di chỉ xã hội” có thể giúp chúng ta hiểu rõ hơn 
+        về cách công nghệ phản ánh và đôi khi khuếch đại bất công trong chăm sóc sức khỏe.
+      </p>
+
+      <p>
+        Quan điểm này gợi ý rằng, thay vì chỉ cố gắng “sửa lỗi” trong dữ liệu, 
+        giới khoa học cần học cách “đọc hiểu” chúng — như cách các nhà khảo cổ học diễn giải những cổ vật 
+        để hiểu về xã hội thời xưa. Dữ liệu lâm sàng, nếu được nhìn nhận như một loại “tạo tác”, 
+        có thể tiết lộ nhiều điều về tổ chức bệnh viện, văn hóa nghề nghiệp, và cách xã hội đánh giá 
+        sức khỏe và giá trị con người.
+      </p>
+
+      <div class="callout">
+        <p>
+          <strong>BIODAS Team</strong> giới thiệu tổng quan này nhằm khuyến khích tư duy phản biện về 
+          cách dữ liệu và thuật toán định hình công bằng y tế. Khi hiểu rõ nguồn gốc của thiên lệch, 
+          chúng ta có thể chuyển hóa AI từ công cụ dự đoán sang công cụ phát hiện bất bình đẳng sức khỏe.
+        </p>
+      </div>
+
+    </section>
+
+    <figure class="figure">
+      <div class="img-wrap">
+        <img src="https://www.nejm.org/cms/asset/163c849b-e0dd-4350-8bd8-449b82b00ab1/nejmra2214964_f1.jpg" class="img figure-img">
+      </div>
+      <figcaption>
+        Hình ảnh minh họa (Nguồn: https://www.nejm.org)
+      </figcaption>
+    </figure>
+
+
+    <!-- 2. Đặt vấn đề -->
+    <section id="sec-2">
+      <h2 class="anchored">2. Đặt vấn đề</h2>
+      <p>
+        Trong chăm sóc sức khỏe hiện đại, các hệ thống AI phụ thuộc gần như hoàn toàn vào 
+        những tập dữ liệu khổng lồ đã được gán nhãn. Khi những dữ liệu này phản ánh sự khác biệt 
+        về chủng tộc, giới tính, hoặc điều kiện kinh tế – xã hội, AI có thể vô tình 
+        <strong>tái tạo các định kiến xã hội</strong> — hiện tượng được gọi là 
+        <em>phân biệt đối xử thuật toán (algorithmic discrimination)</em>.
+      </p>
+
+      <div class="card">
+        <p>
+          Ví dụ, trong một nghiên cứu về X-quang ngực, hệ thống AI được huấn luyện bằng hàng nghìn hình ảnh 
+          vẫn thể hiện xu hướng <strong>chẩn đoán thiếu (underdiagnosis)</strong> ở nhóm bệnh nhân da đen và 
+          người gốc Mỹ Latin, đặc biệt là phụ nữ. Điều này xảy ra bởi vì 
+          dữ liệu ban đầu vốn đã không phản ánh công bằng tình hình bệnh lý của các nhóm dân số.
+        </p>
+      </div>
+
+      <p>
+        Theo Ferryman và cộng sự, vấn đề không chỉ nằm ở dữ liệu “bị sai” mà còn ở cách chúng ta hiểu dữ liệu. 
+        Dữ liệu lâm sàng là sản phẩm của bối cảnh xã hội, quy trình tổ chức và quyết định chuyên môn; 
+        vì vậy, mỗi “thiên lệch” là một chỉ dấu của văn hóa và lịch sử ngành y. 
+        Thay vì loại bỏ, chúng ta có thể học từ những thiên lệch đó để cải thiện công bằng sức khỏe.
+      </p>
+    </section>
+
+    <figure class="figure">
+      <div class="img-wrap">
+        <img src="https://www.quantib.com/hs-fs/hubfs/assets/images/blog/Blog%20and%20news%20images/Example%20of%20algorithm%20bias%20in%20healthcare%20-%20coverage%20bias%20-%20AI%20in%20radiology%20-%20Quantib.png?width=1052&amp;name=Example%20of%20algorithm%20bias%20in%20healthcare%20-%20coverage%20bias%20-%20AI%20in%20radiology%20-%20Quantib.png" class="img figure-img">
+      </div>
+      <figcaption>
+        Hình ảnh minh họa (Nguồn: https://www.quantib.com)
+      </figcaption>
+    </figure>
+
+    <!-- 3. Ba khía cạnh -->
+    <section id="sec-3">
+      <h2 class="anchored">3. Ba khía cạnh chính: Khi dữ liệu trở thành “tạo tác”</h2>
+
+      <h3 class="anchored">3.1. Dữ liệu và giá trị xã hội</h3>
+      <div class="card">
+        <p>
+          “Hiệu chỉnh chủng tộc” trong ước tính chức năng thận (eGFR) từng được xem là cải tiến khoa học, 
+          nhưng thực chất phản ánh giả định rằng người da đen có khối cơ cao hơn – một di sản từ thời 
+          cơ thể nam giới da trắng được xem là “chuẩn mực sinh học”. 
+          Khi những công thức này được đưa vào AI, chúng tiếp tục tái sản xuất định kiến chủng tộc 
+          dưới lớp vỏ trung lập của thuật toán.
+        </p>
+        <p>
+          Nhìn từ góc độ “tạo tác”, việc tồn tại các biến số “race correction” không chỉ là lỗi thống kê, 
+          mà là dấu vết của một giai đoạn lịch sử khi khoa học y học được xây dựng trên nền tảng phân biệt chủng tộc. 
+          Thừa nhận và phân tích nguồn gốc của các “giá trị ẩn” này chính là bước đầu tiên 
+          để hướng tới AI y tế có trách nhiệm hơn.
+        </p>
+      </div>
+
+      <h3 class="anchored">3.2. Dữ liệu và thực hành lâm sàng</h3>
+      <div class="card">
+        <p>
+          Nhiều bệnh án điện tử thiếu dữ liệu về bản dạng giới, tình trạng khuyết tật hoặc yếu tố xã hội. 
+          Sự “thiếu vắng dữ liệu” này không đơn thuần là lỗi kỹ thuật, 
+          mà phản ánh sự thiếu đồng nhất trong ngôn ngữ y học, rào cản niềm tin giữa bác sĩ và bệnh nhân, 
+          cũng như hạn chế trong đào tạo nhân viên y tế về đa dạng giới. 
+          Theo nhóm tác giả, nếu tiếp cận theo hướng “tạo tác”, chúng ta có thể dùng AI 
+          để nhận diện nơi nào dữ liệu bị thiếu, từ đó khơi mở các câu hỏi về công bằng và đại diện trong y tế.
+        </p>
+        <p>
+          AI, khi được sử dụng đúng cách, có thể phát hiện những “khoảng trống dữ liệu” — 
+          chẳng hạn như việc thiếu dữ liệu của nhóm dân tộc thiểu số hoặc bệnh nhân LGBTQ+ — 
+          và biến chúng thành tín hiệu để nghiên cứu sâu hơn về bất bình đẳng hệ thống.
+        </p>
+      </div>
+
+      <h3 class="anchored">3.3. Dữ liệu và bất bình đẳng sức khỏe</h3>
+      <div class="card">
+        <p>
+          Trong lĩnh vực ung thư phổi, dữ liệu cho thấy bệnh nhân da đen thường được chẩn đoán muộn hơn người da trắng, 
+          khiến AI “học” rằng nhóm này có tiên lượng xấu hơn. 
+          Nếu không xem xét bối cảnh xã hội, mô hình AI sẽ củng cố chính những bất công mà nó nên khắc phục. 
+          Khi coi dữ liệu như tạo tác, nhà nghiên cứu có thể phát hiện và làm sáng tỏ 
+          những chuỗi loại trừ mang tính hệ thống trong y tế, chẳng hạn như sự thiếu tiếp cận 
+          dịch vụ sàng lọc sớm, chi phí điều trị cao, hoặc định kiến trong quy trình phân loại bệnh.
+        </p>
+      </div>
+
+      <div class="callout">
+        <p><em>“Dữ liệu y tế không chỉ nói về bệnh nhân – chúng nói về toàn bộ hệ thống chăm sóc và những gì xã hội coi trọng.”</em></p>
+      </div>
+    </section>
+
+    <!-- 4. Cách tiếp cận xã hội - kỹ thuật -->
+    <section id="sec-4">
+      <h2 class="anchored">4. Hướng tiếp cận xã hội – kỹ thuật (sociotechnical)</h2>
+      <p>
+        Ferryman và cộng sự đề xuất một khung phân tích kết hợp giữa công nghệ, đạo đức và xã hội, 
+        nhằm mở rộng cách hiểu về thiên lệch dữ liệu. Thay vì chỉ “vá lỗi” kỹ thuật, 
+        họ đề nghị một cách tiếp cận toàn diện hơn, kết hợp dữ liệu, con người và bối cảnh xã hội.
+      </p>
+
+      <div class="callout">
+        <ul>
+          <li><strong>Vượt qua “làm sạch dữ liệu”:</strong> Không chỉ loại bỏ sai lệch mà cần diễn giải nguyên nhân xã hội – lịch sử đằng sau dữ liệu đó.</li>
+          <li><strong>Hợp tác liên ngành:</strong> Kết nối bác sĩ, kỹ sư, nhà đạo đức học, và nhà xã hội học để đồng kiến tạo giải pháp.</li>
+          <li><strong>Đồng bộ với công bằng sức khỏe:</strong> Xem AI không chỉ là công cụ phát hiện bệnh, mà là công cụ phát hiện bất bình đẳng.</li>
+        </ul>
+      </div>
+
+      <p>
+        Cách tiếp cận này đưa AI ra khỏi phạm vi “công nghệ thuần túy”, 
+        hướng tới một mô hình phát triển mang tính phản tư và nhân văn hơn. 
+        Nó cũng mở ra cơ hội sử dụng AI như công cụ xã hội học để soi chiếu chính các cấu trúc bất công 
+        mà dữ liệu phản ánh.
+      </p>
+    </section>
+
+    <figure class="figure">
+      <div class="img-wrap">
+        <img src="https://www.wsp.com/-/media/insights/canada/image/2019/sociotechnical_system-en.png?h=399&amp;iar=0&amp;w=563&amp;hash=FC79760F519720C6F8C9013AB24A4E5D" class="img figure-img">
+      </div>
+      <figcaption>
+        Hình ảnh minh họa (Nguồn: https://www.wsp.com)
+      </figcaption>
+    </figure>
+
+    <!-- 5. Việt Nam -->
+    <section id="sec-5">
+      <h2 class="anchored">5. Ứng dụng tại Việt Nam</h2>
+      <p>
+        Trong bối cảnh Việt Nam đang xây dựng hạ tầng dữ liệu y tế quốc gia và triển khai bệnh án điện tử, 
+        tư duy “dữ liệu như tạo tác” đặc biệt có ý nghĩa:
+      </p>
+
+      <div class="callout">
+        <ul>
+          <li>Giúp đánh giá thiên lệch tiềm ẩn trong dữ liệu y tế, từ vùng miền đến giới tính và điều kiện kinh tế.</li>
+          <li>Đặt nền tảng cho khung đạo đức dữ liệu và chính sách minh bạch khi ứng dụng AI trong y tế công.</li>
+          <li>Khuyến khích hợp tác giữa y học, khoa học dữ liệu và khoa học xã hội để đảm bảo công bằng sức khỏe.</li>
+        </ul>
+      </div>
+      
+      <p>
+        Các dự án quốc gia như hồ sơ sức khỏe điện tử, dữ liệu tiêm chủng, hoặc hệ thống dự báo dịch bệnh 
+        cần được thiết kế với ý thức xã hội – kỹ thuật này. 
+        Việc lưu ý đến thiên lệch dữ liệu (ví dụ: bệnh nhân vùng sâu, dân tộc thiểu số ít được ghi nhận) 
+        có thể giúp ngăn ngừa việc tái tạo bất bình đẳng trong y tế số.
+      </p>
+      <div class="callout">
+        <p><em>Nhận diện thiên lệch không phải để loại bỏ dữ liệu, mà để hiểu sâu hơn về chính hệ thống đã sinh ra dữ liệu đó — từ đó kiến tạo công bằng y tế bền vững.</em></p>
+      </div>
+    </section>
+
+    <!-- 6. Kết luận -->
+    <section id="sec-6">
+      <h2 class="anchored">6. Kết luận</h2>
+      <p>
+        “Thiên lệch dữ liệu” không chỉ là lỗi kỹ thuật – nó là tấm gương phản chiếu lịch sử, văn hóa và cấu trúc xã hội. 
+        Khi xem dữ liệu như “tạo tác thông tin”, chúng ta có thể dùng AI để soi chiếu những bất bình đẳng tiềm ẩn, 
+        thay vì vô tình củng cố chúng. 
+      </p>
+      <p>
+        Đây chính là bước chuyển từ “AI chính xác” sang “AI công bằng” — 
+        một hướng đi cần thiết để đảm bảo rằng tiến bộ công nghệ luôn gắn liền với nhân văn và công lý trong y học số. 
+        Như Ferryman và đồng nghiệp kết luận, “một hệ thống AI y tế chỉ thực sự thông minh khi nó hiểu rõ lịch sử và giá trị con người ẩn trong dữ liệu mà nó học từ đó.”
+      </p>
+    </section>
+
+    <!-- 7. Tài liệu tham khảo -->
+    <section id="sec-7">
+      <h2 class="anchored">7. Tài liệu tham khảo</h2>
+      <ol>
+        <li>Ferryman K, Mackintosh M, Ghassemi M. <em>Considering Biased Data as Informative Artifacts in AI-Assisted Health Care.</em> N Engl J Med. 2023;389(9):833–838. DOI: <a href="https://doi.org/10.1056/NEJMra2214964" target="_blank">10.1056/NEJMra2214964</a>.</li>
+        <li>Obermeyer Z, Powers B, Vogeli C, Mullainathan S. <em>Dissecting racial bias in an algorithm used to manage the health of populations.</em> Science. 2019;366:447–453.</li>
+        <li>Inker LA et al. <em>New creatinine- and cystatin C–based equations to estimate GFR without race.</em> N Engl J Med. 2021;385:1737–1749.</li>
+        <li>Chen IY, Joshi S, Ghassemi M. <em>Treating health disparities with artificial intelligence.</em> Nat Med. 2020;26:16–17.</li>
+      </ol>
+    </section>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Chia sẻ bài viết này</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/251020-ai-bias.html/" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/251020-ai-bias.html/" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://biodas.net/media/news/251020-ai-bias.html/" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title anchored">MỘT SỐ TIN TỨC KHÁC</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<script src="section-news-template.js"></script>
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/biodas\.net");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="other/lience.qmd">Bản quyền © 2025 thuộc về Công ty Cổ phần Viện Nghiên cứu Khoa học và Dữ liệu Y sinh</a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contact@biodas.net">
+      <i class="bi bi-envelope" role="img" aria-label="BIODAS mail">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thanhnguyentrung-ph/BIODAS-website">
+      <i class="bi bi-github" role="img" aria-label="BIODAS GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/biodas-team/about/">
+      <i class="bi bi-linkedin" role="img" aria-label="BIODAS LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../abc">
+      <i class="bi bi-twitter-x" role="img" aria-label="BIODAS Twitter/X">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61580207438020">
+      <i class="bi bi-facebook" role="img" aria-label="BIODAS Facebook">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@BIODAS-TEAM">
+      <i class="bi bi-youtube" role="img" aria-label="BIODAS Youtube">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../tiktok">
+      <i class="bi bi-tiktok" role="img" aria-label="BIODAS TikTok">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../other/feeds.html">
+      <i class="bi bi-rss" role="img" aria-label="BIODAS RSS">
+</i> 
+    </a>
+  </li>  
+</ul>
+    <div class="toc-actions"><ul><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/edit/main/media/news/251020-ai-bias.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/blob/main/media/news/251020-ai-bias.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p><a href="other/ts-and-cs.qmd">Terms &amp; Conditions</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body><!-- JS SCRIPT --></html>
