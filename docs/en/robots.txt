@@ -1,1 +1,1 @@
-Sitemap: https://biodas.net/en/sitemap.xml
+Sitemap: https://dainty-daffodil-808a44.netlify.app/en/sitemap.xml
