@@ -13,6 +13,14 @@ const biodasNewsList = [
   // },
 
   {
+    title: "AI Cách mạng hóa Thử nghiệm lâm sàng (Clinical Trials): Tối ưu hóa hiệu quả và giảm thiểu rủi ro",
+    desc: "AI Revolutionizing Clinical Trials: Optimizing Efficiency and Minimizing Risks",
+    uploadDate: "2025-10-16",
+    img: "https://credevo.com/articles/wp-content/uploads/2025/07/AI_Driven_Protocol_Design_for_Faster_Smarter_Clinical_Trials-1024x576.png",
+    link: "../media/news/251016-ai-clinical-trial.html"
+  },
+
+  {
     title: "Nâng cao Trí tuệ nhân tạo Y học từ Dữ liệu Ca bệnh trong 100 năm: Dr. CaBot và CPC-Bench",
     desc: "Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot và CPC-Bench",
     uploadDate: "2025-10-14",

@@ -947,6 +947,46 @@ listing:
     let posts = [
       
       {
+        title: "Nhân viên y tế có nguy cơ bị “định lượng hóa” bởi AI?",
+        excerpt: `
+          Mặc dù AI trong y học được tạo ra để giảm gánh nặng hành chính và nâng cao chất lượng điều trị, nhưng nó cũng có thể trở thành công cụ giám sát và kiểm soát hành vi chuyên môn của bác sĩ.<br>
+          <b>Ba hình thức phổ biến gồm:</b>
+          <ul>
+            <li>Ambient AI Scribe: ghi âm và phân tích hội thoại bác sĩ–bệnh nhân để đánh giá hiệu suất</li>
+            <li>Phân tích tin nhắn EHR: theo dõi phản hồi và “mức độ đồng cảm” của bác sĩ</li>
+            <li>Ghi vết dữ liệu hành chính: hỗ trợ an toàn nhưng tiềm ẩn rủi ro pháp lý</li>
+          </ul>
+          Những người dễ bị ảnh hưởng nhất là bác sĩ trẻ, bác sĩ nội trú và nhân viên hợp đồng.<br>
+          Một số đề xuất các biện pháp ứng phó như:
+          <ul>
+            <li>Tham gia phản biện công khai và quản trị AI trong bệnh viện</li>
+            <li>Vận động chính sách, công đoàn và khung pháp lý bảo vệ quyền nghề nghiệp</li>
+            <li>Xây dựng “Hiến chương Quyền của Bác sĩ với AI” gồm: quyền được thông tin, tham gia, bảo mật dữ liệu và đảm bảo chất lượng</li>
+          </ul>
+          Kết luận: AI mang lại lợi ích nhưng nếu thiếu quản trị minh bạch, nó có thể xâm phạm quyền tự chủ nghề nghiệp; do đó, bác sĩ cần chủ động bảo vệ vai trò con người trong kỷ nguyên y học số.
+        `,
+        link: "./media/news/251018-ai-surveillance.html",
+        img: "https://media.licdn.com/dms/image/v2/D4D10AQHBnfHGzb1ffA/image-shrink_800/B4DZlpoWApIEAc-/0/1758413808045?e=2147483647&v=beta&t=57Fx3lXOvPfawCUL0q24Q2oI5HvlA2AVfWYpTM2Ia84"
+      },
+
+      {
+        title: "AI Cách mạng hóa Thử nghiệm lâm sàng (Clinical Trials): Tối ưu hóa hiệu quả và giảm thiểu rủi ro",
+        excerpt: `
+          AI đang biến đổi toàn bộ quá trình nghiên cứu lâm sàng - từ thiết kế, tuyển chọn, giám sát đến báo cáo - giúp giảm chi phí, rút ngắn thời gian và tăng độ chính xác.
+          <ul>
+            <li>Tuyển chọn & Phân tầng bệnh nhân: AI phân tích hồ sơ y tế, dữ liệu di truyền để chọn đúng bệnh nhân, mô phỏng phản ứng điều trị qua “Digital Twin”, giúp tăng tốc tuyển chọn và giảm rủi ro</li>
+            <li>Thiết kế & Đề cương thích ứng: Công cụ AI tự động tạo và điều chỉnh đề cương nghiên cứu dựa trên dữ liệu thực, nâng cao hiệu quả và độ linh hoạt trong thử nghiệm</li>
+            <li>Giám sát & Dữ liệu thời gian thực: AI phát hiện sai lệch, tối ưu nhập liệu và giám sát bệnh nhân qua camera hoặc cảm biến, đảm bảo an toàn và chất lượng nghiên cứu</li>
+            <li>Tự động hóa Báo cáo (CSR): NLP giúp soạn thảo, kiểm tra và định dạng báo cáo nhanh, đúng chuẩn FDA/EMA, rút ngắn 50–70% thời gian</li>
+            <li>Thách thức & Triển vọng: Thách thức chính gồm dữ liệu thiếu chuẩn, rủi ro đạo đức và khung pháp lý chưa hoàn thiện. Tuy nhiên, xu hướng “Clinical Trials 4.0” với AI, Big Data và IoMT là tất yếu</li>
+          </ul>
+          Tại Việt Nam, cần đầu tư dữ liệu chuẩn hóa, hạ tầng tính toán và nhân lực đa ngành để bắt kịp kỷ nguyên thử nghiệm lâm sàng thông minh, an toàn và nhân văn.
+        `,
+        link: "./media/news/251016-ai-clinical-trial.html",
+        img: "https://credevo.com/articles/wp-content/uploads/2025/07/AI_Driven_Protocol_Design_for_Faster_Smarter_Clinical_Trials-1024x576.png"
+      },
+      
+      {
         title: "Nâng cao Trí tuệ nhân tạo Y học từ Dữ liệu Ca bệnh trong 100 năm: Dr. CaBot và CPC-Bench",
         excerpt: `
           Trường Y Harvard (Harvard Medical School) vừa giới thiệu nghiên cứu đột phá “Advancing Medical Artificial Intelligence Using a Century of Cases” (Buckley et al., 2025), ra mắt hệ thống AI Dr. CaBot và bộ dữ liệu CPC-Bench xây dựng từ hơn 7.000 ca bệnh NEJM suốt 100 năm.<br>

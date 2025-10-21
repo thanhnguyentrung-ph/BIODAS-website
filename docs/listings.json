@@ -21,6 +21,8 @@
   {
     "listing": "/media/news.html",
     "items": [
+      "/media/news/251018-ai-surveillance.html",
+      "/media/news/251016-ai-clinical-trial.html",
       "/media/news/251014-drcabot.html",
       "/media/news/251010-ai-cancer.html",
       "/media/news/250919-vn-digital-health.html",
@@ -39,6 +41,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/media/news/251018-ai-surveillance.html",
+      "/media/news/251016-ai-clinical-trial.html",
       "/recruitment/posts/251016-research-assistant.html",
       "/media/news/251014-drcabot.html",
       "/media/news/251010-ai-cancer.html",
