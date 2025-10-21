@@ -137,39 +137,45 @@ aliases:
       <h2>3. Ba hình thức giám sát phổ biến của AI trong y học</h2>
 
       <h3>3.1. Ambient AI Scribe: Ghi âm, phiên âm và phân tích hội thoại</h3>
-      <p>
-        Ambient AI Scribe là các hệ thống ghi âm, phiên âm và phân tích cuộc hội thoại giữa bác sĩ và bệnh nhân, 
-        được thiết kế để tự động tạo ghi chú lâm sàng nhằm giảm gánh nặng tài liệu (2). 
-        Tuy nhiên, chúng có khả năng phân tích giọng điệu, cảm xúc và ngôn ngữ, 
-        cho phép bệnh viện đánh giá tần suất bác sĩ lệch khỏi hướng dẫn chuyên môn hoặc 
-        phát hiện “outliers” — những người dành quá nhiều thời gian với bệnh nhân so với chuẩn “hiệu quả” (3).
-      </p>
-      <p>
-        Việc AI tạo ra “điểm hiệu suất” dựa trên thời gian khám, mức độ tuân thủ giao thức, 
-        hoặc mô hình giao tiếp có thể khiến các bác sĩ bị xếp hạng hoặc giám sát khắt khe hơn bao giờ hết.
-      </p>
+      <div class="card">
+        <p>
+          Ambient AI Scribe là các hệ thống ghi âm, phiên âm và phân tích cuộc hội thoại giữa bác sĩ và bệnh nhân, 
+          được thiết kế để tự động tạo ghi chú lâm sàng nhằm giảm gánh nặng tài liệu (2). 
+          Tuy nhiên, chúng có khả năng phân tích giọng điệu, cảm xúc và ngôn ngữ, 
+          cho phép bệnh viện đánh giá tần suất bác sĩ lệch khỏi hướng dẫn chuyên môn hoặc 
+          phát hiện “outliers” — những người dành quá nhiều thời gian với bệnh nhân so với chuẩn “hiệu quả” (3).
+        </p>
+        <p>
+          Việc AI tạo ra “điểm hiệu suất” dựa trên thời gian khám, mức độ tuân thủ giao thức, 
+          hoặc mô hình giao tiếp có thể khiến các bác sĩ bị xếp hạng hoặc giám sát khắt khe hơn bao giờ hết.
+        </p>
+      </div>
 
       <h3>3.2. Phân tích tin nhắn bệnh nhân trong EHR: Đo lường mức độ đồng cảm</h3>
-      <p>
-        Các công cụ AI có thể đọc, tóm tắt và phản hồi tin nhắn bệnh nhân trong hệ thống bệnh án điện tử (EHR) 
-        để giúp bác sĩ phân loại và trả lời nhanh hơn. Tuy nhiên, chúng cũng có thể theo dõi 
-        thời gian phản hồi, giọng điệu, cấu trúc và “mức độ đồng cảm” trong từng tin nhắn.  
-        Một nghiên cứu cho thấy phản hồi do AI tạo ra được đánh giá là “đồng cảm hơn” bác sĩ thật (4).
-      </p>
-      <p>
-        Khi thù lao và đánh giá năng lực của bác sĩ ngày càng gắn liền với mức độ hài lòng của bệnh nhân, 
-        việc đưa thêm yếu tố “đánh giá cảm xúc” bằng AI có thể làm sai lệch cách thức giao tiếp và ra quyết định y khoa — 
-        khiến AI trở thành “giám khảo” vô hình trong mối quan hệ bác sĩ – bệnh nhân.
-      </p>
+      <div class="card">
+        <p>
+          Các công cụ AI có thể đọc, tóm tắt và phản hồi tin nhắn bệnh nhân trong hệ thống bệnh án điện tử (EHR) 
+          để giúp bác sĩ phân loại và trả lời nhanh hơn. Tuy nhiên, chúng cũng có thể theo dõi 
+          thời gian phản hồi, giọng điệu, cấu trúc và “mức độ đồng cảm” trong từng tin nhắn.  
+          Một nghiên cứu cho thấy phản hồi do AI tạo ra được đánh giá là “đồng cảm hơn” bác sĩ thật (4).
+        </p>
+        <p>
+          Khi thù lao và đánh giá năng lực của bác sĩ ngày càng gắn liền với mức độ hài lòng của bệnh nhân, 
+          việc đưa thêm yếu tố “đánh giá cảm xúc” bằng AI có thể làm sai lệch cách thức giao tiếp và ra quyết định y khoa — 
+          khiến AI trở thành “giám khảo” vô hình trong mối quan hệ bác sĩ – bệnh nhân.
+        </p>
+      </div>
 
       <h3>3.3. Ghi vết thời gian và hồ sơ pháp lý</h3>
-      <p>
-        Một tiền lệ đáng chú ý (5): trong một ca phẫu thuật cột sống có biến chứng, 
-        hệ thống EHR tự động ghi nhận các khoảng thời gian dài không có dữ liệu nhập vào, 
-        mâu thuẫn với lời khai của bác sĩ gây mê rằng ông đã theo dõi liên tục bệnh nhân. 
-        Khi AI ngày càng thu thập dữ liệu chi tiết hơn, nó có thể đồng thời giúp phát hiện sai sót an toàn 
-        và cũng có thể gây ra hậu quả pháp lý nghiêm trọng đối với nhân viên y tế.
-      </p>
+      <div class="card">
+        <p>
+          Một tiền lệ đáng chú ý (5): trong một ca phẫu thuật cột sống có biến chứng, 
+          hệ thống EHR tự động ghi nhận các khoảng thời gian dài không có dữ liệu nhập vào, 
+          mâu thuẫn với lời khai của bác sĩ gây mê rằng ông đã theo dõi liên tục bệnh nhân. 
+          Khi AI ngày càng thu thập dữ liệu chi tiết hơn, nó có thể đồng thời giúp phát hiện sai sót an toàn 
+          và cũng có thể gây ra hậu quả pháp lý nghiêm trọng đối với nhân viên y tế.
+        </p>
+      </div>
     </section>
 
     <!-- 4. Ai dễ bị ảnh hưởng -->
@@ -199,28 +205,34 @@ aliases:
       <h2>5. Chiến lược ứng phó cho nhân viên y tế</h2>
 
       <h3>5.1. Phản ứng công nghệ và giới hạn đạo đức</h3>
-      <p>
-        Trong các ngành khác, người lao động đôi khi “vô hiệu hóa” hệ thống giám sát bằng công cụ như 
-        “mouse jigglers” để giả lập hoạt động liên tục (1). Tuy nhiên, trong môi trường y khoa, 
-        việc can thiệp vào hệ thống AI có thể ảnh hưởng trực tiếp đến an toàn bệnh nhân và tính hợp pháp của hồ sơ.
-      </p>
+      <div class="card">
+        <p>
+          Trong các ngành khác, người lao động đôi khi “vô hiệu hóa” hệ thống giám sát bằng công cụ như 
+          “mouse jigglers” để giả lập hoạt động liên tục (1). Tuy nhiên, trong môi trường y khoa, 
+          việc can thiệp vào hệ thống AI có thể ảnh hưởng trực tiếp đến an toàn bệnh nhân và tính hợp pháp của hồ sơ.
+        </p>
+      </div>
 
       <h3>5.2. Sức mạnh của công khai và phản biện xã hội</h3>
-      <p>
-        Năm 2018, Amazon từng đăng ký bằng sáng chế vòng đeo tay phản hồi xúc giác để giám sát công nhân kho hàng. 
-        Sau khi bị công khai và vấp phải phản ứng dữ dội từ dư luận, kế hoạch này đã bị hủy bỏ (1).  
-        Tương tự, các bác sĩ có thể sử dụng truyền thông và công chúng như một “lá chắn đạo đức”, 
-        yêu cầu minh bạch và giám sát độc lập đối với các công cụ AI trong bệnh viện.
-      </p>
+      <div class="card">
+        <p>
+          Năm 2018, Amazon từng đăng ký bằng sáng chế vòng đeo tay phản hồi xúc giác để giám sát công nhân kho hàng. 
+          Sau khi bị công khai và vấp phải phản ứng dữ dội từ dư luận, kế hoạch này đã bị hủy bỏ (1).  
+          Tương tự, các bác sĩ có thể sử dụng truyền thông và công chúng như một “lá chắn đạo đức”, 
+          yêu cầu minh bạch và giám sát độc lập đối với các công cụ AI trong bệnh viện.
+        </p>
+      </div>
 
       <h3>5.3. Cơ chế pháp lý và quyền nghề nghiệp</h3>
-      <p>
-        Nhóm tác giả nhấn mạnh vai trò của công đoàn trong việc phản đối các hình thức giám sát xâm phạm. 
-        Ví dụ, công đoàn y tá tại Kaiser Permanente đã phản đối việc triển khai chatbot và công cụ AI khác.  
-        Ngoài ra, Luật An toàn và Sức khỏe Nghề nghiệp (OSHA) có thể cho phép bác sĩ từ chối công nghệ 
-        gây nguy hiểm cho môi trường làm việc. Các nhà lập pháp Hoa Kỳ cũng đang thảo luận về 
-        “AI Worker Bill of Rights” — quy định rõ quyền của người lao động trong thời đại AI (1).
-      </p>
+      <div class="card">
+        <p>
+          Nhóm tác giả nhấn mạnh vai trò của công đoàn trong việc phản đối các hình thức giám sát xâm phạm. 
+          Ví dụ, công đoàn y tá tại Kaiser Permanente đã phản đối việc triển khai chatbot và công cụ AI khác.  
+          Ngoài ra, Luật An toàn và Sức khỏe Nghề nghiệp (OSHA) có thể cho phép bác sĩ từ chối công nghệ 
+          gây nguy hiểm cho môi trường làm việc. Các nhà lập pháp Hoa Kỳ cũng đang thảo luận về 
+          “AI Worker Bill of Rights” — quy định rõ quyền của người lao động trong thời đại AI (1).
+        </p>
+      </div>
     </section>
 
     <!-- 6. Hiến chương Quyền của Bác sĩ -->

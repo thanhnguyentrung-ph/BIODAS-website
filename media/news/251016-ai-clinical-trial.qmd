@@ -112,11 +112,13 @@ aliases:
         Điều này giúp tăng tốc tuyển chọn, giảm chi phí và hạn chế sai lệch trong quần thể nghiên cứu.<sup>[2]</sup>
       </p>
 
-      <p>
-        <strong>Digital Twins</strong> – “bản sao kỹ thuật số” của bệnh nhân – cho phép mô phỏng phản ứng của từng cá nhân với phương pháp điều trị cụ thể. 
-        Công nghệ này đang được thử nghiệm trong các bệnh như ung thư phổi, tiểu đường và tim mạch để dự đoán hiệu quả điều trị trước khi tiến hành thử nghiệm thực tế. 
-        Kết quả ban đầu cho thấy độ chính xác của mô hình đạt đến 85–90% so với kết quả thực.
-      </p>
+      <div class="callout">
+        <p>
+          <strong>Digital Twins</strong> – “bản sao kỹ thuật số” của bệnh nhân – cho phép mô phỏng phản ứng của từng cá nhân với phương pháp điều trị cụ thể. 
+          Công nghệ này đang được thử nghiệm trong các bệnh như ung thư phổi, tiểu đường và tim mạch để dự đoán hiệu quả điều trị trước khi tiến hành thử nghiệm thực tế. 
+          Kết quả ban đầu cho thấy độ chính xác của mô hình đạt đến 85–90% so với kết quả thực.
+        </p>
+      </div>
 
       <p>
         Ngoài ra, AI có thể xác định khu vực và bệnh viện có khả năng tuyển chọn bệnh nhân nhanh, giảm thiểu thời gian khởi động nghiên cứu. 
