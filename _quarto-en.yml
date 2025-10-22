@@ -1,0 +1,113 @@
+# Website setup
+website:
+  # title: "BIODAS"
+  description: "BIODAS official website in English"
+  favicon: "images/logo/BIODAS-logo-webtab.png"
+  back-to-top-navigation: true
+  # Website setup >> URL
+  site-url: https://dainty-daffodil-808a44.netlify.app/
+  repo-url: https://github.com/thanhnguyentrung-ph/BIODAS-website
+  repo-actions: [edit, source, issue]
+  # Website setup >> Navigation Bar setup
+  navbar: 
+    # Website setup >> Logo
+    logo: "images/logo/BIODAS-logo-horizontal-radius2.png"
+    logo-href: https://biodas.net
+    background: "#313D5D"
+    foreground: "#FFFFFF"
+    title: ""
+    search: true
+
+    left:
+      # 1. About BIODAS
+      - text: "About"
+        menu:
+        - text: "About BIODAS"
+          href: "about/introduce.qmd"
+        - text: "Mission - Vision - Core Values"
+          href: "about/mission-vision-value.qmd"
+        - text: "Team"
+          href: "about/team.qmd"
+      # 2. BIODAS projects
+      - text: "Professional Activities"
+        href: "project/index.qmd"
+
+      # 3. BIODAS resources
+      - text: "Resources"
+        href: "resource/index.qmd"
+
+      # 4. Media and Communication
+      - text: "News"
+        menu:
+        - text: "Events"
+          href: "media/event.qmd"
+        - text: "News"
+          href: "media/news.qmd"
+        - text: "Scholarship Information"
+          href: "media/scholarship.qmd"
+
+      # 5. Recruitment
+      - text: "Recruitment"
+        href: "recruitment/index.qmd"
+
+    right:
+      # 9. Link to other BIODAS platforms
+      - icon: envelope
+        aria-label: BIODAS mail
+        href: mailto:contact@biodas.net
+      - icon: github
+        aria-label: BIODAS GitHub
+        href: https://github.com/thanhnguyentrung-ph/BIODAS-website
+      - icon: linkedin
+        aria-label: BIODAS LinkedIn
+        href: https://www.linkedin.com/company/biodas-team/about/
+      - icon: twitter-x
+        aria-label: BIODAS Twitter/X
+        href: abc
+      - icon: facebook
+        aria-label: BIODAS Facebook
+        href: https://www.facebook.com/profile.php?id=61580207438020
+      - icon: youtube
+        aria-label: BIODAS Youtube
+        href: https://www.youtube.com/@BIODAS-TEAM
+      - icon: tiktok
+        aria-label: BIODAS TikTok
+        href: tiktok
+
+  # Website setup >> Page-footer setup
+  page-footer:
+    background: "#313D5D"
+    left: |
+      [Copyright &copy; 2025 Biomedical Data Science Research Institute Joint Stock Company](other/lience.qmd)
+    center: 
+      - icon: envelope
+        aria-label: BIODAS mail
+        href: mailto:contact@biodas.net
+      - icon: github
+        aria-label: BIODAS GitHub
+        href: https://github.com/thanhnguyentrung-ph/BIODAS-website
+      - icon: linkedin
+        aria-label: BIODAS LinkedIn
+        href: https://www.linkedin.com/company/biodas-team/about/
+      - icon: twitter-x
+        aria-label: BIODAS Twitter/X
+        href: abc
+      - icon: facebook
+        aria-label: BIODAS Facebook
+        href: https://www.facebook.com/profile.php?id=61580207438020
+      - icon: youtube
+        aria-label: BIODAS Youtube
+        href: https://www.youtube.com/@BIODAS-TEAM
+      - icon: tiktok
+        aria-label: BIODAS TikTok
+        href: tiktok
+      - icon: rss
+        aria-label: BIODAS RSS
+        href: other/feeds.html
+    right: |
+      [Terms & Conditions](other/ts-and-cs.qmd)
+  
+  # Website setup >> Side Bar setup
+  sidebar:
+    style: "docked"
+    search: true
