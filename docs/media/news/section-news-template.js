@@ -105,10 +105,15 @@ function renderBiodasNews() {
   selected.forEach((news) => {
     const card = document.createElement("article");
     card.className = "news-card";
+
+    // Detect if we're on English page
+    const isEnglishPage = window.location.pathname.includes("/en/");
+    const newsLink = isEnglishPage ? news.enLink : news.link;
+
     card.innerHTML = `
       <img src="${news.img}" alt="${news.title}">
       <div class="news-info">
-        <h3><a href="/news/${news.link}">${news.title}</a></h3>
+        <h3><a href="${newsLink}">${news.title}</a></h3>
         <p>${news.desc}</p>
         <span class="news-meta">📅 ${getTimeAgo(news.uploadDate)}</span>
       </div>`;
