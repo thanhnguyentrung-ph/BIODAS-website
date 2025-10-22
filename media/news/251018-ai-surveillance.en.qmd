@@ -1,0 +1,313 @@
+---
+title: "Are Healthcare Workers at Risk of Being 'Quantified' by AI?"
+subtitle: "Medical AI and Clinician Surveillance - The Risk of Becoming Quantified Workers"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - AI
+  - Clinician
+  - Medical Staff
+  - Surveillance
+author: "Glenn Cohen et al. | Translated and edited by BIODAS Team"
+date: 10/18/2025 # mm/dd/yyyy
+toc: true
+image: https://media.licdn.com/dms/image/v2/D4D10AQHBnfHGzb1ffA/image-shrink_800/B4DZlpoWApIEAc-/0/1758413808045?e=2147483647&v=beta&t=57Fx3lXOvPfawCUL0q24Q2oI5HvlA2AVfWYpTM2Ia84
+aliases: 
+  - /media/news/
+---
+
+![](https://hitconsultant.net/wp-content/uploads/2025/08/ART-Smart-Hospital-Graphic-i09-1600x900-1.webp){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- CSS file attachment -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (for social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-news-template">
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#sec-1">Introduction</a></li>
+      <li><a href="#sec-2">General Context</a></li>
+      <li><a href="#sec-3">Three Common Forms of AI Surveillance in Medicine</a></li>
+      <li><a href="#sec-4">The Vulnerable</a></li>
+      <li><a href="#sec-5">Coping Strategies for Healthcare Workers</a></li>
+      <li><a href="#sec-6">A Clinician's Bill of Rights for AI</a></li>
+      <li><a href="#sec-7">Conclusion</a></li>
+      <li><a href="#sec-8">References</a></li>
+    </ol>
+  </nav>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <!-- 1. Introduction -->
+    <section id="sec-1">
+      <h2>1. Introduction</h2>
+      <p>
+        The article 
+        <strong>
+          <a href="https://doi.org/10.1056/NEJMp2502448" target="_blank" rel="noopener noreferrer" style="color:#313d5d; text-decoration:underline;">
+            “Medical AI and Clinician Surveillance — The Risk of Becoming Quantified Workers”
+          </a>
+        </strong> 
+        was published in <em>The New England Journal of Medicine</em> on June 19, 2025, 
+        by authors <em>I. Glenn Cohen</em> (Harvard Law School), <em>Ifeoma Ajunwa</em> (Emory Law School), and <em>Ravi B. Parikh</em> (Emory University School of Medicine).
+      </p>
+
+      <p>
+        The article warns that as artificial intelligence (AI) becomes more deeply integrated into medicine, 
+        tools designed to assist doctors could inadvertently turn them into 
+        <strong>“quantified workers”</strong> — 
+        that is, subjects of surveillance, measurement, and control of their work behavior through data and algorithms. 
+        From an ethical and legal perspective, this is an emerging issue in the digital medicine era, where the professional autonomy 
+        and clinical freedom of doctors could be gradually eroded.
+      </p>
+
+      <div class="callout">
+        <p>
+          The authors argue that medicine needs to learn lessons from other industries where the application of AI has led to 
+          reduced autonomy, increased surveillance, and worse working conditions. 
+          Without immediate action, doctors could become “quantified” within the very healthcare system they serve.
+        </p>
+      </div>
+
+      <!-- Illustrative image -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://www.aimsplatform.io/wp-content/uploads/2025/07/room-with-AIMS-top-left.webp" class="img" />
+        </div>
+        <figcaption>
+          Illustrative image (Source: https://www.aimsplatform.io)
+        </figcaption>
+      </figure>
+
+      <div class="callout">
+        <p>
+          The <strong>BIODAS Team</strong> is pleased to present this overview to provide a comprehensive perspective on 
+          <strong>artificial intelligence (AI) in the surveillance and evaluation of healthcare workers</strong> — a topic that is reshaping the relationship between 
+          <strong>technology, ethics, and the professional rights of doctors</strong> in the digital medicine era. 
+          The article summarizes the main warnings and recommendations from the <em>New England Journal of Medicine (2025)</em>, 
+          helping readers better understand the risks and coping strategies as AI becomes more deeply involved in clinical practice.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- 2. Context -->
+    <section id="sec-2">
+      <h2>2. General Context</h2>
+      <p>
+        In many labor sectors today, especially in logistics, finance, and technology, 
+        workers are already working under the supervision of “mechanical managers” — 
+        AI systems that track operations, behavior, location, and work performance in real time (1).  
+        Although medicine is considered a highly humanistic field, the rapid development of AI 
+        is causing clinical professional activities to gradually fall into a similar trajectory.
+      </p>
+      <p>
+        Medical AI systems were initially developed with positive goals such as reducing administrative burdens, 
+        increasing accuracy, and standardizing care processes. However, as the data analysis 
+        and natural language processing (NLP) capabilities of AI become more powerful, these tools 
+        can be repurposed to evaluate performance and control doctor behavior — 
+        sometimes beyond their original purpose.
+      </p>
+    </section>
+
+    <!-- Illustrative image -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.care.ai/images/webp/rooms_protocol_compliance_v01.webp" class="img" />
+      </div>
+      <figcaption>
+        Illustrative image (Source: https://www.care.ai)
+      </figcaption>
+    </figure>
+
+    <!-- 3. Forms of surveillance -->
+    <section id="sec-3">
+      <h2>3. Three Common Forms of AI Surveillance in Medicine</h2>
+
+      <h3>3.1. Ambient AI Scribe: Recording, Transcribing, and Analyzing Conversations</h3>
+      <div class="card">
+        <p>
+          Ambient AI Scribes are systems that record, transcribe, and analyze conversations between doctors and patients, 
+          designed to automatically generate clinical notes to reduce documentation burden (2). 
+          However, they have the ability to analyze tone, emotion, and language, 
+          allowing hospitals to assess how often doctors deviate from professional guidelines or 
+          detect “outliers” — those who spend too much time with patients compared to the “efficiency” standard (3).
+        </p>
+        <p>
+          The creation of “performance scores” by AI based on consultation time, protocol adherence, 
+          or communication patterns could lead to doctors being ranked or monitored more strictly than ever before.
+        </p>
+      </div>
+
+      <h3>3.2. Analysis of Patient Messages in EHR: Measuring Empathy</h3>
+      <div class="card">
+        <p>
+          AI tools can read, summarize, and respond to patient messages in the electronic health record (EHR) system 
+          to help doctors triage and respond more quickly. However, they can also track 
+          response time, tone, structure, and “empathy level” in each message.  
+          One study found that AI-generated responses were rated as “more empathetic” than those from real doctors (4).
+        </p>
+        <p>
+          As doctors' compensation and performance evaluations become increasingly tied to patient satisfaction, 
+          the addition of an “emotional assessment” factor by AI could distort medical communication and decision-making — 
+          making AI an invisible “judge” in the doctor-patient relationship.
+        </p>
+      </div>
+
+      <h3>3.3. Time Stamping and Legal Records</h3>
+      <div class="card">
+        <p>
+          A notable precedent (5): in a spinal surgery with complications, 
+          the EHR system automatically recorded long periods of no data entry, 
+          contradicting the anesthesiologist's testimony that he had continuously monitored the patient. 
+          As AI collects more detailed data, it can simultaneously help detect safety errors 
+          and also have serious legal consequences for healthcare workers.
+        </p>
+      </div>
+    </section>
+
+    <!-- 4. Who is most vulnerable -->
+    <section id="sec-4">
+      <h2>4. Who is Most Vulnerable?</h2>
+      <p>
+        According to the authors, all healthcare workers can be affected by AI surveillance, 
+        but the most vulnerable group are those with less power in the organization — 
+        such as residents, short-term contract doctors, or those new to the profession.  
+        They often have no say in the design and implementation of AI systems, 
+        and are at risk of being evaluated or disciplined based on data they cannot verify or challenge.
+      </p>
+    </section>
+
+    <!-- Illustrative image -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.care.ai/images/webp/ppm_room_sanitize_v01.webp" class="img" />
+      </div>
+      <figcaption>
+        Illustrative image (Source: https://www.care.ai)
+      </figcaption>
+    </figure>
+
+    <!-- 5. Coping strategies -->
+    <section id="sec-5">
+      <h2>5. Coping Strategies for Healthcare Workers</h2>
+
+      <h3>5.1. Technological Responses and Ethical Limits</h3>
+      <div class="card">
+        <p>
+          In other industries, workers sometimes “disable” surveillance systems with tools like 
+          “mouse jigglers” to simulate continuous activity (1). However, in a medical environment, 
+          interfering with an AI system can directly affect patient safety and the legality of records.
+        </p>
+      </div>
+
+      <h3>5.2. The Power of Publicity and Social Criticism</h3>
+      <div class="card">
+        <p>
+          In 2018, Amazon patented a haptic feedback wristband to monitor warehouse workers. 
+          After being made public and facing a strong backlash from the public, the plan was canceled (1).  
+          Similarly, doctors can use the media and the public as an “ethical shield,” 
+          demanding transparency and independent oversight of AI tools in hospitals.
+        </p>
+      </div>
+
+      <h3>5.3. Legal Mechanisms and Professional Rights</h3>
+      <div class="card">
+        <p>
+          The authors emphasize the role of unions in opposing invasive forms of surveillance. 
+          For example, the nurses' union at Kaiser Permanente has opposed the implementation of chatbots and other AI tools.  
+          In addition, the Occupational Safety and Health Act (OSHA) may allow doctors to refuse technology 
+          that endangers the work environment. U.S. lawmakers are also discussing an 
+          “AI Worker Bill of Rights” — which would clearly define the rights of workers in the age of AI (1).
+        </p>
+      </div>
+    </section>
+
+    <!-- 6. A Clinician's Bill of Rights for AI -->
+    <section id="sec-6">
+      <h2>6. A Clinician's Bill of Rights for AI</h2>
+      <p>
+        To protect the rights of the medical workforce, the authors propose a 
+        <strong>“Clinician Bill of Rights for AI”</strong> with four main pillars:
+      </p>
+      <table class="rights-table">
+        <thead>
+          <tr><th>Right</th><th>Content</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Right to Information</td><td>Doctors must be informed when AI is used in patient care.</td></tr>
+          <tr><td>Right to Participate</td><td>Healthcare systems need transparent governance mechanisms that allow doctors to participate in decision-making.</td></tr>
+          <tr><td>Right to Privacy</td><td>Doctors need to know with whom and for what reason AI data about their activities is shared.</td></tr>
+          <tr><td>Quality Assurance</td><td>High-risk AI tools must be periodically evaluated, with the results transparently disclosed to doctors (1).</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 7. Conclusion -->
+    <section id="sec-7">
+      <h2>7. Conclusion</h2>
+      <p>
+        AI opens up enormous potential in medicine — from supporting diagnosis and reducing errors to improving operational efficiency. 
+        However, without a clear legal and ethical framework, 
+        these tools can turn healthcare workers into “data subjects,” evaluated and controlled by the system.  
+        Establishing a boundary between support and control is a key factor in protecting the professional autonomy of doctors, 
+        while ensuring patient safety and trust in the age of AI.
+      </p>
+    </section>
+
+    <!-- 8. References -->
+    <section id="sec-8">
+      <h2>8. References</h2>
+      <ol>
+        <li>Ajunwa I. <em>The Quantified Worker: Law and Technology in the Modern Workplace.</em> Cambridge University Press, 2023.</li>
+        <li>Duggan MJ, Gervase J, Schoenbaum A, et al. <em>Clinician experiences with ambient scribe technology to assist with documentation burden and efficiency.</em> JAMA Netw Open. 2025;8(2):e2460637.</li>
+        <li>Solomon J. <em>How strategies for managing patient visit time affect physician job satisfaction: a qualitative analysis.</em> J Gen Intern Med. 2008;23:775–80.</li>
+        <li>Small WR, Wiesenfeld B, Brandfield-Harvey B, et al. <em>Large language model–based responses to patients’ in-basket messages.</em> JAMA Netw Open. 2024;7(7):e2422399.</li>
+        <li>Vigoda MM, Lubarsky DA. <em>Failure to recognize loss of incoming data in an anesthesia record-keeping system may have increased medical liability.</em> Anesth Analg. 2006;102:1798–802.</li>
+      </ol>
+    </section>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Share this article</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/251018-ai-surveillance.en.html/" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/251018-ai-surveillance.en.html/" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/news/251018-ai-surveillance.en.html/" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title">OTHER NEWS</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+
+</body>
+
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-news-template.js"></script>
+```

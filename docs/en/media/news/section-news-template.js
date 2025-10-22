@@ -14,6 +14,43 @@ const biodasNewsList = [
   // },
 
   {
+    title: "Trí tuệ Nhân tạo trong Chẩn đoán Hình ảnh: Hiện tại và Tương lai",
+    desc: "aThe Current and Future State of AI Interpretation of Medical Imagesbc",
+    uploadDate: "2025-10-22",
+    img: "https://www.onixnet.com/wp-content/uploads/2023/03/How-AI-Powered-Medical-Imaging-is-Transforming-Healthcare.jpg",
+    link: "../media/news/251022-ai-image.html",
+    enLink: "../en/media/news/251022-ai-image.html",
+  },
+
+  {
+    title: "Tái định nghĩa Thiên lệch Dữ liệu: Bài học từ AI trong Y tế",
+    desc: "Considering Biased Data as Informative Artifacts in AI-Assisted Health Care",
+    uploadDate: "2025-10-20",
+    img: "https://www.datasciencecentral.com/wp-content/uploads/2025/06/Understanding-Bias-in-AI-Models.png",
+    link: "../media/news/251020-ai-bias.html",
+    enLink: "../en/media/news/251020-ai-bias.html",
+  },
+
+  {
+    title: "Nhân viên y tế có nguy cơ bị “định lượng hóa” bởi AI?",
+    desc: "Medical AI and Clinician Surveillance - The Risk of Becoming Quantified Workers",
+    uploadDate: "2025-10-18",
+    img: "https://media.licdn.com/dms/image/v2/D4D10AQHBnfHGzb1ffA/image-shrink_800/B4DZlpoWApIEAc-/0/1758413808045?e=2147483647&v=beta&t=57Fx3lXOvPfawCUL0q24Q2oI5HvlA2AVfWYpTM2Ia84",
+    link: "../media/news/251018-ai-surveillance.html",
+    enLink: "../en/media/news/251018-ai-surveillance.html",
+  },
+
+  {
+    title:
+      "AI Cách mạng hóa Thử nghiệm lâm sàng (Clinical Trials): Tối ưu hóa hiệu quả và giảm thiểu rủi ro",
+    desc: "AI Revolutionizing Clinical Trials: Optimizing Efficiency and Minimizing Risks",
+    uploadDate: "2025-10-16",
+    img: "https://credevo.com/articles/wp-content/uploads/2025/07/AI_Driven_Protocol_Design_for_Faster_Smarter_Clinical_Trials-1024x576.png",
+    link: "../media/news/251016-ai-clinical-trial.html",
+    enLink: "../en/media/news/251016-ai-clinical-trial.html",
+  },
+
+  {
     title:
       "Nâng cao Trí tuệ nhân tạo Y học từ Dữ liệu Ca bệnh trong 100 năm: Dr. CaBot và CPC-Bench",
     desc: "Building Smarter Medical AI from a Century of Patient Cases: Dr. CaBot và CPC-Bench",

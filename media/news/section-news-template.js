@@ -19,6 +19,7 @@ const biodasNewsList = [
     uploadDate: "2025-10-22",
     img: "https://www.onixnet.com/wp-content/uploads/2023/03/How-AI-Powered-Medical-Imaging-is-Transforming-Healthcare.jpg",
     link: "../media/news/251022-ai-image.html",
+    enLink: "../en/media/news/251022-ai-image.html",
   },
 
   {
@@ -27,6 +28,7 @@ const biodasNewsList = [
     uploadDate: "2025-10-20",
     img: "https://www.datasciencecentral.com/wp-content/uploads/2025/06/Understanding-Bias-in-AI-Models.png",
     link: "../media/news/251020-ai-bias.html",
+    enLink: "../en/media/news/251020-ai-bias.html",
   },
 
   {
@@ -35,6 +37,7 @@ const biodasNewsList = [
     uploadDate: "2025-10-18",
     img: "https://media.licdn.com/dms/image/v2/D4D10AQHBnfHGzb1ffA/image-shrink_800/B4DZlpoWApIEAc-/0/1758413808045?e=2147483647&v=beta&t=57Fx3lXOvPfawCUL0q24Q2oI5HvlA2AVfWYpTM2Ia84",
     link: "../media/news/251018-ai-surveillance.html",
+    enLink: "../en/media/news/251018-ai-surveillance.html",
   },
 
   {
@@ -44,6 +47,7 @@ const biodasNewsList = [
     uploadDate: "2025-10-16",
     img: "https://credevo.com/articles/wp-content/uploads/2025/07/AI_Driven_Protocol_Design_for_Faster_Smarter_Clinical_Trials-1024x576.png",
     link: "../media/news/251016-ai-clinical-trial.html",
+    enLink: "../en/media/news/251016-ai-clinical-trial.html",
   },
 
   {

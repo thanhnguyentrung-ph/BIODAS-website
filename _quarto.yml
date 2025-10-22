@@ -19,7 +19,7 @@ website:
   favicon: "images/logo/BIODAS-logo-webtab.png"
   back-to-top-navigation: true
   # Website setup >> URL
-  site-url: https://dainty-daffodil-808a44.netlify.app/
+  site-url: https://biodas.net/
   repo-url: https://github.com/thanhnguyentrung-ph/BIODAS-website
   repo-actions: [edit, source, issue]
   # Website setup >> Navigation Bar setup
