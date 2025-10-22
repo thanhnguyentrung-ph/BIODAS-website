@@ -947,6 +947,19 @@ listing:
     let posts = [
       
       {
+        title: "Trí tuệ Nhân tạo trong Chẩn đoán Hình ảnh: Hiện tại và Tương lai",
+        excerpt: `
+          Bài viết tổng quan của Rajpurkar & Lungren (NEJM, 2023) phân tích toàn diện hiện trạng và tương lai của AI trong diễn giải hình ảnh y khoa.<br>
+          AI đã đạt tiến bộ lớn trong X-quang, CT, MRI và siêu âm, giúp tăng tốc độ, độ chính xác và chuẩn hóa chẩn đoán, đồng thời tối ưu quy trình, giảm tải cho bác sĩ. Tuy nhiên, việc ứng dụng rộng rãi còn gặp thách thức về khả năng tổng quát hóa, minh bạch mô hình, dữ liệu đại diện và khung pháp lý.<br>
+          Tác giả nhấn mạnh xu hướng mới là mô hình nền (foundation models) và AI đa phương thức, có thể tích hợp hình ảnh, văn bản và dữ liệu lâm sàng để hỗ trợ ra quyết định toàn diện.<br>
+          Đối với Việt Nam, cần ưu tiên triển khai AI trong các lĩnh vực có lợi ích rõ rệt (như triage X-quang, CT đột quỵ), phát triển mô hình huấn luyện trên dữ liệu trong nước, chuẩn hóa pháp lý – dữ liệu và đào tạo bác sĩ sử dụng AI an toàn.<br>
+          Kết luận: AI sẽ không thay thế bác sĩ mà trở thành “cộng sự” giúp nâng cao chất lượng chẩn đoán và hiệu quả chăm sóc, mở đường cho chuyển đổi số y tế Việt Nam.
+        `,
+        link: "./media/news/251022-ai-image.html",
+        img: "https://www.alcimed.com/wp-content/uploads/2023/09/ai-medical-imaging-1.jpg"
+      },
+
+      {
         title: "Tái định nghĩa Thiên lệch Dữ liệu: Bài học từ AI trong Y tế",
         excerpt: `
           Bài viết dựa trên nghiên cứu của Ferryman et al. (NEJM, 2023) cho rằng dữ liệu y tế thiên lệch không chỉ là lỗi kỹ thuật, mà là “tạo tác thông tin” phản ánh giá trị, thực hành và bất bình đẳng trong hệ thống y tế.<br>

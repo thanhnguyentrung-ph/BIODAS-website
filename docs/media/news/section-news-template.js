@@ -13,6 +13,14 @@ const biodasNewsList = [
   // },
 
   {
+    title: "Trí tuệ Nhân tạo trong Chẩn đoán Hình ảnh: Hiện tại và Tương lai",
+    desc: "aThe Current and Future State of AI Interpretation of Medical Imagesbc",
+    uploadDate: "2025-10-22",
+    img: "https://www.onixnet.com/wp-content/uploads/2023/03/How-AI-Powered-Medical-Imaging-is-Transforming-Healthcare.jpg",
+    link: "../media/news/251022-ai-image.html"
+  },
+  
+  {
     title: "Tái định nghĩa Thiên lệch Dữ liệu: Bài học từ AI trong Y tế",
     desc: "Considering Biased Data as Informative Artifacts in AI-Assisted Health Care",
     uploadDate: "2025-10-20",
