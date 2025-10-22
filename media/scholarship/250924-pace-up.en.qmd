@@ -1,0 +1,225 @@
+---
+title: "Full PhD Scholarship PACE-UP 2026–2030: Infectious Disease Research in Germany"
+subtitle: "Full PhD Scholarship PACE-UP 2026–2030: Infectious Disease Research in Germany"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - PACE-UP
+  - DAAD
+  - PhD
+  - University of Hamburg
+  - Germany
+  - VG-CARE
+  - 108 Military Central Hospital
+  - Fully-funded
+  - 2026–2030
+  - Infectious Disease
+author: "Translated and edited by: BIODAS Team"
+date: 09/24/2025 # mm/dd/yyyy
+toc: true
+image: "https://i.ytimg.com/vi/6HBRrsZp_yg/mqdefault.jpg"
+aliases: 
+  - /media/scholarship/
+---
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-scholarship-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-scholarship-template">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>PACE-UP FULL PHD SCHOLARSHIP 2026–2030</h1>
+      <p class="hero-subtitle">Opportunity to pursue a PhD in Basic Research on Infectious Diseases at the Bernhard Nocht Institute for Tropical Medicine, Hamburg, Germany</p>
+      
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="mailto:salome.steinke@vgcare.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-31T23:59:00"
+      >
+        APPLY NOW
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== CONTENT ===== -->
+  <div class="layout">
+    <div class="main-content">
+      <br><br>
+
+      <p><strong>The BIODAS Team</strong> is pleased to share information about the <strong>PACE-UP Full PhD Scholarship 2026–2030</strong> – an opportunity for young Vietnamese researchers who wish to pursue a scientific career in the field of infectious diseases at one of the world's leading centers for tropical medicine – the <strong>Bernhard Nocht Institute, Hamburg, Germany</strong>.</p>
+
+      <p>The program is part of the <strong>PACE-UP</strong> project funded by <strong>DAAD</strong>, providing a modern, multinational research environment and extensive academic development opportunities, contributing to promoting research capacity and scientific cooperation between Vietnam and Germany.</p>
+
+      <p><strong>Official website:</strong> 
+        <a href="https://paceup.org/opportunities/" target="_blank">https://paceup.org/opportunities/</a>
+      </p>
+
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://i0.wp.com/paceup.org/wp-content/uploads/2025/10/Call-for-PhD-Applications_VG-CARE_BNITM-1.jpg?resize=709%2C1024" class="img" />
+        </div>
+        <figcaption>
+          Image: Call for PhD Applications (Source: PACE-UP, https://paceup.org)
+        </figcaption>
+      </figure>
+
+      <h2>1. Program Introduction</h2>
+      <p>The program is <strong>recruiting for one fully funded PhD position</strong> in the field of <strong>basic research on infectious diseases</strong>. The position is fully funded for 4 years by DAAD, within the framework of the PACE-UP project. The candidate will pursue a PhD at the <strong>Bernhard Nocht Institute for Tropical Medicine (BNITM)</strong>, in collaboration with the <strong>University of Hamburg</strong>, Germany.</p>
+
+      <h2>2. Research Topic</h2>
+      <p><em>Development of an ex vivo mosquito midgut model to simulate the infection process of insect-borne viruses.</em>  
+      The study will examine the effects of temperature, infection dose, and virus viability in gut tissue. The results will be evaluated for their applicability to different virus groups and the potential for expansion to research on virus inhibitors.</p>
+
+      <h2>3. Program Benefits</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>🎓 4-year full scholarship (07/2026 – 06/2030).</li>
+          <li>💶 Monthly stipend of €1,400, health insurance, and a round-trip air ticket.</li>
+          <li>🔬 Access to modern research facilities and laboratories in Germany.</li>
+          <li>🌍 Opportunity for international exchange, attending conferences, and fieldwork.</li>
+          <li>👩‍🔬 Guidance in a dynamic international research environment.</li>
+        </ul>
+      </div>
+
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://smapse.com/storage/2018/10/converted/660_464_universit-t-hamburg-21.webp" class="img" />
+        </div>
+        <figcaption>
+          Image: Universität Hamburg (Source: https://smapse.com)
+        </figcaption>
+      </figure>
+
+      <h2>4. Application Requirements</h2>
+      <p>The program encourages applicants from all academic backgrounds, especially first-generation graduates and underrepresented groups in scientific research.</p>
+      <div class="highlight-box">
+        <ul>
+          <li>Master's degree or Medical Doctor with a Master's degree in a related field (Health Sciences, Biology, Medicine, Public Health,...).</li>
+          <li>Good academic record and a clear research orientation.</li>
+          <li>Proficiency in English (spoken & written, equivalent to IELTS ≥ 6.5).</li>
+          <li>Ability to read and analyze specialized scientific literature.</li>
+          <li>Basic laboratory skills: cell culture, RNA extraction, PCR, and adherence to Good Laboratory Practice (GLP).</li>
+          <li>Interest in mosquito research and ability to work in a high-level biosafety environment (BSL2/3).</li>
+        </ul>
+      </div>
+
+      <h2>5. Application Instructions</h2>
+      <p>Applicants should submit their application as <strong>a single PDF file (in English)</strong> including:</p>
+      <div class="highlight-box">
+        <ol>
+          <li>CV (max. 2 pages).</li>
+          <li>Statement of Purpose (max. 1 page).</li>
+          <li>Copies of relevant degrees and transcripts.</li>
+          <li>English language certificate (TOEFL / IELTS / TOEIC or equivalent, minimum IELTS 6.5).</li>
+          <li>Contact information of 2 academic referees.</li>
+        </ol>
+      </div>
+
+      <h2>6. Important Timeline</h2>
+      <div class="timeline-flow">
+        <div class="timeline-item">
+          <span class="timeline-date">10/31/2025</span>
+          <p>Application deadline</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Nov–Dec 2025</span>
+          <p>Pre-selection interviews by the VG-CARE Scientific Committee</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Early 2026</span>
+          <p>Final round interviews with DAAD & the University of Hamburg</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Mid-2026</span>
+          <p>Official results announced</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">07/01/2026</span>
+          <p>Program begins</p>
+        </div>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Application deadline: 10/31/2025</strong><br><br>
+        📧 Submit applications to: <a href="mailto:salome.steinke@vgcare.org">salome.steinke@vgcare.org</a><br>
+        Contact person: <strong>Ms. Salome Steinke (VG-CARE)</strong><br>
+        Phone: +84 984 684 908</p>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Start preparing today!</strong><br><br>
+        PACE-UP is not just a scholarship – it's a gateway to a journey of becoming an international scientist, contributing to medicine and global public health.<br>
+        If you have a passion for research, a spirit of learning, and a desire to contribute, don't hesitate to apply for the <strong>PACE-UP PhD 2026–2030</strong>!</p>
+      </div>
+
+      <br>
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <p class="share-note">Share this information</p>
+        <div class="social-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/scholarship/250924-pace-up.html" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/scholarship/250924-pace-up.html" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/scholarship/250924-pace-up.html" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="quick-info">
+        <h3>📘 Quick Info</h3>
+        <ul>
+          <li>🎓 4-year full PhD scholarship</li>
+          <li>🏛️ Host institution: BNITM & University of Hamburg</li>
+          <li>🌍 Project: PACE-UP, in collaboration with VG-CARE</li>
+          <li>🕓 Deadline: 10/31/2025</li>
+          <li>🚀 Start date: 07/01/2026</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>🧬 Research Topic</h3>
+        <ul>
+          <li>Ex vivo mosquito midgut model for insect-borne viruses</li>
+          <li>Effects of temperature and infection dose</li>
+          <li>Application in research on virus inhibitors</li>
+        </ul>
+      </div>
+
+      <!-- Button with scholarship deadline -->
+      <a 
+        href="mailto:salome.steinke@vgcare.org"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-31T23:59:00"
+      >
+        APPLY NOW
+      </a>
+
+    </aside>
+  </div>
+
+</body>
+
+```
+
+
+<!-- JS SCRIPT -->
+<script src="section-scholarship-template.js"></script>
+
+

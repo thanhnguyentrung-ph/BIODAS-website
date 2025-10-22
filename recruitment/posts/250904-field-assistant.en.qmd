@@ -1,0 +1,184 @@
+---
+title: "FIELD ASSISTANT <br> (PART-TIME)"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: "Deadline: 15/10/2025 | Status: Closed"
+categories:
+  - Field Assistant
+  - Part-time
+author: BIODAS Team
+date: 09/04/2025 # mm/dd/yyyy
+image: images/250904-poster.jpg
+aliases: 
+  - /recruitment/posts/
+---
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-recruitment-template.css">
+
+<body class="section-recruitment-template">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>RECRUITMENT – PART-TIME FIELD ASSISTANT</h1>
+    <p>Join BIODAS in implementing a digital transformation project in coffee production in Vietnam</p>
+    <a href="#apply" class="btn-action glow">Apply Now</a>
+  </div>
+
+  <!-- MAIN -->
+  <div class="layout">
+
+    <!-- Introduction -->
+    <section class="slide-left">
+      <p><strong>The Biomedical Research and Data Science Institute (BIODAS)</strong> is recruiting a <strong>Field Assistant</strong> to coordinate with the research team to implement a project on digital transformation in coffee production in Vietnam (Dak Lak, Gia Lai, Lam Dong). The candidate will support field coordination, connect stakeholders, ensure regulatory compliance, and participate in collecting interview data.</p>
+    </section>
+
+    <!-- Project summary -->
+    <section class="slide-right">
+      <h2>Research project summary</h2>
+      <div class="callout callout-note">
+        <p>The project examines the impact of digital transformation on sustainable efficiency in coffee production, focusing on smallholder farmers and coffee companies that are applying digital technology both on-farm and off-farm.</p>
+        <p>The application of technology ranges from smartphones (accessing information, communication) to sensors (monitoring, optimizing inputs), and is expected to bring economic–social–environmental benefits, improving the coffee industry and value chain.</p>
+      </div>
+    </section>
+
+    <!-- Time & Location -->
+    <section class="slide-left">
+      <h2>Time & Location</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li><strong>Time</strong>: September–October 2025
+            <ul>
+              <li>Field survey: September 2025</li>
+              <li>Data collection (interviews): October 2025 <em>(may extend to November 2025)</em></li>
+            </ul>
+          </li>
+          <li><strong>Location</strong>: Dak Lak, Gia Lai, Lam Dong</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Scope of work -->
+    <section class="slide-right">
+      <h2>Scope of work</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Conduct field surveys.</li>
+          <li>Communicate with farmers, cooperatives, businesses, and government agencies.</li>
+          <li>Engage the local community.</li>
+          <li>Ensure compliance with government regulations/permits.</li>
+          <li>Support data collection (interviews).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Tasks & Responsibilities -->
+    <section class="slide-left">
+      <h2>Tasks & Responsibilities</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li><strong>Field coordination</strong>: arrange visits, meetings, and interviews with stakeholders.</li>
+          <li><strong>Logistics</strong>: support travel, accommodation, and lodging (when needed).</li>
+          <li><strong>Conduct surveys</strong>: join the research team to visit coffee farms/companies to collect data.</li>
+          <li><strong>Communication – networking</strong>: build relationships between the research team and the local community.</li>
+          <li><strong>Ensure compliance</strong>: follow local permits/guidelines.</li>
+          <li><strong>Problem-solving</strong>: handle situations that arise during fieldwork.</li>
+          <li><strong>Data collection</strong>: support interviews according to the research plan.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Candidate requirements -->
+    <section class="slide-right">
+      <h2>Candidate requirements</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li><strong>Communication</strong>: good speaking/writing skills to work with stakeholders & local people.</li>
+          <li><strong>Relationship skills</strong>: connect and build trust with the local community.</li>
+          <li><strong>Adaptability</strong>: willing to travel to Dak Lak, Gia Lai, Lam Dong; work at coffee farms.</li>
+          <li><strong>Language</strong>: able to communicate in English (speaking & writing) with the research team.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Preferred qualifications -->
+    <section class="slide-left">
+      <h2>Preferred qualifications</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Understanding of <strong>local government</strong>.</li>
+          <li>Knowledge of the <strong>local coffee industry</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="slide-right">
+      <h2>Benefits</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Income: fixed salary by agreement + support for travel expenses (transport, accommodation, logistics).</li>
+          <li>Direct training & guidance by an experienced research team in sustainable development, agriculture, and digital transformation.</li>
+          <li>Expand your network with farmers, cooperatives, businesses, government agencies, and international organizations.</li>
+          <li>Develop field skills: research coordination, community communication, logistics, legal compliance.</li>
+          <li>Opportunity to co-author research reports, conference presentations, and scientific publications related to the project.</li>
+          <li>Flexible – multicultural environment, connecting with local, national & international experts.</li>
+          <li>Practical learning about digital transformation in agriculture & sustainable development in key coffee provinces.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- How to apply -->
+    <section id="apply" class="slide-left">
+      <h2>How to apply</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Send your <strong>CV</strong> and <strong>Cover Letter</strong> (introducing yourself, stating your reasons for applying) via the link:
+            <a href="https://forms.gle/r75nD5dwd6hsCmsp9" target="_blank">https://forms.gle/r75nD5dwd6hsCmsp9</a></li>
+        </ul>
+        <div style="text-align:center; margin-top:10px;">
+          <img src="images/250904-qrcode.jpeg" alt="QR Code to apply for BIODAS" width="180" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+        </div>
+        <div style="text-align:center; margin-top:20px;">
+          <a href="https://forms.gle/r75nD5dwd6hsCmsp9" class="btn-action glow">📩 SUBMIT YOUR APPLICATION</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deadline -->
+    <section class="slide-right">
+      <h2>Application deadline</h2>
+      <div class="callout callout-important">
+        Until the end of <strong>15/10/2025</strong>
+      </div>
+    </section>
+
+    <!-- About BIODAS -->
+    <section class="slide-left">
+      <h2>About BIODAS</h2>
+      <p><strong>The Biomedical Research and Data Science Institute (BIODAS)</strong> is a unit that connects and promotes applied research in health & biology in Vietnam.</p>
+      <div class="callout callout-note">
+        <ul>
+          <li>Deploy, collect, manage, and analyze biomedical research data according to international standards.</li>
+          <li>Focus areas: epidemiology, clinical, biomedical, health information systems.</li>
+          <li>Build a data platform for clinical research, community surveys, and health market research.</li>
+          <li>Develop a standardized data management system.</li>
+          * Organize training series on data application, analysis & multi-platform data presentation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-note">
+      For any questions, please contact: <a href="mailto:contact@biodas.net">contact@biodas.net</a><br><br>
+      <strong>Sincerely,</strong><br>
+      <em>BIODAS Team</em>
+    </div>
+  </div>
+
+<!-- Attach JS file -->
+<script src="section-recruitment-template.js"></script>
+</body>
+
+```

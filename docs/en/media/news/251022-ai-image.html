@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<link rel="alternate" hreflang="vi" href="https://biodas.net/media/news/251022-ai-image.html" />
+<link rel="alternate" hreflang="en" href="https://biodas.net/en/media/news/251022-ai-image.en.html" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Pranav Rajpurkar et al. | Translated and edited by BIODAS Team">
+<meta name="dcterms.date" content="2025-10-22">
+<title>Artificial Intelligence in Medical Imaging: Present and Future</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script><script src="../../site_libs/quarto-nav/headroom.min.js"></script><script src="../../site_libs/clipboard/clipboard.min.js"></script><script src="../../site_libs/quarto-search/autocomplete.umd.js"></script><script src="../../site_libs/quarto-search/fuse.min.js"></script><script src="../../site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="../../">
+<link href="../../images/logo/BIODAS-logo-webtab.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script><script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script><script src="../../site_libs/quarto-html/popper.min.js"></script><script src="../../site_libs/quarto-html/tippy.umd.min.js"></script><script src="../../site_libs/quarto-html/anchor.min.js"></script><link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script><link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-60b224b5ca9076fce8c3334308f56d66.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script><style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #ffffff;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #ffffff;
+background: #313d5d;
+      }
+</style>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body class="section-news-template nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="https://biodas.net" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo/BIODAS-logo-horizontal-radius2.png" alt="" class="navbar-logo light-content"><img src="../../images/logo/BIODAS-logo-horizontal-radius2.png" alt="" class="navbar-logo dark-content"></a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item"><div class="dropdown" id="languages-links-parent">
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> English</button><ul class="dropdown-menu" id="languages-links"><li><a class="dropdown-item" href="https://biodas.net/media/news/251022-ai-image.html" id="language-link-vi">Tiếng Việt</a></li></ul>
+</div></li>
+<li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">
+<li>
+    <a class="dropdown-item" href="../../about/introduce.html">
+ <span class="dropdown-text">About BIODAS</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about/mission-vision-value.html">
+ <span class="dropdown-text">Mission - Vision - Core Values</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about/team.html">
+ <span class="dropdown-text">Team</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../project/index.html"> 
+<span class="menu-text">Professional Activities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resource/index.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-news" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">News</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-news">
+<li>
+    <a class="dropdown-item" href="../../media/event.html">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../media/news.html">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../media/scholarship.html">
+ <span class="dropdown-text">Scholarship Information</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../recruitment/index.html"> 
+<span class="menu-text">Recruitment</span></a>
+  </li>  
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
+    <a class="nav-link" href="mailto:contact@biodas.net"> <i class="bi bi-envelope" role="img" aria-label="BIODAS mail">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thanhnguyentrung-ph/BIODAS-website"> <i class="bi bi-github" role="img" aria-label="BIODAS GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/biodas-team/about/"> <i class="bi bi-linkedin" role="img" aria-label="BIODAS LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../abc"> <i class="bi bi-twitter-x" role="img" aria-label="BIODAS Twitter/X">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61580207438020"> <i class="bi bi-facebook" role="img" aria-label="BIODAS Facebook">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@BIODAS-TEAM"> <i class="bi bi-youtube" role="img" aria-label="BIODAS Youtube">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../tiktok"> <i class="bi bi-tiktok" role="img" aria-label="BIODAS TikTok">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Artificial Intelligence in Medical Imaging: Present and Future</li></ol></nav><a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Artificial Intelligence in Medical Imaging: Present and Future</h1>
+            <p class="subtitle lead">The Current and Future State of AI Interpretation of Medical Images</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">Medical Images</div>
+                <div class="quarto-category">Diagnosis</div>
+                <div class="quarto-category">CT</div>
+                <div class="quarto-category">MRI</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Pranav Rajpurkar et al. | Translated and edited by BIODAS Team </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 22, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://www.alcimed.com/wp-content/uploads/2023/09/ai-medical-imaging-1.jpg" class="img-cover img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<!-- CSS file attachment -->
+<link rel="stylesheet" href="section-news-template.css">
+<!-- Font Awesome CDN (for social media icons) --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc"><h3 class="anchored">Table of Contents</h3>
+    <ol>
+<li><a href="#sec-1">The Problem</a></li>
+      <li><a href="#sec-2">The Role of AI in Medical Imaging</a></li>
+      <li><a href="#sec-3">Clinical and Systemic Benefits</a></li>
+      <li><a href="#sec-4">Key Implementation Challenges</a></li>
+      <li><a href="#sec-5">Future Directions: Foundation &amp; Multimodal AI</a></li>
+      <li><a href="#sec-6">Application Recommendations for Vietnam</a></li>
+      <li><a href="#sec-7">Conclusion</a></li>
+      <li><a href="#sec-8">References</a></li>
+    </ol></nav><!-- Main content --><main class="content"><!-- =============================
+     INTRO SECTION – BIODAS ARTICLE INTRO
+     ============================= --><section><p>
+        The academic review article 
+        <strong>
+          <a href="https://doi.org/10.1056/nejmra2301725" target="_blank" rel="noopener noreferrer" style="color:#313d5d; text-decoration:underline;">
+            “AI in Medicine – The Current and Future State of AI Interpretation of Medical Images”
+          </a>
+        </strong>
+        by <em>Pranav Rajpurkar, Ph.D.</em> and <em>Matthew P. Lungren, M.D., M.P.H.</em>, edited by 
+        <em>Jeffrey M. Drazen, M.D.</em> and two guest editors <em>Isaac S. Kohane, M.D., Ph.D.</em> and <em>Tze-Yun Leong, Ph.D.</em>, 
+        was published in <em>The New England Journal of Medicine</em> – one of the world's leading medical journals.
+      </p>
+      <p>
+        The research focuses on the current and future state of <strong>artificial intelligence (AI) in the interpretation of medical images</strong>, 
+        a rapidly developing field with profound impacts on diagnosis, treatment, and clinical decision-making. 
+        The <strong>BIODAS Team</strong> is pleased to present and share the content of this article to help the medical community better understand the 
+        role, potential, and challenges of AI in medical image analysis, thereby opening up a comprehensive perspective on how technology is reshaping medical practice in the digital age.
+      </p>
+    </section><!-- 1. The Problem --><section id="sec-1"><h2 class="anchored">1. The Problem</h2>
+      <p>
+        The interpretation of medical images is central to diagnostic practice, traditionally relying on the pattern recognition abilities and accumulated experience of physicians. 
+        In the last decade, AI (especially deep learning) has made a leap in performance in many specialties: dermatology, cardiology (ECG), ophthalmology, 
+        histopathology, chest X-ray, CT, MRI, and ultrasound<sup>1–5</sup>. 
+        Although there are <em>hundreds</em> of clinical applications and many approved devices, the transition from “model evidence” to “clinical value” 
+        still needs to overcome barriers of <em>generalizability</em>, <em>interpretability</em>, <em>field evidence</em>, and <em>risk management</em><sup>6–14</sup>.
+      </p>
+      <p>
+        The NEJM article summarizes the progress, applications, clinical evidence, implementation challenges, and future prospects of AI in image interpretation, 
+        emphasizing two main axes: (i) <strong>clinical and procedural efficiency</strong> (from lesion detection to emergency case prioritization – triage), 
+        and (ii) <strong>technological foundation</strong> (from specialized models to multi-task, multi-modal foundation models).
+      </p>
+    </section><figure class="figure"><div class="img-wrap">
+        <img src="https://www.nejm.org/cms/asset/8982ebc1-9118-4581-b673-455d5416ea30/nejmra2301725_f1.jpg" class="img figure-img">
+</div>
+      <figcaption>Image: Illustration of current applications of artificial intelligence (AI) in the field of medical imaging, focusing on three main clinical functions: triage, detection, and diagnosis. Typical AI modules include CADt (computer-aided detection for triage), CADe (computer-aided detection for characterizing abnormalities), and CADx (computer-aided detection for diagnosis). In addition, AI is also used in image reconstruction and noise reduction processes to improve the quality of the output image. AI applications not directly related to medical imaging (non-imaging) are not presented in the figure. CT stands for computed tomography (Source: Rajpurkar P et al., 2023).
+      </figcaption></figure><!-- 2. The Role of AI --><section id="sec-2"><h2 class="anchored">2. The Role of AI in Medical Imaging</h2>
+      <p>
+        AI provides support at multiple levels: <em>preprocessing</em> (noise reduction, CT/MR reconstruction, artifact correction), <em>detection/segmentation</em> (lesion detection/segmentation), 
+        <em>classification</em> (benign/malignant, inflammatory/infectious…), <em>quantification</em> (volume, density, flow), and <em>prediction</em> (prognosis of events, treatment response)<sup>6–14</sup>. 
+        At the system level, AI contributes to <strong>prioritizing urgent cases</strong> (e.g., intracranial hemorrhage, large vessel occlusion, pneumothorax, pulmonary embolism), 
+        classifying severity levels, and coordinating workflow<sup>11–14,20</sup>.
+      </p>
+      <div class="card">
+        <ul>
+<li>
+<strong>Quantification &amp; imaging biomarkers:</strong> measuring bone density, visceral fat, liver fat; quantifying brain structures, left ventricular function, coronary flow; supporting chronic risk assessment<sup>9–10</sup>.</li>
+          <li>
+<strong>Processing prioritization:</strong> triage models detect acute lesions to move them to the top of the reading list, shortening the time to intervention<sup>12,20</sup>.</li>
+          <li>
+<strong>Image quality improvement:</strong> deep learning for slice reconstruction and reduction of radiation dose/scan time while maintaining diagnostic quality<sup>9</sup>.</li>
+          <li>
+<strong>Clinical prediction:</strong> from image data, AI predicts progression (e.g., TBI, cancer) or guides novices in endoscopy/ultrasound to achieve acceptable diagnostic quality<sup>13–14</sup>.</li>
+        </ul>
+</div>
+      <p>
+        Many studies have demonstrated the effectiveness of human-machine collaboration: AI improves sensitivity/specificity, reduces reading time, and standardizes assessment; 
+        at the same time, “AI-assisted – physician-decides” models often achieve higher levels of trust and effectiveness than AI operating independently<sup>16–20</sup>.
+      </p>
+    </section><!-- 3. Benefits --><section id="sec-3"><h2 class="anchored">3. Clinical and Systemic Benefits</h2>
+      <p>
+        Clinically, AI can <em>accelerate</em> and <em>improve the accuracy</em> of diagnosis, detect small lesions, 
+        reduce variability among physicians, and support the creation of structured reports. Systemically, AI helps <em>prioritize urgent cases</em>, 
+        <em>optimize workflow</em>, allocate resources, and shorten the time to treatment<sup>11–14,20</sup>. 
+        In some tasks, AI also <em>predicts outcomes</em> or <em>suggests the need for additional tests/imaging</em>, 
+        moving towards personalized care pathways<sup>1–5,10</sup>.
+      </p>
+
+      <div class="callout">
+        <ul>
+<li>
+<strong>Reading efficiency &amp; quality:</strong> assists physicians in detecting abnormalities (small pulmonary nodules, microcalcifications, microhemorrhages) and reduces omissions<sup>16–20</sup>.</li>
+          <li>
+<strong>Standardization of practice:</strong> reduces discrepancies between experts/units; increases the reproducibility of results<sup>16,19</sup>.</li>
+          <li>
+<strong>Support for resource-limited areas:</strong> handheld ultrasound/low-field MRI combined with AI expands diagnostic access at the primary care level<sup>10,14</sup>.</li>
+        </ul>
+</div>
+    </section><figure class="figure"><div class="img-wrap">
+        <img src="https://www.nejm.org/cms/10.1056/NEJMra2301725/asset/6bd4b8cf-aed2-4136-8413-3e4dbeee3f4c/assets/images/large/nejmra2301725_f2.jpg" class="img figure-img">
+</div>
+      <figcaption>Image: Validating the generalizability of AI systems in medical imaging. The three core components in validating the generalizability of AI systems in the field of medical imaging include (1) collaboration between physicians and AI, (2) transparency, and (3) post-deployment monitoring. First, physician-AI collaboration emphasizes the need to shift the focus of evaluation from solely considering the performance of the AI model operating independently to assessing the practical value of AI as a supportive tool in the actual clinical workflow. Second, transparency refers to the requirement to enhance the rigor of AI model information disclosure, through the application of checklists and the public release of medical imaging datasets for validation and research. Finally, post-deployment monitoring includes establishing mechanisms for receiving feedback from clinicians and applying a continual learning strategy to regularly update and calibrate the model, ensuring that AI maintains its effectiveness and safety in a real-world environment (Source: Rajpurkar P et al., 2023).</figcaption></figure><!-- 4. Challenges --><section id="sec-4"><h2 class="anchored">4. Key Implementation Challenges</h2>
+      <div class="card">
+        <p>
+          <strong>(i) Generalizability &amp; dataset/domain shift.</strong> 
+          A model's performance may decline when applied to different hospitals, scanners, populations, or protocols. 
+          It is necessary to design multi-center trials, prospective/cluster-randomized trials, and domain adaptation/data standardization strategies<sup>6–8,15</sup>.
+        </p>
+        <p>
+          <strong>(ii) Transparency &amp; explainability (black box).</strong> 
+          The lack of transparency reduces trust and makes it difficult to integrate into clinical decision-making. Solutions include: 
+          comprehensive reporting (dataset statements/model cards), local/global explanation methods, and UI design that emphasizes uncertainty<sup>16,21–22</sup>.
+        </p>
+        <p>
+          <strong>(iii) Lifecycle management &amp; post-deployment drift.</strong> 
+          Model performance changes over time due to changes in population/equipment/protocols. It is necessary to monitor performance, alert for drift, 
+          update/retrain in a controlled manner, and conduct periodic audits<sup>23</sup>.
+        </p>
+        <p>
+          <strong>(iv) Data, fairness &amp; privacy.</strong> 
+          Data representativeness is a prerequisite to avoid bias. 
+          Multi-center alliances, federated learning, and standardized metadata sharing help expand data while protecting privacy<sup>21–22</sup>.
+        </p>
+        <p>
+          <strong>(v) Regulation &amp; evidence.</strong> 
+          A legal framework is needed that reflects the specifics of AI/ML medical software, supports approval through a total product lifecycle, and allows for adaptive updates (“learning” devices), 
+          while also requiring <em>prospective clinical evidence</em> of safety and effectiveness, not just AUROC in training<sup>6–8,23</sup>.
+        </p>
+      </div>
+    </section><!-- 5. Future --><section id="sec-5"><h2 class="anchored">5. Future Directions: Foundation &amp; Multimodal AI</h2>
+      <p>
+        <strong>Foundation models</strong> and <strong>multimodal AI</strong> are shifting the focus from “narrow-single-task” models 
+        to <em>generalist medical AI</em> capable of simultaneously processing images, natural language (reports, EHR notes), and lab/vital data. 
+        Self-supervised learning on large unlabeled data repositories helps extract rich representations, enhancing the effectiveness of “transfer learning” for specific clinical tasks<sup>24–25</sup>.
+      </p>
+      <p>
+        Combining <strong>large language models (LLMs)</strong> with medical vision allows for: 
+        generating X-ray/CT/MRI reports in a standard style, explaining findings to patients, extracting tasks from clinical orders, 
+        and supporting evidence-based <em>reasoning</em>. Recent studies show that LLMs encode significant clinical knowledge and can support decision-making, 
+        provided they are rigorously validated and designed with a “human-in-the-loop”<sup>26–27</sup>.
+      </p>
+      <p>
+        The practical vision is an <em>“AI collaborator”</em> architecture where the model assists physicians in detection, report drafting, case prioritization, 
+        risk prediction, and suggesting care pathways. Success depends on <strong>co-design</strong> with physicians/process experts, 
+        <strong>transparency</strong> of data and models, and <strong>post-deployment monitoring</strong> according to quality standards.
+      </p>
+    </section><figure class="figure"><div class="img-wrap">
+        <img src="https://www.nejm.org/cms/10.1056/NEJMra2301725/asset/3c9bcea8-a343-47f6-92b6-4c4c0b7d25d9/assets/images/large/nejmra2301725_f3.jpg" class="img figure-img">
+</div>
+      <figcaption>Image: The potential of generalist AI models in medical imaging. Generalist medical AI models offer enormous potential to comprehensively transform the field of medical imaging. These models are capable of generating complete diagnostic imaging reports, including clinical descriptions and interpretations synthesized from various data sources such as medical images, clinical context, and previous images. In addition, these models can link specific regions in an image to corresponding language descriptions, customize responses according to the user, and generate diagnostic results in a fully interpretive context, helping physicians better understand the clinical significance of the findings. Notably, these generalist models are also expected to be able to adapt flexibly to new practice environments and technologies, thereby maintaining effectiveness as imaging techniques or data change. In addition to image data, these models can integrate “omics” data (including genomics, epigenomics, proteomics, and metabolomics), opening up new avenues for personalized diagnosis and treatment based on multi-layered biological data. (Source: Rajpurkar P et al., 2023).</figcaption></figure><!-- 6. Recommendations for Vietnam --><section id="sec-6"><h2 class="anchored">6. Application Recommendations for Vietnam</h2>
+      <div class="callout">
+        <ul>
+<li>
+<strong>Priority applications with clear benefits:</strong> chest X-ray triage modules (pneumothorax, hemorrhage, PE), stroke detection on CT, support for primary care/mobile ultrasound; pilot implementation at central hospitals before expansion.</li>
+          <li>
+<strong>“AI made in Vietnam” model:</strong> train/fine-tune on Vietnamese data to increase generalizability; encourage multi-center alliances and <em>federated learning</em> to expand data while ensuring privacy<sup>22</sup>.</li>
+          <li>
+<strong>Data &amp; legal standards:</strong> issue standard profiles (DICOM + standardized metadata), require transparent reporting (dataset/model cards), monitor drift, and have a lifecycle-based approval-update system<sup>23</sup>.</li>
+          <li>
+<strong>Training &amp; operation:</strong> “AI for Radiologists &amp; Sonographers” programs on reading results, understanding uncertainty, and human-machine decision-making; design UI/UX that displays case-level <em>rationale</em>.</li>
+          <li>
+<strong>Value measurement:</strong> clinical and operational outcome criteria (time to treatment, omission rate, reading capacity, cost), prospective/cluster-randomized trials instead of just comparing AUC.</li>
+        </ul>
+</div>
+    </section><!-- 7. Conclusion --><section id="sec-7"><h2 class="anchored">7. Conclusion</h2>
+      <p>
+        AI in medical imaging is moving from single-task models to generalist multimodal platforms, 
+        with growing evidence of clinical and systemic benefits. However, <em>generalizability</em>, 
+        <em>transparency</em>, and <em>post-deployment monitoring</em> are prerequisites for achieving sustainable value. 
+        Instead of replacing, AI acts as a “collaborator” that helps physicians reduce errors, standardize quality, and expand diagnostic access – 
+        especially useful for resource-limited settings. With a suitable data-legal-training strategy, 
+        Vietnam can “leapfrog” to leverage the AI wave for digital health transformation.
+      </p>
+    </section><!-- 8. References --><section id="sec-8"><h2 class="anchored">8. References</h2>
+
+      <div class="ref">
+        <p><strong>NEJM Review</strong></p>
+        <p>
+          Rajpurkar P, Lungren MP, Drazen JM, Kohane IS, Leong TY. 
+          <em>AI in Medicine — The Current and Future State of AI Interpretation of Medical Images.</em> 
+          <strong>N Engl J Med.</strong> 2023;388:1981–1990. 
+          <a href="https://doi.org/10.1056/NEJMra2301725" target="_blank" style="color:#0284c7;text-decoration:underline;">
+            doi:10.1056/NEJMra2301725
+          </a>.
+        </p>
+      </div>
+
+      <div class="ref">
+        <p><strong>Related Literature</strong></p>
+        <ol>
+<li>
+            Topol EJ, et al. Artificial intelligence in health and medicine. 
+            <em>Nat Med.</em> 2022;28(1):31–38. 
+            <a href="https://doi.org/10.1038/s41591-021-01614-0" target="_blank">doi:10.1038/s41591-021-01614-0</a>.
+          </li>
+          <li>
+            Jones OT, Ranmuthu CKI, Hall PN, Funston G, Walter FM. Early detection of skin cancer in the community and primary care: 
+            an integrated review. <em>Lancet Digit Health.</em> 2022;4(7):e466–e476. 
+            <a href="https://doi.org/10.1016/S2589-7500(22)00085-1" target="_blank">doi:10.1016/S2589-7500(22)00085-1</a>.
+          </li>
+          <li>
+            Siontis KC, Noseworthy PA, Attia ZI, Friedman PA. Artificial intelligence–enhanced electrocardiography in cardiovascular disease. 
+            <em>Nat Rev Cardiol.</em> 2021;18(7):465–478. 
+            <a href="https://doi.org/10.1038/s41569-020-00503-2" target="_blank">doi:10.1038/s41569-020-00503-2</a>.
+          </li>
+          <li>
+            Lu MY, Chen TY, Williamson DFK, et al. Artificial intelligence–based pathology predicts origins for cancers of unknown primary. 
+            <em>Nature.</em> 2021;594(7861):106–110. 
+            <a href="https://doi.org/10.1038/s41586-021-03512-4" target="_blank">doi:10.1038/s41586-021-03512-4</a>.
+          </li>
+          <li>
+            Abràmoff MD, et al. Foundational considerations for artificial intelligence using ophthalmic images. 
+            <em>Ophthalmology.</em> 2022;129(2S):e14–e25. 
+            <a href="https://doi.org/10.1016/j.ophtha.2021.09.015" target="_blank">doi:10.1016/j.ophtha.2021.09.015</a>.
+          </li>
+          <li>
+            Yuba M, Iwasaki K. Analysis of AI- and ML-based medical devices approved in the United States and Japan. 
+            <em>Sci Rep.</em> 2022;12(1):16874. 
+            <a href="https://doi.org/10.1038/s41598-022-21067-6" target="_blank">doi:10.1038/s41598-022-21067-6</a>.
+          </li>
+          <li>
+            Tariq A, Purkayastha S, Chintha AR, et al. Clinical artificial intelligence in radiology: 
+            current applications and best available evidence. 
+            <em>J Am Coll Radiol.</em> 2020;17(11):1371–1381. 
+            <a href="https://doi.org/10.1016/j.jacr.2020.06.004" target="_blank">doi:10.1016/j.jacr.2020.06.004</a>.
+          </li>
+          <li>
+            Richardson ML, et al. Non-interpretive uses of artificial intelligence in radiology. 
+            <em>Acad Radiol.</em> 2021;28(8):1225–1235. 
+            <a href="https://doi.org/10.1016/j.acra.2020.12.010" target="_blank">doi:10.1016/j.acra.2020.12.010</a>.
+          </li>
+          <li>
+            Wang G, Ye JC, De Man B. Deep learning for tomographic image reconstruction. 
+            <em>Nat Mach Intell.</em> 2020;2(12):737–748. 
+            <a href="https://doi.org/10.1038/s42256-020-00273-z" target="_blank">doi:10.1038/s42256-020-00273-z</a>.
+          </li>
+          <li>
+            Mazurek MH, Cahn BA, Zuckerman JE, et al. Portable, low-field magnetic resonance imaging enables bedside assessment 
+            of intracerebral hemorrhage. <em>Nat Commun.</em> 2021;12(1):5119. 
+            <a href="https://doi.org/10.1038/s41467-021-25349-w" target="_blank">doi:10.1038/s41467-021-25349-w</a>.
+          </li>
+          <li>
+            Brink JA, Hricak H. Radiology 2040: a vision for the future. 
+            <em>Radiology.</em> 2023;306(1):69–72. 
+            <a href="https://doi.org/10.1148/radiol.230089" target="_blank">doi:10.1148/radiol.230089</a>.
+          </li>
+          <li>
+            Lee HW, Goo JM, Kim Y, et al. Effect of an artificial intelligence–based chest radiograph interpretation system 
+            on radiologists’ diagnostic performance: a multicenter randomized clinical trial. 
+            <em>Ann Am Thorac Soc.</em> 2022;19(10):1769–1779. 
+            <a href="https://doi.org/10.1513/AnnalsATS.202201-070OC" target="_blank">doi:10.1513/AnnalsATS.202201-070OC</a>.
+          </li>
+          <li>
+            Narang A, Bae R, Hong H, et al. Deep learning–guided acquisition of echocardiograms enables 
+            cardiac screening by novices. <em>JAMA Cardiol.</em> 2021;6(5):624–632. 
+            <a href="https://doi.org/10.1001/jamacardio.2020.7422" target="_blank">doi:10.1001/jamacardio.2020.7422</a>.
+          </li>
+          <li>
+            Pokaprakarn T, et al. Estimation of gestational age from blind ultrasound sweeps using artificial intelligence. 
+            <em>NEJM Evid.</em> 2022;1(5):EVIDoa2200021. 
+            <a href="https://doi.org/10.1056/EVIDoa2200021" target="_blank">doi:10.1056/EVIDoa2200021</a>.
+          </li>
+          <li>
+            Feng Y, et al. Domain adaptation for pneumonia classification from chest X-ray images. 
+            <em>IEEE J Biomed Health Inform.</em> 2022;26(3):1080–1090. 
+            <a href="https://doi.org/10.1109/JBHI.2021.3114060" target="_blank">doi:10.1109/JBHI.2021.3114060</a>.
+          </li>
+          <li>
+            Langlotz CP. Will artificial intelligence replace radiologists? 
+            <em>Radiol Artif Intell.</em> 2019;1(3):e190058. 
+            <a href="https://doi.org/10.1148/ryai.2019190058" target="_blank">doi:10.1148/ryai.2019190058</a>.
+          </li>
+          <li>
+            Park A, Chute C, Rajpurkar P, et al. Deep learning–assisted diagnosis of cerebral aneurysms using HeadXNet. 
+            <em>JAMA Netw Open.</em> 2019;2(6):e195600. 
+            <a href="https://doi.org/10.1001/jamanetworkopen.2019.5600" target="_blank">doi:10.1001/jamanetworkopen.2019.5600</a>.
+          </li>
+          <li>
+            Tschandl P, Rinner C, Apalla Z, et al. Human–computer collaboration for skin cancer recognition. 
+            <em>Nat Med.</em> 2020;26(8):1229–1234. 
+            <a href="https://doi.org/10.1038/s41591-020-0942-0" target="_blank">doi:10.1038/s41591-020-0942-0</a>.
+          </li>
+          <li>
+            Bien N, Rajpurkar P, Ball RL, et al. Deep-learning–assisted diagnosis for knee magnetic resonance imaging: 
+            development and retrospective validation of MRNet. <em>PLoS Med.</em> 2018;15(11):e1002699. 
+            <a href="https://doi.org/10.1371/journal.pmed.1002699" target="_blank">doi:10.1371/journal.pmed.1002699</a>.
+          </li>
+          <li>
+            Ahn JS, Park SJ, Park B, et al. Effect of artificial intelligence–aided chest radiograph interpretation 
+            on efficiency and accuracy of radiologists: a randomized clinical trial. 
+            <em>JAMA Netw Open.</em> 2022;5(10):e2229289. 
+            <a href="https://doi.org/10.1001/jamanetworkopen.2022.29289" target="_blank">doi:10.1001/jamanetworkopen.2022.29289</a>.
+          </li>
+          <li>
+            Seastedt KP, Cheung L, Hu JC, et al. Global healthcare fairness: we need to share more data. 
+            <em>PLOS Digit Health.</em> 2022;1(2):e0000102. 
+            <a href="https://doi.org/10.1371/journal.pdig.0000102" target="_blank">doi:10.1371/journal.pdig.0000102</a>.
+          </li>
+          <li>
+            Sheller MJ, Edwards B, Reina GA, et al. Federated learning in medicine: facilitating multi-institutional collaborations 
+            without sharing patient data. <em>Sci Rep.</em> 2020;10(1):12598. 
+            <a href="https://doi.org/10.1038/s41598-020-69250-1" target="_blank">doi:10.1038/s41598-020-69250-1</a>.
+          </li>
+          <li>
+            Harvey HB, Gowda V. How the FDA regulates artificial intelligence–based medical devices. 
+            <em>Acad Radiol.</em> 2020;27(1):58–61. 
+            <a href="https://doi.org/10.1016/j.acra.2019.09.024" target="_blank">doi:10.1016/j.acra.2019.09.024</a>.
+          </li>
+          <li>
+            Krishnan R, Rajpurkar P, Topol EJ. Self-supervised learning in medicine and healthcare. 
+            <em>Nat Biomed Eng.</em> 2022;6(12):1346–1352. 
+            <a href="https://doi.org/10.1038/s41551-022-00914-1" target="_blank">doi:10.1038/s41551-022-00914-1</a>.
+          </li>
+          <li>
+            Fei N, Chen Z, Zhang H, et al. Towards artificial general intelligence via multimodal foundation models. 
+            <em>Nat Commun.</em> 2022;13(1):3094. 
+            <a href="https://doi.org/10.1038/s41467-022-30761-2" target="_blank">doi:10.1038/s41467-022-30761-2</a>.
+          </li>
+          <li>
+            Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. 
+            <em>arXiv preprint</em> arXiv:2212.13138. 2022. 
+            <a href="https://arxiv.org/abs/2212.13138" target="_blank">Link</a>.
+          </li>
+          <li>
+            Lee P, Bubeck S, Petro J. Benefits, limits, and risks of GPT-4 as an artificial intelligence chatbot in medicine. 
+            <em>N Engl J Med.</em> 2023;388(13):1233–1239. 
+            <a href="https://doi.org/10.1056/NEJMp2301605" target="_blank">doi:10.1056/NEJMp2301605</a>.
+          </li>
+        </ol>
+</div>
+    </section><!-- SOCIAL SHARE --><div class="social-section">
+      <p class="share-note">Share this article</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/251022-ai-image.en.html/" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/251022-ai-image.en.html/" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://biodas.net/media/news/251022-ai-image.en.html/" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section"><div class="news-list container">
+    <h2 class="section-title anchored">OTHER NEWS</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section><script src="section-news-template.js"></script><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/biodas\.net\/en");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="other/lience.qmd">Bản quyền © 2025 thuộc về Công ty Cổ phần Viện Nghiên cứu Khoa học và Dữ liệu Y sinh</a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="mailto:contact@biodas.net">
+      <i class="bi bi-envelope" role="img" aria-label="BIODAS mail">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/thanhnguyentrung-ph/BIODAS-website">
+      <i class="bi bi-github" role="img" aria-label="BIODAS GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/biodas-team/about/">
+      <i class="bi bi-linkedin" role="img" aria-label="BIODAS LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../abc">
+      <i class="bi bi-twitter-x" role="img" aria-label="BIODAS Twitter/X">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61580207438020">
+      <i class="bi bi-facebook" role="img" aria-label="BIODAS Facebook">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@BIODAS-TEAM">
+      <i class="bi bi-youtube" role="img" aria-label="BIODAS Youtube">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../tiktok">
+      <i class="bi bi-tiktok" role="img" aria-label="BIODAS TikTok">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../other/feeds.html">
+      <i class="bi bi-rss" role="img" aria-label="BIODAS RSS">
+</i> 
+    </a>
+  </li>  
+</ul>
+<div class="toc-actions"><ul>
+<li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/edit/main/media/news/251022-ai-image.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li>
+<li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/blob/main/media/news/251022-ai-image.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li>
+<li><a href="https://github.com/thanhnguyentrung-ph/BIODAS-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li>
+</ul></div>
+</div>
+    <div class="nav-footer-right">
+<p><a href="other/ts-and-cs.qmd">Terms &amp; Conditions</a></p>
+</div>
+  </div>
+</footer>
+</body>
+<!-- JS SCRIPT -->
+</html>

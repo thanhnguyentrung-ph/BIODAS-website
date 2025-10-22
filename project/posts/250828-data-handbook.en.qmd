@@ -1,0 +1,427 @@
+---
+title: "Project on Developing a Practical Handbook for Data Processing and Analytics to Empower Communities in the Digital Age"
+subtitle: "Project on Developing a Practical Handbook for Data Processing and Analytics to Empower Communities in the Digital Age"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Project
+  - Data
+  - Capacity
+  - Handbook
+author: BIODAS Team
+date: 08/28/2025 # mm/dd/yyyy
+toc: true
+image: images/250828-poster.png
+aliases: 
+  - /project/posts/
+---
+
+![](images/250828-poster.png){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-post-template.css">
+
+<body class="section-post-template">
+<div class="layout">
+  <nav class="toc">
+    <h3>Table of Contents</h3>
+    <ul>
+      <li><a href="#sec-1">1. Overview</a></li>
+      <li><a href="#sec-2">2. Objectives</a></li>
+      <li><a href="#sec-3">3. Scope and Audience</a></li>
+      <li><a href="#sec-4">4. Proposed Structure</a></li>
+      <li><a href="#sec-5">5. Development Methodology</a></li>
+      <li><a href="#sec-6">6. Expected Outcomes</a></li>
+      <li><a href="#refs">References</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <!-- 1. Overview -->
+    <section id="sec-1">
+      <h2>1. Overview</h2>
+      <p>
+        In the context of the 4.0 Industrial Revolution, data is considered the “new oil” of the knowledge economy. 
+        Effective data mining has become a core competency in healthcare, education, economics, public administration, 
+        and community development. However, many organizations and communities in Vietnam still face significant challenges.
+      </p>
+
+      <div class="callout">
+        <p><strong>Key challenges:</strong></p>
+        <ul>
+          <li>Lack of systematic, practical guidance documents in Vietnamese.</li>
+          <li>Uneven data analysis capacity, still dependent on manual tools (basic Excel, paper reports).</li>
+          <li>Lack of connection between modern analysis tools (R, Python, Power BI, Stata) and practical applications in community management, public health, and sustainable development.</li>
+        </ul>
+      </div>
+
+      <div class="callout">
+        <p><strong>Recent international studies show:</strong></p>
+        <ul>
+          <li><em>Al Nuaimi &amp; Awofeso (2024):</em> Data and Business Intelligence (BI) are drivers for improving the efficiency of the healthcare system.</li>
+          <li><em>Dicuonzo et al. (2022):</em> BI plays a central role in the digital transformation of healthcare.</li>
+          <li><em>Mansoor &amp; Dar (2024):</em> The application of BI helps optimize the management of clinical testing processes.</li>
+        </ul>
+      </div>
+
+      <p>
+        Therefore, it is necessary to develop an <strong>academic and practical handbook</strong> to guide data processing and analysis for the community, 
+        combining theory, tools, methods, and practical illustrations.
+      </p>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/7e/f3/25/7ef3258157f986edddcff4560d4f5d78.jpg" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: Internet)
+      </figcaption>
+    </figure>
+
+    <!-- 2. Objectives -->
+    <section id="sec-2">
+      <h2>2. Objectives</h2>
+
+      <h3>2.1. General Objective</h3>
+      <div class="card">
+        <p>
+          To compile a <strong>practical handbook</strong> that is scientific, academic, 
+          but easy to access, to enhance the data processing and analysis capacity 
+          for communities, social organizations, and management agencies in Vietnam in the digital age.
+        </p>
+      </div>
+
+      <h3>2.2. Specific Objectives</h3>
+      <div class="card">
+        <ol>
+          <li>Present a systematic theory of data, data quality, and data governance in the community.</li>
+          <li>Guide the use of popular tools: <em>Excel / Power Query / Power Pivot, Power BI, Stata, R / RMarkdown / RShiny, basic Python, Quarto / Positron</em>.</li>
+          <li>Introduce analysis methods: from descriptive statistics, inferential analysis to Big Data and Business Intelligence (BI).</li>
+          <li>Illustrate through practical <em>case studies</em>: 
+            <ul>
+              <li>Application of BI in test management (Navify);</li>
+              <li>Big Data in the health supply chain;</li>
+              <li>Community dashboard using Power BI;</li>
+              <li>Public health data analysis using RShiny.</li>
+            </ul>
+          </li>
+          <li>Provide a training framework, sample datasets, exercises, and implementation guidance.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/59/10/54/591054ce6be9e52eeaccbc0137c7f353.jpg" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: Internet)
+      </figcaption>
+    </figure>
+
+    <!-- 3. Scope and Audience -->
+    <section id="sec-3">
+      <h2>3. Scope and Audience</h2>
+
+      <div class="callout">
+        <p><strong>Beneficiaries:</strong></p>
+        <ul>
+          <li>Healthcare workers</li>
+          <li>Statisticians – managers</li>
+          <li>Civil society organizations</li>
+          <li>Students – young researchers</li>
+          <li>Government officials</li>
+        </ul>
+      </div>
+
+      <div class="callout">
+        <p><strong>Scope of application:</strong></p>
+        <ul>
+          <li>Public health</li>
+          <li>Community governance</li>
+          <li>Education</li>
+          <li>Socio-economics</li>
+          <li>Environment</li>
+        </ul>
+      </div>
+
+      <div class="callout">
+        <p><strong>Limitations:</strong></p>
+        <p>
+          The handbook focuses on <em>applied data practice</em>, 
+          and does not replace statistics textbooks or advanced programming materials.
+        </p>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/62/9c/9a/629c9a49864362a9af59c5798fa75953.jpg" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: Internet)
+      </figcaption>
+    </figure>
+
+    <!-- 4. Proposed Structure -->
+    <section id="sec-4">
+      <h2>4. Proposed Structure</h2>
+
+      <!-- Part I -->
+      <div class="card">
+        <h3>Part I. Data Fundamentals and Data Governance</h3>
+        <ul>
+          <li>Concepts and classification of data (structured, unstructured, semi-structured).</li>
+          <li>Data lifecycle: collection – cleaning – storage – analysis – reporting – application.</li>
+          <li>Data quality: attributes (accuracy, completeness, timeliness, integrity).</li>
+          <li>FAIR principles (Findable, Accessible, Interoperable, Reusable).</li>
+          <li>Data security and community research ethics.</li>
+        </ul>
+      </div>
+
+      <!-- Part II -->
+      <div class="card">
+        <h3>Part II. Data Processing Tools</h3>
+        <ul>
+          <li>Excel &amp; Power Query/Power Pivot.</li>
+          <li>Power BI for reports and dashboards.</li>
+          <li>Stata: analysis of social and health quantitative data.</li>
+          <li>R &amp; RMarkdown &amp; RShiny: from basic analysis to web applications.</li>
+          <li>Python: pandas, matplotlib, scikit-learn for basic data analysis and automation.</li>
+          <li>Quarto/Positron: reproducible research, publishing scientific reports.</li>
+        </ul>
+      </div>
+
+      <!-- Part III -->
+      <div class="card">
+        <h3>Part III. Data Analysis Methods</h3>
+        <ul>
+          <li>Descriptive statistics and visualization.</li>
+          <li>Linear and logistic regression.</li>
+          <li>Multivariate analysis: PCA, EFA, Cluster Analysis.</li>
+          <li>Latent Class Analysis (LCA) and Bayesian LCA.</li>
+          <li>Big Data Analytics and Business Intelligence: from theory to application.</li>
+        </ul>
+      </div>
+
+      <!-- Part IV -->
+      <div class="card">
+        <h3>Part IV. Data Visualization and Reporting</h3>
+        <ul>
+          <li>Scientific and aesthetic principles of data visualization.</li>
+          <li>Tool comparison: Excel, Power BI, ggplot2 (R), matplotlib (Python).</li>
+          <li>Dynamic reporting with RMarkdown, Quarto.</li>
+          <li>BI dashboards for health and social sectors.</li>
+        </ul>
+      </div>
+
+      <!-- Part V -->
+      <div class="card">
+        <h3>Part V. Practical Applications</h3>
+        <ul>
+          <li>Health: disease forecasting, vaccine supply chain management.</li>
+          <li>Test management: data standardization, reducing processing time, and providing real-time dashboards.</li>
+          <li>Community governance: survey analysis, budget monitoring.</li>
+          <li>Education and society: analysis of training quality, labor market.</li>
+        </ul>
+      </div>
+
+      <!-- Part VI -->
+      <div class="card">
+        <h3>Part VI. Case Studies</h3>
+        <ul>
+          <li>Box 1: Business Intelligence in testing.</li>
+          <li>Box 2: Big Data in health supply chain management (COVID-19).</li>
+          <li>Box 3: Power BI dashboard for community surveys.</li>
+          <li>Box 4: RShiny for public health data.</li>
+        </ul>
+      </div>
+
+      <!-- Part VII -->
+      <div class="card">
+        <h3>Part VII. Data Infrastructure and Governance</h3>
+        <ul>
+          <li>Data storage systems (cloud, open data, big data warehouse).</li>
+          <li>Data integration from multiple sources.</li>
+          <li>International standards: HL7, FHIR (health), SDMX (social).</li>
+        </ul>
+      </div>
+
+      <!-- Part VIII -->
+      <div class="card">
+        <h3>Part VIII. Training and Scaling</h3>
+        <ul>
+          <li>Design short-term training programs (3–5 days).</li>
+          <li>Develop an open resource repository: datasets, scripts, video tutorials.</li>
+          <li>Build a data practice community.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/96/aa/0e/96aa0e5b754142c0200eb61018d1d380.jpg" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: Internet)
+      </figcaption>
+    </figure>
+
+    <!-- 5. Development Methodology -->
+    <section id="sec-5">
+      <h2>5. Development Methodology</h2>
+
+      <div class="card">
+        <h3>Implementation Process</h3>
+        <ol>
+          <li>
+            <strong>Systematic literature review:</strong>
+            referencing recent studies on Big Data, Business Intelligence (BI), and community data management 
+            (e.g., Dicuonzo, 2022; Al Nuaimi, 2024).
+          </li>
+          <li>
+            <strong>Expert interviews &amp; workshops:</strong>
+            working with statisticians, BI experts, public health officials to gather insights and practical requirements.
+          </li>
+          <li>
+            <strong>Pilot implementation:</strong>
+            applying the materials at hospitals, universities, and community organizations to evaluate effectiveness and applicability.
+          </li>
+          <li>
+            <strong>Editing &amp; standardization:</strong>
+            combining academic foundations with practical illustrations; standardizing terminology, processes, and lesson structures.
+          </li>
+          <li>
+            <strong>Feedback loop:</strong>
+            gathering feedback from pilot users, improving content and accompanying tools.
+          </li>
+        </ol>
+      </div>
+
+      <div class="callout">
+        <p><strong>Open Access Publishing:</strong></p>
+        <ul>
+          <li>Release interactive <em>PDF</em> and <em>website</em>.</li>
+          <li>Publicly release project <em>source code</em> (scripts, templates) on GitHub.</li>
+          <li>Develop an online course (<em>MOOC</em>) with sample datasets and exercises.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/52/22/58/522258963ffe7af9f360463802a1d357.jpg" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: Internet)
+      </figcaption>
+    </figure>
+
+    <!-- 6. Expected Outcomes -->
+    <section id="sec-6">
+      <h2>6. Expected Outcomes</h2>
+
+      <div class="card">
+        <h3>Deliverables</h3>
+        <ul>
+          <li>An academic–practical handbook (≈ 200–250 pages).</li>
+          <li>A set of illustrative <em>case studies</em> with dashboards, source code, and sample data.</li>
+          <li>An open online resource repository (documents, scripts, templates).</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Training Implementation</h3>
+        <ul>
+          <li>Organize at least <strong>03</strong> pilot training courses.</li>
+          <li>Reach a minimum of <strong>200</strong> trainees (from various fields).</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <p><strong>Expected impact:</strong> Contribute to enhancing digital capacity for communities and social organizations, 
+          promoting data-driven decision-making practices.</p>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/2e/d4/e2/2ed4e2245a4e4caad104b0d79c6331a5.jpg" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: Internet)
+      </figcaption>
+    </figure>
+
+    <!-- 7. References -->
+    <section id="refs">
+      <h2>References</h2>
+
+      <ul>
+        <li>
+          Al Nuaimi, D. S., &amp; Awofeso, N. (2024). 
+          The value of applying big data analytics in health supply chain management. 
+          <em>F1000Research, 14</em>, 178092. 
+          <a href="https://doi.org/10.5256/f1000research.178092" target="_blank">
+            https://doi.org/10.5256/f1000research.178092
+          </a>
+        </li>
+        <li>
+          Dicuonzo, G., Galeone, G., Shini, M., &amp; Massari, A. (2022). 
+          Towards the use of big data in healthcare: A literature review. 
+          <em>Journal of Healthcare Engineering</em>, PMC9322051. 
+          <a href="https://doi.org/10.1155/2022/9322051" target="_blank">
+            https://doi.org/10.1155/2022/9322051
+          </a>
+        </li>
+        <li>
+          Mansoor, I., &amp; Dar, F. J. (2024). 
+          Utilizing data analytics and business intelligence tools in laboratory workflow. 
+          <em>EJIFCC</em>, PMC11063783. 
+          <a href="https://doi.org/10.1055/s-0043-1773329" target="_blank">
+            https://doi.org/10.1055/s-0043-1773329
+          </a>
+        </li>
+        <li>
+          FAO. (2020). 
+          <em>Strengthening Capacity for Data Processing, Analysis and Management in Papua New Guinea (TCP/PNG/3604)</em>. 
+          Food and Agriculture Organization of the United Nations.
+        </li>
+        <li>
+          Liberato, S. C., Brimblecombe, J., Ritchie, J., Ferguson, M., &amp; Coveney, J. (2011). 
+          Measuring capacity building in communities: A review of the literature. 
+          <em>BMC Public Health, 11</em>(1), 850. 
+          <a href="https://doi.org/10.1186/1471-2458-11-850" target="_blank">
+            https://doi.org/10.1186/1471-2458-11-850
+          </a>
+        </li>
+        <li>
+          Consoli, S., et al. (2021). 
+          <em>Data Science for Economics and Finance: Methodologies and Applications</em>. 
+          Springer Nature. 
+          <a href="https://link.springer.com" target="_blank">
+            https://link.springer.com
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<!-- Attach JS file -->
+<script src="section-post-template.js"></script>
+</body>
+
+```

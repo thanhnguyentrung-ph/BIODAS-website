@@ -19,7 +19,7 @@ website:
   favicon: "images/logo/BIODAS-logo-webtab.png"
   back-to-top-navigation: true
   # Website setup >> URL
-  site-url: https://biodas.net
+  site-url: https://biodas.net/
   repo-url: https://github.com/thanhnguyentrung-ph/BIODAS-website
   repo-actions: [edit, source, issue]
   # Website setup >> Navigation Bar setup
@@ -151,9 +151,9 @@ babelquarto:
     text: "Tiếng Việt"
   - name: en
     text: "English"
-  mainlanguage: 'vi'
+  mainlanguage: "vi"
   languages: ["en"]
-title-en: "BIODAS - Institute of Biomedical Data and Science Research"
+title-en: ""
 description-en: "BIODAS official website in English"
 author-en: author in en
 lang: vn

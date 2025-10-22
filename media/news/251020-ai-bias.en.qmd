@@ -1,0 +1,313 @@
+---
+title: "Redefining Data Bias: Lessons from AI in Healthcare"
+subtitle: "Considering Biased Data as Informative Artifacts in AI-Assisted Health Care"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - AI
+  - Bias
+  - Health Care
+author: "Kadija Ferryman et al. | Translated and edited by BIODAS Team"
+date: 10/20/2025 # mm/dd/yyyy
+toc: true
+image: https://www.datasciencecentral.com/wp-content/uploads/2025/06/Understanding-Bias-in-AI-Models.png
+aliases: 
+  - /media/news/
+---
+
+![](https://assets-global.website-files.com/5ab16d21eba35cdb2416f449/64597a9d5b04415faed315e8_Bias%20Types%20in%20AI%20Healthcare.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- CSS file attachment -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (for social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-news-template">
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#sec-1">Introduction</a></li>
+      <li><a href="#sec-2">The Problem</a></li>
+      <li><a href="#sec-3">Three Key Aspects: When Data Becomes an "Artifact"</a></li>
+      <li><a href="#sec-4">A Sociotechnical Approach</a></li>
+      <li><a href="#sec-5">Application in Vietnam</a></li>
+      <li><a href="#sec-6">Conclusion</a></li>
+      <li><a href="#sec-7">References</a></li>
+    </ol>
+  </nav>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <!-- 1. Introduction -->
+    <section id="sec-1">
+      <h2>1. Introduction</h2>
+      <p>
+        The review article 
+        <strong>
+          <a href="https://doi.org/10.1056/nejmra2214964" target="_blank" rel="noopener noreferrer" style="color:#313d5d; text-decoration:underline;">
+            “Considering Biased Data as Informative Artifacts in AI-Assisted Health Care”
+          </a>
+        </strong> 
+        by <em>Kadija Ferryman</em> (Johns Hopkins University), <em>Maxine Mackintosh</em> (Genomics England), 
+        and <em>Marzyeh Ghassemi</em> (MIT), published in <em>The New England Journal of Medicine</em> (2023), 
+        presents a new perspective on medical data in the age of artificial intelligence (AI).
+      </p>
+
+      <p>
+        Instead of viewing biased data as “technical garbage” to be discarded according to the 
+        <strong>“garbage in – garbage out”</strong> principle, the authors argue that these very biases 
+        are <strong>“informative artifacts”</strong> — reflecting 
+        the values, practices, and inequalities deeply embedded in the modern healthcare system. 
+        Viewing data as “social relics” can help us better understand 
+        how technology reflects and sometimes amplifies injustice in healthcare.
+      </p>
+
+      <p>
+        This perspective suggests that instead of just trying to “fix” the data, 
+        the scientific community needs to learn to “read” them — much like archaeologists interpret artifacts 
+        to understand ancient societies. Clinical data, when viewed as a type of “artifact,” 
+        can reveal much about hospital organization, professional culture, and how society values 
+        health and human worth.
+      </p>
+
+      <div class="callout">
+        <p>
+          The <strong>BIODAS Team</strong> presents this overview to encourage critical thinking about 
+          how data and algorithms shape health equity. By understanding the origins of bias, 
+          we can transform AI from a predictive tool into a tool for detecting health inequalities.
+        </p>
+      </div>
+
+    </section>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.nejm.org/cms/asset/163c849b-e0dd-4350-8bd8-449b82b00ab1/nejmra2214964_f1.jpg" class="img" />
+      </div>
+      <figcaption>
+        Illustrative image (Source: https://www.nejm.org)
+      </figcaption>
+    </figure>
+
+
+    <!-- 2. The Problem -->
+    <section id="sec-2">
+      <h2>2. The Problem</h2>
+      <p>
+        In modern healthcare, AI systems are almost entirely dependent on 
+        massive, labeled datasets. When this data reflects differences 
+        in race, gender, or socioeconomic status, AI can inadvertently 
+        <strong>reproduce social biases</strong> — a phenomenon known as 
+        <em>algorithmic discrimination</em>.
+      </p>
+
+      <div class="card">
+        <p>
+          For example, in a study of chest X-rays, an AI system trained on thousands of images 
+          still showed a tendency for <strong>underdiagnosis</strong> in Black and 
+          Hispanic patients, especially women. This happened because 
+          the original data did not fairly reflect the disease prevalence in these populations.
+        </p>
+      </div>
+
+      <p>
+        According to Ferryman and colleagues, the problem is not just that the data is “wrong,” but also how we understand it. 
+        Clinical data is a product of social context, organizational processes, and professional decisions; 
+        therefore, each “bias” is an indicator of the culture and history of the medical field. 
+        Instead of eliminating them, we can learn from these biases to improve health equity.
+      </p>
+    </section>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.quantib.com/hs-fs/hubfs/assets/images/blog/Blog%20and%20news%20images/Example%20of%20algorithm%20bias%20in%20healthcare%20-%20coverage%20bias%20-%20AI%20in%20radiology%20-%20Quantib.png?width=1052&name=Example%20of%20algorithm%20bias%20in%20healthcare%20-%20coverage%20bias%20-%20AI%20in%20radiology%20-%20Quantib.png" class="img" />
+      </div>
+      <figcaption>
+        Illustrative image (Source: https://www.quantib.com)
+      </figcaption>
+    </figure>
+
+    <!-- 3. Three Key Aspects -->
+    <section id="sec-3">
+      <h2>3. Three Key Aspects: When Data Becomes an "Artifact"</h2>
+
+      <h3>3.1. Data and Social Values</h3>
+      <div class="card">
+        <p>
+          “Race correction” in estimated glomerular filtration rate (eGFR) was once considered a scientific improvement, 
+          but it actually reflected the assumption that Black people have higher muscle mass – a legacy from a time 
+          when the white male body was considered the “biological norm.” 
+          When these formulas are incorporated into AI, they continue to reproduce racial stereotypes 
+          under the neutral guise of an algorithm.
+        </p>
+        <p>
+          Viewed from an “artifact” perspective, the existence of “race correction” variables is not just a statistical error, 
+          but a trace of a historical period when medical science was built on a foundation of racial discrimination. 
+          Acknowledging and analyzing the origins of these “hidden values” is the first step 
+          towards more responsible medical AI.
+        </p>
+      </div>
+
+      <h3>3.2. Data and Clinical Practice</h3>
+      <div class="card">
+        <p>
+          Many electronic health records lack data on gender identity, disability status, or social factors. 
+          This “data absence” is not merely a technical error, 
+          but reflects a lack of uniformity in medical language, barriers of trust between doctors and patients, 
+          and limitations in training healthcare workers on gender diversity. 
+          According to the authors, if we approach this from an “artifact” perspective, we can use AI 
+          to identify where data is missing, thereby raising questions about equity and representation in healthcare.
+        </p>
+        <p>
+          AI, when used correctly, can detect “data gaps” — 
+          such as the lack of data for minority ethnic groups or LGBTQ+ patients — 
+          and turn them into signals for deeper research into systemic inequalities.
+        </p>
+      </div>
+
+      <h3>3.3. Data and Health Inequalities</h3>
+      <div class="card">
+        <p>
+          In the field of lung cancer, data shows that Black patients are often diagnosed later than white patients, 
+          causing AI to “learn” that this group has a worse prognosis. 
+          Without considering the social context, the AI model will reinforce the very injustices it should be correcting. 
+          By treating data as an artifact, researchers can detect and clarify 
+          the systemic chains of exclusion in healthcare, such as lack of access to 
+          early screening services, high treatment costs, or biases in the disease classification process.
+        </p>
+      </div>
+
+      <div class="callout">
+        <p><em>“Medical data doesn't just talk about patients – it talks about the entire care system and what society values.”</em></p>
+      </div>
+    </section>
+
+    <!-- 4. A Sociotechnical Approach -->
+    <section id="sec-4">
+      <h2>4. A Sociotechnical Approach</h2>
+      <p>
+        Ferryman and colleagues propose an analytical framework that combines technology, ethics, and society, 
+        aiming to broaden the understanding of data bias. Instead of just “patching” technical errors, 
+        they suggest a more comprehensive approach that combines data, people, and social context.
+      </p>
+
+      <div class="callout">
+        <ul>
+          <li><strong>Beyond “data cleaning”:</strong> Not just removing biases, but interpreting the socio-historical reasons behind the data.</li>
+          <li><strong>Interdisciplinary collaboration:</strong> Connecting doctors, engineers, ethicists, and sociologists to co-create solutions.</li>
+          <li><strong>Aligning with health equity:</strong> Viewing AI not just as a disease detection tool, but as a tool for detecting inequality.</li>
+        </ul>
+      </div>
+
+      <p>
+        This approach moves AI beyond the realm of “pure technology,” 
+        towards a more reflective and humanistic development model. 
+        It also opens up the opportunity to use AI as a sociological tool to illuminate the very unjust structures 
+        that the data reflects.
+      </p>
+    </section>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.wsp.com/-/media/insights/canada/image/2019/sociotechnical_system-en.png?h=399&iar=0&w=563&hash=FC79760F519720C6F8C9013AB24A4E5D" class="img" />
+      </div>
+      <figcaption>
+        Illustrative image (Source: https://www.wsp.com)
+      </figcaption>
+    </figure>
+
+    <!-- 5. Application in Vietnam -->
+    <section id="sec-5">
+      <h2>5. Application in Vietnam</h2>
+      <p>
+        In the context of Vietnam building a national health data infrastructure and implementing electronic health records, 
+        the “data as artifact” mindset is particularly meaningful:
+      </p>
+
+      <div class="callout">
+        <ul>
+          <li>It helps assess potential biases in health data, from regional to gender and economic conditions.</li>
+          <li>It lays the foundation for a data ethics framework and transparent policies when applying AI in public health.</li>
+          <li>It encourages collaboration between medicine, data science, and social sciences to ensure health equity.</li>
+        </ul>
+      </div>
+      
+      <p>
+        National projects such as electronic health records, vaccination data, or disease forecasting systems 
+        need to be designed with this socio-technical awareness. 
+        Paying attention to data biases (e.g., underrepresentation of patients in remote areas or ethnic minorities) 
+        can help prevent the reproduction of inequalities in digital health.
+      </p>
+      <div class="callout">
+        <p><em>Identifying bias is not about discarding data, but about gaining a deeper understanding of the system that produced it — thereby creating sustainable health equity.</em></p>
+      </div>
+    </section>
+
+    <!-- 6. Conclusion -->
+    <section id="sec-6">
+      <h2>6. Conclusion</h2>
+      <p>
+        “Data bias” is not just a technical error – it is a mirror reflecting history, culture, and social structures. 
+        By viewing data as “informative artifacts,” we can use AI to illuminate hidden inequalities, 
+        instead of inadvertently reinforcing them. 
+      </p>
+      <p>
+        This is the shift from “accurate AI” to “equitable AI” — 
+        a necessary direction to ensure that technological progress is always linked to humanism and justice in digital medicine. 
+        As Ferryman and colleagues conclude, “a medical AI system is only truly intelligent when it understands the history and human values hidden in the data it learns from.”
+      </p>
+    </section>
+
+    <!-- 7. References -->
+    <section id="sec-7">
+      <h2>7. References</h2>
+      <ol>
+        <li>Ferryman K, Mackintosh M, Ghassemi M. <em>Considering Biased Data as Informative Artifacts in AI-Assisted Health Care.</em> N Engl J Med. 2023;389(9):833–838. DOI: <a href="https://doi.org/10.1056/NEJMra2214964" target="_blank">10.1056/NEJMra2214964</a>.</li>
+        <li>Obermeyer Z, Powers B, Vogeli C, Mullainathan S. <em>Dissecting racial bias in an algorithm used to manage the health of populations.</em> Science. 2019;366:447–453.</li>
+        <li>Inker LA et al. <em>New creatinine- and cystatin C–based equations to estimate GFR without race.</em> N Engl J Med. 2021;385:1737–1749.</li>
+        <li>Chen IY, Joshi S, Ghassemi M. <em>Treating health disparities with artificial intelligence.</em> Nat Med. 2020;26:16–17.</li>
+      </ol>
+    </section>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Share this article</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/251020-ai-bias.en.html/" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/251020-ai-bias.en.html/" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/news/251020-ai-bias.en.html/" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title">OTHER NEWS</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+
+</body>
+
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-news-template.js"></script>
+```

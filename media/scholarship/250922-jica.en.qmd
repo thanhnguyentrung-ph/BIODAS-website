@@ -1,0 +1,273 @@
+---
+title: "Fully Funded JICA Scholarship – SDGs Global Leader 2026: A Chance to Pursue Master’s or Doctoral Studies in Japan for Government Officials of Vietnam"
+subtitle: "Fully Funded JICA Scholarship – SDGs Global Leader 2026: A Chance to Pursue Master’s or Doctoral Studies in Japan for Government Officials of Vietnam"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - JICA
+  - Japan
+  - Fully-funded
+  - 2025/2026
+author: "Translated and edited by: BIODAS Team"
+date: 09/22/2025 # mm/dd/yyyy
+toc: true
+image: "https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/545798882_1095479679435051_136920703112376775_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wdJSvbDd3RMQ7kNvwHtUrV4&_nc_oc=AdlNgDswY6yu1zNcCqxN0OzLexO7PLDVdTWwkCQl-9roujn51ycUcKRF_MdWYmlDu3E&_nc_zt=23&_nc_ht=scontent.fhan2-4.fna&_nc_gid=UkreG5qN8_8D7NQpj69X3g&oh=00_AfeHjenwyfiotPNMwK0TjY-wR6xwli65ldjC6a7mPDdCow&oe=68F92D9C"
+aliases: 
+  - /media/scholarship/
+---
+
+![](https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/545798882_1095479679435051_136920703112376775_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wdJSvbDd3RMQ7kNvwHtUrV4&_nc_oc=AdlNgDswY6yu1zNcCqxN0OzLexO7PLDVdTWwkCQl-9roujn51ycUcKRF_MdWYmlDu3E&_nc_zt=23&_nc_ht=scontent.fhan2-4.fna&_nc_gid=UkreG5qN8_8D7NQpj69X3g&oh=00_AfeHjenwyfiotPNMwK0TjY-wR6xwli65ldjC6a7mPDdCow&oe=68F92D9C){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-scholarship-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-scholarship-template">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>JICA “SDGS GLOBAL LEADER 2026” FULLY FUNDED SCHOLARSHIP</h1>
+      <p class="hero-subtitle">Opportunity to pursue a Master's/PhD in Japan for officials of the Vietnamese Government</p>
+
+      <!-- Button -->
+      <a 
+        href="mailto:nguyenthimaikhanh.vt@jica.go.jp"
+        target="_blank"
+        class="apply-button"
+        data-deadline="2025-10-22T23:59:00"
+      >
+        APPLY NOW
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== CONTENT ===== -->
+  <div class="layout">
+    <div class="main-content">
+      <br><br>
+      <p><strong>The BIODAS Team</strong> is pleased to share information about the <strong>JICA “SDGs Global Leader 2026” Scholarship</strong> – a fully funded scholarship program of the Government of Japan through the Japan International Cooperation Agency (JICA) for young and mid-career government officials, as well as potential lecturers/researchers. This is an opportunity to pursue a master's (2 years) or doctoral (3 years) degree at leading Japanese universities completely free of charge, opening up a journey of policy capacity development and a sustainable Vietnam-Japan cooperation network.</p>
+
+      <p><strong>Official website:</strong> <a href="https://www.jica.go.jp/vietnam/index.html" target="_blank">https://www.jica.go.jp/vietnam/index.html</a></p>
+      <p><strong>Contact JICA Vietnam:</strong></p>
+      <ul>
+        <li>Ms. Nguyen Thi Mai Khanh</li>
+        <li>Phone: 84-4-38315005~8 (Ext. 142)</li>
+        <li>Email: <a href="mailto:nguyenthimaikhanh.vt@jica.go.jp">nguyenthimaikhanh.vt@jica.go.jp</a></li>
+      </ul>
+      <p>Source: Official Letter No. <a href="https://binhphu.vinhlong.gov.vn/Portals/1257/722.pdf">722.25/JICA-GI</a> dated September 3, 2025 of the Japan International Cooperation Agency (JICA) Office in Vietnam</p>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://international.uwc.ac.za/wp-content/uploads/2024/08/jica-scholarships-for-asian-students-at-japanese-universities.jpg" class="img" />
+        </div>
+        <figcaption>Illustration (Source: Internet)</figcaption>
+      </figure>
+
+      <h2>1. Introduction to the JICA “SDGs Global Leader” Scholarship</h2>
+      <p>The “SDGs Global Leader” program is part of the JICA Knowledge Co-Creation Program under the Official Development Assistance (ODA) framework of the Government of Japan. The program aims to develop high-quality human resources capable of contributing to the formulation and implementation of sustainable development policies. Study duration: 2 years (Master's) or 3 years (Doctoral).</p>
+
+      <div class="highlight-box">
+        <ul>
+          <li><strong>Policy capacity development:</strong> Learn from Japan's unique development experience.</li>
+          <li><strong>Expand international network:</strong> Connect with future leaders from 111 countries.</li>
+          <li><strong>Full scholarship:</strong> Covers tuition, living expenses, airfare, and insurance.</li>
+          <li><strong>Special JICA-DSP program:</strong> Participate in activities, internships at Japanese public/private organizations.</li>
+        </ul>
+      </div>
+
+      <h2>2. Who can apply for the JICA Scholarship?</h2>
+      <p>The scholarship is for young/mid-career government officials, lecturers, or researchers who can contribute to policy and social development in Vietnam.</p>
+
+      <h3>✅ Eligibility requirements:</h3>
+      <div class="highlight-box">
+        <ul>
+          <li>Vietnamese citizen eligible for Japanese ODA.</li>
+          <li>Currently working in a government agency, research institute, or university.</li>
+          <li>Age: ≤35 (Master's), ≤40 (Doctoral) as of April 1, 2026.</li>
+          <li>Degree: Bachelor's (for Master's) or Master's (for Doctoral).</li>
+          <li>English: TOEFL iBT ≥80 or IELTS ≥6.5.</li>
+          <li>Must be physically present in Japan throughout the course.</li>
+        </ul>
+      </div>
+
+      <h3>❌ Not eligible if:</h3>
+      <div class="highlight-box">
+        <ul>
+          <li>Currently receiving or will receive another scholarship.</li>
+          <li>Belong to the military or related organizations.</li>
+          <li>Cannot be physically present in Japan.</li>
+        </ul>
+      </div>
+
+      <h2>3. Priority research fields</h2>
+      <ul>
+        <li>Public Administration/Public Policy</li>
+        <li>Finance/Public Financial Management</li>
+        <li>International Politics/Diplomacy</li>
+        <li>Regional Studies</li>
+        <li>Business/International Trade/Investment</li>
+        <li>Disaster Risk Reduction</li>
+        <li>Maritime Issues</li>
+      </ul>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://www.titech.ac.jp/english/international-student-exchange/img/jica-b-cover-mainimg01.jpg" class="img" />
+        </div>
+        <figcaption>Illustration (Image source: Tokyo Institute of Technology - www.titech.ac.jp)</figcaption>
+      </figure>
+
+      <h2>4. JICA Application Guide</h2>
+      <p>Applicants must be nominated by their home institution and approved by the Government of Vietnam. Applications must be submitted through the Ministry of Finance of Vietnam no later than October 22, 2025.</p>
+
+      <p><strong>Application process:</strong></p>
+      <div class="highlight-box">
+        <ol>
+          <li>Nomination at the home institution (early September 2025)</li>
+          <li>Selection by the higher-level agency (early November 2025)</li>
+          <li>Submission of application to JICA through the Ministry of Finance (October 22, 2025)</li>
+          <li>Screening by JICA (November 2025)</li>
+          <li>Pre-matching with the university (December 2025)</li>
+          <li>Official entrance examination (February–June 2026)</li>
+          <li>Examination results (June–July 2026)</li>
+          <li>Preparation for departure (June–August 2026)</li>
+          <li>Enrollment (August–October 2026)</li>
+        </ol>
+      </div>
+
+      <p><strong>Required documents:</strong></p>
+      <div class="highlight-box">
+        <ul>
+          <li>JICA Application Form (including: personal information, educational background, nominating institution, work experience, statement of commitment)</li>
+          <li>Graduation certificate (notarized copy, in English or with an official translation)</li>
+          <li>Academic transcript (must contain all grades of all subjects, notarized copy, in English or with a translation)</li>
+          <li>English language certificate (TOEFL iBT ≥80 or IELTS ≥6.5)</li>
+          <li>Passport or ID card with photo (to verify nationality, name, gender, date of birth)</li>
+          <li>2 photos 3x4cm (pasted on the application form)</li>
+          <li>Health certificate (examination date must be after April 1, 2026 and submitted to JICA before April 30, 2026)</li>
+        </ul>
+      </div>
+
+      <figure>
+        <div class="img-wrap">
+          <img src="https://www.jica.go.jp/english/africahiroba/business/detail/03/news/__icsFiles/afieldfile/2024/08/16/zambia7.jpg" class="img" />
+        </div>
+        <figcaption>Illustration (Source: JICA - www.jica.go.jp)</figcaption>
+      </figure>
+
+      <h2>5. Preparing for the selection process</h2>
+      <p>JICA evaluates applications based on the research plan and potential for policy contribution. Partner universities will pre-match, after which candidates will participate in the official entrance examination or interview.</p>
+
+      <h2>6. Choosing a university and program of study</h2>
+      <p>Applicants choose a university from JICA's partner list (provided by JICA Vietnam). Each university may have its own requirements.</p>
+
+      <h2>7. Improving English skills</h2>
+      <p>The program is taught in English. The cost of the English test may be reimbursed if taken within the same Japanese fiscal year (April 1 – March 31 of the following year).</p>
+
+      <h2>8. Important timeline</h2>
+      <div class="timeline-flow">
+        <div class="timeline-item"><span class="timeline-date">September 2025</span><p>Candidate nomination at the home institution</p></div>
+        <div class="timeline-item"><span class="timeline-date">October 2025</span><p>Application deadline through the Ministry of Finance</p></div>
+        <div class="timeline-item"><span class="timeline-date">Nov–Dec 2025</span><p>Screening and pre-matching with the university</p></div>
+        <div class="timeline-item"><span class="timeline-date">January 2026</span><p>Pre-matching results announced</p></div>
+        <div class="timeline-item"><span class="timeline-date">Feb–Jun 2026</span><p>Official entrance examination</p></div>
+        <div class="timeline-item"><span class="timeline-date">Jun–Jul 2026</span><p>Examination results</p></div>
+        <div class="timeline-item"><span class="timeline-date">Aug–Oct 2026</span><p>Enrollment in Japan</p></div>
+      </div>
+
+      <h2>9. Costs covered by JICA</h2>
+      <ul>
+        <li>Tuition: Actual cost according to the university</li>
+        <li>Living expenses: 117,000–148,000 yen/month</li>
+        <li>Airfare: Actual cost (round trip)</li>
+        <li>Outfit allowance: 100,000 yen</li>
+        <li>Moving allowance: 164,000–224,000 yen</li>
+        <li>Research expenses: Up to 360,000 yen/year</li>
+        <li>Health insurance: According to regulations</li>
+      </ul>
+
+      <h2>10. Participation conditions</h2>
+      <p>Selected applicants must comply with JICA's conditions, including being present in Japan, not changing flight tickets, not extending the course, not plagiarizing, not using generative AI in their application or research, and completing the course on time.</p>
+
+      <h2>11. Why choose the JICA Scholarship?</h2>
+      <div class="highlight-box">
+        <ul>
+          <li>Full scholarship covering all expenses.</li>
+          <li>Study at prestigious Japanese universities.</li>
+          <li>Special JICA-DSP program and practical internship.</li>
+          <li>Global network with 111 partner countries.</li>
+          <li>Sustainable and professional Vietnam-Japan bridge.</li>
+        </ul>
+      </div>
+
+      <div class="final-note">
+        <p><strong>Start preparing today!</strong><br><br>
+        The JICA “SDGs Global Leader” Scholarship is not just an opportunity to study abroad – it is a journey to becoming a high-quality policymaker, contributing to Vietnam's sustainable development.<br><br>
+        <strong>Contact JICA Vietnam Office:</strong><br>
+        11th Floor, Corner Stone Building, 16 Phan Chu Trinh, Hoan Kiem, Hanoi<br>
+        Tel: 84-4-38315005~8<br>
+        Email: <a href="mailto:nguyenthimaikhanh.vt@jica.go.jp">nguyenthimaikhanh.vt@jica.go.jp</a><br>
+        Website: <a href="https://www.jica.go.jp/vietnam/index.html" target="_blank">https://www.jica.go.jp/vietnam/index.html</a><br>
+        <strong>Application deadline:</strong> October 22, 2025 (through the Ministry of Finance of Vietnam)
+        </p>
+      </div>
+
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <p class="share-note">Share this article</p>
+        <div class="social-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/scholarship/250922-jica.html" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/scholarship/250922-jica.html" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/scholarship/250922-jica.html" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="quick-info">
+        <h3>📘 Quick Info</h3>
+        <ul>
+          <li>🎓 Master's & PhD Scholarship</li>
+          <li>🌏 Study in Japan</li>
+          <li>👩‍💼 For Government officials, lecturers</li>
+          <li>🕓 Deadline: October 22, 2025</li>
+        </ul>
+      </div>
+
+      <div class="quick-info">
+        <h3>🗓️ Timeline</h3>
+        <ul>
+          <li>Sep 2025 – Candidate nomination</li>
+          <li>Oct 22, 2025 – Application deadline</li>
+          <li>Feb–Jun 2026 – Official entrance examination</li>
+          <li>Aug–Oct 2026 – Enrollment in Japan</li>
+        </ul>
+      </div>
+
+      <a 
+        href="mailto:nguyenthimaikhanh.vt@jica.go.jp"
+        target="_blank"
+        class="apply-button"
+      >
+        APPLY NOW
+      </a>
+    </aside>
+  </div>
+</body>
+
+```
+
+
+<!-- JS SCRIPT -->
+<script src="section-scholarship-template.js"></script>
+
+

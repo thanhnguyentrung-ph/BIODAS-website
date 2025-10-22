@@ -1,0 +1,301 @@
+---
+title: "Digital Transformation of Vietnam’s Healthcare: Modernizing the National Health System for an Intelligent and Inclusive Future"
+subtitle: "Digital Transformation of Vietnam’s Healthcare: Modernizing the National Health System for an Intelligent and Inclusive Future"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Vietnam
+  - Digital Health
+  - National Health System
+  - Digital Transformation
+  - VNeID
+  - 57-NQ/TW
+  - Telehealth
+  - Electronic Medical Record (EMR)
+  - Electronic Health Record (EHR)
+  - AI
+  - Precision Medicine
+  - WHO
+author: "BIODAS Team"
+date: 09/19/2025 # mm/dd/yyyy
+toc: true
+image: https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/12/5/chuyen-doi-so-y-te-10-173338760854580749395.jpg
+aliases: 
+  - /media/news/
+---
+
+![](https://aihms.in/blog/wp-content/uploads/2021/08/digitalization1.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-news-template">
+
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#sec-1">Introduction</a></li>
+      <li><a href="#sec-2">Digital Health Transformation Policy Framework</a></li>
+      <li><a href="#sec-3">Electronic Health Book</a></li>
+      <li><a href="#sec-4">Unified Health Data Management System</a></li>
+      <li><a href="#sec-5">Development of Vietnamese Human Genetic Medicine</a></li>
+      <li><a href="#sec-6">Challenges and Solutions</a></li>
+      <li><a href="#sec-7">The Future of Digital Health in Vietnam</a></li>
+      <li><a href="#sec-8">References</a></li>
+    </ol>
+  </nav>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <!-- =============================
+     INTRO SECTION – BIODAS ARTICLE INTRO
+     ============================= -->
+    <section>
+      <h1>Digital Transformation of Vietnam's Healthcare – The Journey to Modernize the Healthcare System</h1>
+      <p>
+        Vietnam is undergoing a comprehensive digital transformation in its healthcare sector, with the ambition of building a modern, intelligent, and efficient healthcare system. 
+        From digitizing medical records to applying artificial intelligence (AI) in diagnosis, Vietnam is gradually asserting its new position in the region in medical technology, demonstrated through groundbreaking policies, extensive international cooperation, and strong investment in research – development (R&D).
+      </p>
+      <p>
+        Digital transformation is no longer just a trend but a necessity to enhance the capacity of the healthcare system, especially after the COVID-19 pandemic – when data, connectivity, and technology proved their vital role in protecting public health. 
+        Vietnam aims to transform its healthcare mindset and model, putting people at the center, data as the foundation, and technology as the driving force for development.
+      </p>
+
+      <div class="callout">
+        <p><strong>The BIODAS Team</strong> synthesizes from official sources of the Ministry of Health and WHO, updating policies, results, and challenges in Vietnam's healthcare digital transformation journey to 2030.</p>
+      </div>
+
+    </section>
+
+    <!-- 1. Introduction -->
+    <section id="sec-1">
+      <h2>1. Introduction</h2>
+      <p>
+        Vietnam is entering a period of strong digital transformation in all fields, with healthcare being a pioneering sector. 
+        The goal is to build a people-centered healthcare system that integrates digital technology, big data, and artificial intelligence to optimize management, treatment, and disease prevention.
+      </p>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://svitla.com/wp-content/webp-express/webp-images/uploads/2025/02/Blog-cover-Digital-transformation-technologies-in-healthcare-936x527.jpg.webp" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: https://svitla.com)
+      </figcaption>
+    </figure>
+
+
+    <!-- 2. Policy Framework -->
+    <section id="sec-2">
+      <h2>2. Digital Health Transformation Policy Framework</h2>
+      <p>
+        The Vietnamese government has shown strong determination in modernizing the healthcare system through strategic policies. 
+        <strong>Resolution No. 57-NQ/TW</strong> of the Politburo (2023) sets out a vision to 2030: 
+      </p>
+      <ul>
+        <li>To be among the top 50 countries in the world in terms of digital competitiveness;</li>
+        <li>To be among the top 3 leading countries in Southeast Asia in research and development of artificial intelligence.</li>
+      </ul>
+      <p>
+        The Digital Health Transformation Project for the period 2023–2025 concretizes this vision with 5 pillars: 
+        data infrastructure development, digital health ecosystem, application of AI and Big Data, information security, and training of digital health human resources.
+      </p>
+
+      <div class="callout">
+        <p><strong>Update from the Ministry of Health (2024)</strong></p>
+        <p>At the Health Partnership Group Meeting, Minister Dao Hong Lan emphasized that digital transformation is a strategic priority to achieve <em>Universal Health Coverage (UHC)</em> and the <em>Sustainable Development Goals (SDGs)</em>.</p>
+        <ul>
+          <li>Issued Resolution 157-NQ/BCSD and Decision 5316/QD-BYT with a vision to 2030.</li>
+          <li>Implemented electronic health records integrated with VNeID, electronic medical records, Telehealth, cashless payments, a national pharmaceutical database, and AI applications in diagnosis.</li>
+        </ul>
+      </div>
+
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/12/5/chuyen-doi-so-y-te-6-1733387608490455472891.jpg" class="img" />
+        </div>
+        <figcaption>
+          Image: Minister of Health Dao Hong Lan, Deputy Minister of Health Nguyen Tri Thuc, WHO Representative in Vietnam, Dr. Angela Pratt co-chaired the meeting (Source: https://moh.gov.vn)
+        </figcaption>
+      </figure>
+
+      <div class="callout">
+        <p><strong>Update from the Ministry of Health (2022)</strong></p>
+        <p>Deputy Minister Prof. Dr. Tran Van Thuan affirmed that digital transformation played a major role in controlling the COVID-19 pandemic, through platforms for medical declaration, testing, vaccination, remote medical examination, and online consultation.</p>
+        <ul>
+          <li>More than 1,000 facilities have implemented Telehealth nationwide.</li>
+          <li>Project 06 on electronic identification is the foundation for connecting national health data.</li>
+          <li>Currently finalizing the Decree on health data management and updating Circulars 46/2018, 49/2017, 54/2017.</li>
+        </ul>
+      </div>
+
+      <!-- Illustration -->
+      <figure>
+        <div class="img-wrap">
+          <img src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/12/2/31612619957080290092557137251278919197376496n-16699634457361687885764.jpg" class="img" />
+        </div>
+        <figcaption>
+          Image: Vinh City General Hospital has implemented medical examination and treatment registration using chip-based citizen identification cards or through the VNEID application - electronic identification account (Source: https://moh.gov.vn)
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- 3. Electronic Health Book -->
+    <section id="sec-3">
+      <h2>3. Electronic Health Book – A Historic Breakthrough</h2>
+      <p>
+        One of the historic milestones is the <strong>Electronic Health Book</strong>, implemented from July 1, 2025, according to Decree 102/2025/ND-CP. 
+        This is a platform connecting people, doctors, medical facilities, and insurance – helping each citizen have a unified electronic health record.
+      </p>
+      <p>
+        The Electronic Health Book is not only a storage tool but also an intelligent health data ecosystem, where doctors can quickly access information, people can monitor their own health, 
+        and state agencies can analyze data to plan effective policies.
+      </p>
+      <div class="callout">
+        <p><strong>Update:</strong> Directly integrated with VNeID, allowing for medical examinations using citizen ID cards, cashless payments, reducing administrative procedures, and increasing transparency in health insurance payments.</p>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://bvhungvuong.vn/upload/images/5%20B%C6%B0%E1%BB%9Bc%20%282%29.jpg" class="img" />
+      </div>
+      <figcaption>
+        Illustration (Source: https://bvhungvuong.vn/)
+      </figcaption>
+    </figure>
+
+    <!-- 4. Data System -->
+    <section id="sec-4">
+      <h2>4. Building a Unified Health Data Management System</h2>
+      <p>
+        Vietnam is building a centralized, unified, and intelligent health data management system, connecting seamlessly from the central to the grassroots level. 
+        The system allows for the storage, retrieval, and analysis of all medical examination and treatment data, drug use, and insurance, serving proactive forecasting and disease prevention.
+      </p>
+      <div class="callout">
+        <p><strong>Local practice:</strong> In Nghe An, 100% of medical facilities have applied software for electronic health insurance management and payment, achieving 97% of the population with health records, and many hospitals have implemented electronic medical records and linked data with the central system.</p>
+      </div>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://cdnmedia.baotintuc.vn/Upload/YZmStSDTjb0M07hFJ2gA/files/2025/05/01/y-te-130525-1.jpg" class="img" />
+      </div>
+      <figcaption>
+        Image: A medical staff member uses a QR code scanner on a chip-based citizen ID card to look up patient information at the Tan Yen District Health Center, Bac Giang (Source: Dong Thuy/VNA)
+      </figcaption>
+    </figure>
+
+    <!-- 5. Genetic Medicine -->
+    <section id="sec-5">
+      <h2>5. Development of Vietnamese Human Genetic Medicine</h2>
+      <p>
+        The VinBigData project has completed the first reference genome for the Vietnamese people, creating an important scientific foundation for precision medicine.
+        Genetic data helps predict the risk of chronic diseases (cardiovascular, diabetes, cancer) and adverse drug reactions, opening a new era of personalized treatment in Vietnam.
+      </p>
+    </section>
+
+    <!-- Illustration -->
+    <figure>
+      <div class="img-wrap">
+        <img src="https://cdn.nhandan.vn/images/7f491ee6c6b660425d7c9ab03f1ec4471ed976866ed5b7454ebe8401ba093ec0b3d398006dc76e901b2943e93b3d085aa524ba4aba927c4dd608e7bbc6a2d4cf/giai_ma_gen_2-1639624893474.jpg" class="img" />
+      </div>
+      <figcaption>
+        Image: After collection, biological samples are processed at the ISO 15189-standard laboratory at Vinmec International General Hospital (Source: https://nhandan.vn/)
+      </figcaption>
+    </figure>
+
+    <!-- 6. Challenges and Solutions -->
+    <section id="sec-6">
+      <h2>6. Challenges and Solutions</h2>
+      <ul>
+        <li>Personal data leakage and the risk of illegal exploitation.</li>
+        <li>Data fragmentation, lack of security encryption.</li>
+        <li>Cyberattacks (ransomware) on hospital systems.</li>
+        <li>Inconsistent legal framework between levels.</li>
+        <li>Digital divide between urban and rural areas.</li>
+      </ul>
+      <div class="callout">
+        <p><strong>WHO recommends:</strong> Vietnam needs to invest heavily in health cybersecurity, train data governance personnel, and ensure digital equity – leaving no one behind.</p>
+      </div>
+    </section>
+
+    <!-- 7. The Future -->
+    <section id="sec-7">
+      <h2>7. The Future of Digital Health in Vietnam</h2>
+      <p>
+        The future of healthcare in Vietnam is an intelligent, connected, people-centered system, where technology is the tool, data is the resource, and trust is the foundation.
+        With the companionship of WHO, WB, UNDP, and technology companies, Vietnam is building a sustainable digital health ecosystem, connecting the digital government – digital economy – digital society.
+      </p>
+      <p>
+        By 2030, Vietnam aims to become a leading country in Southeast Asia in digital health, where people are proactively cared for and protected by data, technology, and innovation.
+      </p>
+    </section>
+
+    <!-- 8. References -->
+    <section id="sec-8">
+      <h2>8. References</h2>
+      <div class="ref">
+        <ul>
+          <li><a href="https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-ve-dot-pha-phat-trien-khoa-hoc-cong-nghe-doi-moi-sang-tao-va-chuyen-doi-so-quoc-gia-119241224180048642.htm" target="_blank">[1] Resolution 57-NQ/TW – Breakthrough in scientific and technological development, innovation, and national digital transformation</a></li>
+          <li><a href="https://thuvienphapluat.vn/van-ban/Cong-nghe-thong-tin/Quyet-dinh-2491-QD-BYT-2023-thuc-hien-nhiem-vu-trong-tam-ve-chuyen-doi-so-2023-2025-569565.aspx" target="_blank">[2] Decision 2491/QD-BYT in 2023 – Key tasks for digital health transformation</a></li>
+          <li><a href="https://thuvienphapluat.vn/van-ban/Cong-nghe-thong-tin/Nghi-dinh-102-2025-ND-CP-quy-dinh-quan-ly-du-lieu-y-te-656633.aspx" target="_blank">[3] Decree 102/2025/ND-CP – Management of health data</a></li>
+          <li><a href="https://nhandan.vn/hoan-thanh-nghien-cuu-giai-ma-gene-nguoi-viet-dau-tien-post678436.html" target="_blank">[4] Nhan Dan Newspaper – Completion of the first Vietnamese genome sequencing research</a></li>
+          <li><a href="https://baochinhphu.vn/nhung-thach-thuc-trong-chuyen-doi-so-nganh-y-te-102250812111718225.htm" target="_blank">[5] Government Newspaper – Challenges in digital transformation of the health sector</a></li>
+          <li><a href="https://moh.gov.vn/tin-noi-bat/-/asset_publisher/3Yst7YhbkA5j/content/cuoc-hop-nhom-oi-tac-y-te-chuyen-oi-so-trong-y-te-tai-viet-nam-en-nam-2030" target="_blank">[6] Ministry of Health – Health Partnership Group Meeting (2024)</a></li>
+          <li><a href="https://moh.gov.vn/hoat-dong-cua-lanh-dao-bo/-/asset_publisher/TW6LTp1ZtwaN/content/chuyen-oi-so-y-te-can-thiet-cho-nguoi-dan-trong-cham-soc-suc-khoe" target="_blank">[7] Ministry of Health – Digital health transformation is necessary for people in healthcare (2022)</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Share this article</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/250919-vn-digital-health.html" class="fb"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/250919-vn-digital-health.html" class="x"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.biodas.net/media/news/250919-vn-digital-health.html" class="in"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+
+  </main>
+</div>
+
+
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title">OTHER NEWS</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+</body>
+
+```
+
+
+<!-- JS SCRIPT -->
+<script src="section-news-template.js"></script>
+

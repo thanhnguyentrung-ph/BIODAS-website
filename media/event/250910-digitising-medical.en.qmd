@@ -1,0 +1,159 @@
+---
+title: "Digitising Medical Research: Integrating Artificial Intelligence and Biobanking for Accelerated Discovery"
+subtitle: "Digitising Medical Research: Integrating Artificial Intelligence and Biobanking for Accelerated Discovery"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - Workshop
+  - International
+  - AI
+  - Biobank
+  - Online
+author: BIODAS Team
+date: 09/10/2025 # mm/dd/yyyy
+toc: true
+image: images/250910-poster.png
+aliases: 
+  - /media/event/
+---
+
+![](images/250910-poster.png){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-event-template.css">
+
+<!-- Font Awesome CDN (to display social media icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section class="section-event-template">
+  <div class="event-hero">
+    <div class="light-beam"></div>
+
+    <!-- PARTICLES -->
+    <div class="particle-container">
+      <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+      <div class="particle"></div><div class="particle"></div><div class="particle"></div>
+      <div class="particle"></div><div class="particle"></div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title shimmer">INTERNATIONAL WORKSHOP</h1>
+      <h2 class="hero-subtitle">
+        DIGITISING MEDICAL RESEARCH: INTEGRATING ARTIFICIAL INTELLIGENCE AND BIOBANKING FOR ACCELERATED DISCOVERY
+      </h2>
+      <a href="https://cbiit.webex.com/webappng/sites/cbiit/meeting/register/e9797166f4df411485ea03bc6050a985?ticket=4832534b00000007410103467bbb9fe6eae9bf4d27789b6ec7cc5fd886660b279888ccd469760374&timestamp=1759833481004&RGID=r9eca86620bdd4e16c1f14910c757478f&isAutoPopRegisterForm=false" class="btn-register" target="_blank">
+        Register Now
+      </a>
+    </div>
+  </div>
+
+  <div class="event-body">
+    <h3>1. Summary</h3>
+    <p>
+      The rapid development of digitization is reshaping medical research, from the creation, storage, and analysis of data to its application in clinical practice. At the heart of this trend is the combination of artificial intelligence (AI) and modern biobanks, opening up opportunities for scientific research and improving the quality of healthcare.
+    </p>
+
+    <p>
+      Today's biobanks not only store physical samples but also integrate diverse data systems: clinical, genomic, imaging, and lifestyle. When standardized and linked, this data becomes the foundation for advanced AI analysis, which can identify predictive markers, model disease progression, and support personalized medicine.
+    </p>
+
+    <p>
+      Besides the great potential, the application of AI and the digitization of biobanks pose urgent requirements for governance, ethics, law, and society, to ensure privacy, fairness, and trust in research. This presentation will provide an overview of practical experience from the IARC/WHO biobank, current projects, and future directions.
+    </p>
+
+    <p>
+      The integration of AI with digitized biobanks signals a significant paradigm shift in biomedical science, promising faster, more accurate, and more effective data analysis in the face of complex scientific challenges.
+    </p>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://i.pinimg.com/1200x/e5/65/73/e56573ad1b60b1fe0cac02c338fb8d88.jpg" class="img" />
+      </div>
+      <figcaption>
+        Image: Illustration (Source: Internet)
+      </figcaption>
+    </figure>
+
+    <h3>2. Workshop Information</h3>
+    <p>
+      The workshop series is organized by the Biorepositories and Biospecimen Research Branch (BBRB), National Cancer Institute (NCI), to discuss current topics in biobanking science, policy, and operations. 
+      In the era of precision medicine, high-quality biospecimens play a central role in understanding complex diseases, discovering biomarkers, and elucidating mechanisms of therapeutic resistance. 
+      The workshop series looks to the future, focusing on raising awareness of best practices in collecting biospecimens and related data, while expanding research participation through biobanking.
+    </p>
+
+    <!-- CALLOUT -->
+    <div class="event-callout">
+      <ul>
+        <li><strong>Time:</strong> Thursday, September 18, 2025 | 1:30 – 3:00 AM</li>
+        <li><strong>Timezone:</strong> (UTC+07:00) Bangkok, Hanoi, Jakarta</li>
+        <li><strong>Host:</strong> <a href="https://www.linkedin.com/in/veenagopalakrishnan/" target="_blank">Dr. Veena Gopalakrishnan</a></li>
+        <li><strong>Format:</strong> In-person and online (Participants must register using the WebEx link before the meeting.)</li>
+        <li><strong>Language:</strong> English</li>
+        <li><strong>Attendance fee:</strong> Free</li>
+      </ul>
+    </div>
+
+    <!-- COUNTDOWN -->
+    <div class="countdown-container">
+      <p id="countdown-label" class="countdown-label">The event will take place in:</p>
+      <div class="countdown" id="countdown">
+        <div class="digit"><span id="days">00</span><small>Days</small></div>
+        <div class="digit"><span id="hours">00</span><small>Hours</small></div>
+        <div class="digit"><span id="minutes">00</span><small>Minutes</small></div>
+        <div class="digit"><span id="seconds">00</span><small>Seconds</small></div>
+      </div>
+    </div>
+
+    <h3>3. Registration</h3>
+    <p>
+      Registration link:
+      <a href="https://cbiit.webex.com/webappng/sites/cbiit/meeting/register/e9797166f4df411485ea03bc6050a985?ticket=4832534b00000007410103467bbb9fe6eae9bf4d27789b6ec7cc5fd886660b279888ccd469760374&timestamp=1759833481004&RGID=r9eca86620bdd4e16c1f14910c757478f&isAutoPopRegisterForm=false" target="_blank">
+        https://cbiit.webex.com/webappng/sites/cbiit/meeting/register/...
+      </a>
+    </p>
+
+    <div class="btn-wrap">
+      <a href="https://cbiit.webex.com/webappng/sites/cbiit/meeting/register/e9797166f4df411485ea03bc6050a985?ticket=4832534b00000007410103467bbb9fe6eae9bf4d27789b6ec7cc5fd886660b279888ccd469760374&timestamp=1759833481004&RGID=r9eca86620bdd4e16c1f14910c757478f&isAutoPopRegisterForm=false" class="btn-register" target="_blank">
+        Register Now
+      </a>
+    </div>
+
+    <!-- CALLOUT -->
+    <div class="event-callout">
+      <p><strong>BIODAS</strong> shares information about participating in the online workshop on the topic of 
+        <strong>“Biobanking for Personalized Medicine”</strong>, organized by the National Cancer Institute (NCI).</p>
+      <ul>
+        <li><strong>Target audience:</strong> Researchers, doctors, lecturers, students, and anyone interested in the field of biobanking and precision medicine.</li>
+        <li><strong>Recommendation:</strong> Colleagues, lecturers, and researchers in the biomedical field should participate to update their knowledge, learn from international experience, and connect with professionals.</li>
+      </ul>
+      <p>Join <strong>BIODAS</strong> in the sharing session on the topic of <strong>“Biobanking for Personalized Medicine”</strong>, to learn about the role of high-quality biospecimens in research and the application of precision medicine.</p>
+      <p><strong>Note:</strong> The workshop will take place from 1:00 AM to 3:00 AM Vietnam time. BIODAS recommends that colleagues in Vietnam arrange their time and prepare their health to ensure they are alert to attend the workshop.</p>
+    </div>
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Share this article:</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/event/250910-digitising-medical.html/" class="fb" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/event/250910-digitising-medical.html/" class="x" title="Share on X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.biodas.net/media/event/250910-digitising-medical.html/" class="in" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+```
+
+
+<!-- Attach JS file -->
+<script>
+  const targetDate = new Date("Sep 18, 2025 01:30:00").getTime();
+</script>
+
+<script src="section-event-template.js"></script>
+

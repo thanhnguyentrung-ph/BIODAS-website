@@ -1,0 +1,228 @@
+---
+title: "BIODAS Expert and Staff Team"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+sidebar: true
+search: true
+toc: true
+repo-actions: false
+aliases: 
+  - /about/
+---
+
+
+
+```{=html}
+<style>
+.section-team {
+  margin: 40px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* Title with gradient + shine */
+.section-team .team-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(270deg, #313d5d, #4a5d9d, #6a7fc9);
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+  padding: 14px 30px;
+  border-radius: 10px;
+  margin: 40px auto 30px;
+  display: block;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+  transition: animation-duration 0.3s ease;
+}
+.section-team .team-title:hover {
+  animation-duration: 3s; /* hover: gradient runs faster */
+}
+.section-team .team-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-20deg);
+  animation: shineMove 6s infinite;
+}
+@keyframes gradientMove {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes shineMove {
+  0%   { left: -100%; }
+  50%  { left: 100%; }
+  100% { left: 100%; }
+}
+
+/* Team grid */
+.section-team .team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin: 20px 0 50px;
+}
+
+/* Member card */
+.section-team .member-card {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0;
+  transform: scale(0.85);
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+.section-team .experts .member-card {
+  transform: translateX(-40px) scale(0.85);
+}
+.section-team .experts .member-card.visible {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+.section-team .staff .member-card {
+  transform: translateX(40px) scale(0.85);
+}
+.section-team .staff .member-card.visible {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+.section-team .team-grid .member-card:nth-child(1) { transition-delay: 0.2s; }
+.section-team .team-grid .member-card:nth-child(2) { transition-delay: 0.4s; }
+.section-team .team-grid .member-card:nth-child(3) { transition-delay: 0.6s; }
+
+/* Image + text */
+.section-team .member-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section-team .member-card h3 {
+  margin: 15px 0 5px;
+  font-size: 1.2em;
+  color: #313d5d;
+}
+.section-team .member-card .role {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Hover */
+.section-team .member-card:hover {
+  transform: translateY(-12px) scale(1.08);
+}
+.section-team .member-card:hover img {
+  animation: pulse 0.8s ease 2;
+  box-shadow: 0 0 20px rgba(49, 61, 93, 0.5);
+}
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.section-team .member-card.active img {
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.7);
+  transform: scale(1.05);
+}
+</style>
+
+<section class="section-team">
+
+  <h2 class="team-title">Expert Team</h2>
+  </br>
+  <div class="team-grid experts">
+
+    <a href="experts/nguyen-thanh-luong.qmd" class="member-card">
+      <img src="images/experts/nguyen-thanh-luong.jpg" alt="nguyen-thanh-luong">
+      <h3>Dr. Nguyen Thanh Luong</h3>
+      <div class="role">Global Health Expert</div>
+    </a>
+
+    <a href="experts/nguyen-trung-thanh.qmd" class="member-card">
+      <img src="images/experts/nguyen-trung-thanh.jpg" alt="nguyen-trung-thanh">
+      <h3>Mr. Nguyen Trung Thanh</h3>
+      <div class="role">Data Science Consultant</div>
+    </a>
+
+  </div>
+
+  <h2 class="team-title">Staff Team</h2>
+  </br>
+  <div class="team-grid staff">
+
+    <a href="staffs/nguyen-quoc-dat.qmd" class="member-card">
+      <img src="images/staffs/nguyen-quoc-dat.jpg" alt="nguyen-quoc-dat">
+      <h3>MSc. Nguyen Quoc Dat</h3>
+      <div class="role">Operations Manager</div>
+    </a>
+
+    <a href="staffs/nguyen-cat-tuong.qmd" class="member-card">
+      <img src="images/staffs/nguyen-cat-tuong.jpg" alt="nguyen-cat-tuong">
+      <h3>Dr. Nguyen Cat Tuong</h3>
+      <div class="role">Research Assistant</div>
+    </a>
+
+    <a href="staffs/phan-hoang-anh.qmd" class="member-card">
+      <img src="images/staffs/phan-hoang-anh.jpg" alt="phan-hoang-anh">
+      <h3>Pharm. Phan Hoang Anh</h3>
+      <div class="role">Research Assistant</div>
+    </a>
+
+  </div>
+
+</section>
+
+```
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".section-team .member-card");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      } else {
+        entry.target.classList.remove("visible");
+      }
+    });
+  }, { threshold: 0.2 });
+
+  cards.forEach(card => observer.observe(card));
+
+  cards.forEach(card => {
+    card.addEventListener("click", function (e) {
+      e.preventDefault();
+      cards.forEach(c => c.classList.remove("active"));
+      this.classList.add("active");
+      setTimeout(() => {
+        window.location.href = this.getAttribute("href");
+      }, 300);
+    });
+  });
+
+});
+</script>
+```
+
+
+

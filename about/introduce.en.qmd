@@ -1,0 +1,225 @@
+---
+title: About BIODAS </br> Institute of Biomedical Data and Science Research
+subtitle: Institute of Biomedical Data and Science Research
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+sidebar: true
+search: true
+toc: true
+repo-actions: false
+aliases: 
+  - /about/
+---
+
+![](images/introduce.jpg){fig-align="center" class="img-cover"}
+
+
+
+# BIODAS — Institute of Biomedical Data and Science Research
+
+**BIODAS** is a research unit specializing in biomedical science and data science in Vietnam.  
+Our mission is to connect hospitals, research institutes, and public-private healthcare organizations domestically and internationally to promote medical research, develop technology, and improve treatment quality for the community.
+
+
+```{=html}
+<style>
+.section-introduce {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+/* Box mặc định: PC/Laptop (5 box / 1 hàng) */
+.section-introduce .service-box {
+  flex: 1 1 calc(20% - 20px); /* 5 box chia đều */
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.8s ease, box-shadow 0.3s ease, opacity 0.8s ease;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;                  
+  transform: scale(0.9);
+}
+
+/* Tablet: 2 box / 1 hàng */
+@media (max-width: 991px) {
+  .section-introduce .service-box {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+/* Mobile: 1 box / 1 hàng */
+@media (max-width: 768px) {
+  .section-introduce .service-box {
+    flex: 1 1 100%;
+  }
+}
+
+/* Hiệu ứng fade-in xen kẽ */
+.section-introduce .service-box.left {
+  transform: translateX(-50px) scale(0.9);
+}
+.section-introduce .service-box.right {
+  transform: translateX(50px) scale(0.9);
+}
+
+/* Khi hiện ra màn hình */
+.section-introduce .service-box.visible {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+/* Thêm delay cho từng box */
+.section-introduce .service-box.visible:nth-child(1) { transition-delay: 0.2s; }
+.section-introduce .service-box.visible:nth-child(2) { transition-delay: 0.4s; }
+.section-introduce .service-box.visible:nth-child(3) { transition-delay: 0.6s; }
+.section-introduce .service-box.visible:nth-child(4) { transition-delay: 0.8s; }
+.section-introduce .service-box.visible:nth-child(5) { transition-delay: 1s; }
+
+/* Hover */
+.section-introduce .service-box:hover {
+  transform: scale(1.03) translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2), 0 0 12px rgba(49,61,93,0.3);
+}
+
+/* Title */
+.section-introduce .service-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  background: linear-gradient(90deg, #313d5d, #4a5d9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Nội dung */
+.section-introduce .service-box ul {
+  list-style: disc;
+  margin-left: 8px;
+  line-height: 1.6;
+}
+
+.section-introduce .service-box li {
+  margin-bottom: 8px;
+  font-weight: normal;   
+  opacity: 0;
+  transform: translateY(5px);
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.section-introduce .service-box li:nth-child(1) { animation-delay: 0.2s; }
+.section-introduce .service-box li:nth-child(2) { animation-delay: 0.4s; }
+.section-introduce .service-box li:nth-child(3) { animation-delay: 0.6s; }
+.section-introduce .service-box li:nth-child(4) { animation-delay: 0.8s; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Highlight màu khác nhau cho từng box */
+.section-introduce .service-box.tip { border-top: 6px solid #2a9d8f; }
+.section-introduce .service-box.note { border-top: 6px solid #e76f51; }
+.section-introduce .service-box.data { border-top: 6px solid #457b9d; }
+.section-introduce .service-box.future { border-top: 6px solid #f4a261; }
+.section-introduce .service-box.market { border-top: 6px solid #8e44ad; } /* tím */
+</style>
+
+<div class="section-introduce">
+  <!-- Block 1 -->
+  <div class="service-box tip left">
+    <h2>Training & Capacity Building</h2>
+    <ul>
+      <li>Biomedical data collection & analysis: Excel, SPSS, R, data visualization.</li>
+      <li>Clinical research methodology: study design, research workflow, scientific manuscript writing.</li>
+      <li>Free seminars/webinars on biomedical research & data analysis.</li>
+      <li>Direct mentoring from domestic and international experts.</li>
+    </ul>
+  </div>
+
+  <!-- Block 2 -->
+  <div class="service-box note right">
+    <h2>Scientific Research</h2>
+    <ul>
+      <li>Collaboration with hospitals, research institutes, and universities in areas including: clinical research, public health, community surveys.</li>
+      <li>Conducting research reports, scientific publications, and healthcare market research reports.</li>
+      <li>Supporting field data collection & processing, assisting with patient recruitment according to research protocols.</li>
+    </ul>
+  </div>
+
+  <!-- Block 3 -->
+  <!-- <div class="service-box data left">
+    <h2>Ngân hàng y sinh & Dữ liệu y sinh</h2>
+    <ul>
+      <li>Xây dựng ngân hàng mẫu sinh học (biobank) gắn dữ liệu lâm sàng, bệnh học, thông tin lối sống và dữ liệu liên kết.</li>
+      <li>Quy trình được phê duyệt bởi hội đồng đạo đức, tuân thủ tiêu chuẩn trong nước và quốc tế.</li>
+    </ul>
+  </div> -->
+
+  <!-- Block 4 -->
+  <div class="service-box future right">
+    <h2>Development Direction</h2>
+    <ul>
+      <li>Science • Connection • For the Community</li>
+      <li>Expanding the academic-practice ecosystem: integrating training, research, and data.</li>
+      <li>Strengthening collaboration with public-private organizations domestically and internationally.</li>
+      <li>Enhancing research capacity in Vietnam, contributing to affirming the nation's position on the global scientific map.</li>
+    </ul>
+  </div>
+
+  <!-- Block 5 -->
+  <div class="service-box market left">
+    <h2>Market Research</h2>
+    <ul>
+      <li>Healthcare and pharmaceutical companies: assessing market potential, identifying strengths, weaknesses, gaps, challenges, and investment opportunities.</li>
+      <li>Hospitals and research institutes: developing service development plans and research collaborations aligned with community needs.</li>
+      <li>Regulatory agencies: providing scientific evidence to support sustainable health policy and strategy development.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+/* Script để add class "visible" khi scroll xuống */
+document.addEventListener("DOMContentLoaded", function() {
+  const boxes = document.querySelectorAll(".section-introduce .service-box");
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.9;
+    boxes.forEach(box => {
+      const boxTop = box.getBoundingClientRect().top;
+      if (boxTop < triggerBottom) {
+        box.classList.add("visible");
+      }
+    });
+  };
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll(); // chạy ngay khi load
+});
+</script>
+
+```
+</br>
+
+
+
+<div style="text-align:center;">
+  <h2>Contact</h2>
+
+  <p>
+    Email:
+    <strong>
+      <a href="mailto:contact@biodas.net">contact@biodas.net</a>
+    </strong>
+  </p>
+
+  <p>
+    <span style="color:#313d5d; font-weight:700;">
+      BIODAS — Science • Connection • For the Community
+    </span>
+  </p>
+</div>

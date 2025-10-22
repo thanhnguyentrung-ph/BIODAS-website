@@ -1,0 +1,144 @@
+---
+title: "RESEARCH ASSISTANT <br> (FULL-TIME)"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: "Deadline: 15/10/2025 | Status: Closed"
+categories:
+  - Research Assistant
+  - Full-time
+author: BIODAS Team
+date: 09/02/2025 # mm/dd/yyyy
+image: images/250902-poster.jpg
+aliases: 
+  - /recruitment/posts/
+---
+
+
+```{=html}
+<!-- Attach CSS file -->
+<link rel="stylesheet" href="section-recruitment-template.css">
+
+<body class="section-recruitment-template">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>RECRUITMENT – RESEARCH ASSISTANT (FULL-TIME)</h1>
+    <p>Join BIODAS in international scientific research and publication</p>
+    <a href="#apply" class="btn-action glow">Apply Now</a>
+  </div>
+
+  <!-- MAIN -->
+  <div class="layout">
+
+    <!-- Introduction -->
+    <section class="slide-left">
+      <p><strong>The Biomedical Research and Data Science Institute (BIODAS)</strong> is recruiting for the position of <strong>Research Assistant (Full-time)</strong> for candidates with a passion for scientific research, the ability to learn and adapt quickly to research tools and processes to join our team.</p>
+      <p>This position will participate in domestic and international research and publication projects, including:</p>
+      <ul>
+        <li>Developing and implementing scientific research.</li>
+        <li>Compiling scientific manuscripts (articles, monographs, reference books…).</li>
+        <li>Translating specialized documents.</li>
+      </ul>
+      <p><em>Suitable for candidates who are passionate about research, careful, meticulous, adhere to deadlines, and are oriented towards a long-term commitment to a scientific career, especially in the field of international writing and publication.</em></p>
+    </section>
+
+    <!-- Specific tasks -->
+    <section class="slide-right">
+      <h2>Specific tasks</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Participate in developing research proposals, designing tools, checklists, and survey forms.</li>
+          <li>Draft scientific publications and BIODAS publications (books, posters, conference materials…).</li>
+          <li>Translate scientific documents (English–Vietnamese and vice versa).</li>
+          <li>Conduct literature reviews, search, cite, and manage references (EndNote, Zotero…).</li>
+          <li>Coordinate with domestic and international experts to build capacity building programs.</li>
+          <li>Act as a teaching assistant, supporting the preparation of materials for BIODAS training courses.</li>
+          <li>Perform other tasks as assigned.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Candidate requirements -->
+    <section class="slide-left">
+      <h2>Candidate requirements</h2>
+      <div class="callout callout-note">
+        <ul>
+          <li>Graduates in Medicine, Pharmacy, health sciences, biomedical sciences, or related fields.</li>
+          <li>Proficient in all 4 English skills.</li>
+          <li>Experience and international scientific publications.</li>
+          <li>Experience in translating and editing scientific documents.</li>
+          <li>Proficient in searching and managing documents (EndNote, Zotero...).</li>
+          <li>Effective use of data analysis software (Excel, SPSS, Stata, R).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="slide-right">
+      <h2>Benefits</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Income: Fixed salary by agreement + bonus based on published products + progress bonus.</li>
+          <li>Direct guidance by researchers with international publication experience.</li>
+          <li>Opportunity for in-depth training in international scientific writing and publication.</li>
+          <li>Can co-author scientific articles.</li>
+          <li>Can use BIODAS data for dissertations, theses, research, or scientific conferences.</li>
+          <li>Flexible, professional, international publication-oriented work environment.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- How to apply -->
+    <section id="apply" class="slide-left">
+      <h2>How to apply</h2>
+      <div class="callout callout-tip">
+        <ul>
+          <li>Send your <strong>CV and Cover Letter</strong> (introducing yourself, stating the reason for applying) via the link:  
+            <a href="https://forms.gle/v3XedpdkkP69ZjAv7" target="_blank">https://forms.gle/v3XedpdkkP69ZjAv7</a></li>
+          <li>Or scan the QR code below to apply quickly.</li>
+        </ul>
+        <div style="text-align:center; margin-top:10px;">
+          <img src="images/250902-qrcode.jpeg" alt="QR Code to apply for BIODAS" width="180" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+        </div>
+        <div style="text-align:center; margin-top:20px;">
+          <a href="https://forms.gle/v3XedpdkkP69ZjAv7" class="btn-action glow">📩 SUBMIT APPLICATION</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deadline -->
+    <section class="slide-right">
+      <h2>Application deadline</h2>
+      <div class="callout callout-important">
+        Until the end of <strong>15/10/2025</strong>
+      </div>
+    </section>
+
+    <!-- About BIODAS -->
+    <section class="slide-left">
+      <h2>About BIODAS</h2>
+      <p><strong>The Biomedical Research and Data Science Institute (BIODAS)</strong> is a unit that connects and promotes applied research in health and biology in Vietnam.</p>
+      <div class="callout callout-note">
+        <ul>
+          <li>Collect, manage, and analyze biomedical data according to international standards.</li>
+          <li>Research in epidemiology, clinical, biomedical, and health information systems.</li>
+          <li>Build a data platform for clinical research and community surveys.</li>
+          <li>Develop a modern data management system.</li>
+          <li>Organize training courses on data application and biomedical analysis.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-note">
+      For any questions, please contact: <a href="mailto:contact@biodas.net">contact@biodas.net</a><br><br>
+      <strong>Sincerely,</strong><br>
+      <em>BIODAS Team</em>
+    </div>
+  </div>
+
+<!-- Attach JS file -->
+<script src="section-recruitment-template.js"></script>
+</body>
+
+```
