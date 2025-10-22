@@ -582,7 +582,6 @@ listing:
 <br>
 
 
-
 ---
 
 
@@ -941,9 +940,6 @@ listing:
     </div>
   </div>
 </section>
-
-```
-
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
