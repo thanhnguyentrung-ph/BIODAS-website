@@ -252,340 +252,254 @@ background: #313d5d;
 </figure>
 </div>
 <!-- Attach CSS file -->
-<p><link rel="stylesheet" href="section-news-template.css"></p>
-<!-- Font Awesome CDN (to display social media icons) -->
-<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></p>
-
+<link rel="stylesheet" href="section-news-template.css">
+<!-- Font Awesome CDN (to display social media icons) --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <div class="layout">
-<!-- Sidebar TOC -->
-<nav class="toc"><h3 class="anchored">
-Table of Contents
-</h3>
-<ol>
-<li>
-<a href="#sec-1">General Introduction</a>
-</li>
-<li>
-<a href="#sec-2">Multimodal Data Integration</a>
-</li>
-<li>
-<a href="#sec-3">Real-World Evidence</a>
-</li>
-<li>
-<a href="#sec-4">Digital Biomarkers</a>
-</li>
-<li>
-<a href="#sec-5">Clinical Decision Support Systems</a>
-</li>
-<li>
-<a href="#sec-6">Challenges and Development Opportunities</a>
-</li>
-<li>
-<a href="#sec-7">Conclusion</a>
-</li>
-<li>
-<a href="#sec-8">References</a>
-</li>
-</ol></nav><!-- Main content --><main class="content"><pre><code>&lt;!-- =============================
- INTRO SECTION – BIOMEDICAL DATA ARTICLE
- ============================= --&gt;
-&lt;section id="sec-1"&gt;
-  &lt;h2&gt;1. General Introduction&lt;/h2&gt;
-  &lt;p&gt;&lt;strong&gt;New Directions in Biomedical Research: Data Science Shapes the Future of Healthcare&lt;/strong&gt;&lt;/p&gt;
-  &lt;p&gt;
-    Biomedical data science is becoming the foundation of modern medical breakthroughs — 
-    not through overly complex technologies, but by effectively harnessing the data already available in the healthcare system. 
-    New research directions focus on integrating multi-source data, 
-    building evidence from clinical practice, 
-    developing digital biomarkers, 
-    and applying predictive analytics to improve treatment outcomes. 
-    These advances are creating significant changes in healthcare.
-  &lt;/p&gt;
-&lt;/section&gt;
 
-&lt;!-- 2. Multimodal Data Integration --&gt;
-&lt;section id="sec-2"&gt;
-  &lt;h2&gt;2. Multimodal Data Integration: A Comprehensive Picture of Health&lt;/h2&gt;
-  &lt;p&gt;
-    &lt;em&gt;Hao Y, Cheng C, Li J, Li H, Di X, Zeng X, Jin S, Han X, Liu C, Wang Q, Luo B, Zeng X, Li K. 
-    Multimodal Integration in Health Care: Development With Applications in Disease Management. 
-    J Med Internet Res. 2025 Aug 21;27:e76557. doi: 10.2196/76557. PMID: 40840463; PMCID: PMC12370271.&lt;/em&gt;
-  &lt;/p&gt;
+  <!-- Sidebar TOC -->
+  <nav class="toc"><h3 class="anchored">Table of Contents</h3>
+    <ol>
+<li><a href="#sec-1">General Introduction</a></li>
+      <li><a href="#sec-2">Multimodal Data Integration</a></li>
+      <li><a href="#sec-3">Real-World Evidence</a></li>
+      <li><a href="#sec-4">Digital Biomarkers</a></li>
+      <li><a href="#sec-5">Clinical Decision Support Systems</a></li>
+      <li><a href="#sec-6">Challenges and Development Opportunities</a></li>
+      <li><a href="#sec-7">Conclusion</a></li>
+      <li><a href="#sec-8">References</a></li>
+    </ol></nav><!-- Main content --><main class="content"><!-- =============================
+     INTRO SECTION – BIOMEDICAL DATA ARTICLE
+     ============================= --><section id="sec-1"><h2 class="anchored">1. General Introduction</h2>
+      <p><strong>New Directions in Biomedical Research: Data Science Shapes the Future of Healthcare</strong></p>
+      <p>
+        Biomedical data science is becoming the foundation of modern medical breakthroughs — 
+        not through overly complex technologies, but by effectively harnessing the data already available in the healthcare system. 
+        New research directions focus on integrating multi-source data, 
+        building evidence from clinical practice, 
+        developing digital biomarkers, 
+        and applying predictive analytics to improve treatment outcomes. 
+        These advances are creating significant changes in healthcare.
+      </p>
+    </section><!-- 2. Multimodal Data Integration --><section id="sec-2"><h2 class="anchored">2. Multimodal Data Integration: A Comprehensive Picture of Health</h2>
+      <p>
+        <em>Hao Y, Cheng C, Li J, Li H, Di X, Zeng X, Jin S, Han X, Liu C, Wang Q, Luo B, Zeng X, Li K. 
+        Multimodal Integration in Health Care: Development With Applications in Disease Management. 
+        J Med Internet Res. 2025 Aug 21;27:e76557. doi: 10.2196/76557. PMID: 40840463; PMCID: PMC12370271.</em>
+      </p>
 
-  &lt;p&gt;
-    Multimodal data integration is revolutionizing how we understand patient health, 
-    by combining different data sources such as medical imaging, electronic health records, genomic data, 
-    and information from wearable devices. This approach provides a multidimensional view of the patient's condition, 
-    enhancing the ability to diagnose, treat, and manage diseases.
-  &lt;/p&gt;
+      <p>
+        Multimodal data integration is revolutionizing how we understand patient health, 
+        by combining different data sources such as medical imaging, electronic health records, genomic data, 
+        and information from wearable devices. This approach provides a multidimensional view of the patient's condition, 
+        enhancing the ability to diagnose, treat, and manage diseases.
+      </p>
 
-  &lt;figure&gt;
-    &lt;div class="img-wrap"&gt;
-      &lt;img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8ce0/8810682/8b074c92a18c/nihms-1762907-f0002.jpg" class="img" /&gt;
-    &lt;/div&gt;
-    &lt;figcaption&gt;
-      Image: Multimodal models integrate features from multiple data types. Sub-models first extract unimodal features from each data type. Next, the multimodal integration step creates cross-modal features — illustrated here by a Tensor Fusion Network (TFN). A final sub-model infers the patient's outcome. GPU: graphics processing unit. (Source: Boehm KM, Khosravi P, Vanguri R, Gao J, Shah SP. Harnessing multimodal data integration to advance precision oncology. Nat Rev Cancer. 2022 Feb;22(2):114-126. doi: 10.1038/s41568-021-00408-3. Epub 2021 Oct 18. PMID: 34663944; PMCID: PMC8810682.)
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;p&gt;
-    In oncology, multimodal data allows for more accurate tumor characterization 
-    and supports the development of personalized treatment plans. 
-    One study showed that combining these data types can accurately predict treatment response with 
-    Anti–Human Epidermal Growth Factor Receptor 2 (Anti-HER2) with an AUC = 0.91. 
-    In ophthalmology, integrating genetic and imaging data helps in the early detection of retinal diseases.
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    However, multimodal data integration still faces many challenges, 
-    such as inconsistency in collection, incomplete or erroneous data that reduces the reliability of the model. 
-    To be effective, data standardization, rigorous preprocessing, and interdisciplinary validation are needed 
-    to ensure the quality of predictive analysis.
-  &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;!-- 3. Real-World Evidence --&gt;
-&lt;section id="sec-3"&gt;
-  &lt;h2&gt;3. Real-World Evidence: From Clinical Trials to Practice&lt;/h2&gt;
-  &lt;p&gt;
-    &lt;em&gt;Manfred Stapff. The Importance of Real-World Evidence in Medical Research and Drug Development. 
-    Applied Clinical Trials. 2025.&lt;br&gt;
-    Dang A. Real-World Evidence: A Primer. Pharmaceut Med. 2023 Jan;37(1):25-36. 
-    doi: 10.1007/s40290-022-00456-6. PMID: 36604368; PMCID: PMC9815890.&lt;/em&gt;
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    Real-World Evidence (RWE) represents a shift in medical research: 
-    from relying solely on randomized controlled trials (RCTs) to harnessing data from everyday healthcare practice. 
-    RWE is scientific evidence on the safety and effectiveness of a medical product, 
-    generated from Real-World Data (RWD) – data collected during routine care.
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    Sources of RWD include electronic health records (EHRs), registries, insurance data, 
-    and data from personal health applications or devices. 
-    A study comparing the effectiveness of multiple myeloma treatment between clinical trials and real-world data showed that: 
-    patients in RWD were often older, and the results indicated that 6 out of 7 real-world treatment regimens 
-    had a 1.44 times lower progression-free survival and a 1.75 times lower overall survival compared to the corresponding RCTs.
-  &lt;/p&gt;
-
-  &lt;figure&gt;
-    &lt;div class="img-wrap"&gt;
-      &lt;img src="https://toolbox.eupati.eu/wp-content/uploads/sites/4/2025/02/Patient-generated-health-data-11.png" class="img" /&gt;
-    &lt;/div&gt;
-    &lt;figcaption&gt;
-      Image: Real-world data (RWD) sources – Created by EUPATI (Source: European Patients’ Academy on Therapeutic Innovation)
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;p&gt;
-    RWE has the potential to fill research gaps, especially for rare diseases, 
-    where many patients cannot participate in traditional trials. 
-    In addition, RWE supports health policy planning, resource allocation, 
-    and evaluation of treatment effectiveness in a real-world setting, 
-    contributing to reducing health inequalities.
-  &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;!-- 4. Digital Biomarkers --&gt;
-&lt;section id="sec-4"&gt;
-  &lt;h2&gt;4. Digital Biomarkers: Continuous Health Monitoring&lt;/h2&gt;
-  &lt;p&gt;
-    &lt;em&gt;Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, 
-    Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. 
-    Traditional and Digital Biomarkers: Two Worlds Apart? Digit Biomark. 
-    2019 Aug 16;3(2):92-102. doi: 10.1159/000502000. PMID: 32095769; PMCID: PMC7015353.&lt;/em&gt;
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    In modern medicine, biomarkers are indispensable tools for assessing health status. 
-    The development of digital devices and mobile applications has created a new generation – digital biomarkers, 
-    providing continuous, objective, and personalized data like never before.
-  &lt;/p&gt;
-
-  &lt;figure&gt;
-    &lt;div class="img-wrap"&gt;
-      &lt;img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2717/7015353/0340b11e08d1/dib-0003-0092-g01.jpg" class="img" /&gt;
-    &lt;/div&gt;
-    &lt;figcaption&gt;
-      Image: Digital technologies have enabled the measurement of digital biomarkers. Traditional biomarkers are divided into seven groups depending on the clinical goal (e.g., safety, predictive, diagnostic, etc.). The study suggests that digital technologies open up the possibility of measuring digital biomarkers, which offer new and unique properties (such as continuous measurement over time) while still addressing the same clinical goals as traditional biomarkers. (Source: Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. Traditional and Digital Biomarkers: Two Worlds Apart? Digit Biomark. 2019 Aug 16;3(2):92-102. doi: 10.1159/000502000. PMID: 32095769; PMCID: PMC7015353.)
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;p&gt;
-    Traditional biomarkers include indicators such as cholesterol, blood pressure, BMI... 
-    Meanwhile, digital biomarkers are defined as “objective, quantifiable physiological and behavioral measures 
-    collected and measured by means of digital devices that are portable, wearable, implantable, or digestible.” 
-    The key difference is the ability for continuous monitoring, which helps in the early detection of health changes.
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    Digital biomarkers have shown potential in many areas:
-    detecting the risk of dementia through computerized cognitive tests,
-    monitoring movement in Huntington's disease,
-    and assessing Parkinson's symptoms through a finger-tapping test on a smartphone.
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    Despite their great potential, this field still faces challenges in standardizing definitions, 
-    data security, and a slow approval process – which need to be improved to expand clinical applications.
-  &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;!-- 5. Clinical Decision Support Systems --&gt;
-&lt;section id="sec-5"&gt;
-  &lt;h2&gt;5. AI-Driven Clinical Decision Support Systems&lt;/h2&gt;
-  &lt;p&gt;
-    &lt;em&gt;Elhaddad M, Hamam S. AI-Driven Clinical Decision Support Systems: An Ongoing Pursuit of Potential. 
-    Cureus. 2024 Apr 6;16(4):e57728. doi: 10.7759/cureus.57728. PMID: 38711724; PMCID: PMC11073764.&lt;/em&gt;
-  &lt;/p&gt;
-
-  &lt;figure&gt;
-    &lt;div class="img-wrap"&gt;
-      &lt;img src="https://cdn.open-pr.com/R/9/R91127234_g.jpg" class="img" /&gt;
-    &lt;/div&gt;
-    &lt;figcaption&gt;
-      Image: Clinical Decision Support Systems (CDSS) Market (Source: Clinical Decision Support Systems (CDSS) Market Globally by 2022: Worldwide Top Key Players - Agfa Healthcare, McKesson, Carestream Health, AthenaHealth, Philips Healthcare, Wolters Kluwer NU, Cerner. www.openpr.com)
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;p&gt;
-    AI-driven Clinical Decision Support Systems (CDSS) are revolutionizing the medical decision-making process, 
-    thanks to their ability to analyze complex data and identify hidden patterns.  
-    In diagnostic imaging, convolutional neural networks (CNNs) have achieved performance comparable to experts 
-    in skin cancer classification (Esteva et al.).  
-    In cardiovascular risk prediction, deep learning models using EHRs help identify high-risk patients early, 
-    allowing for early intervention and prevention of complications.
-  &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;!-- 6. Challenges and Opportunities --&gt;
-&lt;section id="sec-6"&gt;
-  &lt;h2&gt;6. Challenges and Development Opportunities&lt;/h2&gt;
-  &lt;p&gt;
-    Besides progress, the field of biomedical data science faces major challenges:  
-    data security and privacy; system compatibility between hospitals, 
-    especially with older infrastructure; and the slow pace of technology adoption in some healthcare facilities.
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    However, the development opportunities in Vietnam are enormous. 
-    With a population of over 100 million, Vietnam possesses a valuable source of medical data for training AI models. 
-    The government is promoting digital transformation in healthcare, 
-    with a National Data Development Fund worth 1,000 billion VND (2025) — 
-    a significant step to promote innovation and AI application in medicine.
-  &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;!-- 7. Conclusion --&gt;
-&lt;section id="sec-7"&gt;
-  &lt;h2&gt;7. Conclusion&lt;/h2&gt;
-  &lt;p&gt;
-    New research directions in biomedical data science demonstrate a practical, effective, and patient-oriented approach.  
-    From integrating multi-source data to real-world evidence, from digital biomarkers to intelligent decision support systems —  
-    all are aimed at the common goal: improving treatment quality, reducing costs, and promoting personalized medicine in the data era.
-  &lt;/p&gt;
-&lt;/section&gt;
-
-&lt;!-- 8. References --&gt;
-&lt;section id="sec-8"&gt;
-  &lt;h2&gt;8. References&lt;/h2&gt;
-
-  &lt;div class="ref"&gt;
-    &lt;a href="https://doi.org/10.2196/76557" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      style="text-decoration:none; color:inherit;"&gt;
-      Hao Y, Cheng C, Li J, Li H, Di X, Zeng X, Jin S, Han X, Liu C, Wang Q, Luo B, Zeng X, Li K. 
-      &lt;em&gt;Multimodal Integration in Health Care: Development With Applications in Disease Management.&lt;/em&gt; 
-      &lt;strong&gt;J Med Internet Res.&lt;/strong&gt; 2025 Aug 21;27:e76557. 
-      &lt;span style="color:#0284c7; text-decoration:underline;"&gt;doi: 10.2196/76557&lt;/span&gt;. 
-      PMID: 40840463; PMCID: PMC12370271.
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-  &lt;div class="ref"&gt;
-    &lt;a href="https://www.appliedclinicaltrialsonline.com/view/the-importance-of-real-world-evidence-in-medical-research-and-drug-development" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      style="text-decoration:none; color:inherit;"&gt;
-      Manfred Stapff. 
-      &lt;em&gt;The Importance of Real-World Evidence in Medical Research and Drug Development.&lt;/em&gt; 
-      &lt;strong&gt;Applied Clinical Trials.&lt;/strong&gt; 2025.
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-  &lt;div class="ref"&gt;
-    &lt;a href="https://doi.org/10.1007/s40290-022-00456-6" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      style="text-decoration:none; color:inherit;"&gt;
-      Dang A. 
-      &lt;em&gt;Real-World Evidence: A Primer.&lt;/em&gt; 
-      &lt;strong&gt;Pharmaceut Med.&lt;/strong&gt; 2023 Jan;37(1):25–36. 
-      &lt;span style="color:#0284c7; text-decoration:underline;"&gt;doi: 10.1007/s40290-022-00456-6&lt;/span&gt;. 
-      PMID: 36604368; PMCID: PMC9815890.
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-  &lt;div class="ref"&gt;
-    &lt;a href="https://doi.org/10.1159/000502000" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      style="text-decoration:none; color:inherit;"&gt;
-      Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, 
-      Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. 
-      &lt;em&gt;Traditional and Digital Biomarkers: Two Worlds Apart?&lt;/em&gt; 
-      &lt;strong&gt;Digit Biomark.&lt;/strong&gt; 2019 Aug 16;3(2):92–102. 
-      &lt;span style="color:#0284c7; text-decoration:underline;"&gt;doi: 10.1159/000502000&lt;/span&gt;. 
-      PMID: 32095769; PMCID: PMC7015353.
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-  &lt;div class="ref"&gt;
-    &lt;a href="https://doi.org/10.7759/cureus.57728" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      style="text-decoration:none; color:inherit;"&gt;
-      Elhaddad M, Hamam S. 
-      &lt;em&gt;AI-Driven Clinical Decision Support Systems: An Ongoing Pursuit of Potential.&lt;/em&gt; 
-      &lt;strong&gt;Cureus.&lt;/strong&gt; 2024 Apr 6;16(4):e57728. 
-      &lt;span style="color:#0284c7; text-decoration:underline;"&gt;doi: 10.7759/cureus.57728&lt;/span&gt;. 
-      PMID: 38711724; PMCID: PMC11073764.
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;!-- SOCIAL SHARE --&gt;
-&lt;div class="social-section"&gt;
-  &lt;p class="share-note"&gt;Share this article&lt;/p&gt;
-  &lt;div class="social-share"&gt;
-    &lt;a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/250909-data-science-direction.html" 
-      class="fb" 
-      title="Share on Facebook"&gt;
-      &lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt;
-    &lt;/a&gt;
-    &lt;a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/250909-data-science-direction.html" 
-      class="x" 
-      title="Share on X / Twitter"&gt;
-      &lt;i class="fab fa-x-twitter"&gt;&lt;/i&gt;
-    &lt;/a&gt;
-    &lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.biodas.net/media/news/250909-data-science-direction.html" 
-      class="in" 
-      title="Share on LinkedIn"&gt;
-      &lt;i class="fab fa-linkedin-in"&gt;&lt;/i&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</main>
+      <figure class="figure"><div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8ce0/8810682/8b074c92a18c/nihms-1762907-f0002.jpg" class="img figure-img">
 </div>
+        <figcaption>
+          Image: Multimodal models integrate features from multiple data types. Sub-models first extract unimodal features from each data type. Next, the multimodal integration step creates cross-modal features — illustrated here by a Tensor Fusion Network (TFN). A final sub-model infers the patient's outcome. GPU: graphics processing unit. (Source: Boehm KM, Khosravi P, Vanguri R, Gao J, Shah SP. Harnessing multimodal data integration to advance precision oncology. Nat Rev Cancer. 2022 Feb;22(2):114-126. doi: 10.1038/s41568-021-00408-3. Epub 2021 Oct 18. PMID: 34663944; PMCID: PMC8810682.)
+        </figcaption></figure><p>
+        In oncology, multimodal data allows for more accurate tumor characterization 
+        and supports the development of personalized treatment plans. 
+        One study showed that combining these data types can accurately predict treatment response with 
+        Anti–Human Epidermal Growth Factor Receptor 2 (Anti-HER2) with an AUC = 0.91. 
+        In ophthalmology, integrating genetic and imaging data helps in the early detection of retinal diseases.
+      </p>
+
+      <p>
+        However, multimodal data integration still faces many challenges, 
+        such as inconsistency in collection, incomplete or erroneous data that reduces the reliability of the model. 
+        To be effective, data standardization, rigorous preprocessing, and interdisciplinary validation are needed 
+        to ensure the quality of predictive analysis.
+      </p>
+    </section><!-- 3. Real-World Evidence --><section id="sec-3"><h2 class="anchored">3. Real-World Evidence: From Clinical Trials to Practice</h2>
+      <p>
+        <em>Manfred Stapff. The Importance of Real-World Evidence in Medical Research and Drug Development. 
+        Applied Clinical Trials. 2025.<br>
+        Dang A. Real-World Evidence: A Primer. Pharmaceut Med. 2023 Jan;37(1):25-36. 
+        doi: 10.1007/s40290-022-00456-6. PMID: 36604368; PMCID: PMC9815890.</em>
+      </p>
+
+      <p>
+        Real-World Evidence (RWE) represents a shift in medical research: 
+        from relying solely on randomized controlled trials (RCTs) to harnessing data from everyday healthcare practice. 
+        RWE is scientific evidence on the safety and effectiveness of a medical product, 
+        generated from Real-World Data (RWD) – data collected during routine care.
+      </p>
+
+      <p>
+        Sources of RWD include electronic health records (EHRs), registries, insurance data, 
+        and data from personal health applications or devices. 
+        A study comparing the effectiveness of multiple myeloma treatment between clinical trials and real-world data showed that: 
+        patients in RWD were often older, and the results indicated that 6 out of 7 real-world treatment regimens 
+        had a 1.44 times lower progression-free survival and a 1.75 times lower overall survival compared to the corresponding RCTs.
+      </p>
+
+      <figure class="figure"><div class="img-wrap">
+          <img src="https://toolbox.eupati.eu/wp-content/uploads/sites/4/2025/02/Patient-generated-health-data-11.png" class="img figure-img">
+</div>
+        <figcaption>
+          Image: Real-world data (RWD) sources – Created by EUPATI (Source: European Patients’ Academy on Therapeutic Innovation)
+        </figcaption></figure><p>
+        RWE has the potential to fill research gaps, especially for rare diseases, 
+        where many patients cannot participate in traditional trials. 
+        In addition, RWE supports health policy planning, resource allocation, 
+        and evaluation of treatment effectiveness in a real-world setting, 
+        contributing to reducing health inequalities.
+      </p>
+    </section><!-- 4. Digital Biomarkers --><section id="sec-4"><h2 class="anchored">4. Digital Biomarkers: Continuous Health Monitoring</h2>
+      <p>
+        <em>Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, 
+        Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. 
+        Traditional and Digital Biomarkers: Two Worlds Apart? Digit Biomark. 
+        2019 Aug 16;3(2):92-102. doi: 10.1159/000502000. PMID: 32095769; PMCID: PMC7015353.</em>
+      </p>
+
+      <p>
+        In modern medicine, biomarkers are indispensable tools for assessing health status. 
+        The development of digital devices and mobile applications has created a new generation – digital biomarkers, 
+        providing continuous, objective, and personalized data like never before.
+      </p>
+
+      <figure class="figure"><div class="img-wrap">
+          <img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2717/7015353/0340b11e08d1/dib-0003-0092-g01.jpg" class="img figure-img">
+</div>
+        <figcaption>
+          Image: Digital technologies have enabled the measurement of digital biomarkers. Traditional biomarkers are divided into seven groups depending on the clinical goal (e.g., safety, predictive, diagnostic, etc.). The study suggests that digital technologies open up the possibility of measuring digital biomarkers, which offer new and unique properties (such as continuous measurement over time) while still addressing the same clinical goals as traditional biomarkers. (Source: Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. Traditional and Digital Biomarkers: Two Worlds Apart? Digit Biomark. 2019 Aug 16;3(2):92-102. doi: 10.1159/000502000. PMID: 32095769; PMCID: PMC7015353.)
+        </figcaption></figure><p>
+        Traditional biomarkers include indicators such as cholesterol, blood pressure, BMI... 
+        Meanwhile, digital biomarkers are defined as “objective, quantifiable physiological and behavioral measures 
+        collected and measured by means of digital devices that are portable, wearable, implantable, or digestible.” 
+        The key difference is the ability for continuous monitoring, which helps in the early detection of health changes.
+      </p>
+
+      <p>
+        Digital biomarkers have shown potential in many areas:
+        detecting the risk of dementia through computerized cognitive tests,
+        monitoring movement in Huntington's disease,
+        and assessing Parkinson's symptoms through a finger-tapping test on a smartphone.
+      </p>
+
+      <p>
+        Despite their great potential, this field still faces challenges in standardizing definitions, 
+        data security, and a slow approval process – which need to be improved to expand clinical applications.
+      </p>
+    </section><!-- 5. Clinical Decision Support Systems --><section id="sec-5"><h2 class="anchored">5. AI-Driven Clinical Decision Support Systems</h2>
+      <p>
+        <em>Elhaddad M, Hamam S. AI-Driven Clinical Decision Support Systems: An Ongoing Pursuit of Potential. 
+        Cureus. 2024 Apr 6;16(4):e57728. doi: 10.7759/cureus.57728. PMID: 38711724; PMCID: PMC11073764.</em>
+      </p>
+
+      <figure class="figure"><div class="img-wrap">
+          <img src="https://cdn.open-pr.com/R/9/R91127234_g.jpg" class="img figure-img">
+</div>
+        <figcaption>
+          Image: Clinical Decision Support Systems (CDSS) Market (Source: Clinical Decision Support Systems (CDSS) Market Globally by 2022: Worldwide Top Key Players - Agfa Healthcare, McKesson, Carestream Health, AthenaHealth, Philips Healthcare, Wolters Kluwer NU, Cerner. www.openpr.com)
+        </figcaption></figure><p>
+        AI-driven Clinical Decision Support Systems (CDSS) are revolutionizing the medical decision-making process, 
+        thanks to their ability to analyze complex data and identify hidden patterns.  
+        In diagnostic imaging, convolutional neural networks (CNNs) have achieved performance comparable to experts 
+        in skin cancer classification (Esteva et al.).  
+        In cardiovascular risk prediction, deep learning models using EHRs help identify high-risk patients early, 
+        allowing for early intervention and prevention of complications.
+      </p>
+    </section><!-- 6. Challenges and Opportunities --><section id="sec-6"><h2 class="anchored">6. Challenges and Development Opportunities</h2>
+      <p>
+        Besides progress, the field of biomedical data science faces major challenges:  
+        data security and privacy; system compatibility between hospitals, 
+        especially with older infrastructure; and the slow pace of technology adoption in some healthcare facilities.
+      </p>
+
+      <p>
+        However, the development opportunities in Vietnam are enormous. 
+        With a population of over 100 million, Vietnam possesses a valuable source of medical data for training AI models. 
+        The government is promoting digital transformation in healthcare, 
+        with a National Data Development Fund worth 1,000 billion VND (2025) — 
+        a significant step to promote innovation and AI application in medicine.
+      </p>
+    </section><!-- 7. Conclusion --><section id="sec-7"><h2 class="anchored">7. Conclusion</h2>
+      <p>
+        New research directions in biomedical data science demonstrate a practical, effective, and patient-oriented approach.  
+        From integrating multi-source data to real-world evidence, from digital biomarkers to intelligent decision support systems —  
+        all are aimed at the common goal: improving treatment quality, reducing costs, and promoting personalized medicine in the data era.
+      </p>
+    </section><!-- 8. References --><section id="sec-8"><h2 class="anchored">8. References</h2>
+
+      <div class="ref">
+        <a href="https://doi.org/10.2196/76557" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
+          Hao Y, Cheng C, Li J, Li H, Di X, Zeng X, Jin S, Han X, Liu C, Wang Q, Luo B, Zeng X, Li K. 
+          <em>Multimodal Integration in Health Care: Development With Applications in Disease Management.</em> 
+          <strong>J Med Internet Res.</strong> 2025 Aug 21;27:e76557. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.2196/76557</span>. 
+          PMID: 40840463; PMCID: PMC12370271.
+        </a>
+      </div>
+
+      <div class="ref">
+        <a href="https://www.appliedclinicaltrialsonline.com/view/the-importance-of-real-world-evidence-in-medical-research-and-drug-development" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
+          Manfred Stapff. 
+          <em>The Importance of Real-World Evidence in Medical Research and Drug Development.</em> 
+          <strong>Applied Clinical Trials.</strong> 2025.
+        </a>
+      </div>
+
+      <div class="ref">
+        <a href="https://doi.org/10.1007/s40290-022-00456-6" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
+          Dang A. 
+          <em>Real-World Evidence: A Primer.</em> 
+          <strong>Pharmaceut Med.</strong> 2023 Jan;37(1):25–36. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.1007/s40290-022-00456-6</span>. 
+          PMID: 36604368; PMCID: PMC9815890.
+        </a>
+      </div>
+
+      <div class="ref">
+        <a href="https://doi.org/10.1159/000502000" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
+          Babrak LM, Menetski J, Rebhan M, Nisato G, Zinggeler M, Brasier N, Baerenfaller K, Brenzikofer T, 
+          Baltzer L, Vogler C, Gschwind L, Schneider C, Streiff F, Groenen PMA, Miho E. 
+          <em>Traditional and Digital Biomarkers: Two Worlds Apart?</em> 
+          <strong>Digit Biomark.</strong> 2019 Aug 16;3(2):92–102. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.1159/000502000</span>. 
+          PMID: 32095769; PMCID: PMC7015353.
+        </a>
+      </div>
+
+      <div class="ref">
+        <a href="https://doi.org/10.7759/cureus.57728" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
+          Elhaddad M, Hamam S. 
+          <em>AI-Driven Clinical Decision Support Systems: An Ongoing Pursuit of Potential.</em> 
+          <strong>Cureus.</strong> 2024 Apr 6;16(4):e57728. 
+          <span style="color:#0284c7; text-decoration:underline;">doi: 10.7759/cureus.57728</span>. 
+          PMID: 38711724; PMCID: PMC11073764.
+        </a>
+      </div>
+    </section><!-- SOCIAL SHARE --><div class="social-section">
+      <p class="share-note">Share this article</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/250909-data-science-direction.html" class="fb" title="Share on Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/250909-data-science-direction.html" class="x" title="Share on X / Twitter">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.biodas.net/media/news/250909-data-science-direction.html" class="in" title="Share on LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+
+
+  </main>
+</div>
+
 <!-- =============================
      SECTION: BIODAS NEWS & INSIGHTS
      ============================= -->
 <section class="biodas-news-section"><div class="news-list container">
-<pre><code>&lt;h2 class="section-title"&gt;OTHER NEWS&lt;/h2&gt;
-&lt;div id="biodas-news-grid" class="news-grid"&gt;&lt;/div&gt;</code></pre>
-</div>
+    <h2 class="section-title anchored">OTHER NEWS</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
 </section><script src="section-news-template.js"></script><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

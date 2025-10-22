@@ -190,6 +190,9 @@ aliases:
 
 </section>
 
+```
+
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const cards = document.querySelectorAll(".section-team .member-card");

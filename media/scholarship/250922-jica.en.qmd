@@ -264,6 +264,9 @@ aliases:
   </div>
 </body>
 
+```
+
+
 <!-- JS SCRIPT -->
 <script src="section-scholarship-template.js"></script>
 

@@ -942,6 +942,9 @@ listing:
   </div>
 </section>
 
+```
+
+
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     // List of posts
