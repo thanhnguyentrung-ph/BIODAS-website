@@ -1,0 +1,435 @@
+---
+title: "Trí tuệ Nhân tạo trong Chẩn đoán Hình ảnh: Hiện tại và Tương lai"
+subtitle: "The Current and Future State of AI Interpretation of Medical Images"
+title-block-banner: "#313d5d"
+title-block-banner-color: "#ffffff"
+description: ""
+categories:
+  - AI
+  - Medical Images
+  - Diagnosis
+  - CT
+  - MRI
+author: "Pranav Rajpurkar và cộng sự | Dịch và biên tập: BIODAS Team"
+date: 10/22/2025 # mm/dd/yyyy
+toc: true
+image: https://www.onixnet.com/wp-content/uploads/2023/03/How-AI-Powered-Medical-Imaging-is-Transforming-Healthcare.jpg
+aliases: 
+  - /media/news/
+---
+
+![](https://www.alcimed.com/wp-content/uploads/2023/09/ai-medical-imaging-1.jpg){fig-align="center" class="img-cover"}
+
+
+
+```{=html}
+<!-- Gắn file CSS -->
+<link rel="stylesheet" href="section-news-template.css">
+
+<!-- Font Awesome CDN (hiển thị icon mạng xã hội) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body class="section-news-template">
+<div class="layout">
+
+  <!-- Sidebar TOC -->
+  <nav class="toc">
+    <h3>Mục lục</h3>
+    <ol>
+      <li><a href="#sec-1">Đặt vấn đề</a></li>
+      <li><a href="#sec-2">Vai trò của AI trong chẩn đoán hình ảnh</a></li>
+      <li><a href="#sec-3">Lợi ích lâm sàng và hệ thống</a></li>
+      <li><a href="#sec-4">Thách thức trọng yếu khi triển khai</a></li>
+      <li><a href="#sec-5">Hướng phát triển tương lai: Foundation & Multimodal AI</a></li>
+      <li><a href="#sec-6">Đề xuất ứng dụng cho Việt Nam</a></li>
+      <li><a href="#sec-7">Kết luận</a></li>
+      <li><a href="#sec-8">Tài liệu tham khảo</a></li>
+    </ol>
+  </nav>
+
+  <!-- Nội dung chính -->
+  <main class="content">
+
+    <!-- =============================
+     INTRO SECTION – BIODAS ARTICLE INTRO
+     ============================= -->
+    <section>
+      <p>
+        Bài tổng quan học thuật 
+        <strong>
+          <a href="https://doi.org/10.1056/nejmra2301725"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="color:#313d5d; text-decoration:underline;">
+            “AI in Medicine – The Current and Future State of AI Interpretation of Medical Images”
+          </a>
+        </strong>
+        do <em>Pranav Rajpurkar, Ph.D.</em> và <em>Matthew P. Lungren, M.D., M.P.H.</em> thực hiện, dưới sự biên tập của 
+        <em>Jeffrey M. Drazen, M.D.</em> cùng hai biên tập khách mời <em>Isaac S. Kohane, M.D., Ph.D.</em> và <em>Tze-Yun Leong, Ph.D.</em>, 
+        được công bố trên <em>The New England Journal of Medicine</em> – một trong những tạp chí y khoa uy tín hàng đầu thế giới.
+      </p>
+      <p>
+        Hướng nghiên cứu tập trung vào hiện trạng và tương lai của <strong>trí tuệ nhân tạo (AI) trong diễn giải hình ảnh y khoa</strong>, 
+        một lĩnh vực phát triển nhanh với tác động sâu rộng đến chẩn đoán, điều trị, và ra quyết định lâm sàng. 
+        <strong>BIODAS Team</strong> hân hạnh giới thiệu và chia sẻ nội dung bài viết nhằm giúp cộng đồng y khoa hiểu rõ hơn về 
+        vai trò, tiềm năng và thách thức của AI trong phân tích hình ảnh y học, từ đó mở ra một góc nhìn toàn diện về cách công nghệ đang tái định hình thực hành y khoa trong kỷ nguyên số.
+      </p>
+    </section>
+
+    <!-- 1. Đặt vấn đề -->
+    <section id="sec-1">
+      <h2>1. Đặt vấn đề</h2>
+      <p>
+        Diễn giải hình ảnh y khoa là trọng tâm của thực hành chẩn đoán, truyền thống dựa vào năng lực nhận dạng mẫu và tích lũy kinh nghiệm của bác sĩ. 
+        Trong thập kỷ qua, AI (đặc biệt là học sâu) đã tạo ra bước nhảy vọt về hiệu năng trong nhiều chuyên ngành: da liễu, tim mạch (ECG), nhãn khoa, 
+        mô bệnh học, X-quang ngực, CT, MRI và siêu âm<sup>1–5</sup>. 
+        Dù đã có <em>hàng trăm</em> ứng dụng lâm sàng cùng nhiều thiết bị được phê duyệt, việc dịch chuyển từ “bằng chứng mô hình” sang “giá trị lâm sàng” 
+        vẫn cần vượt qua các rào cản về <em>khả năng tổng quát hóa</em>, <em>tính giải thích</em>, <em>chứng cứ thực địa</em> và <em>quản trị rủi ro</em><sup>6–14</sup>.
+      </p>
+      <p>
+        Bài viết NEJM tổng hợp tiến trình, ứng dụng, bằng chứng lâm sàng, thách thức triển khai và triển vọng tương lai của AI trong diễn giải hình ảnh, 
+        nhấn mạnh hai trục chính: (i) <strong>hiệu quả lâm sàng và quy trình</strong> (từ phát hiện tổn thương đến ưu tiên ca khẩn – triage), 
+        và (ii) <strong>nền tảng công nghệ</strong> (từ mô hình chuyên biệt sang mô hình nền đa nhiệm, đa phương thức).
+      </p>
+    </section>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.nejm.org/cms/asset/8982ebc1-9118-4581-b673-455d5416ea30/nejmra2301725_f1.jpg" class="img" />
+      </div>
+      <figcaption>Hình ảnh: Minh họa các ứng dụng hiện tại của trí tuệ nhân tạo (AI) trong lĩnh vực chẩn đoán hình ảnh, tập trung vào ba chức năng lâm sàng chính gồm phân loại ưu tiên (triage), phát hiện (detection) và chẩn đoán (diagnosis). Các mô-đun AI tiêu biểu bao gồm CADt (computer-aided detection for triage – phát hiện hỗ trợ máy tính để phân loại ưu tiên), CADe (computer-aided detection for characterizing abnormalities – phát hiện hỗ trợ máy tính nhằm đặc trưng hóa bất thường), và CADx (computer-aided detection for diagnosis – phát hiện hỗ trợ máy tính phục vụ chẩn đoán). Bên cạnh đó, AI còn được sử dụng trong các quy trình tái tạo hình ảnh và giảm nhiễu nhằm nâng cao chất lượng hình ảnh đầu ra. Các ứng dụng AI không liên quan trực tiếp đến hình ảnh y khoa (phi hình ảnh) không được trình bày trong hình. CT là viết tắt của chụp cắt lớp vi tính (computed tomography) (Nguồn: Rajpurkar P và cộng sự, 2023).
+      </figcaption>
+    </figure>
+
+    <!-- 2. Vai trò của AI -->
+    <section id="sec-2">
+      <h2>2. Vai trò của AI trong chẩn đoán hình ảnh</h2>
+      <p>
+        AI hỗ trợ ở nhiều cấp độ: <em>tiền xử lý</em> (giảm nhiễu, tái tạo CT/MR, hiệu chỉnh giả ảnh), <em>phát hiện/khoanh vùng</em> (lesion detection/segmentation), 
+        <em>phân loại</em> (benign/malignant, viêm/nhiễm…), <em>định lượng</em> (thể tích, mật độ, lưu lượng), và <em>dự báo</em> (tiên lượng biến cố, đáp ứng điều trị)<sup>6–14</sup>. 
+        Ở cấp hệ thống, AI góp phần <strong>ưu tiên ca khẩn</strong> (ví dụ: xuất huyết nội sọ, tắc mạch lớn, tràn khí màng phổi, thuyên tắc phổi), 
+        phân loại mức độ nghiêm trọng và điều phối dòng công việc (workflow)<sup>11–14,20</sup>.
+      </p>
+      <div class="card">
+        <ul>
+          <li><strong>Định lượng &amp; chỉ dấu hình ảnh (imaging biomarkers):</strong> đo mật độ xương, mỡ nội tạng, mỡ gan; định lượng cấu trúc não, chức năng thất trái, lưu lượng mạch vành; hỗ trợ đánh giá nguy cơ mạn tính<sup>9–10</sup>.</li>
+          <li><strong>Ưu tiên xử lý:</strong> mô hình triage phát hiện tổn thương cấp để đưa lên đầu danh sách đọc phim, rút ngắn thời gian đến can thiệp<sup>12,20</sup>.</li>
+          <li><strong>Cải thiện chất lượng hình ảnh:</strong> học sâu cho tái tạo lát cắt và giảm liều phóng xạ/giảm thời gian chụp nhưng vẫn giữ độ chẩn đoán<sup>9</sup>.</li>
+          <li><strong>Dự báo lâm sàng:</strong> từ dữ liệu hình ảnh, AI dự báo diễn tiến (ví dụ: TBI, ung thư) hoặc hướng dẫn người mới nội soi/siêu âm đạt chất lượng chẩn đoán chấp nhận được<sup>13–14</sup>.</li>
+        </ul>
+      </div>
+      <p>
+        Nhiều nghiên cứu chứng minh hiệu quả hợp tác người–máy: AI cải thiện độ nhạy/đặc hiệu, giảm thời gian đọc, chuẩn hóa đánh giá; 
+        đồng thời các mô hình “AI hỗ trợ – bác sĩ quyết định cuối” thường đạt mức tin cậy và hiệu quả cao hơn AI vận hành độc lập<sup>16–20</sup>.
+      </p>
+    </section>
+
+    <!-- 3. Lợi ích -->
+    <section id="sec-3">
+      <h2>3. Lợi ích lâm sàng và hệ thống</h2>
+      <p>
+        Về lâm sàng, AI có thể <em>tăng tốc</em> và <em>nâng độ chính xác</em> chẩn đoán, phát hiện tổn thương nhỏ, 
+        giảm biến thiên giữa các bác sĩ và hỗ trợ tạo báo cáo có cấu trúc. Về hệ thống, AI giúp <em>ưu tiên ca khẩn</em>, 
+        <em>tối ưu luồng công việc</em>, phân bổ nguồn lực và rút ngắn thời gian đến điều trị<sup>11–14,20</sup>. 
+        Trên một số nhiệm vụ, AI còn <em>dự báo kết cục</em> hoặc <em>đề xuất cần làm thêm xét nghiệm/hình ảnh</em>, 
+        hướng đến các đường dẫn chăm sóc được cá nhân hóa<sup>1–5,10</sup>.
+      </p>
+
+      <div class="callout">
+        <ul>
+          <li><strong>Hiệu quả đọc &amp; chất lượng:</strong> hỗ trợ bác sĩ phát hiện bất thường (nút phổi nhỏ, vi vôi hoá, vi xuất huyết) và giảm bỏ sót<sup>16–20</sup>.</li>
+          <li><strong>Chuẩn hóa thực hành:</strong> giảm sai khác giữa chuyên gia/đơn vị; tăng khả năng tái lập kết quả<sup>16,19</sup>.</li>
+          <li><strong>Hỗ trợ vùng tài nguyên hạn chế:</strong> siêu âm cầm tay/low-field MRI kết hợp AI mở rộng tiếp cận chẩn đoán tại tuyến cơ sở<sup>10,14</sup>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.nejm.org/cms/10.1056/NEJMra2301725/asset/6bd4b8cf-aed2-4136-8413-3e4dbeee3f4c/assets/images/large/nejmra2301725_f2.jpg" class="img" />
+      </div>
+      <figcaption>Hình ảnh: Kiểm định khả năng tổng quát hóa của các hệ thống AI trong chẩn đoán hình ảnh. Ba thành phần cốt lõi trong việc kiểm định khả năng tổng quát hóa của các hệ thống AI trong lĩnh vực chẩn đoán hình ảnh bao gồm (1) hợp tác giữa bác sĩ và AI, (2) tính minh bạch, và (3) giám sát sau triển khai. Thứ nhất, hợp tác bác sĩ – AI nhấn mạnh sự cần thiết phải chuyển trọng tâm đánh giá từ việc chỉ xem xét hiệu năng của mô hình AI khi hoạt động độc lập sang đánh giá giá trị thực tiễn của AI như một công cụ hỗ trợ trong quy trình lâm sàng thực tế. Thứ hai, tính minh bạch đề cập đến yêu cầu tăng cường tính nghiêm ngặt trong việc công bố thông tin về mô hình AI, thông qua việc áp dụng bảng kiểm (checklists) và công khai các bộ dữ liệu hình ảnh y khoa phục vụ kiểm định và nghiên cứu. Cuối cùng, giám sát sau triển khai (postdeployment monitoring) bao gồm việc thiết lập các cơ chế thu nhận phản hồi từ bác sĩ lâm sàng và áp dụng chiến lược học liên tục (continual learning) để thường xuyên cập nhật, hiệu chỉnh mô hình, bảo đảm AI duy trì hiệu quả và an toàn trong môi trường thực tế (Nguồn: Rajpurkar P và cộng sự, 2023).</figcaption>
+    </figure>
+
+    <!-- 4. Thách thức -->
+    <section id="sec-4">
+      <h2>4. Thách thức trọng yếu khi triển khai</h2>
+      <div class="card">
+        <p>
+          <strong>(i) Khả năng tổng quát hóa &amp; dịch chuyển phân phối (dataset/domain shift).</strong> 
+          Mô hình có thể suy giảm hiệu năng khi áp dụng sang bệnh viện, máy chụp, dân số, giao thức khác. 
+          Cần thiết kế thử nghiệm đa trung tâm, thử nghiệm tiến cứu/ngẫu nhiên cụm, và chiến lược thích ứng miền/chuẩn hoá dữ liệu<sup>6–8,15</sup>.
+        </p>
+        <p>
+          <strong>(ii) Tính minh bạch &amp; giải thích được (black box).</strong> 
+          Sự thiếu minh bạch làm giảm niềm tin và khó tích hợp vào quyết định lâm sàng. Hướng khắc phục gồm: 
+          báo cáo toàn diện (dataset statements/model cards), phương pháp giải thích địa phương/toàn cục, và thiết kế UI nhấn mạnh bất định<sup>16,21–22</sup>.
+        </p>
+        <p>
+          <strong>(iii) Quản trị vòng đời &amp; drift sau triển khai.</strong> 
+          Hiệu năng mô hình thay đổi theo thời gian do thay đổi dân số/thiết bị/giao thức. Cần giám sát hiệu năng, cảnh báo drift, 
+          cập nhật/ tái huấn luyện có kiểm soát, và audit định kỳ<sup>23</sup>.
+        </p>
+        <p>
+          <strong>(iv) Dữ liệu, công bằng &amp; riêng tư.</strong> 
+          Tính đại diện dữ liệu là điều kiện tiên quyết để tránh thiên lệch. 
+          Liên minh đa trung tâm, học liên kết (federated learning) và chuẩn chia sẻ siêu dữ liệu giúp mở rộng dữ liệu mà vẫn bảo vệ quyền riêng tư<sup>21–22</sup>.
+        </p>
+        <p>
+          <strong>(v) Quy định &amp; chứng cứ.</strong> 
+          Cần khung pháp lý phản ánh đặc thù phần mềm y tế AI/ML, hỗ trợ phê duyệt theo chu trình (total product lifecycle) và cập nhật thích ứng (“learning” devices), 
+          đồng thời đòi hỏi <em>chứng cứ lâm sàng tiến cứu</em> về an toàn–hiệu quả chứ không chỉ AUROC trong huấn luyện<sup>6–8,23</sup>.
+        </p>
+      </div>
+    </section>
+
+    <!-- 5. Tương lai -->
+    <section id="sec-5">
+      <h2>5. Hướng phát triển tương lai: Foundation &amp; Multimodal AI</h2>
+      <p>
+        <strong>Mô hình nền (foundation models)</strong> và <strong>AI đa phương thức</strong> đang dịch chuyển trọng tâm từ mô hình “hẹp–đơn nhiệm” 
+        sang <em>AI tổng quát y khoa</em> có khả năng xử lý đồng thời hình ảnh, ngôn ngữ tự nhiên (báo cáo, ghi chú EHR), và dữ liệu xét nghiệm/sinh tồn. 
+        Tự giám sát (self-supervised) trên kho dữ liệu chưa gán nhãn lớn giúp trích xuất biểu diễn giàu thông tin, nâng cao hiệu quả “học chuyển” cho nhiệm vụ lâm sàng cụ thể<sup>24–25</sup>.
+      </p>
+      <p>
+        Kết hợp <strong>mô hình ngôn ngữ lớn (LLM)</strong> với thị giác y khoa cho phép: 
+        sinh báo cáo X-quang/CT/MRI theo phong cách chuẩn, giải thích phát hiện cho bệnh nhân, trích xuất nhiệm vụ từ chỉ định lâm sàng, 
+        và hỗ trợ <em>reasoning</em> dựa trên bằng chứng. Các nghiên cứu gần đây cho thấy LLM mã hoá đáng kể tri thức lâm sàng và có thể hỗ trợ quyết định, 
+        với điều kiện được kiểm định chặt chẽ và thiết kế “human-in-the-loop”<sup>26–27</sup>.
+      </p>
+      <p>
+        Tầm nhìn thực tiễn là kiến trúc <em>“AI cộng sự”</em> nơi mô hình hỗ trợ bác sĩ trong phát hiện, soạn báo cáo, ưu tiên ca, 
+        dự báo rủi ro, và gợi ý đường dẫn chăm sóc. Sự thành công phụ thuộc vào <strong>đồng thiết kế</strong> với bác sĩ/chuyên gia quy trình, 
+        <strong>minh bạch</strong> dữ liệu–mô hình, và <strong>giám sát</strong> sau triển khai theo tiêu chuẩn chất lượng.
+      </p>
+    </section>
+
+    <figure>
+      <div class="img-wrap">
+        <img src="https://www.nejm.org/cms/10.1056/NEJMra2301725/asset/3c9bcea8-a343-47f6-92b6-4c4c0b7d25d9/assets/images/large/nejmra2301725_f3.jpg" class="img" />
+      </div>
+      <figcaption>Hình ảnh: Tiềm năng của các mô hình AI tổng quát trong chẩn đoán hình ảnh. Các mô hình trí tuệ nhân tạo y khoa tổng quát (generalist medical AI models) mang lại tiềm năng to lớn trong việc chuyển đổi toàn diện lĩnh vực chẩn đoán hình ảnh. Những mô hình này có khả năng tạo ra báo cáo chẩn đoán hình ảnh hoàn chỉnh, bao gồm cả các mô tả và diễn giải lâm sàng được tổng hợp từ nhiều nguồn dữ liệu khác nhau như hình ảnh y khoa, bối cảnh lâm sàng, và các hình ảnh trước đó. Ngoài ra, các mô hình này còn có thể liên kết những vùng cụ thể trên hình ảnh với mô tả ngôn ngữ tương ứng, tùy chỉnh phản hồi theo người sử dụng, và sinh ra các kết quả chẩn đoán trong một ngữ cảnh diễn giải đầy đủ, giúp bác sĩ hiểu rõ hơn ý nghĩa lâm sàng của các phát hiện. Đáng chú ý, những mô hình tổng quát này còn được kỳ vọng có khả năng thích ứng linh hoạt với các môi trường thực hành và công nghệ mới, nhờ đó duy trì hiệu quả khi kỹ thuật hình ảnh hoặc dữ liệu thay đổi. Ngoài dữ liệu hình ảnh, các mô hình này có thể tích hợp thêm dữ liệu “omics” (bao gồm genomics, epigenomics, proteomics và metabolomics), mở ra hướng đi mới cho chẩn đoán và điều trị cá thể hóa dựa trên dữ liệu đa tầng sinh học. (Nguồn: Rajpurkar P và cộng sự, 2023).</figcaption>
+    </figure>
+
+    <!-- 6. Đề xuất cho Việt Nam -->
+    <section id="sec-6">
+      <h2>6. Đề xuất ứng dụng cho Việt Nam</h2>
+      <div class="callout">
+        <ul>
+          <li><strong>Ứng dụng ưu tiên, có lợi ích rõ:</strong> mô-đun triage X-quang ngực (tràn khí, xuất huyết, PE), phát hiện đột quỵ trên CT, hỗ trợ siêu âm tuyến cơ sở/di động; triển khai thí điểm tại bệnh viện tuyến trung ương rồi mở rộng.</li>
+          <li><strong>Mô hình “AI made in Vietnam”:</strong> huấn luyện/tinh chỉnh trên dữ liệu Việt Nam để tăng tổng quát hoá; khuyến khích liên minh đa trung tâm và <em>federated learning</em> nhằm mở rộng dữ liệu nhưng vẫn đảm bảo riêng tư<sup>22</sup>.</li>
+          <li><strong>Chuẩn dữ liệu &amp; pháp lý:</strong> ban hành profile chuẩn (DICOM + metadata chuẩn hoá), yêu cầu báo cáo minh bạch (dataset/model cards), giám sát drift và hệ thống phê duyệt–cập nhật theo vòng đời<sup>23</sup>.</li>
+          <li><strong>Đào tạo &amp; vận hành:</strong> chương trình “AI for Radiologists &amp; Sonographers” về đọc kết quả, hiểu bất định, và ra quyết định người–máy; thiết kế UI/UX hiển thị <em>rationale</em> mức ca.</li>
+          <li><strong>Đo lường giá trị:</strong> tiêu chí kết cục lâm sàng và vận hành (thời gian đến điều trị, tỉ lệ bỏ sót, công suất đọc, chi phí), thử nghiệm tiến cứu/ngẫu nhiên cụm thay vì chỉ so sánh AUC.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 7. Kết luận -->
+    <section id="sec-7">
+      <h2>7. Kết luận</h2>
+      <p>
+        AI trong chẩn đoán hình ảnh đang chuyển từ các mô hình đơn nhiệm sang nền tảng tổng quát đa phương thức, 
+        với bằng chứng ngày càng tăng về lợi ích lâm sàng và hệ thống. Tuy vậy, <em>khả năng tổng quát hoá</em>, 
+        <em>minh bạch</em> và <em>giám sát sau triển khai</em> là điều kiện tiên quyết để đạt giá trị bền vững. 
+        Thay vì thay thế, AI đóng vai “cộng sự” giúp bác sĩ giảm sai sót, chuẩn hoá chất lượng, và mở rộng tiếp cận chẩn đoán – 
+        đặc biệt hữu ích cho các bối cảnh tài nguyên hạn chế. Với chiến lược dữ liệu–pháp lý–đào tạo phù hợp, 
+        Việt Nam có thể “bước tắt đón đầu” để tận dụng làn sóng AI cho chuyển đổi số y tế.
+      </p>
+    </section>
+
+    <!-- 8. Tài liệu tham khảo -->
+    <section id="sec-8">
+      <h2>8. Tài liệu tham khảo</h2>
+
+      <div class="ref">
+        <p><strong>Tổng quan NEJM</strong></p>
+        <p>
+          Rajpurkar P, Lungren MP, Drazen JM, Kohane IS, Leong TY. 
+          <em>AI in Medicine — The Current and Future State of AI Interpretation of Medical Images.</em> 
+          <strong>N Engl J Med.</strong> 2023;388:1981–1990. 
+          <a href="https://doi.org/10.1056/NEJMra2301725" target="_blank" style="color:#0284c7;text-decoration:underline;">
+            doi:10.1056/NEJMra2301725
+          </a>.
+        </p>
+      </div>
+
+      <div class="ref">
+        <p><strong>Các tài liệu liên quan</strong></p>
+        <ol>
+          <li>
+            Topol EJ, et al. Artificial intelligence in health and medicine. 
+            <em>Nat Med.</em> 2022;28(1):31–38. 
+            <a href="https://doi.org/10.1038/s41591-021-01614-0" target="_blank">doi:10.1038/s41591-021-01614-0</a>.
+          </li>
+          <li>
+            Jones OT, Ranmuthu CKI, Hall PN, Funston G, Walter FM. Early detection of skin cancer in the community and primary care: 
+            an integrated review. <em>Lancet Digit Health.</em> 2022;4(7):e466–e476. 
+            <a href="https://doi.org/10.1016/S2589-7500(22)00085-1" target="_blank">doi:10.1016/S2589-7500(22)00085-1</a>.
+          </li>
+          <li>
+            Siontis KC, Noseworthy PA, Attia ZI, Friedman PA. Artificial intelligence–enhanced electrocardiography in cardiovascular disease. 
+            <em>Nat Rev Cardiol.</em> 2021;18(7):465–478. 
+            <a href="https://doi.org/10.1038/s41569-020-00503-2" target="_blank">doi:10.1038/s41569-020-00503-2</a>.
+          </li>
+          <li>
+            Lu MY, Chen TY, Williamson DFK, et al. Artificial intelligence–based pathology predicts origins for cancers of unknown primary. 
+            <em>Nature.</em> 2021;594(7861):106–110. 
+            <a href="https://doi.org/10.1038/s41586-021-03512-4" target="_blank">doi:10.1038/s41586-021-03512-4</a>.
+          </li>
+          <li>
+            Abràmoff MD, et al. Foundational considerations for artificial intelligence using ophthalmic images. 
+            <em>Ophthalmology.</em> 2022;129(2S):e14–e25. 
+            <a href="https://doi.org/10.1016/j.ophtha.2021.09.015" target="_blank">doi:10.1016/j.ophtha.2021.09.015</a>.
+          </li>
+          <li>
+            Yuba M, Iwasaki K. Analysis of AI- and ML-based medical devices approved in the United States and Japan. 
+            <em>Sci Rep.</em> 2022;12(1):16874. 
+            <a href="https://doi.org/10.1038/s41598-022-21067-6" target="_blank">doi:10.1038/s41598-022-21067-6</a>.
+          </li>
+          <li>
+            Tariq A, Purkayastha S, Chintha AR, et al. Clinical artificial intelligence in radiology: 
+            current applications and best available evidence. 
+            <em>J Am Coll Radiol.</em> 2020;17(11):1371–1381. 
+            <a href="https://doi.org/10.1016/j.jacr.2020.06.004" target="_blank">doi:10.1016/j.jacr.2020.06.004</a>.
+          </li>
+          <li>
+            Richardson ML, et al. Non-interpretive uses of artificial intelligence in radiology. 
+            <em>Acad Radiol.</em> 2021;28(8):1225–1235. 
+            <a href="https://doi.org/10.1016/j.acra.2020.12.010" target="_blank">doi:10.1016/j.acra.2020.12.010</a>.
+          </li>
+          <li>
+            Wang G, Ye JC, De Man B. Deep learning for tomographic image reconstruction. 
+            <em>Nat Mach Intell.</em> 2020;2(12):737–748. 
+            <a href="https://doi.org/10.1038/s42256-020-00273-z" target="_blank">doi:10.1038/s42256-020-00273-z</a>.
+          </li>
+          <li>
+            Mazurek MH, Cahn BA, Zuckerman JE, et al. Portable, low-field magnetic resonance imaging enables bedside assessment 
+            of intracerebral hemorrhage. <em>Nat Commun.</em> 2021;12(1):5119. 
+            <a href="https://doi.org/10.1038/s41467-021-25349-w" target="_blank">doi:10.1038/s41467-021-25349-w</a>.
+          </li>
+          <li>
+            Brink JA, Hricak H. Radiology 2040: a vision for the future. 
+            <em>Radiology.</em> 2023;306(1):69–72. 
+            <a href="https://doi.org/10.1148/radiol.230089" target="_blank">doi:10.1148/radiol.230089</a>.
+          </li>
+          <li>
+            Lee HW, Goo JM, Kim Y, et al. Effect of an artificial intelligence–based chest radiograph interpretation system 
+            on radiologists’ diagnostic performance: a multicenter randomized clinical trial. 
+            <em>Ann Am Thorac Soc.</em> 2022;19(10):1769–1779. 
+            <a href="https://doi.org/10.1513/AnnalsATS.202201-070OC" target="_blank">doi:10.1513/AnnalsATS.202201-070OC</a>.
+          </li>
+          <li>
+            Narang A, Bae R, Hong H, et al. Deep learning–guided acquisition of echocardiograms enables 
+            cardiac screening by novices. <em>JAMA Cardiol.</em> 2021;6(5):624–632. 
+            <a href="https://doi.org/10.1001/jamacardio.2020.7422" target="_blank">doi:10.1001/jamacardio.2020.7422</a>.
+          </li>
+          <li>
+            Pokaprakarn T, et al. Estimation of gestational age from blind ultrasound sweeps using artificial intelligence. 
+            <em>NEJM Evid.</em> 2022;1(5):EVIDoa2200021. 
+            <a href="https://doi.org/10.1056/EVIDoa2200021" target="_blank">doi:10.1056/EVIDoa2200021</a>.
+          </li>
+          <li>
+            Feng Y, et al. Domain adaptation for pneumonia classification from chest X-ray images. 
+            <em>IEEE J Biomed Health Inform.</em> 2022;26(3):1080–1090. 
+            <a href="https://doi.org/10.1109/JBHI.2021.3114060" target="_blank">doi:10.1109/JBHI.2021.3114060</a>.
+          </li>
+          <li>
+            Langlotz CP. Will artificial intelligence replace radiologists? 
+            <em>Radiol Artif Intell.</em> 2019;1(3):e190058. 
+            <a href="https://doi.org/10.1148/ryai.2019190058" target="_blank">doi:10.1148/ryai.2019190058</a>.
+          </li>
+          <li>
+            Park A, Chute C, Rajpurkar P, et al. Deep learning–assisted diagnosis of cerebral aneurysms using HeadXNet. 
+            <em>JAMA Netw Open.</em> 2019;2(6):e195600. 
+            <a href="https://doi.org/10.1001/jamanetworkopen.2019.5600" target="_blank">doi:10.1001/jamanetworkopen.2019.5600</a>.
+          </li>
+          <li>
+            Tschandl P, Rinner C, Apalla Z, et al. Human–computer collaboration for skin cancer recognition. 
+            <em>Nat Med.</em> 2020;26(8):1229–1234. 
+            <a href="https://doi.org/10.1038/s41591-020-0942-0" target="_blank">doi:10.1038/s41591-020-0942-0</a>.
+          </li>
+          <li>
+            Bien N, Rajpurkar P, Ball RL, et al. Deep-learning–assisted diagnosis for knee magnetic resonance imaging: 
+            development and retrospective validation of MRNet. <em>PLoS Med.</em> 2018;15(11):e1002699. 
+            <a href="https://doi.org/10.1371/journal.pmed.1002699" target="_blank">doi:10.1371/journal.pmed.1002699</a>.
+          </li>
+          <li>
+            Ahn JS, Park SJ, Park B, et al. Effect of artificial intelligence–aided chest radiograph interpretation 
+            on efficiency and accuracy of radiologists: a randomized clinical trial. 
+            <em>JAMA Netw Open.</em> 2022;5(10):e2229289. 
+            <a href="https://doi.org/10.1001/jamanetworkopen.2022.29289" target="_blank">doi:10.1001/jamanetworkopen.2022.29289</a>.
+          </li>
+          <li>
+            Seastedt KP, Cheung L, Hu JC, et al. Global healthcare fairness: we need to share more data. 
+            <em>PLOS Digit Health.</em> 2022;1(2):e0000102. 
+            <a href="https://doi.org/10.1371/journal.pdig.0000102" target="_blank">doi:10.1371/journal.pdig.0000102</a>.
+          </li>
+          <li>
+            Sheller MJ, Edwards B, Reina GA, et al. Federated learning in medicine: facilitating multi-institutional collaborations 
+            without sharing patient data. <em>Sci Rep.</em> 2020;10(1):12598. 
+            <a href="https://doi.org/10.1038/s41598-020-69250-1" target="_blank">doi:10.1038/s41598-020-69250-1</a>.
+          </li>
+          <li>
+            Harvey HB, Gowda V. How the FDA regulates artificial intelligence–based medical devices. 
+            <em>Acad Radiol.</em> 2020;27(1):58–61. 
+            <a href="https://doi.org/10.1016/j.acra.2019.09.024" target="_blank">doi:10.1016/j.acra.2019.09.024</a>.
+          </li>
+          <li>
+            Krishnan R, Rajpurkar P, Topol EJ. Self-supervised learning in medicine and healthcare. 
+            <em>Nat Biomed Eng.</em> 2022;6(12):1346–1352. 
+            <a href="https://doi.org/10.1038/s41551-022-00914-1" target="_blank">doi:10.1038/s41551-022-00914-1</a>.
+          </li>
+          <li>
+            Fei N, Chen Z, Zhang H, et al. Towards artificial general intelligence via multimodal foundation models. 
+            <em>Nat Commun.</em> 2022;13(1):3094. 
+            <a href="https://doi.org/10.1038/s41467-022-30761-2" target="_blank">doi:10.1038/s41467-022-30761-2</a>.
+          </li>
+          <li>
+            Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. 
+            <em>arXiv preprint</em> arXiv:2212.13138. 2022. 
+            <a href="https://arxiv.org/abs/2212.13138" target="_blank">Link</a>.
+          </li>
+          <li>
+            Lee P, Bubeck S, Petro J. Benefits, limits, and risks of GPT-4 as an artificial intelligence chatbot in medicine. 
+            <em>N Engl J Med.</em> 2023;388(13):1233–1239. 
+            <a href="https://doi.org/10.1056/NEJMp2301605" target="_blank">doi:10.1056/NEJMp2301605</a>.
+          </li>
+        </ol>
+      </div>
+    </section>
+
+
+    <!-- SOCIAL SHARE -->
+    <div class="social-section">
+      <p class="share-note">Chia sẻ bài viết này</p>
+      <div class="social-share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.biodas.net/media/news/251022-ai-image.html/" class="fb" title="Chia sẻ trên Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/intent/tweet?status=https://www.biodas.net/media/news/251022-ai-image.html/" class="x" title="Chia sẻ trên X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://biodas.net/media/news/251022-ai-image.html/" class="in" title="Chia sẻ trên LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- =============================
+     SECTION: BIODAS NEWS & INSIGHTS
+     ============================= -->
+<section class="biodas-news-section">
+  <div class="news-list container">
+    <h2 class="section-title">MỘT SỐ TIN TỨC KHÁC</h2>
+    <div id="biodas-news-grid" class="news-grid"></div>
+  </div>
+</section>
+
+</body>
+
+
+
+
+<!-- JS SCRIPT -->
+<script src="section-news-template.js"></script>
+
+```
