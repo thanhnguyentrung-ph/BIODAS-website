@@ -947,6 +947,18 @@ listing:
     let posts = [
       
       {
+        title: "Xây dựng và Phát triển Mô hình kết hợp giữa Con người và AI trong Tổng quan Y văn",
+        excerpt: `
+          Nghiên cứu giới thiệu LEADS – mô hình ngôn ngữ nền tảng (foundation model) được thiết kế để hỗ trợ hợp tác giữa con người và AI trong tổng quan y văn.<br>
+          LEADS được tinh chỉnh từ Mistral-7B, huấn luyện trên 633.000 mẫu dữ liệu từ hơn 21.000 tổng quan hệ thống, 453.000 bài báo và 27.000 thử nghiệm lâm sàng, bao phủ sáu nhiệm vụ: tìm kiếm, sàng lọc và trích xuất dữ liệu y học.<br>
+          Trong thử nghiệm trên quy mô lớn, LEADS vượt trội GPT-4o ở hầu hết các nhiệm vụ, đạt Recall@50 = 0,82 và độ chính xác 0,85, đồng thời rút ngắn thời gian làm việc của chuyên gia 20–27%. Thử nghiệm người dùng tại 14 tổ chức y tế cho thấy nhóm Expert + AI hoạt động nhanh hơn và chính xác hơn nhóm làm việc độc lập.<br>
+          LEADS chứng minh tiềm năng của AI chuyên biệt miền (domain-specific AI) trong y học, giúp tăng tốc tổng hợp bằng chứng, giảm sai sót con người và thúc đẩy mô hình hợp tác Người – AI. Công trình mở hướng ứng dụng trong đánh giá công nghệ y tế, chính sách y học bằng chứng, và là nền tảng tham khảo cho phát triển AI y học tại Việt Nam.
+        `,
+        link: "./media/news/251024-ai-literature.html",
+        img: "https://i.pinimg.com/1200x/06/7d/2d/067d2d58dc0e02fbd01d6036bfe6e058.jpg"
+      },
+
+      {
         title: "Trí tuệ Nhân tạo trong Chẩn đoán Hình ảnh: Hiện tại và Tương lai",
         excerpt: `
           Bài viết tổng quan của Rajpurkar & Lungren (NEJM, 2023) phân tích toàn diện hiện trạng và tương lai của AI trong diễn giải hình ảnh y khoa.<br>

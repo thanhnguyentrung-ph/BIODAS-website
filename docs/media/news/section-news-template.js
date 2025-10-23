@@ -13,8 +13,16 @@ const biodasNewsList = [
   // },
 
   {
+    title: "Xây dựng và Phát triển Mô hình kết hợp giữa Con người và AI trong Tổng quan Y văn",
+    desc: "A foundation model for human-AI collaboration in medical literature mining",
+    uploadDate: "2025-10-24",
+    img: "https://i.pinimg.com/1200x/06/7d/2d/067d2d58dc0e02fbd01d6036bfe6e058.jpg",
+    link: "../media/news/251024-ai-literature.html"
+  },
+
+  {
     title: "Trí tuệ Nhân tạo trong Chẩn đoán Hình ảnh: Hiện tại và Tương lai",
-    desc: "aThe Current and Future State of AI Interpretation of Medical Imagesbc",
+    desc: "The Current and Future State of AI Interpretation of Medical Images",
     uploadDate: "2025-10-22",
     img: "https://www.onixnet.com/wp-content/uploads/2023/03/How-AI-Powered-Medical-Imaging-is-Transforming-Healthcare.jpg",
     link: "../media/news/251022-ai-image.html"

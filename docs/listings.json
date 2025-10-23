@@ -21,6 +21,7 @@
   {
     "listing": "/media/news.html",
     "items": [
+      "/media/news/251024-ai-literature.html",
       "/media/news/251022-ai-image.html",
       "/media/news/251020-ai-bias.html",
       "/media/news/251018-ai-surveillance.html",
@@ -43,6 +44,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/media/news/251024-ai-literature.html",
       "/media/news/251022-ai-image.html",
       "/media/news/251020-ai-bias.html",
       "/media/news/251018-ai-surveillance.html",
